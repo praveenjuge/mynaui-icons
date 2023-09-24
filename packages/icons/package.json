@@ -1,0 +1,53 @@
+{
+  "name": "@mynaui/icons",
+  "version": "0.0.0",
+  "description": "Beautiful Icons. Open Source. MIT Licensed.",
+  "keywords": [
+    "mynaui",
+    "icons",
+    "svg",
+    "font",
+    "sprite",
+    "woff",
+    "woff2"
+  ],
+  "homepage": "https://icons.mynaui.com",
+  "bugs": {
+    "url": "https://github.com/praveenjuge/mynaui-icons/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praveenjuge/mynaui-icons.git"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/praveenjuge"
+  },
+  "license": "MIT",
+  "author": "Praveen Juge <hello@praveenjuge.com>",
+  "sideEffects": false,
+  "style": "mynaui-font.css",
+  "files": [
+    "icons/*.svg",
+    "mynaui-font.css",
+    "mynaui-font.eot",
+    "mynaui-font.json",
+    "mynaui-font.less",
+    "mynaui-font.module.less",
+    "mynaui-font.scss",
+    "mynaui-font.styl",
+    "mynaui-font.svg",
+    "mynaui-font.symbol.svg",
+    "mynaui-font.ttf",
+    "mynaui-font.woff",
+    "mynaui-font.woff2",
+    "LICENSE",
+    "README.md",
+    "package.json",
+    "!.DS_Store"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "sass": "mynaui-font.scss"
+}
