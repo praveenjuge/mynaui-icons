@@ -1,0 +1,43 @@
+{{ define "main" }}
+
+<section class="grid grid-cols-2 gap-12 py-8">
+  <div class="space-y-4 font-medium">
+    <a href="/" class="inline-flex">← Go back</a>
+    <h1 class="text-3xl font-bold tracking-tight text-zinc-100">
+      {{ .Title }}
+    </h1>
+    <p class="text-zinc-400">
+      Category: <span class="font-bold">{{ .Params.category }}</span>
+    </p>
+    <p class="text-zinc-400">
+      Tags: <span class="font-bold">{{ .Params.tags }}</span>
+    </p>
+
+    <hr class="border-zinc-800" />
+
+    <h2>SVG HTML:</h2>
+    <pre class="bg-zinc-900 rounded p-4 text-zinc-400 overflow-scroll">
+{{ highlight .Params.svg "" }}</pre
+    >
+  </div>
+
+  <div class="space-y-4">
+    <div class="p-6 bg-zinc-900 rounded flex items-center justify-between">
+      <div class="text-white">{{ .Params.svg | safeHTML }}</div>
+      <div class="text-blue-400">{{ .Params.svg | safeHTML }}</div>
+      <div class="text-emerald-400">{{ .Params.svg | safeHTML }}</div>
+      <div class="text-red-400">{{ .Params.svg | safeHTML }}</div>
+      <div class="text-yellow-400">{{ .Params.svg | safeHTML }}</div>
+      <div class="text-zinc-400">{{ .Params.svg | safeHTML }}</div>
+      <div class="text-sky-400">{{ .Params.svg | safeHTML }}</div>
+      <div class="text-pink-400">{{ .Params.svg | safeHTML }}</div>
+      <div class="text-orange-400">{{ .Params.svg | safeHTML }}</div>
+      <div class="text-purple-400">{{ .Params.svg | safeHTML }}</div>
+      <div class="text-cyan-400">{{ .Params.svg | safeHTML }}</div>
+      <div class="text-fuchsia-400">{{ .Params.svg | safeHTML }}</div>
+      <div class="text-amber-400">{{ .Params.svg | safeHTML }}</div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

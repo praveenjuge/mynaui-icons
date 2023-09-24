@@ -1,0 +1,59 @@
+{
+  "name": "mynaui-icons-monorepo",
+  "description": "Beautiful Icons. Open Source. MIT Licensed.",
+  "keywords": [
+    "mynaui",
+    "icons",
+    "svg",
+    "react-icons"
+  ],
+  "homepage": "https://icons.mynaui.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praveenjuge/myna-icons.git"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/praveenjuge"
+  },
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build:docs-pages": "bun ./scripts/build-pages.mjs",
+    "build:react-bundle": "rollup -c ./scripts/rollup.config.mjs",
+    "build:react-icons": "bun ./scripts/build-react.mjs",
+    "build:svg-fonts": "svgtofont --sources ./icons --output ./packages/icons --fontName mynaui-font",
+    "build:svg-icons": "bun ./scripts/build-svgs.mjs",
+    "cleanup": "rm -rf ./packages/icons/react ./packages/icons-react/dist ./packages/icons-react/src/icons.js ./packages/icons-react/src/icons/*.js",
+    "copy:icons": "rm -rf ./packages/icons/icons && mkdir ./packages/icons/icons && cp -r ./icons/*.svg ./packages/icons/icons",
+    "copy:license": "cp ./LICENSE ./packages/icons-react/LICENSE && cp ./LICENSE ./packages/icons/LICENSE",
+    "everything-everywhere-all-at-once": "bun run build:svg-icons && bun run build:docs-pages && bun run build:svg-fonts && bun run copy:icons && bun run cleanup && bun run build:react-icons && bun run build:react-bundle && bun run copy:license",
+    "publish": "bunx lerna publish --no-private",
+    "publish:github": "bunx lerna publish from-package --yes --registry https://npm.pkg.github.com",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@atomico/rollup-plugin-sizes": "^1.1.4",
+    "@babel/preset-env": "^7.22.20",
+    "@babel/preset-react": "^7.22.15",
+    "html-minifier": "^4.0.0",
+    "lerna": "^7.3.0",
+    "picocolors": "^1.0.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^3.29.3",
+    "rollup-plugin-esbuild": "^6.0.1",
+    "rollup-plugin-license": "^3.1.0",
+    "svgo": "^3.0.2",
+    "svgson": "^5.3.1",
+    "svgtofont": "^4.0.0"
+  },
+  "svgtofont": {
+    "css": {
+      "fontSize": "12px"
+    }
+  }
+}

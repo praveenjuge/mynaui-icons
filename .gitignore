@@ -1,0 +1,22 @@
+node_modules/
+bun.lockb
+.DS_Store
+
+# Packages
+packages/icons/icons
+packages/icons/mynaui-font*
+packages/icons*/icons/*
+packages/icons*/src/icons/*
+packages/icons*/src/icons.js
+packages/icons*/LICENSE
+packages/icons*/stats/*
+packages/icons*/icons/*
+packages/icons*/dist
+
+# Docs
+docs/resources
+docs/public/
+docs/.hugo_build.lock
+docs/package-lock.json
+docs/bun.lockb
+docs/node_modules/

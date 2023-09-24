@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "postcss": "latest",
+    "postcss-cli": "latest",
+    "tailwindcss": "insiders"
+  },
+  "postcss": {
+    "plugins": {
+      "tailwindcss": {}
+    }
+  }
+}

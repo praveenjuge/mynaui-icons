@@ -1,0 +1,45 @@
+{
+  "name": "@mynaui/icons-react",
+  "version": "0.0.0",
+  "description": "Beautiful Icons. Open Source. MIT Licensed.",
+  "homepage": "https://icons.mynaui.com",
+  "bugs": {
+    "url": "https://github.com/praveenjuge/mynaui-icons/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praveenjuge/mynaui-icons.git"
+  },
+  "license": "MIT",
+  "author": "Praveen Juge <hello@praveenjuge.com>",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/myna-icons-react.d.ts",
+      "import": "./dist/esm/myna-icons-react.js",
+      "require": "./dist/cjs/myna-icons-react.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "dist/cjs/myna-icons-react.js",
+  "unpkg": "dist/umd/myna-icons-react.min.js",
+  "module": "dist/esm/myna-icons-react.js",
+  "types": "dist/myna-icons-react.d.ts",
+  "typings": "dist/myna-icons-react.d.ts",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
+  "dependencies": {
+    "prop-types": "^15.8.1"
+  },
+  "peerDependencies": {
+    "react": "^16.5.1 || ^17.0.0 || ^18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main:umd": "dist/umd/myna-icons-react.js"
+}
