@@ -30,7 +30,7 @@
     "copy:icons": "rm -rf ./packages/icons/icons && mkdir ./packages/icons/icons && cp -r ./icons/*.svg ./packages/icons/icons",
     "copy:license": "cp ./LICENSE ./packages/icons-react/LICENSE && cp ./LICENSE ./packages/icons/LICENSE",
     "everything-everywhere-all-at-once": "bun run build:svg-icons && bun run build:docs-pages && bun run build:svg-fonts && bun run copy:icons && bun run cleanup && bun run build:react-icons && bun run build:react-bundle && bun run copy:license",
-    "publish": "bunx lerna publish --no-private --github-release",
+    "publish": "bunx lerna publish --no-private --create-release=github --conventional-commits",
     "publish:github": "bunx lerna publish from-package --yes --registry https://npm.pkg.github.com",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -1,6 +1,7 @@
 node_modules/
 bun.lockb
 .DS_Store
+.env
 
 # Packages
 packages/icons/icons
