@@ -1,5 +1,5 @@
 {
-  "devDependencies": {
+  "dependencies": {
     "postcss": "latest",
     "postcss-cli": "latest",
     "tailwindcss": "insiders"
