@@ -1,6 +1,6 @@
 # MynaUI Icons
 
-Beautiful Icons. Open Source. MIT Licensed.
+Beautifully crafted open source icons from Myna UI.
 
 ## Install
 
