@@ -1,5 +1,5 @@
 [build]
-  command = "hugo --gc --minify -d public"
+  command = "npm i && hugo --gc --minify -d public"
 
 [build.environment]
   HUGO_VERSION = "0.118.2"
