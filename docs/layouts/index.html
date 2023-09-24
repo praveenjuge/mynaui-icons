@@ -8,10 +8,24 @@
   <p class="text-zinc-400">
     Open Source, MIT Licensed, and free to use in your next project.
   </p>
+  <div class="flex gap-2 pt-4 items-center justify-center">
+    <a
+      href="https://github.com/praveenjuge/mynaui-icons/releases/latest/download/package.zip"
+      class="transition border focus:outline-none focus:ring-2 focus:ring-offset-2 focus:z-10 shrink-0 border-blue-700/75 focus:ring-blue-600 bg-blue-600 text-white hover:bg-blue-700 hover:border-blue-700 px-3 py-1.5 text-sm font-medium rounded-md"
+    >
+      Download Icons
+    </a>
+    <a
+      href="https://github.com/praveenjuge/mynaui-icons/"
+      class="transition border focus:outline-none focus:ring-2 focus:ring-offset-2 focus:z-10 shrink-0 border-zinc-700 focus:ring-zinc-500 bg-zinc-800 text-zinc-50 hover:bg-zinc-700 px-3 py-1.5 text-sm font-medium rounded-md"
+    >
+      Open GitHub
+    </a>
+  </div>
 </section>
 
 <section
-  class="grid grid-cols-9 gap-4 text-center text-xs pb-16 text-zinc-400 [&_svg]:h-10 [&_svg]:w-10 [&_svg]:text-zinc-50"
+  class="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-9 gap-4 text-center text-xs pb-16 text-zinc-400 [&_svg]:h-10 [&_svg]:w-10 [&_svg]:text-zinc-50"
 >
   {{ range .Site.RegularPages }}
   <a
