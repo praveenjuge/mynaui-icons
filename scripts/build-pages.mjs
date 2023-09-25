@@ -25,7 +25,6 @@ async function main(file) {
 
   const pageTemplate = `---
 title: ${iconTitle}
-categories:
 tags:
 icon: ${iconBasename}
 svg: '${iconContent}'
@@ -35,8 +34,22 @@ svg: '${iconContent}'
     await fs.access(pageName, fs.F_OK);
 
     console.log(
-      `${picocolors.cyan(iconBasename)}: Page already exists; skipping`
+      `${picocolors.cyan(
+        iconBasename
+      )}: Page already exists; changing only the SVG`
     );
+
+    const pageContent = await fs.readFile(pageName, "utf8");
+    const pageContentLines = pageContent.split("\n");
+    const svgLineIndex = pageContentLines.findIndex((line) =>
+      line.startsWith("svg:")
+    );
+
+    pageContentLines[svgLineIndex] = `svg: '${iconContent}'`;
+
+    await fs.writeFile(pageName, pageContentLines.join("\n"));
+
+    console.log(picocolors.green(`${iconBasename}: Page updated`));
   } catch {
     await fs.writeFile(pageName, pageTemplate);
     console.log(picocolors.green(`${iconBasename}: Page created`));

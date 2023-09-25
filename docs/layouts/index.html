@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <section class="max-w-2xl mx-auto text-center pt-20 pb-24 space-y-3">
-  <img src="/colorful.png" alt="MynaUI Logo" class="w-14 mx-auto" />
+  <img src="/colorful.png" alt="MynaUI Logo" class="w-16 h-16 mx-auto" />
   <h1 class="font-extrabold text-3xl md:text-4xl tracking-tight">
     MynaUI Icons
   </h1>
@@ -10,14 +10,18 @@
   </p>
   <div class="flex gap-2 pt-4 items-center justify-center">
     <a
-      href="https://github.com/praveenjuge/mynaui-icons/releases/latest/download/package.zip"
-      class="transition border focus:outline-none focus:ring-2 focus:ring-offset-2 focus:z-10 shrink-0 border-blue-700/75 focus:ring-blue-600 bg-blue-600 text-white hover:bg-blue-700 hover:border-blue-700 px-3 py-1.5 text-sm font-medium rounded-md"
+      target="_blank"
+      rel="noopener noreferrer"
+      href="https://github.com/praveenjuge/mynaui-icons/releases"
+      class="transition border focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-950 focus:z-10 shrink-0 border-blue-700/75 focus:ring-blue-600 bg-blue-600 text-white hover:bg-blue-700 hover:border-blue-700 px-3 py-1.5 text-sm font-medium rounded-md"
     >
       Download Icons
     </a>
     <a
+      target="_blank"
+      rel="noopener noreferrer"
       href="https://github.com/praveenjuge/mynaui-icons/"
-      class="transition border focus:outline-none focus:ring-2 focus:ring-offset-2 focus:z-10 shrink-0 border-zinc-700 focus:ring-zinc-500 bg-zinc-800 text-zinc-50 hover:bg-zinc-700 px-3 py-1.5 text-sm font-medium rounded-md"
+      class="transition border focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-950 focus:z-10 shrink-0 border-zinc-700 focus:ring-zinc-700 bg-zinc-800 text-zinc-50 hover:bg-zinc-700 px-3 py-1.5 text-sm font-medium rounded-md"
     >
       Open GitHub
     </a>
@@ -25,16 +29,16 @@
 </section>
 
 <section
-  class="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-9 gap-4 text-center text-xs pb-16 text-zinc-400 [&_svg]:h-10 [&_svg]:w-10 [&_svg]:text-zinc-50"
+  class="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-9 gap-4 text-center text-xs pb-16 text-zinc-400 [&_svg]:h-10 [&_svg]:w-10 [&_svg]:text-zinc-50 [&_a]:rounded [&_a]:flex [&_a]:flex-col [&_a]:items-center [&_a]:space-y-2 [&_a]:py-4 [&_a]:px-2 [&_p]:truncate [&_p]:w-full"
 >
   {{ range .Site.RegularPages }}
   <a
     href="{{ .Permalink }}"
-    class="rounded flex flex-col items-center space-y-2 py-4 px-2 bg-zinc-900 hover:bg-zinc-800"
     title="{{ .Params.icon }}"
+    class="bg-zinc-900 hover:bg-zinc-800"
   >
     {{ .Params.svg | safeHTML }}
-    <p class="truncate w-full">{{ .Params.icon }}</p>
+    <p>{{ .Params.icon }}</p>
   </a>
   {{ end }}
 </section>

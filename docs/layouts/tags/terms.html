@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+<div class="py-16 flex flex-col space-y-4">
+  <a href="/" class="inline-flex">← Go back</a>
+
+  <ul>
+    {{ range .Site.Taxonomies.tags }}
+    <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>: {{ .Count }}</li>
+    {{ end }}
+  </ul>
+</div>
+
+{{ end }}

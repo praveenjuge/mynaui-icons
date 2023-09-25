@@ -1,0 +1,23 @@
+{{ define "main" }}
+<div class="py-16 flex flex-col space-y-6 font-medium">
+  <a href="/" class="inline-flex">← Go back</a>
+  <p>
+    Total Icons: {{ len (where .Site.RegularPages "Section" "==" "icons") }}
+  </p>
+
+  <section
+    class="flex flex-wrap [&_svg]:h-14 [&_svg]:w-14 [&_svg]:text-zinc-50 [&_a]:p-1.5 [&_a]:relative [&_span]:absolute [&_span]:bg-zinc-800"
+  >
+    {{ range .Site.RegularPages }}
+    <a href="{{ .Permalink }}">
+      {{ .Params.svg | safeHTML }}
+      <span class="h-px w-full top-[5px] left-0"></span>
+      <span class="h-px w-full bottom-[5px] left-0"></span>
+      <span class="h-full w-px left-[5px] top-0"></span>
+      <span class="h-full w-px right-[5px] top-0"></span>
+    </a>
+    {{ end }}
+  </section>
+</div>
+
+{{ end }}

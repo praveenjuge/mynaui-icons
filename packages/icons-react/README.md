@@ -8,7 +8,7 @@ Beautifully crafted open source icons from Myna UI.
 npm i @mynaui/icons-react
 ```
 
-or download the package from [here](https://github.com/praveenjuge/mynaui-icons/releases/latest/download/package.zip).
+or download the package from [here](https://github.com/praveenjuge/mynaui-icons/releases).
 
 ## Usage
 
@@ -22,11 +22,11 @@ const App = () => {
 
 ### Props
 
-| name     | type     | default      |
-| -------- | -------- | ------------ |
-| `size`   | _Number_ | 24           |
-| `color`  | _String_ | currentColor |
-| `stroke` | _Number_ | 1.5          |
+| name     | type   | default      |
+| -------- | ------ | ------------ |
+| `size`   | Number | 24           |
+| `color`  | String | currentColor |
+| `stroke` | Number | 1.5          |
 
 ## License
 

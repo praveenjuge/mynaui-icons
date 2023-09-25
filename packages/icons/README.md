@@ -10,7 +10,7 @@ bun i @mynaui/icons
 yarn add @mynaui/icons
 ```
 
-or download the package from [here](https://github.com/praveenjuge/mynaui-icons/releases/latest/download/package.zip).
+or download the package from [here](https://github.com/praveenjuge/mynaui-icons/releases).
 
 ## Usage
 

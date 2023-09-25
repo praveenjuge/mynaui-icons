@@ -6,6 +6,9 @@ enableRobotsTXT = true
 enableEmoji = true
 canonifyURLs = true
 
+[taxonomies]
+  tag = 'tags'
+
 [markup]
   [markup.highlight]
     codeFences = true
