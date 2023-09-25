@@ -24,7 +24,10 @@
     "url": "https://github.com/sponsors/praveenjuge"
   },
   "license": "MIT",
-  "author": "Praveen Juge <hello@praveenjuge.com>",
+  "author": {
+    "name": "Praveen Juge",
+    "url": "https://praveenjuge.com/"
+  },
   "sideEffects": false,
   "style": "mynaui-font.css",
   "files": [
@@ -49,6 +52,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "sass": "mynaui-font.scss",
-  "gitHead": "ef15fb0a2037af3181eb0fb51e9c8f367e8b4a95"
+  "gitHead": "ef15fb0a2037af3181eb0fb51e9c8f367e8b4a95",
+  "sass": "mynaui-font.scss"
 }

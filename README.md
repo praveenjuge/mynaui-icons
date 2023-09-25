@@ -31,10 +31,10 @@ For HTML Projects:
 For React Projects:
 
 ```jsx
-import { ArrowBottom } from "@mynaui/icons-react";
+import { ArrowDown } from "@mynaui/icons-react";
 
 const App = () => {
-  return <ArrowBottom color="green" />;
+  return <ArrowDown color="green" />;
 };
 ```
 

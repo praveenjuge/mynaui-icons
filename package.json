@@ -17,6 +17,10 @@
     "url": "https://github.com/sponsors/praveenjuge"
   },
   "license": "MIT",
+  "author": {
+    "name": "Praveen Juge",
+    "url": "https://praveenjuge.com/"
+  },
   "workspaces": [
     "packages/*"
   ],

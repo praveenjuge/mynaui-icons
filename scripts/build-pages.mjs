@@ -87,12 +87,12 @@ svg: '${iconContent}'
     await Promise.all(
       deletePages.map((file) => {
         const iconBasename = path.basename(file, path.extname(file));
-        const iconContent = fs.readFile(
-          path.join(iconsDir, `${iconBasename}.svg`),
-          "utf8"
-        );
-        if (!iconContent) {
-          fs.unlink(path.join(pagesDir, file));
+
+        // if icon file is not present
+        if (!files.includes(`${iconBasename}.svg`)) {
+          const pageName = path.join(pagesDir, `${iconBasename}.md`);
+
+          return fs.unlink(pageName);
         }
       })
     );

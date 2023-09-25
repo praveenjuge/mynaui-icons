@@ -15,7 +15,10 @@
     "url": "https://github.com/sponsors/praveenjuge"
   },
   "license": "MIT",
-  "author": "Praveen Juge <hello@praveenjuge.com>",
+  "author": {
+    "name": "Praveen Juge",
+    "url": "https://praveenjuge.com/"
+  },
   "sideEffects": false,
   "exports": {
     ".": {
@@ -45,6 +48,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "main:umd": "dist/umd/myna-icons-react.js",
-  "gitHead": "ef15fb0a2037af3181eb0fb51e9c8f367e8b4a95"
+  "gitHead": "ef15fb0a2037af3181eb0fb51e9c8f367e8b4a95",
+  "main:umd": "dist/umd/myna-icons-react.js"
 }
