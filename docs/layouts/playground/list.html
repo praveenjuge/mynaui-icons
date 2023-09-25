@@ -1,14 +1,48 @@
 {{ define "main" }}
-<div class="py-16 flex flex-col space-y-6 font-medium">
-  <a href="/" class="inline-flex">← Go back</a>
-  <p>
-    Total Icons: {{ len (where .Site.RegularPages "Section" "==" "icons") }}
-  </p>
+<div class="py-10 flex flex-col space-y-6 font-medium">
+  <div class="flex flex-wrap gap-12 items-center">
+    <a href="/" class="inline-flex">← Go back</a>
+    <p>{{ len (where .Site.RegularPages "Section" "==" "icons") }} Icons</p>
+    <div class="flex gap-2">
+      <span>Sizes:</span>
+      <input
+        class="rounded-full appearance-none p-0.5 bg-zinc-800"
+        type="range"
+        name=""
+        id="size"
+        min="16"
+        max="128"
+        value="56"
+        step="2"
+      />
+      <span id="size-value">56</span>
+    </div>
+    <div class="flex gap-2">
+      <span>Stroke:</span>
+      <input
+        class="rounded-full appearance-none p-0.5 bg-zinc-800"
+        type="range"
+        name=""
+        id="stroke"
+        min="0"
+        max="3"
+        value="1.5"
+        step="0.5"
+      />
+      <span id="stroke-value">1.5</span>
+    </div>
+    <div class="flex gap-2">
+      <span>Color:</span>
+      <input type="color" name="" id="color" value="#ffffff" />
+      <span id="color-value">#ffffff</span>
+    </div>
+    <button onclick="shuffle()" class="underline">Shuffle</button>
+  </div>
 
   <section
     class="flex flex-wrap [&_svg]:h-14 [&_svg]:w-14 [&_svg]:text-zinc-50 [&_a]:p-1.5 [&_a]:relative [&_span]:absolute [&_span]:bg-zinc-800"
   >
-    {{ range .Site.RegularPages }}
+    {{ range .Site.RegularPages | shuffle }}
     <a href="{{ .Permalink }}">
       {{ .Params.svg | safeHTML }}
       <span class="h-px w-full top-[5px] left-0"></span>
@@ -19,5 +53,51 @@
     {{ end }}
   </section>
 </div>
+
+<script>
+  const svg = document.querySelectorAll("svg");
+  const input = document.querySelector("#size");
+  const valueSpan = document.querySelector("#size-value");
+  const inputStroke = document.querySelector("#stroke");
+  const valueSpanStroke = document.querySelector("#stroke-value");
+  const inputColor = document.querySelector("#color");
+  const valueSpanColor = document.querySelector("#color-value");
+
+  // on input change update all the svg sizes
+  input.addEventListener("input", (e) => {
+    const value = e.target.value;
+    valueSpan.textContent = value;
+    svg.forEach((el) => {
+      el.style.width = `${value}px`;
+      el.style.height = `${value}px`;
+    });
+  });
+
+  // on input change update all the svg stroke
+  inputStroke.addEventListener("input", (e) => {
+    const value = e.target.value;
+    valueSpanStroke.textContent = value;
+    svg.forEach((el) => {
+      el.style.strokeWidth = `${value}px`;
+    });
+  });
+
+  // on input change update all the svg color
+  inputColor.addEventListener("input", (e) => {
+    const value = e.target.value;
+    valueSpanColor.textContent = value;
+    svg.forEach((el) => {
+      el.style.color = `${value}`;
+    });
+  });
+
+  // shuffle the svg
+  const shuffle = () => {
+    const parent = document.querySelector("section");
+    for (let i = parent.children.length; i >= 0; i--) {
+      parent.appendChild(parent.children[(Math.random() * i) | 0]);
+    }
+  };
+</script>
 
 {{ end }}

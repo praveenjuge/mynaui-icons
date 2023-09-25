@@ -78,6 +78,24 @@ svg: '${iconContent}'
       filesLength === 1 ? "" : "s"
     );
     console.timeEnd(timeLabel);
+
+    // Delete the already existing page if the icon is not available anymore
+    const deletePages = (await fs.readdir(pagesDir)).filter((file) =>
+      file.endsWith(".md")
+    );
+
+    await Promise.all(
+      deletePages.map((file) => {
+        const iconBasename = path.basename(file, path.extname(file));
+        const iconContent = fs.readFile(
+          path.join(iconsDir, `${iconBasename}.svg`),
+          "utf8"
+        );
+        if (!iconContent) {
+          fs.unlink(path.join(pagesDir, file));
+        }
+      })
+    );
   } catch (error) {
     console.error(error);
     process.exit(1);

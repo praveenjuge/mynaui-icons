@@ -22,4 +22,4 @@ or download the package from [here](https://github.com/praveenjuge/mynaui-icons/
 
 ## License
 
-[MIT License](https://github.com/praveen/mynaui-icons/blob/master/LICENSE).
+[MIT License](https://github.com/praveenjuge/mynaui-icons/blob/master/LICENSE).

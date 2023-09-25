@@ -17,10 +17,10 @@ or download the package from [here](https://github.com/praveenjuge/mynaui-icons/
 ## Usage
 
 ```jsx
-import { ArrowBottom } from "@mynaui/icons-react";
+import { ArrowDown } from "@mynaui/icons-react";
 
 const App = () => {
-  return <ArrowBottom color="green" />;
+  return <ArrowDown color="green" />;
 };
 ```
 
@@ -34,4 +34,4 @@ const App = () => {
 
 ## License
 
-[MIT License](https://github.com/praveen/mynaui-icons/blob/master/LICENSE).
+[MIT License](https://github.com/praveenjuge/mynaui-icons/blob/master/LICENSE).
