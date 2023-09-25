@@ -8,39 +8,37 @@
       <input
         class="rounded-full appearance-none p-0.5 bg-zinc-800"
         type="range"
-        name=""
         id="size"
         min="16"
         max="128"
-        value="56"
+        value="60"
         step="2"
       />
-      <span id="size-value">56</span>
+      <span id="size-value">60</span>
     </div>
     <div class="flex gap-2">
       <span>Stroke:</span>
       <input
         class="rounded-full appearance-none p-0.5 bg-zinc-800"
         type="range"
-        name=""
         id="stroke"
         min="0"
         max="3"
         value="1.5"
-        step="0.5"
+        step="0.25"
       />
       <span id="stroke-value">1.5</span>
     </div>
     <div class="flex gap-2">
       <span>Color:</span>
-      <input type="color" name="" id="color" value="#ffffff" />
+      <input type="color" id="color" value="#ffffff" />
       <span id="color-value">#ffffff</span>
     </div>
     <button onclick="shuffle()" class="underline">Shuffle</button>
   </div>
 
   <section
-    class="flex flex-wrap [&_svg]:h-14 [&_svg]:w-14 [&_svg]:text-zinc-50 [&_a]:p-1.5 [&_a]:relative [&_span]:absolute [&_span]:bg-zinc-800"
+    class="flex flex-wrap [&_svg]:h-[60px] [&_svg]:w-[60px] [&_svg]:text-zinc-50 [&_a]:p-1.5 [&_a]:relative [&_span]:absolute [&_span]:bg-zinc-800"
   >
     {{ range .Site.RegularPages | shuffle }}
     <a href="{{ .Permalink }}">

@@ -1,65 +1,109 @@
 {{ define "main" }}
 
+<!-- prettier-ignore -->
+{{ $svgHtml := .Params.svg | chomp | safeHTML }}
+{{ $pascalCase :=  replace (.Title | title) " " "" }}
+
 <section class="grid grid-cols-1 md:grid-cols-2 gap-12 py-8">
-  <div class="space-y-4 font-medium">
+  <div class="space-y-4">
     <a href="/" class="inline-flex">← Go back</a>
+
+    <hr class="border-zinc-800" />
+
     <h1 class="text-3xl font-bold tracking-tight text-zinc-100">
-      {{ .Title }}
+      {{ .Title | title }}
     </h1>
+
     <p class="text-zinc-400">
       Tags: {{ range .Params.tags }}
       <a href="/tags/{{ . | urlize }}">{{ . }}</a>
       {{ end }}
     </p>
 
-    <hr class="border-zinc-800" />
-
-    <h2>SVG HTML:</h2>
-    <div class="[&_pre]:rounded [&_pre]:p-4 [&_pre]:overflow-auto">
-      {{ $input := .Params.svg | safeHTML }} {{ transform.Highlight $input
-      "html" }}
-    </div>
-  </div>
-
-  <div class="space-y-4">
     <div
       class="p-4 bg-zinc-900 rounded flex items-center justify-between overflow-hidden"
     >
-      <div class="[&_svg]:h-4 [&_svg]:w-4 text-emerald-400">
-        {{ .Params.svg | safeHTML }}
-      </div>
-      <div class="[&_svg]:h-8 [&_svg]:w-8 text-red-400">
-        {{ .Params.svg | safeHTML }}
-      </div>
+      <div class="[&_svg]:h-4 [&_svg]:w-4 text-emerald-400">{{ $svgHtml }}</div>
+      <div class="[&_svg]:h-8 [&_svg]:w-8 text-red-400">{{ $svgHtml }}</div>
       <div class="[&_svg]:h-10 [&_svg]:w-10 text-yellow-400">
-        {{ .Params.svg | safeHTML }}
+        {{ $svgHtml }}
       </div>
-      <div class="[&_svg]:h-12 [&_svg]:w-12 text-zinc-400">
-        {{ .Params.svg | safeHTML }}
-      </div>
-      <div class="[&_svg]:h-16 [&_svg]:w-16 text-sky-400">
-        {{ .Params.svg | safeHTML }}
-      </div>
-      <div class="[&_svg]:h-20 [&_svg]:w-20 text-white">
-        {{ .Params.svg | safeHTML }}
-      </div>
-      <div class="[&_svg]:h-16 [&_svg]:w-16 text-pink-400">
-        {{ .Params.svg | safeHTML }}
-      </div>
+      <div class="[&_svg]:h-12 [&_svg]:w-12 text-zinc-400">{{ $svgHtml }}</div>
+      <div class="[&_svg]:h-16 [&_svg]:w-16 text-sky-400">{{ $svgHtml }}</div>
+      <div class="[&_svg]:h-20 [&_svg]:w-20 text-white">{{ $svgHtml }}</div>
+      <div class="[&_svg]:h-16 [&_svg]:w-16 text-pink-400">{{ $svgHtml }}</div>
       <div class="[&_svg]:h-12 [&_svg]:w-12 text-orange-400">
-        {{ .Params.svg | safeHTML }}
+        {{ $svgHtml }}
       </div>
       <div class="[&_svg]:h-10 [&_svg]:w-10 text-purple-400">
-        {{ .Params.svg | safeHTML }}
+        {{ $svgHtml }}
       </div>
-      <div class="[&_svg]:h-8 [&_svg]:w-8 text-blue-400">
-        {{ .Params.svg | safeHTML }}
-      </div>
-      <div class="[&_svg]:h-4 [&_svg]:w-4 text-fuchsia-400">
-        {{ .Params.svg | safeHTML }}
-      </div>
+      <div class="[&_svg]:h-8 [&_svg]:w-8 text-blue-400">{{ $svgHtml }}</div>
+      <div class="[&_svg]:h-4 [&_svg]:w-4 text-fuchsia-400">{{ $svgHtml }}</div>
+    </div>
+
+    <div class="flex gap-2">
+      <button
+        class="transition border focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-950 focus:z-10 shrink-0 border-zinc-700 focus:ring-zinc-700 bg-zinc-800 text-zinc-50 hover:bg-zinc-700 px-3 py-1.5 text-sm font-medium rounded-md"
+        onclick="copyToClipboard('{{ $svgHtml }}')"
+        id="copy-svg-code"
+      >
+        Copy SVG Code
+      </button>
     </div>
   </div>
+
+  <div
+    class="space-y-4 font-medium [&_pre]:rounded [&_pre]:p-4 [&_pre]:overflow-auto [&_code]:text-sm"
+  >
+    <h2>SVG HTML:</h2>
+    {{ highlight $svgHtml "html" "" }}
+
+    <hr class="border-zinc-800" />
+
+    <h2>React Code:</h2>
+
+    {{ transform.Highlight `npm install @mynaui/icons-react` "shell" }}
+
+    <!-- prettier-ignore -->
+    {{ $reactCode := `import { _name_ } from "@mynaui/icons-react";
+
+const App = () => {
+  return <_name_ />;
+};` }}
+
+    <!-- prettier-ignore -->
+    {{ $reactCode := replace $reactCode "_name_" $pascalCase }}
+    {{ transform.Highlight $reactCode "jsx" }}
+
+    <hr class="border-zinc-800" />
+
+    <h2>CDN SVG:</h2>
+
+    <!-- prettier-ignore -->
+    {{ $cdnSvg := 
+        `<img src="https://unpkg.com/@mynaui/icons/icons/_name_.svg" />` }}
+    <!-- prettier-ignore -->
+    {{ $cdnSvg := replace $cdnSvg "_name_" .Params.icon }}
+    {{ highlight $cdnSvg "html" "" }}
+  </div>
 </section>
+
+<script>
+  function copyToClipboard(text) {
+    const el = document.createElement("textarea");
+    el.value = `${text}`;
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand("copy");
+    document.body.removeChild(el);
+
+    const copyButton = document.getElementById("copy-svg-code");
+    copyButton.innerHTML = "Copied!";
+    setTimeout(() => {
+      copyButton.innerHTML = "Copy SVG Code";
+    }, 1000);
+  }
+</script>
 
 {{ end }}
