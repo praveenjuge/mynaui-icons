@@ -6,7 +6,9 @@ Beautifully crafted open source icons from Myna UI.
 
 ```sh
 npm i @mynaui/icons
+or
 bun i @mynaui/icons
+or
 yarn add @mynaui/icons
 ```
 

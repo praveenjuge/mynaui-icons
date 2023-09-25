@@ -6,6 +6,10 @@ Beautifully crafted open source icons from Myna UI.
 
 ```sh
 npm i @mynaui/icons-react
+or
+bun i @mynaui/icons-react
+or
+yarn add @mynaui/icons-react
 ```
 
 or download the package from [here](https://github.com/praveenjuge/mynaui-icons/releases).
