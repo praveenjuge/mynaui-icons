@@ -1,6 +1,6 @@
 ---
-title: Chevron double top right
+title: Chevron double up right
 tags:
-icon: chevron-double-top-right
+icon: chevron-double-up-right
 svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M17.743 14.743V6.257H9.257"/><path d="M14.743 17.743V9.257H6.257"/></svg>'
 ---
