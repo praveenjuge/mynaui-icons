@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.8](https://github.com/praveenjuge/myna-icons/compare/v0.0.7...v0.0.8) (2023-09-26)
+
+**Note:** Version bump only for package mynaui-icons-monorepo
+
+
+
+
+
 ## [0.0.7](https://github.com/praveenjuge/myna-icons/compare/v0.0.6...v0.0.7) (2023-09-25)
 
 **Note:** Version bump only for package mynaui-icons-monorepo
