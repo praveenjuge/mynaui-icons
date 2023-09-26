@@ -1,0 +1,6 @@
+---
+title: Bookmark
+tags:
+icon: bookmark
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M18.053 20.568a.478.478 0 0 1-.742.349l-4.21-2.883a1.942 1.942 0 0 0-2.203 0l-4.21 2.883a.478.478 0 0 1-.741-.35 61.011 61.011 0 0 1 0-14.736C6.105 4.53 6.407 3 8.029 3h7.942c1.621 0 1.924 1.53 2.082 2.831a61.02 61.02 0 0 1 0 14.737Z"/></svg>'
+---

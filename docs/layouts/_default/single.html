@@ -4,8 +4,10 @@
 {{ $svgHtml := .Params.svg | chomp | safeHTML }}
 {{ $pascalCase :=  replace (.Title | title) " " "" }}
 
-<section class="grid grid-cols-1 md:grid-cols-2 gap-12 py-8">
-  <div class="space-y-4">
+<main
+  class="mx-auto max-w-7xl px-4 grid grid-cols-1 md:grid-cols-2 gap-12 py-12"
+>
+  <section class="space-y-4">
     <a href="/" class="inline-flex">← Go back</a>
 
     <hr class="border-zinc-800" />
@@ -21,7 +23,7 @@
     </p>
 
     <div
-      class="p-4 bg-zinc-900 rounded flex items-center justify-between overflow-hidden"
+      class="p-4 bg-zinc-900 rounded flex items-center justify-between overflow-scroll"
     >
       <div class="[&_svg]:h-4 [&_svg]:w-4 text-emerald-400">{{ $svgHtml }}</div>
       <div class="[&_svg]:h-8 [&_svg]:w-8 text-red-400">{{ $svgHtml }}</div>
@@ -51,9 +53,9 @@
         Copy SVG Code
       </button>
     </div>
-  </div>
+  </section>
 
-  <div
+  <section
     class="space-y-4 font-medium [&_pre]:rounded [&_pre]:p-4 [&_pre]:overflow-auto [&_code]:text-sm"
   >
     <h2>SVG HTML:</h2>
@@ -86,8 +88,8 @@ const App = () => {
     <!-- prettier-ignore -->
     {{ $cdnSvg := replace $cdnSvg "_name_" .Params.icon }}
     {{ highlight $cdnSvg "html" "" }}
-  </div>
-</section>
+  </section>
+</main>
 
 <script>
   function copyToClipboard(text) {

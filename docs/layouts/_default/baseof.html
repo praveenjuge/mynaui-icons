@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+<!doctype html>
 <html
   lang="{{ .Site.LanguageCode }}"
   prefix="og: http://ogp.me/ns#"
-  class="bg-zinc-950 text-zinc-50 antialiased [font-feature-settings:'salt']"
+  class="bg-zinc-950 text-zinc-50 antialiased"
 >
   <head itemscope itemtype="{{ .Site.BaseURL }}">
     <meta charset="utf-8" />
@@ -87,7 +87,7 @@
     />
     {{ end }}
   </head>
-  <body class="p-4">
-    <main class="mx-auto max-w-6xl">{{ block "main" . }} {{ end }}</main>
+  <body>
+    {{ block "main" . }} {{ end }}
   </body>
 </html>

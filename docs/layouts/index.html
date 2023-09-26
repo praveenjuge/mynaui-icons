@@ -1,45 +1,164 @@
 {{ define "main" }}
 
-<section class="max-w-2xl mx-auto text-center pt-20 pb-24 space-y-3">
-  <img src="/colorful.png" alt="MynaUI Logo" class="w-16 h-16 mx-auto" />
-  <h1 class="font-extrabold text-3xl md:text-4xl tracking-tight">
-    MynaUI Icons
-  </h1>
-  <p class="text-zinc-400">
-    Open Source, MIT Licensed, and free to use in your next project.
-  </p>
-  <div class="flex gap-2 pt-4 items-center justify-center">
-    <a
-      target="_blank"
-      rel="noopener noreferrer"
-      href="https://github.com/praveenjuge/mynaui-icons/releases"
-      class="transition border focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-950 focus:z-10 shrink-0 border-blue-700/75 focus:ring-blue-600 bg-blue-600 text-white hover:bg-blue-700 hover:border-blue-700 px-3 py-1.5 text-sm font-medium rounded-md"
+<main>
+  <section class="overflow-hidden">
+    <div
+      class="flex gap-1.5 [&_span]:whitespace-pre animate-[slide_infinite_linear_60s] py-3 text-xs text-zinc-400"
     >
-      Download Icons
-    </a>
-    <a
-      target="_blank"
-      rel="noopener noreferrer"
-      href="https://github.com/praveenjuge/mynaui-icons/"
-      class="transition border focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-950 focus:z-10 shrink-0 border-zinc-700 focus:ring-zinc-700 bg-zinc-800 text-zinc-50 hover:bg-zinc-700 px-3 py-1.5 text-sm font-medium rounded-md"
-    >
-      Open GitHub
-    </a>
-  </div>
-</section>
+      <span>Open Source</span>
+      <span>·</span>
+      <span>MIT Licensed</span>
+      <span>·</span>
+      <span>24x24 Pixels</span>
+      <span>·</span>
+      <span>1.5px Stroke</span>
+      <span>·</span>
+      <span>React Library</span>
+      <span>·</span>
+      <span>Icon Fonts</span>
+      <span>·</span>
+      <span>SVG Sprites</span>
+      <span>·</span>
+      <span>500+ Icons</span>
+      <span>·</span>
+      <span>Figma File</span>
+      <span>·</span>
+      <span>Figma Plugin</span>
+      <span>·</span>
+      <span>Created in Figma</span>
+      <span>·</span>
+      <span>Optimised SVG</span>
+      <span>·</span>
+      <span>Variable Stroke</span>
+      <span>·</span>
+      <span>Free to Use</span>
+      <span>·</span>
+      <span>Request New Icons</span>
+      <span>·</span>
+      <span>Pixel-Perfect</span>
+      <span>·</span>
+      <span>Open Source</span>
+      <span>·</span>
+      <span>MIT Licensed</span>
+      <span>·</span>
+      <span>24x24 Pixels</span>
+      <span>·</span>
+      <span>1.5px Stroke</span>
+      <span>·</span>
+      <span>React Library</span>
+      <span>·</span>
+      <span>Icon Fonts</span>
+      <span>·</span>
+      <span>SVG Sprites</span>
+      <span>·</span>
+      <span>500+ Icons</span>
+      <span>·</span>
+      <span>Figma File</span>
+      <span>·</span>
+      <span>Figma Plugin</span>
+      <span>·</span>
+      <span>Created in Figma</span>
+      <span>·</span>
+      <span>Optimised SVG</span>
+      <span>·</span>
+      <span>Variable Stroke</span>
+      <span>·</span>
+      <span>Free to Use</span>
+      <span>·</span>
+      <span>Request New Icons</span>
+      <span>·</span>
+      <span>Pixel-Perfect</span>
+    </div>
+  </section>
 
-<section
-  class="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-9 gap-4 text-center text-xs pb-16 text-zinc-400 [&_svg]:h-10 [&_svg]:w-10 [&_svg]:text-zinc-50 [&_a]:rounded [&_a]:flex [&_a]:flex-col [&_a]:items-center [&_a]:space-y-2 [&_a]:py-4 [&_a]:px-2 [&_p]:truncate [&_p]:w-full"
->
-  {{ range .Site.RegularPages }}
-  <a
-    href="{{ .Permalink }}"
-    title="{{ .Params.icon }}"
-    class="bg-zinc-900 hover:bg-zinc-800"
+  <section class="border-y border-zinc-900 py-16">
+    <div
+      class="max-w-7xl md:mx-auto flex md:justify-between md:items-center md:space-x-4 px-4 md:flex-row flex-col space-x-0 space-y-6 md:space-y-0"
+    >
+      <div
+        class="flex flex-col md:flex-row text-center md:text-left items-center gap-4"
+      >
+        <div class="relative w-16 h-16 shrink-0">
+          <div
+            class="absolute inset-0 w-12 h-12 bg-blue-500 top-2 left-2 blur-2xl"
+          ></div>
+          <img
+            src="/colorful.png"
+            alt="MynaUI Logo"
+            class="w-16 h-16 shrink-0 relative bg-zinc-900 rounded-2xl"
+          />
+        </div>
+        <div>
+          <h1 class="font-semibold">MynaUI Icons</h1>
+          <p class="text-zinc-400">
+            Beautifully crafted open source icons for your next project.
+          </p>
+        </div>
+      </div>
+      <div
+        class="flex gap-2 text-sm font-medium md:flex-row flex-row-reverse items-center justify-center"
+      >
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/praveenjuge/mynaui-icons/"
+          class="transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-950 shrink-0 focus:ring-zinc-700 bg-zinc-800 text-zinc-50 hover:bg-zinc-700 border-zinc-700 px-4 py-2 rounded border flex space-x-1 items-center"
+        >
+          <svg
+            class="h-5 w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke="currentColor"
+          >
+            <path
+              d="M9.98 4H8a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-6M9.98 4C11.085 4 12 4.895 12 6v2a2 2 0 0 0 2 2h2a2 2 0 0 1 2 2M9.98 4C13.26 4 18 8.764 18 12m-9 4.5h6m-6-3h4"
+            />
+          </svg>
+          <span class="hidden md:inline-flex">Documentation</span>
+          <span class="inline-flex md:hidden">Docs</span>
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/praveenjuge/mynaui-icons/releases"
+          class="transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-950 shrink-0 focus:ring-blue-600 bg-blue-600 text-white hover:bg-blue-700 border-blue-600 px-4 py-2 rounded border flex space-x-1 items-center"
+        >
+          <svg
+            class="h-5 w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke="currentColor"
+          >
+            <path
+              d="M4 16.004V17a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3v-1M12 4.5v11m3.5-3.5L12 15.5 8.5 12"
+            />
+          </svg>
+          <span>Download <span class="hidden md:inline-flex">Icons</span></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section
+    class="mx-auto max-w-7xl px-4 grid grid-cols-2 md:grid-cols-5 lg:grid-cols-10 gap-4 text-center text-xs pt-10 pb-24 text-zinc-400 [&_svg]:h-10 [&_svg]:w-10 [&_svg]:text-zinc-50 [&_a]:rounded [&_a]:flex [&_a]:flex-col [&_a]:items-center [&_a]:space-y-2 [&_a]:py-4 [&_a]:px-2 [&_p]:truncate [&_p]:w-full"
   >
-    {{ .Params.svg | safeHTML }}
-    <p>{{ .Params.icon }}</p>
-  </a>
-  {{ end }}
-</section>
+    {{ range .Site.RegularPages }}
+    <a
+      href="{{ .Permalink }}"
+      title="{{ .Params.icon }}"
+      class="bg-zinc-900/75 hover:bg-zinc-800/75 focus:ring-4 focus:outline-none focus:ring-zinc-600"
+    >
+      {{ .Params.svg | safeHTML }}
+      <p>{{ .Params.icon }}</p>
+    </a>
+    {{ end }}
+  </section>
+</main>
+
 {{ end }}

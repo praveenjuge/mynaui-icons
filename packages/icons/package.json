@@ -9,7 +9,9 @@
     "font",
     "sprite",
     "woff",
-    "woff2"
+    "woff2",
+    "icon-font",
+    "svg-sprite"
   ],
   "homepage": "https://icons.mynaui.com",
   "bugs": {

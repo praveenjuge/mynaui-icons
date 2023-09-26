@@ -6,6 +6,15 @@
   "bugs": {
     "url": "https://github.com/praveenjuge/mynaui-icons/issues"
   },
+  "keywords": [
+    "icons",
+    "svg",
+    "react",
+    "mynaui",
+    "react-icons",
+    "icon-library",
+    "icon-pack"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/praveenjuge/mynaui-icons.git"

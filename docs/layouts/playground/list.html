@@ -1,7 +1,7 @@
 {{ define "main" }}
-<div class="py-10 flex flex-col space-y-6 font-medium">
+<main class="py-12 flex flex-col space-y-10 font-medium max-w-7xl mx-auto">
   <div class="flex flex-wrap gap-12 items-center">
-    <a href="/" class="inline-flex">← Go back</a>
+    <a href="/" class="inline-flex underline">← Go back</a>
     <p>{{ len (where .Site.RegularPages "Section" "==" "icons") }} Icons</p>
     <div class="flex gap-2">
       <span>Sizes:</span>
@@ -38,7 +38,7 @@
   </div>
 
   <section
-    class="flex flex-wrap [&_svg]:h-[60px] [&_svg]:w-[60px] [&_svg]:text-zinc-50 [&_a]:p-1.5 [&_a]:relative [&_span]:absolute [&_span]:bg-zinc-800"
+    class="flex flex-wrap [&_svg]:h-[59px] [&_svg]:w-[59px] [&_svg]:text-zinc-50 [&_a]:p-1.5 [&_a]:relative [&_span]:absolute [&_span]:bg-zinc-800"
   >
     {{ range .Site.RegularPages | shuffle }}
     <a href="{{ .Permalink }}">
@@ -50,7 +50,7 @@
     </a>
     {{ end }}
   </section>
-</div>
+</main>
 
 <script>
   const svg = document.querySelectorAll("svg");
