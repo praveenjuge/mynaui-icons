@@ -55,5 +55,10 @@
     "access": "public"
   },
   "gitHead": "ef15fb0a2037af3181eb0fb51e9c8f367e8b4a95",
-  "sass": "mynaui-font.scss"
+  "sass": "mynaui-font.scss",
+  "exports": {
+    "./*": [
+      "./icons/*"
+    ]
+  }
 }

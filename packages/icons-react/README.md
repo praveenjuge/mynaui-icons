@@ -6,9 +6,17 @@ Beautifully crafted open source icons from Myna UI.
 
 ```sh
 npm i @mynaui/icons-react
+```
+
 or
+
+```sh
 bun i @mynaui/icons-react
+```
+
 or
+
+```sh
 yarn add @mynaui/icons-react
 ```
 
@@ -17,10 +25,10 @@ or download the package from [here](https://github.com/praveenjuge/mynaui-icons/
 ## Usage
 
 ```jsx
-import { ArrowDown } from "@mynaui/icons-react";
+import { Heart } from "@mynaui/icons-react";
 
 const App = () => {
-  return <ArrowDown color="green" />;
+  return <Heart color="green" />;
 };
 ```
 
@@ -29,8 +37,8 @@ const App = () => {
 | name     | type   | default      |
 | -------- | ------ | ------------ |
 | `size`   | Number | 24           |
-| `color`  | String | currentColor |
 | `stroke` | Number | 1.5          |
+| `color`  | String | currentColor |
 
 ## License
 
