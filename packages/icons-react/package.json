@@ -2,10 +2,6 @@
   "name": "@mynaui/icons-react",
   "version": "0.0.9",
   "description": "Beautifully crafted open source icons from Myna UI.",
-  "homepage": "https://icons.mynaui.com",
-  "bugs": {
-    "url": "https://github.com/praveenjuge/mynaui-icons/issues"
-  },
   "keywords": [
     "icons",
     "svg",
@@ -15,6 +11,10 @@
     "icon-library",
     "icon-pack"
   ],
+  "homepage": "https://icons.mynaui.com",
+  "bugs": {
+    "url": "https://github.com/praveenjuge/mynaui-icons/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/praveenjuge/mynaui-icons.git"
@@ -57,6 +57,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "ef15fb0a2037af3181eb0fb51e9c8f367e8b4a95",
+  "gitHead": "caa5136d29089139b118a69e06427767e98fa0d7",
   "main:umd": "dist/umd/myna-icons-react.js"
 }

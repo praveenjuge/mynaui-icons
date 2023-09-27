@@ -1,7 +1,7 @@
 import { forwardRef, createElement } from "react";
 import PropTypes from "prop-types";
 
-export default (iconName, iconNamePascal, iconNode) => {
+export default (iconNamePascal, iconNode) => {
   const Component = forwardRef(
     (
       { color = "currentColor", size = 24, stroke = "1.5", children, ...rest },
@@ -11,15 +11,15 @@ export default (iconName, iconNamePascal, iconNode) => {
         "svg",
         {
           ref,
-          xmlns: "http://www.w3.org/2000/svg",
-          viewBox: "0 0 24 24",
-          fill: "none",
           width: size,
           height: size,
+          fill: "none",
           stroke: color,
           strokeWidth: stroke,
+          viewBox: "0 0 24 24",
           strokeLinecap: "round",
           strokeLinejoin: "round",
+          xmlns: "http://www.w3.org/2000/svg",
           ...rest,
         },
         [

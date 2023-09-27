@@ -31,6 +31,11 @@
     "url": "https://praveenjuge.com/"
   },
   "sideEffects": false,
+  "exports": {
+    "./*": [
+      "./icons/*"
+    ]
+  },
   "style": "mynaui-font.css",
   "files": [
     "icons/*.svg",
@@ -54,11 +59,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "ef15fb0a2037af3181eb0fb51e9c8f367e8b4a95",
-  "sass": "mynaui-font.scss",
-  "exports": {
-    "./*": [
-      "./icons/*"
-    ]
-  }
+  "gitHead": "caa5136d29089139b118a69e06427767e98fa0d7",
+  "sass": "mynaui-font.scss"
 }
