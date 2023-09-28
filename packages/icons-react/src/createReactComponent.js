@@ -1,7 +1,7 @@
 import { forwardRef, createElement } from "react";
 import PropTypes from "prop-types";
 
-export default (iconNamePascal, iconNode) => {
+export default (iconName, iconNamePascal, iconNode) => {
   const Component = forwardRef(
     (
       { color = "currentColor", size = 24, stroke = "1.5", children, ...rest },

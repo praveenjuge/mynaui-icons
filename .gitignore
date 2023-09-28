@@ -5,7 +5,6 @@ bun.lockb
 
 # Packages
 packages/icons/icons
-packages/icons/mynaui-font*
 packages/icons*/icons/*
 packages/icons*/src/icons/*
 packages/icons*/src/icons.js
