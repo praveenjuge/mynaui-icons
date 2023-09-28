@@ -11,7 +11,10 @@
     "woff",
     "woff2",
     "icon-font",
-    "svg-sprite"
+    "svg-sprite",
+    "icon-library",
+    "icon-pack",
+    "icon-set"
   ],
   "homepage": "https://icons.mynaui.com",
   "bugs": {

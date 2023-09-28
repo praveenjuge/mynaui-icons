@@ -9,7 +9,8 @@
     "mynaui",
     "react-icons",
     "icon-library",
-    "icon-pack"
+    "icon-pack",
+    "icon-set"
   ],
   "homepage": "https://icons.mynaui.com",
   "bugs": {
@@ -46,7 +47,8 @@
     "dist",
     "LICENSE",
     "README.md",
-    "package.json"
+    "package.json",
+    "!.DS_Store"
   ],
   "dependencies": {
     "prop-types": "^15.8.1"
