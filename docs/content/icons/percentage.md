@@ -2,5 +2,5 @@
 title: Percentage
 tags:
 icon: percentage
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M6 18 18 6m-1.5 10.5h.01m-9.01-9h.01"/></svg>'
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M6 18 18 6M8.5 8.5l-1-1m9 9-1-1"/></svg>'
 ---

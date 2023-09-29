@@ -33,9 +33,7 @@
     "cleanup": "rm -rf ./packages/icons/react ./packages/icons-react/dist ./packages/icons-react/src/icons.js ./packages/icons-react/src/icons/*.js",
     "copy:icons": "rm -rf ./packages/icons/icons && mkdir ./packages/icons/icons && cp -r ./icons/*.svg ./packages/icons/icons",
     "everything-everywhere-all-at-once": "bun run build:svg-icons && bun run build:docs-pages && bun run build:svg-fonts && bun run copy:icons && bun run cleanup && bun run build:react-icons && bun run build:react-bundle",
-    "publish": "bunx lerna publish --no-private --create-release=github --conventional-commits",
-    "publish:github": "bunx lerna publish from-package --yes --registry https://npm.pkg.github.com",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish": "bunx lerna publish --no-private --create-release=github --conventional-commits --yes"
   },
   "devDependencies": {
     "@atomico/rollup-plugin-sizes": "^1.1.4",

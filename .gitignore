@@ -7,7 +7,6 @@ bun.lockb
 packages/icons/icons
 packages/icons*/icons/*
 packages/icons*/src/icons/*
-packages/icons*/src/icons.js
 packages/icons*/stats/*
 packages/icons*/icons/*
 packages/icons*/dist
