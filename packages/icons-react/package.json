@@ -59,6 +59,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "caa5136d29089139b118a69e06427767e98fa0d7",
+  "gitHead": "85ed9dab571c2caf0d688dcc3d9251713f8f9b69",
   "main:umd": "dist/umd/myna-icons-react.js"
 }

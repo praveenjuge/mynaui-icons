@@ -80,6 +80,7 @@ export { default as ChevronLeftCircle } from './icons/ChevronLeftCircle';
 export { default as ChevronDoubleDownRight } from './icons/ChevronDoubleDownRight';
 export { default as Lock } from './icons/Lock';
 export { default as CloudUpload } from './icons/CloudUpload';
+export { default as Fire } from './icons/Fire';
 export { default as ClockHand } from './icons/ClockHand';
 export { default as ChevronRight } from './icons/ChevronRight';
 export { default as Link } from './icons/Link';
