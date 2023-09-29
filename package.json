@@ -40,6 +40,7 @@
     "@atomico/rollup-plugin-sizes": "^1.1.4",
     "@babel/preset-env": "^7.22.20",
     "@babel/preset-react": "^7.22.15",
+    "esbuild": "^0.19.4",
     "html-minifier": "^4.0.0",
     "lerna": "^7.3.0",
     "picocolors": "^1.0.0",

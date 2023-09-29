@@ -57,6 +57,7 @@ export { default as ArrowUpRightSquare } from './icons/ArrowUpRightSquare';
 export { default as ForwardCircle } from './icons/ForwardCircle';
 export { default as TagPlus } from './icons/TagPlus';
 export { default as PlusSquare } from './icons/PlusSquare';
+export { default as Database } from './icons/Database';
 export { default as ChevronDownRightSquare } from './icons/ChevronDownRightSquare';
 export { default as File } from './icons/File';
 export { default as Signal } from './icons/Signal';

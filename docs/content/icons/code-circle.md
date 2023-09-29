@@ -2,5 +2,5 @@
 title: Code circle
 tags:
 icon: code-circle
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><circle cx="12" cy="12" r="9"/><path d="m14.908 9.7.132.131c1.022 1.023 1.534 1.534 1.534 2.169s-.512 1.146-1.534 2.169l-.132.132M13.072 8l-2.143 8M9.092 9.7l-.132.131C7.938 10.854 7.427 11.365 7.427 12s.51 1.146 1.533 2.169l.132.132"/></svg>'
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><circle cx="12" cy="12.5" r="9"/><path d="m14.908 10.2.132.131c1.022 1.023 1.534 1.534 1.534 2.169s-.512 1.146-1.534 2.169l-.132.132M13.072 8.5l-2.143 8m-1.837-6.3-.132.131c-1.022 1.023-1.533 1.534-1.533 2.169s.51 1.146 1.533 2.169l.132.132"/></svg>'
 ---
