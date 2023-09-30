@@ -3,7 +3,7 @@
 <main>
   <section class="overflow-hidden">
     <div
-      class="flex gap-1.5 [&_span]:whitespace-pre animate-[slide_infinite_linear_60s] py-3 text-xs text-zinc-400"
+      class="flex gap-1.5 [&_span]:whitespace-pre animate-[slide_infinite_linear_60s] py-3 text-xs text-gray-400"
     >
       <span>Open Source</span>
       <span>·</span>
@@ -71,7 +71,7 @@
     </div>
   </section>
 
-  <section class="border-y border-zinc-900 py-16">
+  <section class="border-y border-gray-900 py-16">
     <div
       class="max-w-7xl md:mx-auto flex md:justify-between md:items-center md:space-x-4 px-4 md:flex-row flex-col space-x-0 space-y-6 md:space-y-0"
     >
@@ -85,12 +85,12 @@
           <img
             src="/colorful.png"
             alt="MynaUI Logo"
-            class="w-16 h-16 shrink-0 relative bg-zinc-900 rounded-2xl"
+            class="w-16 h-16 shrink-0 relative bg-gray-900 rounded-2xl"
           />
         </div>
         <div>
           <h1 class="font-semibold">MynaUI Icons</h1>
-          <p class="text-zinc-400">
+          <p class="text-gray-400">
             Beautifully crafted open source icons for your next project.
           </p>
         </div>
@@ -102,7 +102,7 @@
           target="_blank"
           rel="noopener noreferrer"
           href="https://github.com/praveenjuge/mynaui-icons/"
-          class="transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-950 shrink-0 focus:ring-zinc-700 bg-zinc-800 text-zinc-50 hover:bg-zinc-700 border-zinc-700 px-4 py-2 rounded border flex space-x-1 items-center"
+          class="transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-950 shrink-0 focus:ring-gray-700 bg-gray-800 text-gray-50 hover:bg-gray-700 border-gray-700 px-4 py-2 rounded border flex space-x-1 items-center"
         >
           <svg
             class="h-5 w-5"
@@ -124,7 +124,7 @@
           target="_blank"
           rel="noopener noreferrer"
           href="https://github.com/praveenjuge/mynaui-icons/releases"
-          class="transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-950 shrink-0 focus:ring-blue-600 bg-blue-600 text-white hover:bg-blue-700 border-blue-600 px-4 py-2 rounded border flex space-x-1 items-center"
+          class="transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-950 shrink-0 focus:ring-blue-600 bg-blue-600 text-white hover:bg-blue-700 border-blue-600 px-4 py-2 rounded border flex space-x-1 items-center"
         >
           <svg
             class="h-5 w-5"
@@ -146,13 +146,13 @@
   </section>
 
   <section
-    class="mx-auto max-w-7xl px-4 grid grid-cols-2 md:grid-cols-5 lg:grid-cols-10 gap-4 text-center text-xs pt-10 pb-24 text-zinc-400 [&_svg]:h-10 [&_svg]:w-10 [&_svg]:text-zinc-50 [&_a]:rounded [&_a]:flex [&_a]:flex-col [&_a]:items-center [&_a]:space-y-2 [&_a]:py-4 [&_a]:px-2 [&_p]:truncate [&_p]:w-full"
+    class="mx-auto max-w-7xl px-4 grid grid-cols-2 md:grid-cols-5 lg:grid-cols-10 gap-4 text-center text-xs pt-10 pb-24 text-gray-400 [&_svg]:h-10 [&_svg]:w-10 [&_svg]:text-gray-50 [&_a]:rounded [&_a]:flex [&_a]:flex-col [&_a]:items-center [&_a]:space-y-2 [&_a]:py-4 [&_a]:px-2 [&_p]:truncate [&_p]:w-full"
   >
     {{ range .Site.RegularPages }}
     <a
       href="{{ .Permalink }}"
       title="{{ .Params.icon }}"
-      class="bg-zinc-900/75 hover:bg-zinc-800/75 focus:ring-4 focus:outline-none focus:ring-zinc-600"
+      class="bg-gray-900/75 hover:bg-gray-800/75 focus:ring-4 focus:outline-none focus:ring-gray-600"
     >
       {{ .Params.svg | safeHTML }}
       <p>{{ .Params.icon }}</p>
