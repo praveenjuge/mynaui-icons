@@ -2,6 +2,7 @@ node_modules/
 bun.lockb
 .DS_Store
 .env
+lerna-debug.log
 
 # Packages
 packages/icons/icons

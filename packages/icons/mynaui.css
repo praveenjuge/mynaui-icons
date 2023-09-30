@@ -1,11 +1,11 @@
 @font-face {
   font-family: "mynaui";
-  src: url('mynaui.eot?t=1696072966738'); /* IE9*/
-  src: url('mynaui.eot?t=1696072966738#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url("mynaui.woff2?t=1696072966738") format("woff2"),
-  url("mynaui.woff?t=1696072966738") format("woff"),
-  url('mynaui.ttf?t=1696072966738') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('mynaui.svg?t=1696072966738#mynaui') format('svg'); /* iOS 4.1- */
+  src: url('mynaui.eot?t=1696073499877'); /* IE9*/
+  src: url('mynaui.eot?t=1696073499877#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("mynaui.woff2?t=1696073499877") format("woff2"),
+  url("mynaui.woff?t=1696073499877") format("woff"),
+  url('mynaui.ttf?t=1696073499877') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('mynaui.svg?t=1696073499877#mynaui') format('svg'); /* iOS 4.1- */
 }
 
 [class^="mynaui-"], [class*=" mynaui-"] {
@@ -205,80 +205,81 @@
 .mynaui-move:before { content: "\eabb"; }
 .mynaui-myna:before { content: "\eabc"; }
 .mynaui-notification:before { content: "\eabd"; }
-.mynaui-pause-circle:before { content: "\eabe"; }
-.mynaui-pause-square:before { content: "\eabf"; }
-.mynaui-pause-waves:before { content: "\eac0"; }
-.mynaui-pause:before { content: "\eac1"; }
-.mynaui-percentage-circle:before { content: "\eac2"; }
-.mynaui-percentage-square:before { content: "\eac3"; }
-.mynaui-percentage-waves:before { content: "\eac4"; }
-.mynaui-percentage:before { content: "\eac5"; }
-.mynaui-play-circle:before { content: "\eac6"; }
-.mynaui-play-square:before { content: "\eac7"; }
-.mynaui-play-waves:before { content: "\eac8"; }
-.mynaui-play:before { content: "\eac9"; }
-.mynaui-plus-circle:before { content: "\eaca"; }
-.mynaui-plus-square:before { content: "\eacb"; }
-.mynaui-plus-waves:before { content: "\eacc"; }
-.mynaui-plus:before { content: "\eacd"; }
-.mynaui-question-circle:before { content: "\eace"; }
-.mynaui-question-square:before { content: "\eacf"; }
-.mynaui-question-waves:before { content: "\ead0"; }
-.mynaui-question:before { content: "\ead1"; }
-.mynaui-radio:before { content: "\ead2"; }
-.mynaui-rewind-circle:before { content: "\ead3"; }
-.mynaui-rewind-square:before { content: "\ead4"; }
-.mynaui-rewind-waves:before { content: "\ead5"; }
-.mynaui-rewind:before { content: "\ead6"; }
-.mynaui-rss:before { content: "\ead7"; }
-.mynaui-search-minus:before { content: "\ead8"; }
-.mynaui-search-plus:before { content: "\ead9"; }
-.mynaui-search:before { content: "\eada"; }
-.mynaui-share:before { content: "\eadb"; }
-.mynaui-shield-check:before { content: "\eadc"; }
-.mynaui-shield-minus:before { content: "\eadd"; }
-.mynaui-shield-plus:before { content: "\eade"; }
-.mynaui-shield:before { content: "\eadf"; }
-.mynaui-shuffle:before { content: "\eae0"; }
-.mynaui-sidebar:before { content: "\eae1"; }
-.mynaui-signal-circle:before { content: "\eae2"; }
-.mynaui-signal-square:before { content: "\eae3"; }
-.mynaui-signal-waves:before { content: "\eae4"; }
-.mynaui-signal:before { content: "\eae5"; }
-.mynaui-slash:before { content: "\eae6"; }
-.mynaui-sort:before { content: "\eae7"; }
-.mynaui-sparkles:before { content: "\eae8"; }
-.mynaui-spinner:before { content: "\eae9"; }
-.mynaui-square:before { content: "\eaea"; }
-.mynaui-star:before { content: "\eaeb"; }
-.mynaui-stop-circle:before { content: "\eaec"; }
-.mynaui-stop-square:before { content: "\eaed"; }
-.mynaui-stop-waves:before { content: "\eaee"; }
-.mynaui-stop:before { content: "\eaef"; }
-.mynaui-sun:before { content: "\eaf0"; }
-.mynaui-support:before { content: "\eaf1"; }
-.mynaui-table:before { content: "\eaf2"; }
-.mynaui-tablet:before { content: "\eaf3"; }
-.mynaui-tag-plus:before { content: "\eaf4"; }
-.mynaui-tag:before { content: "\eaf5"; }
-.mynaui-target:before { content: "\eaf6"; }
-.mynaui-text-align-center:before { content: "\eaf7"; }
-.mynaui-text-align-left:before { content: "\eaf8"; }
-.mynaui-text-align-right:before { content: "\eaf9"; }
-.mynaui-text-justify:before { content: "\eafa"; }
-.mynaui-trash:before { content: "\eafb"; }
-.mynaui-triangle:before { content: "\eafc"; }
-.mynaui-upload:before { content: "\eafd"; }
-.mynaui-user-check:before { content: "\eafe"; }
-.mynaui-user-circle:before { content: "\eaff"; }
-.mynaui-user-minus:before { content: "\eb00"; }
-.mynaui-user-plus:before { content: "\eb01"; }
-.mynaui-user-settings:before { content: "\eb02"; }
-.mynaui-user-x:before { content: "\eb03"; }
-.mynaui-user:before { content: "\eb04"; }
-.mynaui-waves:before { content: "\eb05"; }
-.mynaui-x-circle:before { content: "\eb06"; }
-.mynaui-x-square:before { content: "\eb07"; }
-.mynaui-x-waves:before { content: "\eb08"; }
-.mynaui-x:before { content: "\eb09"; }
+.mynaui-octagon:before { content: "\eabe"; }
+.mynaui-pause-circle:before { content: "\eabf"; }
+.mynaui-pause-square:before { content: "\eac0"; }
+.mynaui-pause-waves:before { content: "\eac1"; }
+.mynaui-pause:before { content: "\eac2"; }
+.mynaui-percentage-circle:before { content: "\eac3"; }
+.mynaui-percentage-square:before { content: "\eac4"; }
+.mynaui-percentage-waves:before { content: "\eac5"; }
+.mynaui-percentage:before { content: "\eac6"; }
+.mynaui-play-circle:before { content: "\eac7"; }
+.mynaui-play-square:before { content: "\eac8"; }
+.mynaui-play-waves:before { content: "\eac9"; }
+.mynaui-play:before { content: "\eaca"; }
+.mynaui-plus-circle:before { content: "\eacb"; }
+.mynaui-plus-square:before { content: "\eacc"; }
+.mynaui-plus-waves:before { content: "\eacd"; }
+.mynaui-plus:before { content: "\eace"; }
+.mynaui-question-circle:before { content: "\eacf"; }
+.mynaui-question-square:before { content: "\ead0"; }
+.mynaui-question-waves:before { content: "\ead1"; }
+.mynaui-question:before { content: "\ead2"; }
+.mynaui-radio:before { content: "\ead3"; }
+.mynaui-rewind-circle:before { content: "\ead4"; }
+.mynaui-rewind-square:before { content: "\ead5"; }
+.mynaui-rewind-waves:before { content: "\ead6"; }
+.mynaui-rewind:before { content: "\ead7"; }
+.mynaui-rss:before { content: "\ead8"; }
+.mynaui-search-minus:before { content: "\ead9"; }
+.mynaui-search-plus:before { content: "\eada"; }
+.mynaui-search:before { content: "\eadb"; }
+.mynaui-share:before { content: "\eadc"; }
+.mynaui-shield-check:before { content: "\eadd"; }
+.mynaui-shield-minus:before { content: "\eade"; }
+.mynaui-shield-plus:before { content: "\eadf"; }
+.mynaui-shield:before { content: "\eae0"; }
+.mynaui-shuffle:before { content: "\eae1"; }
+.mynaui-sidebar:before { content: "\eae2"; }
+.mynaui-signal-circle:before { content: "\eae3"; }
+.mynaui-signal-square:before { content: "\eae4"; }
+.mynaui-signal-waves:before { content: "\eae5"; }
+.mynaui-signal:before { content: "\eae6"; }
+.mynaui-slash:before { content: "\eae7"; }
+.mynaui-sort:before { content: "\eae8"; }
+.mynaui-sparkles:before { content: "\eae9"; }
+.mynaui-spinner:before { content: "\eaea"; }
+.mynaui-square:before { content: "\eaeb"; }
+.mynaui-star:before { content: "\eaec"; }
+.mynaui-stop-circle:before { content: "\eaed"; }
+.mynaui-stop-square:before { content: "\eaee"; }
+.mynaui-stop-waves:before { content: "\eaef"; }
+.mynaui-stop:before { content: "\eaf0"; }
+.mynaui-sun:before { content: "\eaf1"; }
+.mynaui-support:before { content: "\eaf2"; }
+.mynaui-table:before { content: "\eaf3"; }
+.mynaui-tablet:before { content: "\eaf4"; }
+.mynaui-tag-plus:before { content: "\eaf5"; }
+.mynaui-tag:before { content: "\eaf6"; }
+.mynaui-target:before { content: "\eaf7"; }
+.mynaui-text-align-center:before { content: "\eaf8"; }
+.mynaui-text-align-left:before { content: "\eaf9"; }
+.mynaui-text-align-right:before { content: "\eafa"; }
+.mynaui-text-justify:before { content: "\eafb"; }
+.mynaui-trash:before { content: "\eafc"; }
+.mynaui-triangle:before { content: "\eafd"; }
+.mynaui-upload:before { content: "\eafe"; }
+.mynaui-user-check:before { content: "\eaff"; }
+.mynaui-user-circle:before { content: "\eb00"; }
+.mynaui-user-minus:before { content: "\eb01"; }
+.mynaui-user-plus:before { content: "\eb02"; }
+.mynaui-user-settings:before { content: "\eb03"; }
+.mynaui-user-x:before { content: "\eb04"; }
+.mynaui-user:before { content: "\eb05"; }
+.mynaui-waves:before { content: "\eb06"; }
+.mynaui-x-circle:before { content: "\eb07"; }
+.mynaui-x-square:before { content: "\eb08"; }
+.mynaui-x-waves:before { content: "\eb09"; }
+.mynaui-x:before { content: "\eb0a"; }
 

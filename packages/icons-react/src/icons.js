@@ -206,6 +206,7 @@ export { default as FilePlus } from './icons/FilePlus';
 export { default as Delete } from './icons/Delete';
 export { default as Command } from './icons/Command';
 export { default as UserSettings } from './icons/UserSettings';
+export { default as Octagon } from './icons/Octagon';
 export { default as ArrowDownLeftSquare } from './icons/ArrowDownLeftSquare';
 export { default as HeartWaves } from './icons/HeartWaves';
 export { default as ArrowLeftSquare } from './icons/ArrowLeftSquare';
