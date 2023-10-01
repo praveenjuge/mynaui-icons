@@ -6,6 +6,10 @@ enableRobotsTXT = true
 enableEmoji = true
 canonifyURLs = true
 
+[params]
+  description = "Beautifully crafted open source icons from Myna UI."
+  ogimage = "/og.png"
+
 [taxonomies]
   tag = 'tags'
 
