@@ -83,7 +83,7 @@
 
     <p class="text-gray-400">
       Tags: {{ range .Params.tags }}
-      <a href="/tags/{{ . | urlize }}">{{ . }}</a>
+      <a href="/tags/{{ . | urlize }}" class="underline">{{ . }}</a>
       {{ end }}
     </p>
   </section>

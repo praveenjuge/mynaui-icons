@@ -11,6 +11,10 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const iconsDir = path.join(__dirname, "../icons/");
 const pagesDir = path.join(__dirname, "../docs/content/icons/");
 
+const tagsFile = path.join(__dirname, "../tags.json");
+const tagsJSON = await fs.readFile(tagsFile, "utf-8");
+const tagsObject = JSON.parse(tagsJSON);
+
 function capitalizeFirstLetter(string) {
   return (string.charAt(0).toUpperCase() + string.slice(1))
     .split("-")
@@ -23,37 +27,24 @@ async function main(file) {
   const iconContent = await fs.readFile(path.join(iconsDir, file), "utf8");
   const pageName = path.join(pagesDir, `${iconBasename}.md`);
 
+  console.log(tagsObject[iconBasename]?.tags);
+
+  // tags as array and assign to tags variable
+  let tags = [];
+  tags = tagsObject[iconBasename]?.tags
+    ? tagsObject[iconBasename].tags
+    : iconTitle.split(" ");
+  tags = tags.map((tag) => `"${tag}"`).join(", ");
+
   const pageTemplate = `---
 title: ${iconTitle}
-tags:
+tags: [${tags}]
 icon: ${iconBasename}
 svg: '${iconContent}'
 ---`;
 
-  try {
-    await fs.access(pageName, fs.F_OK);
-
-    console.log(
-      `${picocolors.cyan(
-        iconBasename
-      )}: Page already exists; changing only the SVG`
-    );
-
-    const pageContent = await fs.readFile(pageName, "utf8");
-    const pageContentLines = pageContent.split("\n");
-    const svgLineIndex = pageContentLines.findIndex((line) =>
-      line.startsWith("svg:")
-    );
-
-    pageContentLines[svgLineIndex] = `svg: '${iconContent}'`;
-
-    await fs.writeFile(pageName, pageContentLines.join("\n"));
-
-    console.log(picocolors.green(`${iconBasename}: Page updated`));
-  } catch {
-    await fs.writeFile(pageName, pageTemplate);
-    console.log(picocolors.green(`${iconBasename}: Page created`));
-  }
+  await fs.writeFile(pageName, pageTemplate);
+  console.log(picocolors.green(`${iconBasename}: Page created`));
 }
 
 (async () => {

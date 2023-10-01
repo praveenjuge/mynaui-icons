@@ -1,6 +1,6 @@
 ---
 title: Stop
-tags:
+tags: ["stop", "audio", "music", "halt", "end", "pause", "terminate"]
 icon: stop
 svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M7 12.5c0-2.357 0-3.536.732-4.268C8.464 7.5 9.643 7.5 12 7.5c2.357 0 3.536 0 4.268.732C17 8.964 17 10.143 17 12.5c0 2.357 0 3.535-.732 4.268-.732.732-1.911.732-4.268.732-2.357 0-3.536 0-4.268-.732C7 16.035 7 14.857 7 12.5Z"/></svg>'
 ---
