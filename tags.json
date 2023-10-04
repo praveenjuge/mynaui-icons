@@ -1,4 +1,15 @@
 {
+  "academic-hat": {
+    "tags": [
+      "academic",
+      "hat",
+      "graduation",
+      "education",
+      "learning",
+      "knowledge",
+      "scholarship"
+    ]
+  },
   "arrow-diagonal-one": {
     "tags": ["arrow", "diagonal", "direction", "pointer", "navigate"]
   },
@@ -118,6 +129,28 @@
   },
   "campfire": {
     "tags": ["campfire", "fire", "outdoors", "nature", "flame"]
+  },
+  "chart-bar": {
+    "tags": [
+      "chart",
+      "bar",
+      "graph",
+      "data",
+      "analytics",
+      "statistics",
+      "visualization"
+    ]
+  },
+  "chart-pie": {
+    "tags": [
+      "chart",
+      "pie",
+      "graph",
+      "data",
+      "analytics",
+      "statistics",
+      "visualization"
+    ]
   },
   "check-circle": {
     "tags": ["check", "circle", "tick", "approve", "confirm"]
@@ -272,6 +305,17 @@
   "cloud-download": {
     "tags": ["cloud", "download", "arrow", "storage", "internet"]
   },
+  "cloud-rain": {
+    "tags": [
+      "cloud",
+      "rain",
+      "weather",
+      "precipitation",
+      "storm",
+      "drizzle",
+      "downpour"
+    ]
+  },
   "cloud-upload": {
     "tags": ["cloud", "upload", "arrow", "storage", "internet"]
   },
@@ -298,6 +342,39 @@
   },
   "command": {
     "tags": ["command", "prompt", "line", "terminal", "console"]
+  },
+  "compass": {
+    "tags": [
+      "compass",
+      "navigation",
+      "direction",
+      "orientation",
+      "travel",
+      "exploration",
+      "adventure"
+    ]
+  },
+  "config-vertical": {
+    "tags": [
+      "config",
+      "vertical",
+      "settings",
+      "options",
+      "preferences",
+      "layout",
+      "arrangement"
+    ]
+  },
+  "config": {
+    "tags": [
+      "config",
+      "settings",
+      "options",
+      "preferences",
+      "configuration",
+      "setup",
+      "arrangement"
+    ]
   },
   "controller": {
     "tags": ["controller", "game", "gaming", "play", "joystick"]
@@ -355,6 +432,17 @@
   },
   "delete": {
     "tags": ["delete", "trash", "remove", "bin", "discard"]
+  },
+  "dislike": {
+    "tags": [
+      "dislike",
+      "thumbs down",
+      "disapproval",
+      "unfavorable",
+      "not good",
+      "negative",
+      "reject"
+    ]
   },
   "dots-circle": {
     "tags": ["dots", "circle", "more", "menu", "options"]
@@ -546,8 +634,30 @@
       "composition"
     ]
   },
+  "like": {
+    "tags": [
+      "like",
+      "thumbs up",
+      "approval",
+      "favorable",
+      "good",
+      "positive",
+      "accept"
+    ]
+  },
   "link": {
     "tags": ["link", "connect", "chain", "URL", "hyperlink", "web", "internet"]
+  },
+  "list": {
+    "tags": [
+      "list",
+      "checklist",
+      "to-do",
+      "tasks",
+      "items",
+      "inventory",
+      "agenda"
+    ]
   },
   "location": {
     "tags": [
@@ -601,6 +711,17 @@
   },
   "logout": {
     "tags": ["logout", "exit", "sign", "leave", "log off", "quit", "disconnect"]
+  },
+  "math": {
+    "tags": [
+      "math",
+      "calculation",
+      "numbers",
+      "equations",
+      "formulas",
+      "algebra",
+      "geometry"
+    ]
   },
   "maximize-one": {
     "tags": [
@@ -1313,6 +1434,17 @@
       "sides",
       "polygon",
       "trigon"
+    ]
+  },
+  "umbrella": {
+    "tags": [
+      "umbrella",
+      "rain",
+      "weather",
+      "protection",
+      "shelter",
+      "parasol",
+      "canopy"
     ]
   },
   "upload": {
