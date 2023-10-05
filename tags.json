@@ -127,6 +127,37 @@
   "bookmark": {
     "tags": ["bookmark", "favorite", "save", "tag", "web"]
   },
+  "calendar-check": {
+    "tags": [
+      "calendar",
+      "check",
+      "event",
+      "schedule",
+      "appointment",
+      "completed"
+    ]
+  },
+  "calendar-down": {
+    "tags": ["calendar", "down", "download", "import", "get"]
+  },
+  "calendar-minus": {
+    "tags": ["calendar", "minus", "remove", "delete", "subtract"]
+  },
+  "calendar-plus": {
+    "tags": ["calendar", "plus", "add", "create", "insert"]
+  },
+  "calendar-slash": {
+    "tags": ["calendar", "slash", "cancel", "delete", "remove", "no"]
+  },
+  "calendar-up": {
+    "tags": ["calendar", "up", "upload", "export", "send"]
+  },
+  "calendar-x": {
+    "tags": ["calendar", "x", "delete", "remove", "cancel"]
+  },
+  "calendar": {
+    "tags": ["calendar", "date", "time", "schedule", "event"]
+  },
   "campfire": {
     "tags": ["campfire", "fire", "outdoors", "nature", "flame"]
   },
@@ -154,9 +185,6 @@
   },
   "check-circle": {
     "tags": ["check", "circle", "tick", "approve", "confirm"]
-  },
-  "check-octagon": {
-    "tags": ["check", "octagon", "tick", "approve", "confirm"]
   },
   "check-square": {
     "tags": ["check", "square", "tick", "approve", "confirm"]
@@ -316,6 +344,17 @@
       "downpour"
     ]
   },
+  "cloud-slash": {
+    "tags": [
+      "cloud",
+      "slash",
+      "disable",
+      "offline",
+      "unavailable",
+      "broken",
+      "error"
+    ]
+  },
   "cloud-upload": {
     "tags": ["cloud", "upload", "arrow", "storage", "internet"]
   },
@@ -409,14 +448,8 @@
   "danger-circle": {
     "tags": ["danger", "circle", "warning", "caution", "hazard"]
   },
-  "danger-octagon": {
-    "tags": ["danger", "octagon", "warning", "caution", "hazard"]
-  },
   "danger-square": {
     "tags": ["danger", "square", "warning", "caution", "hazard"]
-  },
-  "danger-triangle": {
-    "tags": ["danger", "triangle", "warning", "caution", "hazard"]
   },
   "danger-waves": {
     "tags": ["danger", "waves", "warning", "caution", "hazard"]
@@ -426,9 +459,6 @@
   },
   "database": {
     "tags": ["database", "data", "storage", "information", "server"]
-  },
-  "daze-emoji": {
-    "tags": ["daze", "emoji", "confused", "bewildered", "drunk"]
   },
   "delete": {
     "tags": ["delete", "trash", "remove", "bin", "discard"]
@@ -474,6 +504,72 @@
   "edit": {
     "tags": ["edit", "pencil", "modify", "change", "update"]
   },
+  "emoji-daze": {
+    "tags": [
+      "emoji",
+      "daze",
+      "confused",
+      "lost",
+      "bewildered",
+      "disoriented",
+      "perplexed"
+    ]
+  },
+  "emoji-funny": {
+    "tags": [
+      "emoji",
+      "funny",
+      "humorous",
+      "amusing",
+      "comical",
+      "entertaining",
+      "jocular"
+    ]
+  },
+  "emoji-indifferent": {
+    "tags": [
+      "emoji",
+      "indifferent",
+      "apathetic",
+      "unconcerned",
+      "disinterested",
+      "neutral",
+      "uninvolved"
+    ]
+  },
+  "emoji-sad": {
+    "tags": [
+      "emoji",
+      "sad",
+      "unhappy",
+      "depressed",
+      "miserable",
+      "gloomy",
+      "downcast"
+    ]
+  },
+  "emoji-smile": {
+    "tags": [
+      "emoji",
+      "smile",
+      "happy",
+      "joyful",
+      "pleased",
+      "delighted",
+      "grinning"
+    ]
+  },
+  "envelope": {
+    "tags": [
+      "envelope",
+      "mail",
+      "letter",
+      "correspondence",
+      "communication",
+      "post",
+      "message"
+    ]
+  },
   "file-minus": {
     "tags": ["file", "minus", "remove", "delete", "document"]
   },
@@ -491,6 +587,17 @@
   },
   "filter": {
     "tags": ["filter", "options", "sort", "search", "refine"]
+  },
+  "fine-tune": {
+    "tags": [
+      "fine",
+      "tune",
+      "adjust",
+      "refine",
+      "improve",
+      "optimize",
+      "calibrate"
+    ]
   },
   "fire": {
     "tags": ["fire", "flame", "burn", "heat", "hot"]
@@ -513,6 +620,9 @@
   "folder-plus": {
     "tags": ["folder", "plus", "add", "create", "directory"]
   },
+  "folder-slash": {
+    "tags": ["folder", "slash", "directory", "cut", "remove", "exclude", "omit"]
+  },
   "folder-two": {
     "tags": ["folder", "two", "double", "directory", "file"]
   },
@@ -534,8 +644,60 @@
   "forward": {
     "tags": ["forward", "arrow", "direction", "pointer", "navigate"]
   },
-  "funny-emoji": {
-    "tags": ["funny", "emoji", "humor", "laugh", "haha"]
+  "ghost-daze": {
+    "tags": [
+      "ghost",
+      "daze",
+      "confused",
+      "lost",
+      "bewildered",
+      "disoriented",
+      "perplexed"
+    ]
+  },
+  "ghost-funny": {
+    "tags": [
+      "ghost",
+      "funny",
+      "humorous",
+      "amusing",
+      "comical",
+      "entertaining",
+      "jocular"
+    ]
+  },
+  "ghost-indifferent": {
+    "tags": [
+      "ghost",
+      "indifferent",
+      "apathetic",
+      "unconcerned",
+      "disinterested",
+      "neutral",
+      "uninvolved"
+    ]
+  },
+  "ghost-sad": {
+    "tags": [
+      "ghost",
+      "sad",
+      "unhappy",
+      "depressed",
+      "miserable",
+      "gloomy",
+      "downcast"
+    ]
+  },
+  "ghost-smile": {
+    "tags": [
+      "ghost",
+      "smile",
+      "happy",
+      "joyful",
+      "pleased",
+      "delighted",
+      "grinning"
+    ]
   },
   "globe": {
     "tags": ["globe", "world", "earth", "planet", "global"]
@@ -585,23 +747,47 @@
   "home": {
     "tags": ["home", "house", "residence", "dwelling", "property"]
   },
+  "image-circle": {
+    "tags": [
+      "image",
+      "circle",
+      "round",
+      "circular",
+      "shape",
+      "picture",
+      "photo"
+    ]
+  },
+  "image-rectangle": {
+    "tags": [
+      "image",
+      "rectangle",
+      "rectangular",
+      "shape",
+      "picture",
+      "photo",
+      "frame"
+    ]
+  },
+  "image": {
+    "tags": [
+      "image",
+      "picture",
+      "photo",
+      "graphic",
+      "visual",
+      "illustration",
+      "art"
+    ]
+  },
   "inbox": {
     "tags": ["inbox", "mail", "message", "email", "communication"]
-  },
-  "indifferent-emoji": {
-    "tags": ["indifferent", "emoji", "neutral", "meh", "unimpressed"]
   },
   "info-circle": {
     "tags": ["info", "circle", "information", "i", "details"]
   },
-  "info-octagon": {
-    "tags": ["info", "octagon", "information", "i", "details"]
-  },
   "info-square": {
     "tags": ["info", "square", "information", "i", "details"]
-  },
-  "info-triangle": {
-    "tags": ["info", "triangle", "information", "i", "details"]
   },
   "info-waves": {
     "tags": ["info", "waves", "information", "i", "details"]
@@ -789,17 +975,6 @@
       "take away"
     ]
   },
-  "minus-octagon": {
-    "tags": [
-      "minus",
-      "octagon",
-      "remove",
-      "subtract",
-      "delete",
-      "deduct",
-      "take away"
-    ]
-  },
   "minus-square": {
     "tags": [
       "minus",
@@ -879,6 +1054,75 @@
       "message",
       "update"
     ]
+  },
+  "octagon-check": {
+    "tags": [
+      "octagon",
+      "check",
+      "verified",
+      "approved",
+      "completed",
+      "success",
+      "tick"
+    ]
+  },
+  "octagon-danger": {
+    "tags": [
+      "octagon",
+      "danger",
+      "warning",
+      "alert",
+      "caution",
+      "hazard",
+      "risk"
+    ]
+  },
+  "octagon-info": {
+    "tags": [
+      "octagon",
+      "info",
+      "information",
+      "details",
+      "facts",
+      "news",
+      "update"
+    ]
+  },
+  "octagon-minus": {
+    "tags": [
+      "octagon",
+      "minus",
+      "subtract",
+      "remove",
+      "delete",
+      "eliminate",
+      "reduce"
+    ]
+  },
+  "octagon-plus": {
+    "tags": [
+      "octagon",
+      "plus",
+      "add",
+      "include",
+      "expand",
+      "enlarge",
+      "augment"
+    ]
+  },
+  "octagon-slash": {
+    "tags": [
+      "octagon",
+      "slash",
+      "exclude",
+      "remove",
+      "cancel",
+      "prohibit",
+      "forbid"
+    ]
+  },
+  "octagon-x": {
+    "tags": ["octagon", "x", "close", "cancel", "delete", "remove", "terminate"]
   },
   "octagon": {
     "tags": [
@@ -961,9 +1205,6 @@
   },
   "plus-circle": {
     "tags": ["plus", "circle", "add", "create", "expand", "increase", "sum"]
-  },
-  "plus-octagon": {
-    "tags": ["plus", "octagon", "add", "create", "expand", "increase", "sum"]
   },
   "plus-square": {
     "tags": ["plus", "square", "add", "create", "expand", "increase", "sum"]
@@ -1084,17 +1325,6 @@
       "content"
     ]
   },
-  "sad-emoji": {
-    "tags": [
-      "sad",
-      "emoji",
-      "unhappy",
-      "tearful",
-      "melancholic",
-      "sorrowful",
-      "downcast"
-    ]
-  },
   "search-minus": {
     "tags": [
       "search",
@@ -1108,6 +1338,17 @@
   },
   "search-plus": {
     "tags": ["search", "plus", "find", "query", "add", "include", "expand"]
+  },
+  "search-slash": {
+    "tags": [
+      "search",
+      "slash",
+      "exclude",
+      "remove",
+      "cancel",
+      "prohibit",
+      "forbid"
+    ]
   },
   "search": {
     "tags": ["search", "find", "magnifying", "zoom", "lookup", "query", "hunt"]
@@ -1134,8 +1375,14 @@
       "guaranteed"
     ]
   },
+  "shield-crossed": {
+    "tags": ["shield", "crossed", "secure", "protect", "safety"]
+  },
   "shield-minus": {
     "tags": ["shield", "minus", "secure", "protect", "safety", "loss", "weaken"]
+  },
+  "shield-one": {
+    "tags": ["shield", "one", "secure", "protect", "safety"]
   },
   "shield-plus": {
     "tags": [
@@ -1147,6 +1394,15 @@
       "strength",
       "enhance"
     ]
+  },
+  "shield-slash": {
+    "tags": ["shield", "slash", "secure", "protect", "safety"]
+  },
+  "shield-two": {
+    "tags": ["shield", "two", "secure", "protect", "safety"]
+  },
+  "shield-x": {
+    "tags": ["shield", "x", "secure", "protect", "safety"]
   },
   "shield": {
     "tags": [
@@ -1246,9 +1502,6 @@
       "separate",
       "division"
     ]
-  },
-  "smile-emoji": {
-    "tags": ["smile", "emoji", "happy", "joy", "grin", "cheerful", "smiling"]
   },
   "sort": {
     "tags": [
@@ -1378,6 +1631,21 @@
       "purpose"
     ]
   },
+  "telephone-slash": {
+    "tags": [
+      "telephone",
+      "slash",
+      "phone",
+      "call",
+      "communication",
+      "disable",
+      "disconnect",
+      "off"
+    ]
+  },
+  "telephone": {
+    "tags": ["telephone", "phone", "call", "communication", "talk", "dial"]
+  },
   "text-align-center": {
     "tags": [
       "text",
@@ -1424,6 +1692,28 @@
   },
   "trash": {
     "tags": ["trash", "bin", "garbage", "delete", "discard", "waste", "dispose"]
+  },
+  "triangle-danger": {
+    "tags": [
+      "triangle",
+      "danger",
+      "warning",
+      "alert",
+      "caution",
+      "error",
+      "hazard"
+    ]
+  },
+  "triangle-info": {
+    "tags": [
+      "triangle",
+      "info",
+      "information",
+      "details",
+      "help",
+      "question",
+      "support"
+    ]
   },
   "triangle": {
     "tags": [
@@ -1527,9 +1817,6 @@
   },
   "x-circle": {
     "tags": ["x", "circle", "close", "cancel", "remove"]
-  },
-  "x-octagon": {
-    "tags": ["x", "octagon", "close", "cancel", "remove"]
   },
   "x-square": {
     "tags": ["x", "square", "close", "cancel", "remove"]

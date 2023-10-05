@@ -2,5 +2,5 @@
 title: Shield minus
 tags: ["shield", "minus", "secure", "protect", "safety", "loss", "weaken"]
 icon: shield-minus
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M11.476 20.641a.894.894 0 0 0 1.048 0C14.181 19.459 19.2 15.509 19.2 11V6.183a.532.532 0 0 0-.48-.53v0c-2.05-.199-4.02-.89-5.744-2.016l-.617-.403a.657.657 0 0 0-.718 0l-.617.403a12.768 12.768 0 0 1-5.743 2.016v0a.532.532 0 0 0-.481.53V11c0 4.508 5.019 8.46 6.676 9.641ZM10 11h4"/></svg>'
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M10 11h4m-2.533 9.82a.88.88 0 0 0 1.066 0C14.168 19.593 19 15.586 19 11.016v-4.93a.514.514 0 0 0-.457-.515 12.048 12.048 0 0 1-5.582-2.046l-.61-.417a.62.62 0 0 0-.702 0l-.61.417a12.048 12.048 0 0 1-5.582 2.046.514.514 0 0 0-.457.515v4.93c0 4.57 4.832 8.577 6.467 9.802Z"/></svg>'
 ---
