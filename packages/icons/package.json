@@ -39,21 +39,22 @@
       "./icons/*"
     ]
   },
-  "style": "mynaui-font.css",
+  "style": "mynaui.css",
   "files": [
     "icons/*.svg",
-    "mynaui-font.css",
-    "mynaui-font.eot",
-    "mynaui-font.json",
-    "mynaui-font.less",
-    "mynaui-font.module.less",
-    "mynaui-font.scss",
-    "mynaui-font.styl",
-    "mynaui-font.svg",
-    "mynaui-font.symbol.svg",
-    "mynaui-font.ttf",
-    "mynaui-font.woff",
-    "mynaui-font.woff2",
+    "meta.json",
+    "mynaui.css",
+    "mynaui.eot",
+    "mynaui.json",
+    "mynaui.less",
+    "mynaui.module.less",
+    "mynaui.scss",
+    "mynaui.styl",
+    "mynaui.svg",
+    "mynaui.symbol.svg",
+    "mynaui.ttf",
+    "mynaui.woff",
+    "mynaui.woff2",
     "LICENSE",
     "README.md",
     "package.json",
@@ -63,5 +64,5 @@
     "access": "public"
   },
   "gitHead": "85ed9dab571c2caf0d688dcc3d9251713f8f9b69",
-  "sass": "mynaui-font.scss"
+  "sass": "mynaui.scss"
 }

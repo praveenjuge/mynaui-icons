@@ -10,7 +10,8 @@
     "react-icons",
     "icon-library",
     "icon-pack",
-    "icon-set"
+    "icon-set",
+    "icons-react"
   ],
   "homepage": "https://icons.mynaui.com",
   "bugs": {
