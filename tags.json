@@ -11,121 +11,377 @@
     ]
   },
   "arrow-diagonal-one": {
-    "tags": ["arrow", "diagonal", "direction", "pointer", "navigate"]
+    "tags": [
+      "arrow",
+      "diagonal",
+      "direction",
+      "pointer",
+      "navigate"
+    ]
   },
   "arrow-diagonal-two": {
-    "tags": ["arrow", "diagonal", "direction", "pointer", "navigate"]
+    "tags": [
+      "arrow",
+      "diagonal",
+      "direction",
+      "pointer",
+      "navigate"
+    ]
   },
   "arrow-down-circle": {
-    "tags": ["arrow", "down", "circle", "direction", "pointer"]
+    "tags": [
+      "arrow",
+      "down",
+      "circle",
+      "direction",
+      "pointer"
+    ]
   },
   "arrow-down-left-circle": {
-    "tags": ["arrow", "down", "left", "circle", "direction"]
+    "tags": [
+      "arrow",
+      "down",
+      "left",
+      "circle",
+      "direction"
+    ]
   },
   "arrow-down-left-square": {
-    "tags": ["arrow", "down", "left", "square", "direction"]
+    "tags": [
+      "arrow",
+      "down",
+      "left",
+      "square",
+      "direction"
+    ]
   },
   "arrow-down-left-waves": {
-    "tags": ["arrow", "down", "left", "waves", "direction"]
+    "tags": [
+      "arrow",
+      "down",
+      "left",
+      "waves",
+      "direction"
+    ]
   },
   "arrow-down-left": {
-    "tags": ["arrow", "down", "left", "direction", "pointer"]
+    "tags": [
+      "arrow",
+      "down",
+      "left",
+      "direction",
+      "pointer"
+    ]
   },
   "arrow-down-right-circle": {
-    "tags": ["arrow", "down", "right", "circle", "direction"]
+    "tags": [
+      "arrow",
+      "down",
+      "right",
+      "circle",
+      "direction"
+    ]
   },
   "arrow-down-right-square": {
-    "tags": ["arrow", "down", "right", "square", "direction"]
+    "tags": [
+      "arrow",
+      "down",
+      "right",
+      "square",
+      "direction"
+    ]
   },
   "arrow-down-right-waves": {
-    "tags": ["arrow", "down", "right", "waves", "direction"]
+    "tags": [
+      "arrow",
+      "down",
+      "right",
+      "waves",
+      "direction"
+    ]
   },
   "arrow-down-right": {
-    "tags": ["arrow", "down", "right", "direction", "pointer"]
+    "tags": [
+      "arrow",
+      "down",
+      "right",
+      "direction",
+      "pointer"
+    ]
   },
   "arrow-down-square": {
-    "tags": ["arrow", "down", "square", "direction", "pointer"]
+    "tags": [
+      "arrow",
+      "down",
+      "square",
+      "direction",
+      "pointer"
+    ]
   },
   "arrow-down-waves": {
-    "tags": ["arrow", "down", "waves", "direction", "pointer"]
+    "tags": [
+      "arrow",
+      "down",
+      "waves",
+      "direction",
+      "pointer"
+    ]
   },
   "arrow-down": {
-    "tags": ["arrow", "down", "direction", "pointer", "navigate"]
+    "tags": [
+      "arrow",
+      "down",
+      "direction",
+      "pointer",
+      "navigate"
+    ]
   },
   "arrow-left-circle": {
-    "tags": ["arrow", "left", "circle", "direction", "pointer"]
+    "tags": [
+      "arrow",
+      "left",
+      "circle",
+      "direction",
+      "pointer"
+    ]
   },
   "arrow-left-right": {
-    "tags": ["arrow", "left", "right", "direction", "pointer"]
+    "tags": [
+      "arrow",
+      "left",
+      "right",
+      "direction",
+      "pointer"
+    ]
   },
   "arrow-left-square": {
-    "tags": ["arrow", "left", "square", "direction", "pointer"]
+    "tags": [
+      "arrow",
+      "left",
+      "square",
+      "direction",
+      "pointer"
+    ]
   },
   "arrow-left-waves": {
-    "tags": ["arrow", "left", "waves", "direction", "pointer"]
+    "tags": [
+      "arrow",
+      "left",
+      "waves",
+      "direction",
+      "pointer"
+    ]
   },
   "arrow-left": {
-    "tags": ["arrow", "left", "direction", "pointer", "navigate"]
+    "tags": [
+      "arrow",
+      "left",
+      "direction",
+      "pointer",
+      "navigate"
+    ]
   },
   "arrow-right-circle": {
-    "tags": ["arrow", "right", "circle", "direction", "pointer"]
+    "tags": [
+      "arrow",
+      "right",
+      "circle",
+      "direction",
+      "pointer"
+    ]
   },
   "arrow-right-square": {
-    "tags": ["arrow", "right", "square", "direction", "pointer"]
+    "tags": [
+      "arrow",
+      "right",
+      "square",
+      "direction",
+      "pointer"
+    ]
   },
   "arrow-right-waves": {
-    "tags": ["arrow", "right", "waves", "direction", "pointer"]
+    "tags": [
+      "arrow",
+      "right",
+      "waves",
+      "direction",
+      "pointer"
+    ]
   },
   "arrow-right": {
-    "tags": ["arrow", "right", "direction", "pointer", "navigate"]
+    "tags": [
+      "arrow",
+      "right",
+      "direction",
+      "pointer",
+      "navigate"
+    ]
   },
   "arrow-up-circle": {
-    "tags": ["arrow", "up", "circle", "direction", "pointer"]
+    "tags": [
+      "arrow",
+      "up",
+      "circle",
+      "direction",
+      "pointer"
+    ]
   },
   "arrow-up-down": {
-    "tags": ["arrow", "up", "down", "direction", "pointer"]
+    "tags": [
+      "arrow",
+      "up",
+      "down",
+      "direction",
+      "pointer"
+    ]
   },
   "arrow-up-left-circle": {
-    "tags": ["arrow", "up", "left", "circle", "direction"]
+    "tags": [
+      "arrow",
+      "up",
+      "left",
+      "circle",
+      "direction"
+    ]
   },
   "arrow-up-left-square": {
-    "tags": ["arrow", "up", "left", "square", "direction"]
+    "tags": [
+      "arrow",
+      "up",
+      "left",
+      "square",
+      "direction"
+    ]
   },
   "arrow-up-left-waves": {
-    "tags": ["arrow", "up", "left", "waves", "direction"]
+    "tags": [
+      "arrow",
+      "up",
+      "left",
+      "waves",
+      "direction"
+    ]
   },
   "arrow-up-left": {
-    "tags": ["arrow", "up", "left", "direction", "pointer"]
+    "tags": [
+      "arrow",
+      "up",
+      "left",
+      "direction",
+      "pointer"
+    ]
   },
   "arrow-up-right-circle": {
-    "tags": ["arrow", "up", "right", "circle", "direction"]
+    "tags": [
+      "arrow",
+      "up",
+      "right",
+      "circle",
+      "direction"
+    ]
   },
   "arrow-up-right-square": {
-    "tags": ["arrow", "up", "right", "square", "direction"]
+    "tags": [
+      "arrow",
+      "up",
+      "right",
+      "square",
+      "direction"
+    ]
   },
   "arrow-up-right-waves": {
-    "tags": ["arrow", "up", "right", "waves", "direction"]
+    "tags": [
+      "arrow",
+      "up",
+      "right",
+      "waves",
+      "direction"
+    ]
   },
   "arrow-up-right": {
-    "tags": ["arrow", "up", "right", "direction", "pointer"]
+    "tags": [
+      "arrow",
+      "up",
+      "right",
+      "direction",
+      "pointer"
+    ]
   },
   "arrow-up-square": {
-    "tags": ["arrow", "up", "square", "direction", "pointer"]
+    "tags": [
+      "arrow",
+      "up",
+      "square",
+      "direction",
+      "pointer"
+    ]
   },
   "arrow-up-waves": {
-    "tags": ["arrow", "up", "waves", "direction", "pointer"]
+    "tags": [
+      "arrow",
+      "up",
+      "waves",
+      "direction",
+      "pointer"
+    ]
   },
   "arrow-up": {
-    "tags": ["arrow", "up", "direction", "pointer", "navigate"]
+    "tags": [
+      "arrow",
+      "up",
+      "direction",
+      "pointer",
+      "navigate"
+    ]
   },
   "at": {
-    "tags": ["at", "email", "communication", "symbol", "contact"]
+    "tags": [
+      "at",
+      "email",
+      "communication",
+      "symbol",
+      "contact"
+    ]
   },
   "bell": {
-    "tags": ["bell", "notification", "alarm", "alert", "reminder"]
+    "tags": [
+      "bell",
+      "notification",
+      "alarm",
+      "alert",
+      "reminder"
+    ]
   },
   "bookmark": {
-    "tags": ["bookmark", "favorite", "save", "tag", "web"]
+    "tags": [
+      "bookmark",
+      "favorite",
+      "save",
+      "tag",
+      "web"
+    ]
+  },
+  "brightness-high": {
+    "tags": [
+      "brightness",
+      "high",
+      "light",
+      "sun",
+      "daytime",
+      "glow",
+      "radiance"
+    ]
+  },
+  "brightness-low": {
+    "tags": [
+      "brightness",
+      "low",
+      "dark",
+      "night",
+      "dusk",
+      "dim",
+      "gloomy"
+    ]
   },
   "calendar-check": {
     "tags": [
@@ -138,28 +394,77 @@
     ]
   },
   "calendar-down": {
-    "tags": ["calendar", "down", "download", "import", "get"]
+    "tags": [
+      "calendar",
+      "down",
+      "download",
+      "import",
+      "get"
+    ]
   },
   "calendar-minus": {
-    "tags": ["calendar", "minus", "remove", "delete", "subtract"]
+    "tags": [
+      "calendar",
+      "minus",
+      "remove",
+      "delete",
+      "subtract"
+    ]
   },
   "calendar-plus": {
-    "tags": ["calendar", "plus", "add", "create", "insert"]
+    "tags": [
+      "calendar",
+      "plus",
+      "add",
+      "create",
+      "insert"
+    ]
   },
   "calendar-slash": {
-    "tags": ["calendar", "slash", "cancel", "delete", "remove", "no"]
+    "tags": [
+      "calendar",
+      "slash",
+      "cancel",
+      "delete",
+      "remove",
+      "no"
+    ]
   },
   "calendar-up": {
-    "tags": ["calendar", "up", "upload", "export", "send"]
+    "tags": [
+      "calendar",
+      "up",
+      "upload",
+      "export",
+      "send"
+    ]
   },
   "calendar-x": {
-    "tags": ["calendar", "x", "delete", "remove", "cancel"]
+    "tags": [
+      "calendar",
+      "x",
+      "delete",
+      "remove",
+      "cancel"
+    ]
   },
   "calendar": {
-    "tags": ["calendar", "date", "time", "schedule", "event"]
+    "tags": [
+      "calendar",
+      "date",
+      "time",
+      "schedule",
+      "event"
+    ]
   },
   "campfire": {
-    "tags": ["campfire", "fire", "outdoors", "nature", "flame"]
+    "tags": [
+      "campfire",
+      "fire",
+      "outdoors",
+      "nature",
+      "flame"
+    ]
   },
   "chart-bar": {
     "tags": [
@@ -184,154 +489,454 @@
     ]
   },
   "check-circle": {
-    "tags": ["check", "circle", "tick", "approve", "confirm"]
+    "tags": [
+      "check",
+      "circle",
+      "tick",
+      "approve",
+      "confirm"
+    ]
   },
   "check-square": {
-    "tags": ["check", "square", "tick", "approve", "confirm"]
+    "tags": [
+      "check",
+      "square",
+      "tick",
+      "approve",
+      "confirm"
+    ]
   },
   "check-waves": {
-    "tags": ["check", "waves", "tick", "approve", "confirm"]
+    "tags": [
+      "check",
+      "waves",
+      "tick",
+      "approve",
+      "confirm"
+    ]
   },
   "check": {
-    "tags": ["check", "tick", "approve", "confirm", "verified"]
+    "tags": [
+      "check",
+      "tick",
+      "approve",
+      "confirm",
+      "verified"
+    ]
   },
   "chevron-double-down-left": {
-    "tags": ["chevron", "double", "down", "left", "direction"]
+    "tags": [
+      "chevron",
+      "double",
+      "down",
+      "left",
+      "direction"
+    ]
   },
   "chevron-double-down-right": {
-    "tags": ["chevron", "double", "down", "right", "direction"]
+    "tags": [
+      "chevron",
+      "double",
+      "down",
+      "right",
+      "direction"
+    ]
   },
   "chevron-double-down": {
-    "tags": ["chevron", "double", "down", "direction", "pointer"]
+    "tags": [
+      "chevron",
+      "double",
+      "down",
+      "direction",
+      "pointer"
+    ]
   },
   "chevron-double-left": {
-    "tags": ["chevron", "double", "left", "direction", "pointer"]
+    "tags": [
+      "chevron",
+      "double",
+      "left",
+      "direction",
+      "pointer"
+    ]
   },
   "chevron-double-right": {
-    "tags": ["chevron", "double", "right", "direction", "pointer"]
+    "tags": [
+      "chevron",
+      "double",
+      "right",
+      "direction",
+      "pointer"
+    ]
   },
   "chevron-double-up-left": {
-    "tags": ["chevron", "double", "up", "left", "direction"]
+    "tags": [
+      "chevron",
+      "double",
+      "up",
+      "left",
+      "direction"
+    ]
   },
   "chevron-double-up-right": {
-    "tags": ["chevron", "double", "up", "right", "direction"]
+    "tags": [
+      "chevron",
+      "double",
+      "up",
+      "right",
+      "direction"
+    ]
   },
   "chevron-double-up": {
-    "tags": ["chevron", "double", "up", "direction", "pointer"]
+    "tags": [
+      "chevron",
+      "double",
+      "up",
+      "direction",
+      "pointer"
+    ]
   },
   "chevron-down-circle": {
-    "tags": ["chevron", "down", "circle", "direction", "pointer"]
+    "tags": [
+      "chevron",
+      "down",
+      "circle",
+      "direction",
+      "pointer"
+    ]
   },
   "chevron-down-left-circle": {
-    "tags": ["chevron", "down", "left", "circle", "direction"]
+    "tags": [
+      "chevron",
+      "down",
+      "left",
+      "circle",
+      "direction"
+    ]
   },
   "chevron-down-left-square": {
-    "tags": ["chevron", "down", "left", "square", "direction"]
+    "tags": [
+      "chevron",
+      "down",
+      "left",
+      "square",
+      "direction"
+    ]
   },
   "chevron-down-left-waves": {
-    "tags": ["chevron", "down", "left", "waves", "direction"]
+    "tags": [
+      "chevron",
+      "down",
+      "left",
+      "waves",
+      "direction"
+    ]
   },
   "chevron-down-left": {
-    "tags": ["chevron", "down", "left", "direction", "pointer"]
+    "tags": [
+      "chevron",
+      "down",
+      "left",
+      "direction",
+      "pointer"
+    ]
   },
   "chevron-down-right-circle": {
-    "tags": ["chevron", "down", "right", "circle", "direction"]
+    "tags": [
+      "chevron",
+      "down",
+      "right",
+      "circle",
+      "direction"
+    ]
   },
   "chevron-down-right-square": {
-    "tags": ["chevron", "down", "right", "square", "direction"]
+    "tags": [
+      "chevron",
+      "down",
+      "right",
+      "square",
+      "direction"
+    ]
   },
   "chevron-down-right-waves": {
-    "tags": ["chevron", "down", "right", "waves", "direction"]
+    "tags": [
+      "chevron",
+      "down",
+      "right",
+      "waves",
+      "direction"
+    ]
   },
   "chevron-down-right": {
-    "tags": ["chevron", "down", "right", "direction", "pointer"]
+    "tags": [
+      "chevron",
+      "down",
+      "right",
+      "direction",
+      "pointer"
+    ]
   },
   "chevron-down-square": {
-    "tags": ["chevron", "down", "square", "direction", "pointer"]
+    "tags": [
+      "chevron",
+      "down",
+      "square",
+      "direction",
+      "pointer"
+    ]
   },
   "chevron-down-waves": {
-    "tags": ["chevron", "down", "waves", "direction", "pointer"]
+    "tags": [
+      "chevron",
+      "down",
+      "waves",
+      "direction",
+      "pointer"
+    ]
   },
   "chevron-down": {
-    "tags": ["chevron", "down", "direction", "pointer", "navigate"]
+    "tags": [
+      "chevron",
+      "down",
+      "direction",
+      "pointer",
+      "navigate"
+    ]
   },
   "chevron-left-circle": {
-    "tags": ["chevron", "left", "circle", "direction", "pointer"]
+    "tags": [
+      "chevron",
+      "left",
+      "circle",
+      "direction",
+      "pointer"
+    ]
   },
   "chevron-left-square": {
-    "tags": ["chevron", "left", "square", "direction", "pointer"]
+    "tags": [
+      "chevron",
+      "left",
+      "square",
+      "direction",
+      "pointer"
+    ]
   },
   "chevron-left-waves": {
-    "tags": ["chevron", "left", "waves", "direction", "pointer"]
+    "tags": [
+      "chevron",
+      "left",
+      "waves",
+      "direction",
+      "pointer"
+    ]
   },
   "chevron-left": {
-    "tags": ["chevron", "left", "direction", "pointer", "navigate"]
+    "tags": [
+      "chevron",
+      "left",
+      "direction",
+      "pointer",
+      "navigate"
+    ]
   },
   "chevron-right-circle": {
-    "tags": ["chevron", "right", "circle", "direction", "pointer"]
+    "tags": [
+      "chevron",
+      "right",
+      "circle",
+      "direction",
+      "pointer"
+    ]
   },
   "chevron-right-square": {
-    "tags": ["chevron", "right", "square", "direction", "pointer"]
+    "tags": [
+      "chevron",
+      "right",
+      "square",
+      "direction",
+      "pointer"
+    ]
   },
   "chevron-right-waves": {
-    "tags": ["chevron", "right", "waves", "direction", "pointer"]
+    "tags": [
+      "chevron",
+      "right",
+      "waves",
+      "direction",
+      "pointer"
+    ]
   },
   "chevron-right": {
-    "tags": ["chevron", "right", "direction", "pointer", "navigate"]
+    "tags": [
+      "chevron",
+      "right",
+      "direction",
+      "pointer",
+      "navigate"
+    ]
   },
   "chevron-up-circle": {
-    "tags": ["chevron", "up", "circle", "direction", "pointer"]
+    "tags": [
+      "chevron",
+      "up",
+      "circle",
+      "direction",
+      "pointer"
+    ]
   },
   "chevron-up-left-circle": {
-    "tags": ["chevron", "up", "left", "circle", "direction"]
+    "tags": [
+      "chevron",
+      "up",
+      "left",
+      "circle",
+      "direction"
+    ]
   },
   "chevron-up-left-square": {
-    "tags": ["chevron", "up", "left", "square", "direction"]
+    "tags": [
+      "chevron",
+      "up",
+      "left",
+      "square",
+      "direction"
+    ]
   },
   "chevron-up-left-waves": {
-    "tags": ["chevron", "up", "left", "waves", "direction"]
+    "tags": [
+      "chevron",
+      "up",
+      "left",
+      "waves",
+      "direction"
+    ]
   },
   "chevron-up-left": {
-    "tags": ["chevron", "up", "left", "direction", "pointer"]
+    "tags": [
+      "chevron",
+      "up",
+      "left",
+      "direction",
+      "pointer"
+    ]
   },
   "chevron-up-right-circle": {
-    "tags": ["chevron", "up", "right", "circle", "direction"]
+    "tags": [
+      "chevron",
+      "up",
+      "right",
+      "circle",
+      "direction"
+    ]
   },
   "chevron-up-right-square": {
-    "tags": ["chevron", "up", "right", "square", "direction"]
+    "tags": [
+      "chevron",
+      "up",
+      "right",
+      "square",
+      "direction"
+    ]
   },
   "chevron-up-right-waves": {
-    "tags": ["chevron", "up", "right", "waves", "direction"]
+    "tags": [
+      "chevron",
+      "up",
+      "right",
+      "waves",
+      "direction"
+    ]
   },
   "chevron-up-right": {
-    "tags": ["chevron", "up", "right", "direction", "pointer"]
+    "tags": [
+      "chevron",
+      "up",
+      "right",
+      "direction",
+      "pointer"
+    ]
   },
   "chevron-up-square": {
-    "tags": ["chevron", "up", "square", "direction", "pointer"]
+    "tags": [
+      "chevron",
+      "up",
+      "square",
+      "direction",
+      "pointer"
+    ]
   },
   "chevron-up-waves": {
-    "tags": ["chevron", "up", "waves", "direction", "pointer"]
+    "tags": [
+      "chevron",
+      "up",
+      "waves",
+      "direction",
+      "pointer"
+    ]
   },
   "chevron-up": {
-    "tags": ["chevron", "up", "direction", "pointer", "navigate"]
+    "tags": [
+      "chevron",
+      "up",
+      "direction",
+      "pointer",
+      "navigate"
+    ]
   },
   "circle": {
-    "tags": ["circle", "round", "shape", "geometry", "circular"]
+    "tags": [
+      "circle",
+      "round",
+      "shape",
+      "geometry",
+      "circular"
+    ]
   },
   "clock-circle": {
-    "tags": ["clock", "circle", "time", "watch", "hour"]
+    "tags": [
+      "clock",
+      "circle",
+      "time",
+      "watch",
+      "hour"
+    ]
   },
   "clock-hand": {
-    "tags": ["clock", "hand", "time", "watch", "hour"]
+    "tags": [
+      "clock",
+      "hand",
+      "time",
+      "watch",
+      "hour"
+    ]
   },
   "clock-square": {
-    "tags": ["clock", "square", "time", "watch", "hour"]
+    "tags": [
+      "clock",
+      "square",
+      "time",
+      "watch",
+      "hour"
+    ]
   },
   "clock-waves": {
-    "tags": ["clock", "waves", "time", "watch", "hour"]
+    "tags": [
+      "clock",
+      "waves",
+      "time",
+      "watch",
+      "hour"
+    ]
   },
   "cloud-download": {
-    "tags": ["cloud", "download", "arrow", "storage", "internet"]
+    "tags": [
+      "cloud",
+      "download",
+      "arrow",
+      "storage",
+      "internet"
+    ]
   },
   "cloud-rain": {
     "tags": [
@@ -356,31 +961,85 @@
     ]
   },
   "cloud-upload": {
-    "tags": ["cloud", "upload", "arrow", "storage", "internet"]
+    "tags": [
+      "cloud",
+      "upload",
+      "arrow",
+      "storage",
+      "internet"
+    ]
   },
   "cloud": {
-    "tags": ["cloud", "storage", "weather", "internet", "data"]
+    "tags": [
+      "cloud",
+      "storage",
+      "weather",
+      "internet",
+      "data"
+    ]
   },
   "code-circle": {
-    "tags": ["code", "circle", "programming", "script", "development"]
+    "tags": [
+      "code",
+      "circle",
+      "programming",
+      "script",
+      "development"
+    ]
   },
   "code-square": {
-    "tags": ["code", "square", "programming", "script", "development"]
+    "tags": [
+      "code",
+      "square",
+      "programming",
+      "script",
+      "development"
+    ]
   },
   "code-waves": {
-    "tags": ["code", "waves", "programming", "script", "development"]
+    "tags": [
+      "code",
+      "waves",
+      "programming",
+      "script",
+      "development"
+    ]
   },
   "code": {
-    "tags": ["code", "programming", "script", "development", "coding"]
+    "tags": [
+      "code",
+      "programming",
+      "script",
+      "development",
+      "coding"
+    ]
   },
   "cog": {
-    "tags": ["cog", "gear", "settings", "options", "configuration"]
+    "tags": [
+      "cog",
+      "gear",
+      "settings",
+      "options",
+      "configuration"
+    ]
   },
   "columns": {
-    "tags": ["columns", "layout", "grid", "structure", "organization"]
+    "tags": [
+      "columns",
+      "layout",
+      "grid",
+      "structure",
+      "organization"
+    ]
   },
   "command": {
-    "tags": ["command", "prompt", "line", "terminal", "console"]
+    "tags": [
+      "command",
+      "prompt",
+      "line",
+      "terminal",
+      "console"
+    ]
   },
   "compass": {
     "tags": [
@@ -416,52 +1075,148 @@
     ]
   },
   "controller": {
-    "tags": ["controller", "game", "gaming", "play", "joystick"]
+    "tags": [
+      "controller",
+      "game",
+      "gaming",
+      "play",
+      "joystick"
+    ]
   },
   "copy": {
-    "tags": ["copy", "clipboard", "duplicate", "paste", "text"]
+    "tags": [
+      "copy",
+      "clipboard",
+      "duplicate",
+      "paste",
+      "text"
+    ]
   },
   "corner-down-left": {
-    "tags": ["corner", "down", "left", "direction", "pointer"]
+    "tags": [
+      "corner",
+      "down",
+      "left",
+      "direction",
+      "pointer"
+    ]
   },
   "corner-down-right": {
-    "tags": ["corner", "down", "right", "direction", "pointer"]
+    "tags": [
+      "corner",
+      "down",
+      "right",
+      "direction",
+      "pointer"
+    ]
   },
   "corner-left-down": {
-    "tags": ["corner", "left", "down", "direction", "pointer"]
+    "tags": [
+      "corner",
+      "left",
+      "down",
+      "direction",
+      "pointer"
+    ]
   },
   "corner-left-up": {
-    "tags": ["corner", "left", "up", "direction", "pointer"]
+    "tags": [
+      "corner",
+      "left",
+      "up",
+      "direction",
+      "pointer"
+    ]
   },
   "corner-right-down": {
-    "tags": ["corner", "right", "down", "direction", "pointer"]
+    "tags": [
+      "corner",
+      "right",
+      "down",
+      "direction",
+      "pointer"
+    ]
   },
   "corner-right-up": {
-    "tags": ["corner", "right", "up", "direction", "pointer"]
+    "tags": [
+      "corner",
+      "right",
+      "up",
+      "direction",
+      "pointer"
+    ]
   },
   "corner-up-left": {
-    "tags": ["corner", "up", "left", "direction", "pointer"]
+    "tags": [
+      "corner",
+      "up",
+      "left",
+      "direction",
+      "pointer"
+    ]
   },
   "corner-up-right": {
-    "tags": ["corner", "up", "right", "direction", "pointer"]
+    "tags": [
+      "corner",
+      "up",
+      "right",
+      "direction",
+      "pointer"
+    ]
   },
   "danger-circle": {
-    "tags": ["danger", "circle", "warning", "caution", "hazard"]
+    "tags": [
+      "danger",
+      "circle",
+      "warning",
+      "caution",
+      "hazard"
+    ]
   },
   "danger-square": {
-    "tags": ["danger", "square", "warning", "caution", "hazard"]
+    "tags": [
+      "danger",
+      "square",
+      "warning",
+      "caution",
+      "hazard"
+    ]
   },
   "danger-waves": {
-    "tags": ["danger", "waves", "warning", "caution", "hazard"]
+    "tags": [
+      "danger",
+      "waves",
+      "warning",
+      "caution",
+      "hazard"
+    ]
   },
   "danger": {
-    "tags": ["danger", "warning", "caution", "hazard", "alert"]
+    "tags": [
+      "danger",
+      "warning",
+      "caution",
+      "hazard",
+      "alert"
+    ]
   },
   "database": {
-    "tags": ["database", "data", "storage", "information", "server"]
+    "tags": [
+      "database",
+      "data",
+      "storage",
+      "information",
+      "server"
+    ]
   },
   "delete": {
-    "tags": ["delete", "trash", "remove", "bin", "discard"]
+    "tags": [
+      "delete",
+      "trash",
+      "remove",
+      "bin",
+      "discard"
+    ]
   },
   "dislike": {
     "tags": [
@@ -475,34 +1230,94 @@
     ]
   },
   "dots-circle": {
-    "tags": ["dots", "circle", "more", "menu", "options"]
+    "tags": [
+      "dots",
+      "circle",
+      "more",
+      "menu",
+      "options"
+    ]
   },
   "dots-square": {
-    "tags": ["dots", "square", "more", "menu", "options"]
+    "tags": [
+      "dots",
+      "square",
+      "more",
+      "menu",
+      "options"
+    ]
   },
   "dots-vertical-circle": {
-    "tags": ["dots", "vertical", "circle", "more", "menu"]
+    "tags": [
+      "dots",
+      "vertical",
+      "circle",
+      "more",
+      "menu"
+    ]
   },
   "dots-vertical-square": {
-    "tags": ["dots", "vertical", "square", "more", "menu"]
+    "tags": [
+      "dots",
+      "vertical",
+      "square",
+      "more",
+      "menu"
+    ]
   },
   "dots-vertical-waves": {
-    "tags": ["dots", "vertical", "waves", "more", "menu"]
+    "tags": [
+      "dots",
+      "vertical",
+      "waves",
+      "more",
+      "menu"
+    ]
   },
   "dots-vertical": {
-    "tags": ["dots", "vertical", "more", "menu", "options"]
+    "tags": [
+      "dots",
+      "vertical",
+      "more",
+      "menu",
+      "options"
+    ]
   },
   "dots-waves": {
-    "tags": ["dots", "waves", "more", "menu", "options"]
+    "tags": [
+      "dots",
+      "waves",
+      "more",
+      "menu",
+      "options"
+    ]
   },
   "dots": {
-    "tags": ["dots", "more", "menu", "options", "ellipsis"]
+    "tags": [
+      "dots",
+      "more",
+      "menu",
+      "options",
+      "ellipsis"
+    ]
   },
   "download": {
-    "tags": ["download", "arrow", "save", "get", "retrieve"]
+    "tags": [
+      "download",
+      "arrow",
+      "save",
+      "get",
+      "retrieve"
+    ]
   },
   "edit": {
-    "tags": ["edit", "pencil", "modify", "change", "update"]
+    "tags": [
+      "edit",
+      "pencil",
+      "modify",
+      "change",
+      "update"
+    ]
   },
   "emoji-daze": {
     "tags": [
@@ -571,22 +1386,58 @@
     ]
   },
   "file-minus": {
-    "tags": ["file", "minus", "remove", "delete", "document"]
+    "tags": [
+      "file",
+      "minus",
+      "remove",
+      "delete",
+      "document"
+    ]
   },
   "file-plus": {
-    "tags": ["file", "plus", "add", "create", "document"]
+    "tags": [
+      "file",
+      "plus",
+      "add",
+      "create",
+      "document"
+    ]
   },
   "file-text": {
-    "tags": ["file", "text", "document", "paper", "note"]
+    "tags": [
+      "file",
+      "text",
+      "document",
+      "paper",
+      "note"
+    ]
   },
   "file": {
-    "tags": ["file", "document", "paper", "note", "data"]
+    "tags": [
+      "file",
+      "document",
+      "paper",
+      "note",
+      "data"
+    ]
   },
   "filter-one": {
-    "tags": ["filter", "one", "single", "options", "sort"]
+    "tags": [
+      "filter",
+      "one",
+      "single",
+      "options",
+      "sort"
+    ]
   },
   "filter": {
-    "tags": ["filter", "options", "sort", "search", "refine"]
+    "tags": [
+      "filter",
+      "options",
+      "sort",
+      "search",
+      "refine"
+    ]
   },
   "fine-tune": {
     "tags": [
@@ -600,49 +1451,141 @@
     ]
   },
   "fire": {
-    "tags": ["fire", "flame", "burn", "heat", "hot"]
+    "tags": [
+      "fire",
+      "flame",
+      "burn",
+      "heat",
+      "hot"
+    ]
   },
   "flag": {
-    "tags": ["flag", "mark", "symbol", "nation", "country"]
+    "tags": [
+      "flag",
+      "mark",
+      "symbol",
+      "nation",
+      "country"
+    ]
   },
   "folder-check": {
-    "tags": ["folder", "check", "approve", "confirm", "verified"]
+    "tags": [
+      "folder",
+      "check",
+      "approve",
+      "confirm",
+      "verified"
+    ]
   },
   "folder-heart": {
-    "tags": ["folder", "heart", "favorite", "love", "like"]
+    "tags": [
+      "folder",
+      "heart",
+      "favorite",
+      "love",
+      "like"
+    ]
   },
   "folder-minus": {
-    "tags": ["folder", "minus", "remove", "delete", "directory"]
+    "tags": [
+      "folder",
+      "minus",
+      "remove",
+      "delete",
+      "directory"
+    ]
   },
   "folder-one": {
-    "tags": ["folder", "one", "single", "directory", "file"]
+    "tags": [
+      "folder",
+      "one",
+      "single",
+      "directory",
+      "file"
+    ]
   },
   "folder-plus": {
-    "tags": ["folder", "plus", "add", "create", "directory"]
+    "tags": [
+      "folder",
+      "plus",
+      "add",
+      "create",
+      "directory"
+    ]
   },
   "folder-slash": {
-    "tags": ["folder", "slash", "directory", "cut", "remove", "exclude", "omit"]
+    "tags": [
+      "folder",
+      "slash",
+      "directory",
+      "cut",
+      "remove",
+      "exclude",
+      "omit"
+    ]
   },
   "folder-two": {
-    "tags": ["folder", "two", "double", "directory", "file"]
+    "tags": [
+      "folder",
+      "two",
+      "double",
+      "directory",
+      "file"
+    ]
   },
   "folder-x": {
-    "tags": ["folder", "x", "cross", "delete", "remove"]
+    "tags": [
+      "folder",
+      "x",
+      "cross",
+      "delete",
+      "remove"
+    ]
   },
   "folder": {
-    "tags": ["folder", "directory", "file", "archive", "storage"]
+    "tags": [
+      "folder",
+      "directory",
+      "file",
+      "archive",
+      "storage"
+    ]
   },
   "forward-circle": {
-    "tags": ["forward", "circle", "arrow", "direction", "pointer"]
+    "tags": [
+      "forward",
+      "circle",
+      "arrow",
+      "direction",
+      "pointer"
+    ]
   },
   "forward-square": {
-    "tags": ["forward", "square", "arrow", "direction", "pointer"]
+    "tags": [
+      "forward",
+      "square",
+      "arrow",
+      "direction",
+      "pointer"
+    ]
   },
   "forward-waves": {
-    "tags": ["forward", "waves", "arrow", "direction", "pointer"]
+    "tags": [
+      "forward",
+      "waves",
+      "arrow",
+      "direction",
+      "pointer"
+    ]
   },
   "forward": {
-    "tags": ["forward", "arrow", "direction", "pointer", "navigate"]
+    "tags": [
+      "forward",
+      "arrow",
+      "direction",
+      "pointer",
+      "navigate"
+    ]
   },
   "ghost-daze": {
     "tags": [
@@ -700,52 +1643,148 @@
     ]
   },
   "globe": {
-    "tags": ["globe", "world", "earth", "planet", "global"]
+    "tags": [
+      "globe",
+      "world",
+      "earth",
+      "planet",
+      "global"
+    ]
   },
   "grid": {
-    "tags": ["grid", "layout", "structure", "table", "pattern"]
+    "tags": [
+      "grid",
+      "layout",
+      "structure",
+      "table",
+      "pattern"
+    ]
   },
   "hash-circle": {
-    "tags": ["hash", "circle", "tag", "label", "symbol"]
+    "tags": [
+      "hash",
+      "circle",
+      "tag",
+      "label",
+      "symbol"
+    ]
   },
   "hash-square": {
-    "tags": ["hash", "square", "tag", "label", "symbol"]
+    "tags": [
+      "hash",
+      "square",
+      "tag",
+      "label",
+      "symbol"
+    ]
   },
   "hash-waves": {
-    "tags": ["hash", "waves", "tag", "label", "symbol"]
+    "tags": [
+      "hash",
+      "waves",
+      "tag",
+      "label",
+      "symbol"
+    ]
   },
   "hash": {
-    "tags": ["hash", "tag", "label", "symbol", "identifier"]
+    "tags": [
+      "hash",
+      "tag",
+      "label",
+      "symbol",
+      "identifier"
+    ]
   },
   "heading-one": {
-    "tags": ["heading", "one", "title", "header", "text"]
+    "tags": [
+      "heading",
+      "one",
+      "title",
+      "header",
+      "text"
+    ]
   },
   "heading-three": {
-    "tags": ["heading", "three", "title", "header", "text"]
+    "tags": [
+      "heading",
+      "three",
+      "title",
+      "header",
+      "text"
+    ]
   },
   "heading-two": {
-    "tags": ["heading", "two", "title", "header", "text"]
+    "tags": [
+      "heading",
+      "two",
+      "title",
+      "header",
+      "text"
+    ]
   },
   "heading": {
-    "tags": ["heading", "title", "header", "text", "headline"]
+    "tags": [
+      "heading",
+      "title",
+      "header",
+      "text",
+      "headline"
+    ]
   },
   "heart-circle": {
-    "tags": ["heart", "circle", "love", "like", "romance"]
+    "tags": [
+      "heart",
+      "circle",
+      "love",
+      "like",
+      "romance"
+    ]
   },
   "heart-square": {
-    "tags": ["heart", "square", "love", "like", "romance"]
+    "tags": [
+      "heart",
+      "square",
+      "love",
+      "like",
+      "romance"
+    ]
   },
   "heart-waves": {
-    "tags": ["heart", "waves", "love", "like", "romance"]
+    "tags": [
+      "heart",
+      "waves",
+      "love",
+      "like",
+      "romance"
+    ]
   },
   "heart": {
-    "tags": ["heart", "love", "like", "romance", "affection"]
+    "tags": [
+      "heart",
+      "love",
+      "like",
+      "romance",
+      "affection"
+    ]
   },
   "hexagon": {
-    "tags": ["hexagon", "shape", "geometry", "six", "sides"]
+    "tags": [
+      "hexagon",
+      "shape",
+      "geometry",
+      "six",
+      "sides"
+    ]
   },
   "home": {
-    "tags": ["home", "house", "residence", "dwelling", "property"]
+    "tags": [
+      "home",
+      "house",
+      "residence",
+      "dwelling",
+      "property"
+    ]
   },
   "image-circle": {
     "tags": [
@@ -781,22 +1820,82 @@
     ]
   },
   "inbox": {
-    "tags": ["inbox", "mail", "message", "email", "communication"]
+    "tags": [
+      "inbox",
+      "mail",
+      "message",
+      "email",
+      "communication"
+    ]
   },
   "info-circle": {
-    "tags": ["info", "circle", "information", "i", "details"]
+    "tags": [
+      "info",
+      "circle",
+      "information",
+      "i",
+      "details"
+    ]
   },
   "info-square": {
-    "tags": ["info", "square", "information", "i", "details"]
+    "tags": [
+      "info",
+      "square",
+      "information",
+      "i",
+      "details"
+    ]
   },
   "info-waves": {
-    "tags": ["info", "waves", "information", "i", "details"]
+    "tags": [
+      "info",
+      "waves",
+      "information",
+      "i",
+      "details"
+    ]
   },
   "info": {
-    "tags": ["info", "information", "i", "details", "help"]
+    "tags": [
+      "info",
+      "information",
+      "i",
+      "details",
+      "help"
+    ]
+  },
+  "keyboard-brightness-high": {
+    "tags": [
+      "keyboard",
+      "brightness",
+      "high",
+      "backlit",
+      "illumination",
+      "glow",
+      "radiance"
+    ]
+  },
+  "keyboard-brightness-low": {
+    "tags": [
+      "keyboard",
+      "brightness",
+      "low",
+      "backlit",
+      "illumination",
+      "dim",
+      "gloomy"
+    ]
   },
   "keyboard": {
-    "tags": ["keyboard", "typing", "input", "computer", "key", "text", "type"]
+    "tags": [
+      "keyboard",
+      "typing",
+      "input",
+      "computer",
+      "key",
+      "text",
+      "type"
+    ]
   },
   "label": {
     "tags": [
@@ -832,7 +1931,15 @@
     ]
   },
   "link": {
-    "tags": ["link", "connect", "chain", "URL", "hyperlink", "web", "internet"]
+    "tags": [
+      "link",
+      "connect",
+      "chain",
+      "URL",
+      "hyperlink",
+      "web",
+      "internet"
+    ]
   },
   "list": {
     "tags": [
@@ -868,10 +1975,26 @@
     ]
   },
   "lock-open-keyhole": {
-    "tags": ["lock", "open", "keyhole", "unlock", "access", "entry", "release"]
+    "tags": [
+      "lock",
+      "open",
+      "keyhole",
+      "unlock",
+      "access",
+      "entry",
+      "release"
+    ]
   },
   "lock-open": {
-    "tags": ["lock", "open", "unlock", "access", "entry", "release", "free"]
+    "tags": [
+      "lock",
+      "open",
+      "unlock",
+      "access",
+      "entry",
+      "release",
+      "free"
+    ]
   },
   "lock": {
     "tags": [
@@ -896,7 +2019,15 @@
     ]
   },
   "logout": {
-    "tags": ["logout", "exit", "sign", "leave", "log off", "quit", "disconnect"]
+    "tags": [
+      "logout",
+      "exit",
+      "sign",
+      "leave",
+      "log off",
+      "quit",
+      "disconnect"
+    ]
   },
   "math": {
     "tags": [
@@ -1020,7 +2151,15 @@
     ]
   },
   "moon": {
-    "tags": ["moon", "night", "lunar", "space", "celestial", "sky", "astronomy"]
+    "tags": [
+      "moon",
+      "night",
+      "lunar",
+      "space",
+      "celestial",
+      "sky",
+      "astronomy"
+    ]
   },
   "move": {
     "tags": [
@@ -1122,7 +2261,15 @@
     ]
   },
   "octagon-x": {
-    "tags": ["octagon", "x", "close", "cancel", "delete", "remove", "terminate"]
+    "tags": [
+      "octagon",
+      "x",
+      "close",
+      "cancel",
+      "delete",
+      "remove",
+      "terminate"
+    ]
   },
   "octagon": {
     "tags": [
@@ -1136,16 +2283,48 @@
     ]
   },
   "pause-circle": {
-    "tags": ["pause", "circle", "audio", "music", "stop", "halt", "silence"]
+    "tags": [
+      "pause",
+      "circle",
+      "audio",
+      "music",
+      "stop",
+      "halt",
+      "silence"
+    ]
   },
   "pause-square": {
-    "tags": ["pause", "square", "audio", "music", "stop", "halt", "silence"]
+    "tags": [
+      "pause",
+      "square",
+      "audio",
+      "music",
+      "stop",
+      "halt",
+      "silence"
+    ]
   },
   "pause-waves": {
-    "tags": ["pause", "waves", "audio", "music", "stop", "halt", "silence"]
+    "tags": [
+      "pause",
+      "waves",
+      "audio",
+      "music",
+      "stop",
+      "halt",
+      "silence"
+    ]
   },
   "pause": {
-    "tags": ["pause", "audio", "music", "stop", "halt", "silence", "break"]
+    "tags": [
+      "pause",
+      "audio",
+      "music",
+      "stop",
+      "halt",
+      "silence",
+      "break"
+    ]
   },
   "percentage-circle": {
     "tags": [
@@ -1192,28 +2371,92 @@
     ]
   },
   "play-circle": {
-    "tags": ["play", "circle", "audio", "music", "start", "begin", "playback"]
+    "tags": [
+      "play",
+      "circle",
+      "audio",
+      "music",
+      "start",
+      "begin",
+      "playback"
+    ]
   },
   "play-square": {
-    "tags": ["play", "square", "audio", "music", "start", "begin", "playback"]
+    "tags": [
+      "play",
+      "square",
+      "audio",
+      "music",
+      "start",
+      "begin",
+      "playback"
+    ]
   },
   "play-waves": {
-    "tags": ["play", "waves", "audio", "music", "start", "begin", "playback"]
+    "tags": [
+      "play",
+      "waves",
+      "audio",
+      "music",
+      "start",
+      "begin",
+      "playback"
+    ]
   },
   "play": {
-    "tags": ["play", "audio", "music", "start", "begin", "playback", "commence"]
+    "tags": [
+      "play",
+      "audio",
+      "music",
+      "start",
+      "begin",
+      "playback",
+      "commence"
+    ]
   },
   "plus-circle": {
-    "tags": ["plus", "circle", "add", "create", "expand", "increase", "sum"]
+    "tags": [
+      "plus",
+      "circle",
+      "add",
+      "create",
+      "expand",
+      "increase",
+      "sum"
+    ]
   },
   "plus-square": {
-    "tags": ["plus", "square", "add", "create", "expand", "increase", "sum"]
+    "tags": [
+      "plus",
+      "square",
+      "add",
+      "create",
+      "expand",
+      "increase",
+      "sum"
+    ]
   },
   "plus-waves": {
-    "tags": ["plus", "waves", "add", "create", "expand", "increase", "sum"]
+    "tags": [
+      "plus",
+      "waves",
+      "add",
+      "create",
+      "expand",
+      "increase",
+      "sum"
+    ]
   },
   "plus": {
-    "tags": ["plus", "add", "create", "expand", "sum", "increase", "positive"]
+    "tags": [
+      "plus",
+      "add",
+      "create",
+      "expand",
+      "sum",
+      "increase",
+      "positive"
+    ]
   },
   "question-circle": {
     "tags": [
@@ -1268,6 +2511,17 @@
       "button",
       "select",
       "pick"
+    ]
+  },
+  "record": {
+    "tags": [
+      "record",
+      "audio",
+      "music",
+      "sound",
+      "voice",
+      "recording",
+      "microphone"
     ]
   },
   "rewind-circle": {
@@ -1337,7 +2591,15 @@
     ]
   },
   "search-plus": {
-    "tags": ["search", "plus", "find", "query", "add", "include", "expand"]
+    "tags": [
+      "search",
+      "plus",
+      "find",
+      "query",
+      "add",
+      "include",
+      "expand"
+    ]
   },
   "search-slash": {
     "tags": [
@@ -1351,7 +2613,15 @@
     ]
   },
   "search": {
-    "tags": ["search", "find", "magnifying", "zoom", "lookup", "query", "hunt"]
+    "tags": [
+      "search",
+      "find",
+      "magnifying",
+      "zoom",
+      "lookup",
+      "query",
+      "hunt"
+    ]
   },
   "share": {
     "tags": [
@@ -1376,13 +2646,33 @@
     ]
   },
   "shield-crossed": {
-    "tags": ["shield", "crossed", "secure", "protect", "safety"]
+    "tags": [
+      "shield",
+      "crossed",
+      "secure",
+      "protect",
+      "safety"
+    ]
   },
   "shield-minus": {
-    "tags": ["shield", "minus", "secure", "protect", "safety", "loss", "weaken"]
+    "tags": [
+      "shield",
+      "minus",
+      "secure",
+      "protect",
+      "safety",
+      "loss",
+      "weaken"
+    ]
   },
   "shield-one": {
-    "tags": ["shield", "one", "secure", "protect", "safety"]
+    "tags": [
+      "shield",
+      "one",
+      "secure",
+      "protect",
+      "safety"
+    ]
   },
   "shield-plus": {
     "tags": [
@@ -1396,13 +2686,31 @@
     ]
   },
   "shield-slash": {
-    "tags": ["shield", "slash", "secure", "protect", "safety"]
+    "tags": [
+      "shield",
+      "slash",
+      "secure",
+      "protect",
+      "safety"
+    ]
   },
   "shield-two": {
-    "tags": ["shield", "two", "secure", "protect", "safety"]
+    "tags": [
+      "shield",
+      "two",
+      "secure",
+      "protect",
+      "safety"
+    ]
   },
   "shield-x": {
-    "tags": ["shield", "x", "secure", "protect", "safety"]
+    "tags": [
+      "shield",
+      "x",
+      "secure",
+      "protect",
+      "safety"
+    ]
   },
   "shield": {
     "tags": [
@@ -1559,19 +2867,59 @@
     ]
   },
   "stop-circle": {
-    "tags": ["stop", "circle", "audio", "music", "halt", "end", "pause"]
+    "tags": [
+      "stop",
+      "circle",
+      "audio",
+      "music",
+      "halt",
+      "end",
+      "pause"
+    ]
   },
   "stop-square": {
-    "tags": ["stop", "square", "audio", "music", "halt", "end", "pause"]
+    "tags": [
+      "stop",
+      "square",
+      "audio",
+      "music",
+      "halt",
+      "end",
+      "pause"
+    ]
   },
   "stop-waves": {
-    "tags": ["stop", "waves", "audio", "music", "halt", "end", "pause"]
+    "tags": [
+      "stop",
+      "waves",
+      "audio",
+      "music",
+      "halt",
+      "end",
+      "pause"
+    ]
   },
   "stop": {
-    "tags": ["stop", "audio", "music", "halt", "end", "pause", "terminate"]
+    "tags": [
+      "stop",
+      "audio",
+      "music",
+      "halt",
+      "end",
+      "pause",
+      "terminate"
+    ]
   },
   "sun": {
-    "tags": ["sun", "day", "solar", "sky", "celestial", "star", "light"]
+    "tags": [
+      "sun",
+      "day",
+      "solar",
+      "sky",
+      "celestial",
+      "star",
+      "light"
+    ]
   },
   "support": {
     "tags": [
@@ -1607,7 +2955,15 @@
     ]
   },
   "tag-plus": {
-    "tags": ["tag", "plus", "add", "create", "expand", "increase", "extra"]
+    "tags": [
+      "tag",
+      "plus",
+      "add",
+      "create",
+      "expand",
+      "increase",
+      "extra"
+    ]
   },
   "tag": {
     "tags": [
@@ -1631,6 +2987,61 @@
       "purpose"
     ]
   },
+  "telephone-call": {
+    "tags": [
+      "telephone",
+      "call",
+      "phone",
+      "communication",
+      "ringing",
+      "dialing",
+      "conversation"
+    ]
+  },
+  "telephone-forward": {
+    "tags": [
+      "telephone",
+      "forward",
+      "phone",
+      "communication",
+      "transfer",
+      "redirect",
+      "call"
+    ]
+  },
+  "telephone-in": {
+    "tags": [
+      "telephone",
+      "in",
+      "phone",
+      "communication",
+      "incoming",
+      "call",
+      "ringing"
+    ]
+  },
+  "telephone-missed": {
+    "tags": [
+      "telephone",
+      "missed",
+      "phone",
+      "communication",
+      "call",
+      "unanswered",
+      "ringing"
+    ]
+  },
+  "telephone-out": {
+    "tags": [
+      "telephone",
+      "out",
+      "phone",
+      "communication",
+      "outgoing",
+      "call",
+      "dialing"
+    ]
+  },
   "telephone-slash": {
     "tags": [
       "telephone",
@@ -1644,7 +3055,14 @@
     ]
   },
   "telephone": {
-    "tags": ["telephone", "phone", "call", "communication", "talk", "dial"]
+    "tags": [
+      "telephone",
+      "phone",
+      "call",
+      "communication",
+      "talk",
+      "dial"
+    ]
   },
   "text-align-center": {
     "tags": [
@@ -1691,7 +3109,15 @@
     ]
   },
   "trash": {
-    "tags": ["trash", "bin", "garbage", "delete", "discard", "waste", "dispose"]
+    "tags": [
+      "trash",
+      "bin",
+      "garbage",
+      "delete",
+      "discard",
+      "waste",
+      "dispose"
+    ]
   },
   "triangle-danger": {
     "tags": [
@@ -1782,7 +3208,15 @@
     ]
   },
   "user-plus": {
-    "tags": ["user", "plus", "add", "create", "profile", "new user", "increase"]
+    "tags": [
+      "user",
+      "plus",
+      "add",
+      "create",
+      "profile",
+      "new user",
+      "increase"
+    ]
   },
   "user-settings": {
     "tags": [
@@ -1796,7 +3230,15 @@
     ]
   },
   "user-x": {
-    "tags": ["user", "x", "circle", "remove", "delete", "profile", "eliminate"]
+    "tags": [
+      "user",
+      "x",
+      "circle",
+      "remove",
+      "delete",
+      "profile",
+      "eliminate"
+    ]
   },
   "user": {
     "tags": [
@@ -1810,21 +3252,59 @@
     ]
   },
   "waves": {
-    "tags": ["waves", "ocean", "sea", "water", "ripple", "flow", "liquid"]
+    "tags": [
+      "waves",
+      "ocean",
+      "sea",
+      "water",
+      "ripple",
+      "flow",
+      "liquid"
+    ]
   },
   "wifi": {
-    "tags": ["wifi", "internet", "connection", "wireless", "network"]
+    "tags": [
+      "wifi",
+      "internet",
+      "connection",
+      "wireless",
+      "network"
+    ]
   },
   "x-circle": {
-    "tags": ["x", "circle", "close", "cancel", "remove"]
+    "tags": [
+      "x",
+      "circle",
+      "close",
+      "cancel",
+      "remove"
+    ]
   },
   "x-square": {
-    "tags": ["x", "square", "close", "cancel", "remove"]
+    "tags": [
+      "x",
+      "square",
+      "close",
+      "cancel",
+      "remove"
+    ]
   },
   "x-waves": {
-    "tags": ["x", "waves", "close", "cancel", "remove"]
+    "tags": [
+      "x",
+      "waves",
+      "close",
+      "cancel",
+      "remove"
+    ]
   },
   "x": {
-    "tags": ["x", "close", "cancel", "remove", "delete"]
+    "tags": [
+      "x",
+      "close",
+      "cancel",
+      "remove",
+      "delete"
+    ]
   }
 }

@@ -1,0 +1,6 @@
+---
+title: Keyboard brightness high
+tags: ["keyboard", "brightness", "high", "backlit", "illumination", "glow", "radiance"]
+icon: keyboard-brightness-high
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M10 17h4M3 17h3m6-9v3m6 6h3m-4.879-4.28L18.58 11M7.457 12.72 5 11"/></svg>'
+---
