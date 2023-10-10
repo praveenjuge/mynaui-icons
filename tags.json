@@ -488,6 +488,60 @@
       "visualization"
     ]
   },
+  "chat-check": {
+    "tags": [
+      "chat",
+      "check",
+      "tick",
+      "approve",
+      "confirm"
+    ]
+  },
+  "chat-dots": {
+    "tags": [
+      "chat",
+      "dots",
+      "more",
+      "menu",
+      "options"
+    ]
+  },
+  "chat-minus": {
+    "tags": [
+      "chat",
+      "minus",
+      "remove",
+      "delete",
+      "subtract"
+    ]
+  },
+  "chat-plus": {
+    "tags": [
+      "chat",
+      "plus",
+      "add",
+      "create",
+      "insert"
+    ]
+  },
+  "chat-x": {
+    "tags": [
+      "chat",
+      "x",
+      "close",
+      "cancel",
+      "delete"
+    ]
+  },
+  "chat": {
+    "tags": [
+      "chat",
+      "conversation",
+      "messaging",
+      "communication",
+      "talk"
+    ]
+  },
   "check-circle": {
     "tags": [
       "check",
@@ -1819,6 +1873,60 @@
       "art"
     ]
   },
+  "inbox-check": {
+    "tags": [
+      "inbox",
+      "check",
+      "approve",
+      "confirm",
+      "tick"
+    ]
+  },
+  "inbox-down": {
+    "tags": [
+      "inbox",
+      "down",
+      "download",
+      "arrow",
+      "get"
+    ]
+  },
+  "inbox-minus": {
+    "tags": [
+      "inbox",
+      "minus",
+      "remove",
+      "delete",
+      "subtract"
+    ]
+  },
+  "inbox-plus": {
+    "tags": [
+      "inbox",
+      "plus",
+      "add",
+      "create",
+      "insert"
+    ]
+  },
+  "inbox-up": {
+    "tags": [
+      "inbox",
+      "up",
+      "upload",
+      "arrow",
+      "send"
+    ]
+  },
+  "inbox-x": {
+    "tags": [
+      "inbox",
+      "x",
+      "close",
+      "cancel",
+      "delete"
+    ]
+  },
   "inbox": {
     "tags": [
       "inbox",
@@ -2073,6 +2181,71 @@
       "select"
     ]
   },
+  "message-check": {
+    "tags": [
+      "message",
+      "check",
+      "verification",
+      "approve",
+      "completed",
+      "success",
+      "accept"
+    ]
+  },
+  "message-dots": {
+    "tags": [
+      "message",
+      "dots",
+      "ellipsis",
+      "options",
+      "menu",
+      "more",
+      "settings"
+    ]
+  },
+  "message-minus": {
+    "tags": [
+      "message",
+      "minus",
+      "remove",
+      "subtract",
+      "exclude",
+      "delete",
+      "eliminate"
+    ]
+  },
+  "message-plus": {
+    "tags": [
+      "message",
+      "plus",
+      "add",
+      "include",
+      "insert",
+      "expand",
+      "create"
+    ]
+  },
+  "message-x": {
+    "tags": [
+      "message",
+      "x",
+      "cancel",
+      "close",
+      "delete",
+      "remove",
+      "dismiss"
+    ]
+  },
+  "message": {
+    "tags": [
+      "message",
+      "communication",
+      "chat",
+      "conversation",
+      "text",
+      "dialogue"
+    ]
+  },
   "minimize-one": {
     "tags": [
       "minimize",
@@ -2280,6 +2453,17 @@
       "sides",
       "polygon",
       "stop sign"
+    ]
+  },
+  "paperclip": {
+    "tags": [
+      "paperclip",
+      "attachment",
+      "clip",
+      "file",
+      "attach",
+      "document",
+      "link"
     ]
   },
   "pause-circle": {
