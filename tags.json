@@ -352,6 +352,50 @@
       "reminder"
     ]
   },
+  "bookmark-check": {
+    "tags": [
+      "bookmark",
+      "check",
+      "save",
+      "favorite",
+      "mark",
+      "confirm",
+      "verify"
+    ]
+  },
+  "bookmark-minus": {
+    "tags": [
+      "bookmark",
+      "minus",
+      "remove",
+      "delete",
+      "unmark",
+      "erase",
+      "subtract"
+    ]
+  },
+  "bookmark-plus": {
+    "tags": [
+      "bookmark",
+      "plus",
+      "add",
+      "include",
+      "mark",
+      "save",
+      "favorite"
+    ]
+  },
+  "bookmark-x": {
+    "tags": [
+      "bookmark",
+      "x",
+      "remove",
+      "delete",
+      "unmark",
+      "erase",
+      "cancel"
+    ]
+  },
   "bookmark": {
     "tags": [
       "bookmark",
@@ -1137,6 +1181,16 @@
       "joystick"
     ]
   },
+  "cookie": {
+    "tags": [
+      "cookie",
+      "cookies",
+      "settings",
+      "preferences",
+      "dessert",
+      "food"
+    ]
+  },
   "copy": {
     "tags": [
       "copy",
@@ -1281,6 +1335,17 @@
       "not good",
       "negative",
       "reject"
+    ]
+  },
+  "dollar": {
+    "tags": [
+      "dollar",
+      "money",
+      "currency",
+      "finance",
+      "economy",
+      "business",
+      "wealth"
     ]
   },
   "dots-circle": {
@@ -1871,6 +1936,17 @@
       "visual",
       "illustration",
       "art"
+    ]
+  },
+  "inbox-archive": {
+    "tags": [
+      "inbox",
+      "archive",
+      "email",
+      "message",
+      "storage",
+      "organize",
+      "backup"
     ]
   },
   "inbox-check": {
@@ -2508,6 +2584,17 @@
       "halt",
       "silence",
       "break"
+    ]
+  },
+  "pencil": {
+    "tags": [
+      "pencil",
+      "edit",
+      "write",
+      "draw",
+      "sketch",
+      "tool",
+      "note"
     ]
   },
   "percentage-circle": {
@@ -3301,6 +3388,28 @@
       "discard",
       "waste",
       "dispose"
+    ]
+  },
+  "trending-down": {
+    "tags": [
+      "trending",
+      "down",
+      "decreasing",
+      "falling",
+      "declining",
+      "reducing",
+      "dropping"
+    ]
+  },
+  "trending-up": {
+    "tags": [
+      "trending",
+      "up",
+      "increasing",
+      "rising",
+      "growing",
+      "expanding",
+      "improving"
     ]
   },
   "triangle-danger": {

@@ -2,5 +2,5 @@
 title: Bookmark
 tags: ["bookmark", "favorite", "save", "tag", "web"]
 icon: bookmark
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="m17.311 20.917-4.21-2.883a1.942 1.942 0 0 0-2.203 0l-4.21 2.883c-1.1.754-.927-13.562-.741-15.086C6.105 4.53 6.407 3 8.029 3h7.943c1.62 0 1.923 1.53 2.082 2.831.185 1.524.359 15.84-.743 15.086Z"/></svg>'
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M7.527 20.841C6.861 21.274 6 20.772 6 19.952V3.942c0-.52.336-.942.75-.942h10.5c.414 0 .75.422.75.942v16.01c0 .82-.861 1.322-1.527.89l-3.946-2.562a.962.962 0 0 0-1.054 0l-3.946 2.56Z"/></svg>'
 ---

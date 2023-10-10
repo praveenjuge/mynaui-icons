@@ -1,0 +1,6 @@
+---
+title: Trending up
+tags: ["trending", "up", "increasing", "rising", "growing", "expanding", "improving"]
+icon: trending-up
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M15 7h6v6"/><path d="m3 18 4.443-5.223c.31-.365.466-.547.658-.64a1 1 0 0 1 .546-.09c.212.024.418.146.83.39l2.826 1.674c.385.229.578.343.778.37a1 1 0 0 0 .52-.068c.187-.077.344-.237.658-.556L21 7"/></svg>'
+---
