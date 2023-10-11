@@ -272,15 +272,15 @@
   </section>
 
   <section
-    class="mx-auto max-w-7xl px-4 grid grid-cols-2 md:grid-cols-5 lg:grid-cols-10 gap-4 text-center text-xs pt-10 pb-24 text-gray-400 [&_svg]:h-10 [&_svg]:w-10 [&_svg]:text-gray-50 [&_a]:rounded [&_a]:flex [&_a]:flex-col [&_a]:items-center [&_a]:space-y-2 [&_a]:py-4 [&_a]:px-2 [&_p]:truncate [&_p]:w-full"
+    class="mx-auto max-w-7xl px-4 grid grid-cols-2 md:grid-cols-5 lg:grid-cols-10 gap-4 text-center text-xs pt-10 pb-24 text-gray-400 [&_svg]:h-10 [&_svg]:w-10 [&_svg]:text-gray-50 [&_a]:rounded [&_a]:flex [&_a]:flex-col [&_a]:items-center [&_a]:space-y-2 [&_a]:py-4 [&_a]:px-1.5 [&_p]:truncate [&_p]:w-full"
     id="main-icon-grid"
   >
     {{ range .Site.RegularPages }}
     <a
       href="{{ .Permalink }}"
       title="{{ .Params.icon }}"
-      data-tags='{{  delimit .Params.tags ", "  }}'
-      class="bg-gray-900/75 hover:bg-gray-800/75 focus:ring-4 focus:outline-none focus:ring-blue-600"
+      data-tags='{{  delimit .Params.tags " " }}'
+      class="focus:ring-4 focus:outline-none focus:ring-blue-600"
     >
       {{ .Params.svg | safeHTML }}
       <p>{{ .Params.icon }}</p>

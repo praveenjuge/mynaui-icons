@@ -11,11 +11,7 @@
     class="grid grid-cols-2 md:grid-cols-5 lg:grid-cols-10 gap-4 text-center text-xs pt-4 pb-24 text-gray-400 [&_svg]:h-10 [&_svg]:w-10 [&_svg]:text-gray-50 [&_a]:rounded [&_a]:flex [&_a]:flex-col [&_a]:items-center [&_a]:space-y-2 [&_a]:py-4 [&_a]:px-2 [&_p]:truncate [&_p]:w-full"
   >
     {{ range .Pages }}
-    <a
-      href="{{ .Permalink }}"
-      title="{{ .Params.icon }}"
-      class="bg-gray-900/75 hover:bg-gray-800/75 focus:ring-4 focus:outline-none focus:ring-blue-600"
-    >
+    <a href="{{ .Permalink }}" title="{{ .Params.icon }}">
       {{ .Params.svg | safeHTML }}
       <p>{{ .Params.icon }}</p>
     </a>

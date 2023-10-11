@@ -2795,6 +2795,11 @@
       "microphone"
     ]
   },
+  "redo": {
+    "tags": [
+      "redo"
+    ]
+  },
   "rewind-circle": {
     "tags": [
       "rewind",
@@ -3456,6 +3461,11 @@
       "canopy"
     ]
   },
+  "undo": {
+    "tags": [
+      "undo"
+    ]
+  },
   "upload": {
     "tags": [
       "upload",
@@ -3542,6 +3552,54 @@
       "account",
       "identity",
       "individual"
+    ]
+  },
+  "volume-check": {
+    "tags": [
+      "volume",
+      "check"
+    ]
+  },
+  "volume-high": {
+    "tags": [
+      "volume",
+      "high"
+    ]
+  },
+  "volume-low": {
+    "tags": [
+      "volume",
+      "low"
+    ]
+  },
+  "volume-minus": {
+    "tags": [
+      "volume",
+      "minus"
+    ]
+  },
+  "volume-none": {
+    "tags": [
+      "volume",
+      "none"
+    ]
+  },
+  "volume-plus": {
+    "tags": [
+      "volume",
+      "plus"
+    ]
+  },
+  "volume-slash": {
+    "tags": [
+      "volume",
+      "slash"
+    ]
+  },
+  "volume-x": {
+    "tags": [
+      "volume",
+      "x"
     ]
   },
   "waves": {

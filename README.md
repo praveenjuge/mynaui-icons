@@ -29,7 +29,7 @@ or download the package from [here](https://github.com/praveenjuge/mynaui-icons/
 For HTML Projects:
 
 ```html
-<link rel="stylesheet" href="path/to/mynaui-font.css" />
+<link rel="stylesheet" href="path/to/mynaui.css" />
 ```
 
 For React Projects:

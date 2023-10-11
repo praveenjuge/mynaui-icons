@@ -25,7 +25,7 @@ or download the package from [here](https://github.com/praveenjuge/mynaui-icons/
 ## Usage
 
 ```html
-<link rel="stylesheet" href="path/to/mynaui-font.css" />
+<link rel="stylesheet" href="path/to/mynaui.css" />
 ```
 
 ## License

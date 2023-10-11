@@ -81,11 +81,13 @@
       {{ .Title | title }}
     </h1>
 
-    <p class="text-gray-400">
-      Tags: {{ range .Params.tags }}
-      <a href="/tags/{{ . | urlize }}" class="underline">{{ . }}</a>
+    <div
+      class="text-gray-300 flex flex-wrap [&_a]:rounded-full [&_a]:px-2.5 [&_a]:py-0.5 [&_a]:bg-slate-900 [&_a]:border [&_a]:border-slate-800 [&_a]:mr-1 [&_a]:mb-1 text-xs"
+    >
+      <span class="sr-only">Tags</span> {{ range .Params.tags }}
+      <a href="/tags/{{ . | urlize }}">{{ . }}</a>
       {{ end }}
-    </p>
+    </div>
   </section>
 
   <hr class="border-gray-800 mt-10" />
@@ -142,8 +144,8 @@ const App = () => {
   stroke-linejoin="round"
   stroke="currentColor"
 >
-  <use xlink:href="/path/to/mynaui.symbol.svg#mynaui-_name_"></use></svg
->` }}
+  <use xlink:href="/path/to/mynaui.symbol.svg#mynaui-_name_"></use>
+</svg>` }}
 
       <!-- prettier-ignore -->
       {{ $spriteCode := replace $spriteCode "_name_" .Params.icon }}
