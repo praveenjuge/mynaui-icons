@@ -3,7 +3,7 @@
 <main>
   <section class="overflow-hidden">
     <div
-      class="flex gap-1.5 [&_span]:whitespace-pre animate-[slide_infinite_linear_60s] py-3 text-xs text-gray-400"
+      class="flex gap-1.5 [&_span]:whitespace-pre [&_a]:whitespace-pre [&_a]:underline animate-[slide_infinite_linear_60s] py-3 text-xs text-gray-400"
     >
       <span>Open Source</span>
       <span>·</span>
@@ -13,17 +13,42 @@
       <span>·</span>
       <span>1.5px Stroke</span>
       <span>·</span>
-      <span>React Library</span>
+      <a
+        href="https://github.com/praveenjuge/mynaui-icons/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >React Library</a
+      >
       <span>·</span>
-      <span>Icon Fonts</span>
+      <a
+        href="https://github.com/praveenjuge/mynaui-icons/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Icon Fonts</a
+      >
       <span>·</span>
-      <span>SVG Sprites</span>
+      <a
+        href="https://github.com/praveenjuge/mynaui-icons/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >SVG Sprites</a
+      >
       <span>·</span>
       <span>500+ Icons</span>
       <span>·</span>
-      <span>Figma File</span>
+      <a
+        href="https://www.figma.com/community/file/1294009455322332728/mynaui-icons-free-open-source-icons"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Figma File</a
+      >
       <span>·</span>
-      <span>Figma Plugin</span>
+      <a
+        href="https://www.figma.com/community/plugin/1292042223534822879/mynaui-icons"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Figma Plugin</a
+      >
       <span>·</span>
       <span>Created in Figma</span>
       <span>·</span>
@@ -45,17 +70,42 @@
       <span>·</span>
       <span>1.5px Stroke</span>
       <span>·</span>
-      <span>React Library</span>
+      <a
+        href="https://github.com/praveenjuge/mynaui-icons/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >React Library</a
+      >
       <span>·</span>
-      <span>Icon Fonts</span>
+      <a
+        href="https://github.com/praveenjuge/mynaui-icons/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Icon Fonts</a
+      >
       <span>·</span>
-      <span>SVG Sprites</span>
+      <a
+        href="https://github.com/praveenjuge/mynaui-icons/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >SVG Sprites</a
+      >
       <span>·</span>
       <span>500+ Icons</span>
       <span>·</span>
-      <span>Figma File</span>
+      <a
+        href="https://www.figma.com/community/file/1294009455322332728/mynaui-icons-free-open-source-icons"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Figma File</a
+      >
       <span>·</span>
-      <span>Figma Plugin</span>
+      <a
+        href="https://www.figma.com/community/plugin/1292042223534822879/mynaui-icons"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Figma Plugin</a
+      >
       <span>·</span>
       <span>Created in Figma</span>
       <span>·</span>
@@ -68,6 +118,7 @@
       <span>Request New Icons</span>
       <span>·</span>
       <span>Pixel-Perfect</span>
+      <span>·</span>
     </div>
   </section>
 
@@ -280,7 +331,7 @@
       href="{{ .Permalink }}"
       title="{{ .Params.icon }}"
       data-tags='{{  delimit .Params.tags " " }}'
-      class="focus:ring-4 focus:outline-none focus:ring-blue-600"
+      class="hover:bg-slate-900/75 focus:ring-4 focus:outline-none focus:ring-blue-600"
     >
       {{ .Params.svg | safeHTML }}
       <p>{{ .Params.icon }}</p>
@@ -335,16 +386,17 @@
           }
           break;
         case "c":
-          const svg = focusedIcon.querySelector("svg");
-          const svgString = new XMLSerializer().serializeToString(svg);
-          navigator.clipboard.writeText(svgString);
-          // feedback, flash blue background
-          focusedIcon.style.backgroundColor = "rgba(66, 153, 225, 0.3)";
-          focusedIcon.querySelector("p").innerHTML = "Copied SVG!";
-          setTimeout(() => {
-            focusedIcon.querySelector("p").innerHTML = focusedIcon.title;
-            focusedIcon.style.backgroundColor = "";
-          }, 1000);
+          if (focusedIcon !== document.body) {
+            const svg = focusedIcon.querySelector("svg");
+            const svgString = new XMLSerializer().serializeToString(svg);
+            navigator.clipboard.writeText(svgString);
+            focusedIcon.style.backgroundColor = "rgba(66, 153, 225, 0.1)";
+            focusedIcon.querySelector("p").innerHTML = "Copied SVG!";
+            setTimeout(() => {
+              focusedIcon.querySelector("p").innerHTML = focusedIcon.title;
+              focusedIcon.style.backgroundColor = "";
+            }, 1000);
+          }
           break;
       }
     }
