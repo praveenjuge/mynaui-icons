@@ -50,6 +50,10 @@ const App = () => {
 | `color`  | String | currentColor |
 | `stroke` | Number | 1.5          |
 
+## Raycast Extension
+
+<a title="Install mynaui-icons Raycast Extension" href="https://www.raycast.com/praveenjuge/mynaui-icons"><img src="https://www.raycast.com/praveenjuge/mynaui-icons/install_button@2x.png?v=1.1" height="64" alt="" style="height: 64px;"></a>
+
 ## License
 
 [MIT License](https://github.com/praveenjuge/mynaui-icons/blob/master/LICENSE).
