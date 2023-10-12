@@ -10,6 +10,17 @@
       "scholarship"
     ]
   },
+  "activity": {
+    "tags": [
+      "activity",
+      "pulse",
+      "movement",
+      "exercise",
+      "fitness",
+      "health",
+      "sports"
+    ]
+  },
   "arrow-diagonal-one": {
     "tags": [
       "arrow",
@@ -982,6 +993,50 @@
       "navigate"
     ]
   },
+  "circle-dashed": {
+    "tags": [
+      "circle",
+      "dashed",
+      "shape",
+      "geometry",
+      "design",
+      "pattern",
+      "outline"
+    ]
+  },
+  "circle-half-circle": {
+    "tags": [
+      "circle",
+      "half",
+      "shape",
+      "geometry",
+      "design",
+      "pattern",
+      "portion"
+    ]
+  },
+  "circle-half": {
+    "tags": [
+      "circle",
+      "half",
+      "shape",
+      "geometry",
+      "design",
+      "pattern",
+      "portion"
+    ]
+  },
+  "circle-notch": {
+    "tags": [
+      "circle",
+      "notch",
+      "shape",
+      "geometry",
+      "design",
+      "pattern",
+      "indentation"
+    ]
+  },
   "circle": {
     "tags": [
       "circle",
@@ -1326,6 +1381,19 @@
       "discard"
     ]
   },
+  "diamond": {
+    "tags": [
+      "diamond",
+      "shape",
+      "geometry",
+      "gem",
+      "jewel",
+      "precious",
+      "stone",
+      "design",
+      "pattern"
+    ]
+  },
   "dislike": {
     "tags": [
       "dislike",
@@ -1429,6 +1497,19 @@
       "retrieve"
     ]
   },
+  "drop": {
+    "tags": [
+      "drop",
+      "water",
+      "liquid",
+      "drip",
+      "fall",
+      "rain",
+      "tear",
+      "condensation",
+      "moisture"
+    ]
+  },
   "edit": {
     "tags": [
       "edit",
@@ -1502,6 +1583,19 @@
       "communication",
       "post",
       "message"
+    ]
+  },
+  "eye": {
+    "tags": [
+      "eye",
+      "vision",
+      "sight",
+      "watch",
+      "look",
+      "observe",
+      "see",
+      "perceive",
+      "view"
     ]
   },
   "file-minus": {
@@ -1777,6 +1871,19 @@
       "structure",
       "table",
       "pattern"
+    ]
+  },
+  "hard-drive": {
+    "tags": [
+      "hard",
+      "drive",
+      "storage",
+      "computer",
+      "data",
+      "memory",
+      "disk",
+      "file",
+      "backup"
     ]
   },
   "hash-circle": {
@@ -2795,9 +2902,36 @@
       "microphone"
     ]
   },
+  "rectangle-vertical": {
+    "tags": [
+      "rectangle",
+      "vertical",
+      "shape",
+      "geometry",
+      "design",
+      "layout",
+      "structure",
+      "orientation"
+    ]
+  },
+  "rectangle": {
+    "tags": [
+      "rectangle",
+      "shape",
+      "geometry",
+      "design",
+      "layout",
+      "structure"
+    ]
+  },
   "redo": {
     "tags": [
-      "redo"
+      "redo",
+      "repeat",
+      "action",
+      "history",
+      "command",
+      "function"
     ]
   },
   "rewind-circle": {
@@ -2842,6 +2976,28 @@
       "audio",
       "go back",
       "rewind"
+    ]
+  },
+  "rhombus": {
+    "tags": [
+      "rhombus",
+      "shape",
+      "geometry",
+      "diamond",
+      "design",
+      "pattern",
+      "angle"
+    ]
+  },
+  "rows": {
+    "tags": [
+      "rows",
+      "table",
+      "data",
+      "information",
+      "spreadsheet",
+      "grid",
+      "arrangement"
     ]
   },
   "rss": {
@@ -3118,6 +3274,28 @@
       "circle",
       "indicator",
       "animation"
+    ]
+  },
+  "square-dashed": {
+    "tags": [
+      "square",
+      "dashed",
+      "shape",
+      "geometry",
+      "design",
+      "pattern",
+      "outline"
+    ]
+  },
+  "square-half": {
+    "tags": [
+      "square",
+      "half",
+      "shape",
+      "geometry",
+      "design",
+      "pattern",
+      "portion"
     ]
   },
   "square": {
@@ -3450,6 +3628,30 @@
       "trigon"
     ]
   },
+  "type-bold": {
+    "tags": [
+      "type",
+      "bold"
+    ]
+  },
+  "type-italic": {
+    "tags": [
+      "type",
+      "italic"
+    ]
+  },
+  "type-text": {
+    "tags": [
+      "type",
+      "text"
+    ]
+  },
+  "type-underline": {
+    "tags": [
+      "type",
+      "underline"
+    ]
+  },
   "umbrella": {
     "tags": [
       "umbrella",
@@ -3463,7 +3665,13 @@
   },
   "undo": {
     "tags": [
-      "undo"
+      "undo",
+      "reverse",
+      "back",
+      "previous",
+      "history",
+      "command",
+      "function"
     ]
   },
   "upload": {
@@ -3557,49 +3765,97 @@
   "volume-check": {
     "tags": [
       "volume",
-      "check"
+      "check",
+      "sound",
+      "audio",
+      "level",
+      "meter",
+      "measurement",
+      "test"
     ]
   },
   "volume-high": {
     "tags": [
       "volume",
-      "high"
+      "high",
+      "sound",
+      "audio",
+      "level",
+      "meter",
+      "measurement",
+      "loud"
     ]
   },
   "volume-low": {
     "tags": [
       "volume",
-      "low"
+      "low",
+      "sound",
+      "audio",
+      "level",
+      "meter",
+      "measurement",
+      "quiet"
     ]
   },
   "volume-minus": {
     "tags": [
       "volume",
-      "minus"
+      "minus",
+      "sound",
+      "audio",
+      "level",
+      "meter",
+      "measurement",
+      "reduce"
     ]
   },
   "volume-none": {
     "tags": [
       "volume",
-      "none"
+      "none",
+      "sound",
+      "audio",
+      "level",
+      "meter",
+      "measurement",
+      "mute"
     ]
   },
   "volume-plus": {
     "tags": [
       "volume",
-      "plus"
+      "plus",
+      "sound",
+      "audio",
+      "level",
+      "meter",
+      "measurement",
+      "increase"
     ]
   },
   "volume-slash": {
     "tags": [
       "volume",
-      "slash"
+      "slash",
+      "sound",
+      "audio",
+      "level",
+      "meter",
+      "measurement",
+      "mute"
     ]
   },
   "volume-x": {
     "tags": [
       "volume",
-      "x"
+      "x",
+      "sound",
+      "audio",
+      "level",
+      "meter",
+      "measurement",
+      "mute"
     ]
   },
   "waves": {

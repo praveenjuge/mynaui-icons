@@ -55,9 +55,7 @@
   >
     <span class="absolute top-0 right-0 bg-zinc-800 h-full w-px"></span>
     <span class="absolute bottom-0 left-0 bg-zinc-800 h-px w-full"></span>
-    {{ range .Site.RegularPages | shuffle }}
-    <a href="{{ .Permalink }}">{{ .Params.svg | safeHTML }}</a>
-    {{ end }}
+    {{ range .Site.RegularPages | shuffle }}{{ .Params.svg | safeHTML }}{{end}}
   </section>
 </main>
 

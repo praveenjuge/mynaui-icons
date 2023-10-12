@@ -1,0 +1,6 @@
+---
+title: Hard drive
+tags: ["hard", "drive", "storage", "computer", "data", "memory", "disk", "file", "backup"]
+icon: hard-drive
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M3.25 13h17.5M5.45 4.11l-2.162 7.847A8 8 0 0 0 3 14.082V19a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-4.918a8 8 0 0 0-.288-2.125L18.55 4.11A2 2 0 0 0 16.76 3H7.24a2 2 0 0 0-1.79 1.11ZM17 17h1m-5 0h1"/></svg>'
+---

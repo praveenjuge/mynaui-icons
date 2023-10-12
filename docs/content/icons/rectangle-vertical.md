@@ -1,0 +1,6 @@
+---
+title: Rectangle vertical
+tags: ["rectangle", "vertical", "shape", "geometry", "design", "layout", "structure", "orientation"]
+icon: rectangle-vertical
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M12 2c3.771 0 5.657 0 6.828 1.464C20 4.93 20 7.286 20 12c0 4.714 0 7.071-1.172 8.535C17.657 22 15.771 22 12 22c-3.771 0-5.657 0-6.828-1.465C4 19.072 4 16.714 4 12s0-7.071 1.172-8.536C6.343 2 8.229 2 12 2Z"/></svg>'
+---

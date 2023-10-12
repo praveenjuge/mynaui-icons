@@ -2,5 +2,5 @@
 title: Command
 tags: ["command", "prompt", "line", "terminal", "console"]
 icon: command
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M14.51 6.98v10.04c0 2.203 2.764 3.294 4.284 1.774s.43-4.284-1.775-4.284H6.981c-2.204 0-3.295 2.763-1.775 4.284 1.52 1.52 4.285.43 4.285-1.775V6.981c0-2.204-2.764-3.295-4.285-1.775-1.52 1.52-.43 4.284 1.775 4.284h10.038c2.204 0 3.295-2.764 1.775-4.284s-4.284-.43-4.284 1.775Z"/></svg>'
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M14.677 6.646v10.708c0 2.35 2.948 3.514 4.57 1.893 1.621-1.622.458-4.57-1.893-4.57H6.646c-2.35 0-3.514 2.948-1.893 4.57 1.622 1.621 4.57.458 4.57-1.893V6.646c0-2.35-2.948-3.514-4.57-1.893-1.621 1.622-.458 4.57 1.893 4.57h10.708c2.35 0 3.514-2.948 1.893-4.57-1.622-1.621-4.57-.458-4.57 1.893Z"/></svg>'
 ---

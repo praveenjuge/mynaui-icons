@@ -1,0 +1,6 @@
+---
+title: Type underline
+tags: ["type", "underline"]
+icon: type-underline
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M6 3v7.539c0 1.713.632 3.357 1.757 4.569C8.883 16.319 10.41 17 12 17c1.591 0 3.117-.68 4.243-1.893C17.368 13.896 18 12.252 18 10.54V3M4 21h16"/></svg>'
+---
