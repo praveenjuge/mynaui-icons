@@ -351,7 +351,91 @@
       "email",
       "communication",
       "symbol",
-      "contact"
+      "contact",
+      "address",
+      "message",
+      "correspondence"
+    ]
+  },
+  "battery-charging-four": {
+    "tags": [
+      "battery",
+      "charging",
+      "four",
+      "power",
+      "energy",
+      "level",
+      "meter",
+      "measurement"
+    ]
+  },
+  "battery-charging-one": {
+    "tags": [
+      "battery",
+      "charging",
+      "one",
+      "power",
+      "energy",
+      "level",
+      "meter",
+      "measurement"
+    ]
+  },
+  "battery-charging-three": {
+    "tags": [
+      "battery",
+      "charging",
+      "three",
+      "power",
+      "energy",
+      "level",
+      "meter",
+      "measurement"
+    ]
+  },
+  "battery-charging-two": {
+    "tags": [
+      "battery",
+      "charging",
+      "two",
+      "power",
+      "energy",
+      "level",
+      "meter",
+      "measurement"
+    ]
+  },
+  "battery-charging": {
+    "tags": [
+      "battery",
+      "charging",
+      "power",
+      "energy",
+      "level",
+      "meter",
+      "measurement"
+    ]
+  },
+  "battery-empty": {
+    "tags": [
+      "battery",
+      "empty",
+      "power",
+      "energy",
+      "level",
+      "meter",
+      "measurement"
+    ]
+  },
+  "battery-full": {
+    "tags": [
+      "battery",
+      "full",
+      "power",
+      "energy",
+      "level",
+      "meter",
+      "measurement"
     ]
   },
   "bell": {
@@ -360,7 +444,10 @@
       "notification",
       "alarm",
       "alert",
-      "reminder"
+      "reminder",
+      "sound",
+      "ring",
+      "chime"
     ]
   },
   "bookmark-check": {
@@ -1855,13 +1942,72 @@
       "grinning"
     ]
   },
+  "git-branch": {
+    "tags": [
+      "git",
+      "branch",
+      "version control",
+      "source code",
+      "repository",
+      "codebase",
+      "development"
+    ]
+  },
+  "git-commit": {
+    "tags": [
+      "git",
+      "commit",
+      "version control",
+      "source code",
+      "repository",
+      "codebase",
+      "development"
+    ]
+  },
+  "git-diff": {
+    "tags": [
+      "git",
+      "diff",
+      "version control",
+      "source code",
+      "repository",
+      "codebase",
+      "development"
+    ]
+  },
+  "git-merge": {
+    "tags": [
+      "git",
+      "merge",
+      "version control",
+      "source code",
+      "repository",
+      "codebase",
+      "development"
+    ]
+  },
+  "git-pull-request": {
+    "tags": [
+      "git",
+      "pull",
+      "request",
+      "version control",
+      "source code",
+      "repository",
+      "codebase",
+      "development"
+    ]
+  },
   "globe": {
     "tags": [
       "globe",
       "world",
       "earth",
       "planet",
-      "global"
+      "global",
+      "geography",
+      "map",
+      "location"
     ]
   },
   "grid": {
@@ -1870,7 +2016,9 @@
       "layout",
       "structure",
       "table",
-      "pattern"
+      "pattern",
+      "design",
+      "arrangement"
     ]
   },
   "hard-drive": {
