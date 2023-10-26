@@ -684,6 +684,13 @@
       "talk"
     ]
   },
+  "check-circle-one": {
+    "tags": [
+      "check",
+      "circle",
+      "one"
+    ]
+  },
   "check-circle": {
     "tags": [
       "check",
@@ -691,6 +698,13 @@
       "tick",
       "approve",
       "confirm"
+    ]
+  },
+  "check-square-one": {
+    "tags": [
+      "check",
+      "square",
+      "one"
     ]
   },
   "check-square": {
@@ -1696,6 +1710,12 @@
       "communication",
       "post",
       "message"
+    ]
+  },
+  "external-link": {
+    "tags": [
+      "external",
+      "link"
     ]
   },
   "eye": {
