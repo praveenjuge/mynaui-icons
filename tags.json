@@ -1178,6 +1178,17 @@
       "internet"
     ]
   },
+  "cloud-lightning": {
+    "tags": [
+      "cloud",
+      "weather",
+      "lightning",
+      "thunderstorm",
+      "electrical",
+      "storm",
+      "weather"
+    ]
+  },
   "cloud-rain": {
     "tags": [
       "cloud",
@@ -1186,7 +1197,10 @@
       "precipitation",
       "storm",
       "drizzle",
-      "downpour"
+      "downpour",
+      "rainy",
+      "precipitate",
+      "raindrops"
     ]
   },
   "cloud-slash": {
@@ -1197,7 +1211,19 @@
       "offline",
       "unavailable",
       "broken",
-      "error"
+      "error",
+      "error symbol",
+      "offline mode"
+    ]
+  },
+  "cloud-snow": {
+    "tags": [
+      "cloud",
+      "snow",
+      "snowfall",
+      "snowflakes",
+      "snowy day",
+      "snowstorm"
     ]
   },
   "cloud-upload": {
@@ -3391,6 +3417,18 @@
       "division"
     ]
   },
+  "snow": {
+    "tags": [
+      "snow",
+      "winter",
+      "snowfall",
+      "cold",
+      "frozen",
+      "snowflakes",
+      "chill",
+      "frosty"
+    ]
+  },
   "sort": {
     "tags": [
       "sort",
@@ -4015,6 +4053,76 @@
       "ripple",
       "flow",
       "liquid"
+    ]
+  },
+  "wifi-check": {
+    "tags": [
+      "wifi",
+      "check",
+      "network",
+      "connection",
+      "signal",
+      "wireless"
+    ]
+  },
+  "wifi-low": {
+    "tags": [
+      "wifi",
+      "low",
+      "signal",
+      "poor",
+      "limited",
+      "connection"
+    ]
+  },
+  "wifi-medium": {
+    "tags": [
+      "wifi",
+      "medium",
+      "signal",
+      "average",
+      "moderate",
+      "connection"
+    ]
+  },
+  "wifi-minus": {
+    "tags": [
+      "wifi",
+      "minus",
+      "signal",
+      "decreased",
+      "weakened",
+      "connection"
+    ]
+  },
+  "wifi-plus": {
+    "tags": [
+      "wifi",
+      "plus",
+      "signal",
+      "increased",
+      "stronger",
+      "connection"
+    ]
+  },
+  "wifi-slash": {
+    "tags": [
+      "wifi",
+      "slash",
+      "disabled",
+      "offline",
+      "no-connection",
+      "unavailable"
+    ]
+  },
+  "wifi-x": {
+    "tags": [
+      "wifi",
+      "x",
+      "cross",
+      "offline",
+      "no signal",
+      "disconnected"
     ]
   },
   "wifi": {
