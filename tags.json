@@ -21,6 +21,39 @@
       "sports"
     ]
   },
+  "airplay": {
+    "tags": [
+      "airplay",
+      "wireless",
+      "streaming",
+      "device",
+      "mirroring",
+      "media",
+      "screen"
+    ]
+  },
+  "anchor": {
+    "tags": [
+      "anchor",
+      "nautical",
+      "marine",
+      "sailing",
+      "boat",
+      "dock",
+      "ocean"
+    ]
+  },
+  "api": {
+    "tags": [
+      "api",
+      "development",
+      "programming",
+      "code",
+      "software",
+      "interface",
+      "web"
+    ]
+  },
   "arrow-diagonal-one": {
     "tags": [
       "arrow",
@@ -357,6 +390,17 @@
       "correspondence"
     ]
   },
+  "baseball": {
+    "tags": [
+      "baseball",
+      "sport",
+      "ball",
+      "game",
+      "pitch",
+      "strike",
+      "field"
+    ]
+  },
   "battery-charging-four": {
     "tags": [
       "battery",
@@ -416,6 +460,17 @@
       "measurement"
     ]
   },
+  "battery-check": {
+    "tags": [
+      "battery",
+      "check",
+      "power",
+      "energy",
+      "status",
+      "indicator",
+      "device"
+    ]
+  },
   "battery-empty": {
     "tags": [
       "battery",
@@ -438,6 +493,98 @@
       "measurement"
     ]
   },
+  "battery-minus": {
+    "tags": [
+      "battery",
+      "minus",
+      "decrease",
+      "reduce",
+      "less",
+      "diminish"
+    ]
+  },
+  "battery-plus": {
+    "tags": [
+      "battery",
+      "plus",
+      "increase",
+      "add",
+      "more",
+      "augment"
+    ]
+  },
+  "battery-x": {
+    "tags": [
+      "battery",
+      "x",
+      "cancel",
+      "delete",
+      "remove",
+      "close",
+      "terminate"
+    ]
+  },
+  "bell-check": {
+    "tags": [
+      "bell",
+      "check",
+      "notification",
+      "verify",
+      "confirm",
+      "alert"
+    ]
+  },
+  "bell-minus": {
+    "tags": [
+      "bell",
+      "minus",
+      "notification",
+      "remove",
+      "delete",
+      "alert"
+    ]
+  },
+  "bell-on": {
+    "tags": [
+      "bell",
+      "on",
+      "notification",
+      "activate",
+      "alert",
+      "sound"
+    ]
+  },
+  "bell-plus": {
+    "tags": [
+      "bell",
+      "plus",
+      "notification",
+      "add",
+      "include",
+      "alert"
+    ]
+  },
+  "bell-slash": {
+    "tags": [
+      "bell",
+      "slash",
+      "notification",
+      "mute",
+      "disable",
+      "quiet"
+    ]
+  },
+  "bell-x": {
+    "tags": [
+      "bell",
+      "x",
+      "notification",
+      "cancel",
+      "delete",
+      "remove",
+      "alert"
+    ]
+  },
   "bell": {
     "tags": [
       "bell",
@@ -448,6 +595,16 @@
       "sound",
       "ring",
       "chime"
+    ]
+  },
+  "bluetooth": {
+    "tags": [
+      "bluetooth",
+      "wireless",
+      "communication",
+      "connectivity",
+      "technology",
+      "device"
     ]
   },
   "bookmark-check": {
@@ -501,6 +658,16 @@
       "save",
       "tag",
       "web"
+    ]
+  },
+  "box": {
+    "tags": [
+      "box",
+      "container",
+      "package",
+      "parcel",
+      "storage",
+      "carton"
     ]
   },
   "brightness-high": {
@@ -608,6 +775,71 @@
       "flame"
     ]
   },
+  "cart-check": {
+    "tags": [
+      "cart",
+      "check",
+      "verify",
+      "confirm",
+      "shopping",
+      "purchase",
+      "add to cart"
+    ]
+  },
+  "cart-minus": {
+    "tags": [
+      "cart",
+      "minus",
+      "remove",
+      "delete",
+      "subtract",
+      "shopping",
+      "purchase"
+    ]
+  },
+  "cart-plus": {
+    "tags": [
+      "cart",
+      "plus",
+      "add",
+      "include",
+      "shopping",
+      "purchase",
+      "buy"
+    ]
+  },
+  "cart-x": {
+    "tags": [
+      "cart",
+      "x",
+      "remove",
+      "delete",
+      "cancel",
+      "shopping",
+      "purchase"
+    ]
+  },
+  "cart": {
+    "tags": [
+      "cart",
+      "shopping",
+      "trolley",
+      "basket",
+      "purchase",
+      "buy"
+    ]
+  },
+  "cast-screen": {
+    "tags": [
+      "cast",
+      "screen",
+      "mirroring",
+      "display",
+      "connect",
+      "stream",
+      "broadcast"
+    ]
+  },
   "chart-bar": {
     "tags": [
       "chart",
@@ -688,7 +920,12 @@
     "tags": [
       "check",
       "circle",
-      "one"
+      "one",
+      "verification",
+      "confirm",
+      "success",
+      "approve",
+      "validated"
     ]
   },
   "check-circle": {
@@ -703,8 +940,13 @@
   "check-square-one": {
     "tags": [
       "check",
-      "square",
-      "one"
+      "circle",
+      "one",
+      "verification",
+      "confirm",
+      "success",
+      "approve",
+      "validated"
     ]
   },
   "check-square": {
@@ -1225,9 +1467,7 @@
       "offline",
       "unavailable",
       "broken",
-      "error",
-      "error symbol",
-      "offline mode"
+      "error"
     ]
   },
   "cloud-snow": {
@@ -1330,6 +1570,28 @@
       "travel",
       "exploration",
       "adventure"
+    ]
+  },
+  "components": {
+    "tags": [
+      "components",
+      "parts",
+      "elements",
+      "modules",
+      "building blocks",
+      "pieces",
+      "constituents"
+    ]
+  },
+  "confetti": {
+    "tags": [
+      "confetti",
+      "celebration",
+      "party",
+      "festive",
+      "paper",
+      "decoration",
+      "scattered"
     ]
   },
   "config-vertical": {
@@ -1715,7 +1977,23 @@
   "external-link": {
     "tags": [
       "external",
-      "link"
+      "link",
+      "open",
+      "new tab",
+      "navigate",
+      "website",
+      "redirect"
+    ]
+  },
+  "eye-slash": {
+    "tags": [
+      "eye",
+      "slash",
+      "hidden",
+      "invisible",
+      "conceal",
+      "privacy",
+      "disable"
     ]
   },
   "eye": {
@@ -2152,6 +2430,18 @@
       "headline"
     ]
   },
+  "headphones": {
+    "tags": [
+      "headphones",
+      "audio",
+      "music",
+      "sound",
+      "listening",
+      "earphones",
+      "headset",
+      "entertainment"
+    ]
+  },
   "heart-circle": {
     "tags": [
       "heart",
@@ -2313,6 +2603,17 @@
       "communication"
     ]
   },
+  "incognito": {
+    "tags": [
+      "incognito",
+      "privacy",
+      "anonymous",
+      "secure",
+      "private",
+      "browsing",
+      "stealth"
+    ]
+  },
   "info-circle": {
     "tags": [
       "info",
@@ -2347,6 +2648,18 @@
       "i",
       "details",
       "help"
+    ]
+  },
+  "key": {
+    "tags": [
+      "key",
+      "unlock",
+      "security",
+      "access",
+      "password",
+      "authentication",
+      "lock",
+      "encryption"
     ]
   },
   "keyboard-brightness-high": {
@@ -2404,6 +2717,17 @@
       "composition"
     ]
   },
+  "lightning": {
+    "tags": [
+      "lightning",
+      "electricity",
+      "thunder",
+      "energy",
+      "storm",
+      "power",
+      "strike"
+    ]
+  },
   "like": {
     "tags": [
       "like",
@@ -2437,6 +2761,48 @@
       "agenda"
     ]
   },
+  "location-check": {
+    "tags": [
+      "location",
+      "check",
+      "verify",
+      "confirm",
+      "geolocation",
+      "position"
+    ]
+  },
+  "location-minus": {
+    "tags": [
+      "location",
+      "minus",
+      "remove",
+      "delete",
+      "subtract",
+      "geolocation",
+      "position"
+    ]
+  },
+  "location-plus": {
+    "tags": [
+      "location",
+      "plus",
+      "add",
+      "include",
+      "geolocation",
+      "position"
+    ]
+  },
+  "location-x": {
+    "tags": [
+      "location",
+      "x",
+      "remove",
+      "delete",
+      "cancel",
+      "geolocation",
+      "position"
+    ]
+  },
   "location": {
     "tags": [
       "location",
@@ -2445,7 +2811,8 @@
       "place",
       "coordinates",
       "geolocation",
-      "position"
+      "position",
+      "find"
     ]
   },
   "lock-keyhole": {
@@ -2470,6 +2837,17 @@
       "release"
     ]
   },
+  "lock-open-password": {
+    "tags": [
+      "lock",
+      "open",
+      "password",
+      "unlock",
+      "access",
+      "entry",
+      "release"
+    ]
+  },
   "lock-open": {
     "tags": [
       "lock",
@@ -2479,6 +2857,16 @@
       "entry",
       "release",
       "free"
+    ]
+  },
+  "lock-password": {
+    "tags": [
+      "lock",
+      "password",
+      "security",
+      "access",
+      "protection",
+      "private"
     ]
   },
   "lock": {
@@ -2507,11 +2895,22 @@
     "tags": [
       "logout",
       "exit",
-      "sign",
+      "sign out",
       "leave",
       "log off",
       "quit",
       "disconnect"
+    ]
+  },
+  "map": {
+    "tags": [
+      "map",
+      "location",
+      "geography",
+      "navigation",
+      "cartography",
+      "terrain",
+      "directions"
     ]
   },
   "math": {
@@ -2621,6 +3020,28 @@
       "conversation",
       "text",
       "dialogue"
+    ]
+  },
+  "microphone-slash": {
+    "tags": [
+      "microphone",
+      "slash",
+      "mute",
+      "disable",
+      "quiet",
+      "sound off",
+      "audio"
+    ]
+  },
+  "microphone": {
+    "tags": [
+      "microphone",
+      "audio",
+      "voice",
+      "recording",
+      "sound",
+      "speak",
+      "communication"
     ]
   },
   "minimize-one": {
@@ -3030,6 +3451,28 @@
       "positive"
     ]
   },
+  "pokeball": {
+    "tags": [
+      "pokeball",
+      "pokemon",
+      "gaming",
+      "capture",
+      "game",
+      "ball",
+      "monster"
+    ]
+  },
+  "puzzle": {
+    "tags": [
+      "puzzle",
+      "game",
+      "jigsaw",
+      "challenge",
+      "problem-solving",
+      "piece",
+      "solve"
+    ]
+  },
   "question-circle": {
     "tags": [
       "question",
@@ -3126,6 +3569,17 @@
       "history",
       "command",
       "function"
+    ]
+  },
+  "refresh": {
+    "tags": [
+      "refresh",
+      "reload",
+      "renew",
+      "update",
+      "sync",
+      "circular",
+      "repeat"
     ]
   },
   "rewind-circle": {
@@ -3249,6 +3703,17 @@
       "hunt"
     ]
   },
+  "servers": {
+    "tags": [
+      "servers",
+      "network",
+      "data",
+      "hosting",
+      "computing",
+      "technology",
+      "connectivity"
+    ]
+  },
   "share": {
     "tags": [
       "share",
@@ -3347,6 +3812,18 @@
       "defense",
       "guard",
       "armour"
+    ]
+  },
+  "shuffle-one": {
+    "tags": [
+      "shuffle",
+      "one",
+      "random",
+      "mix",
+      "single",
+      "playback",
+      "music",
+      "selection"
     ]
   },
   "shuffle": {
@@ -3837,25 +4314,49 @@
   "type-bold": {
     "tags": [
       "type",
-      "bold"
+      "bold",
+      "text",
+      "font",
+      "style",
+      "emphasize",
+      "weight",
+      "format"
     ]
   },
   "type-italic": {
     "tags": [
       "type",
-      "italic"
+      "italic",
+      "text",
+      "font",
+      "style",
+      "slant",
+      "emphasis",
+      "format"
     ]
   },
   "type-text": {
     "tags": [
       "type",
-      "text"
+      "text",
+      "font",
+      "characters",
+      "letters",
+      "content",
+      "writing",
+      "message"
     ]
   },
   "type-underline": {
     "tags": [
       "type",
-      "underline"
+      "underline",
+      "text",
+      "font",
+      "style",
+      "emphasis",
+      "format",
+      "mark"
     ]
   },
   "umbrella": {

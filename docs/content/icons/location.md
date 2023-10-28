@@ -1,6 +1,6 @@
 ---
 title: Location
-tags: ["location", "pin", "map", "place", "coordinates", "geolocation", "position"]
+tags: ["location", "pin", "map", "place", "coordinates", "geolocation", "position", "find"]
 icon: location
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M12.552 20.82a.942.942 0 0 1-1.105 0C6.679 17.378 1.618 10.298 6.734 5.182a7.447 7.447 0 0 1 10.531 0c5.116 5.116.055 12.196-4.713 15.64Z"/><path d="M12 12a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/></svg>'
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M12.56 20.82a.964.964 0 0 1-1.12 0C6.611 17.378 1.486 10.298 6.667 5.182A7.592 7.592 0 0 1 12 3c2 0 3.919.785 5.333 2.181 5.181 5.116.056 12.196-4.773 15.64Z"/><path d="M12 12a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/></svg>'
 ---
