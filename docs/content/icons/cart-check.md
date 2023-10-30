@@ -2,5 +2,5 @@
 title: Cart check
 tags: ["cart", "check", "verify", "confirm", "shopping", "purchase", "add to cart"]
 icon: cart-check
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="m3 3 .247.092c1.234.457 1.85.686 2.203 1.231.352.545.352 1.268.352 2.715V9.76c0 2.942.06 3.912.881 4.826.82.914 2.142.914 4.784.914h5.024c1.479 0 2.218 0 2.74-.45.523-.45.673-1.214.971-2.743l.474-2.424c.329-1.74.493-2.609.073-3.186-.421-.577-1.858-.577-3.454-.577H5.802"/><path d="m11.5 10.992 1.034 1.181c.095.109.266.1.35-.016l2.1-2.907M16.5 21a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm-8 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/></svg>'
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="m11.5 10.992 1.034 1.181c.095.109.266.1.35-.016l2.1-2.907M16.5 21a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm-8 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M3 3c.83.305 1.968.542 2.48 1.323.356.545.356 1.268.356 2.715V9.76c0 2.942.061 3.912.892 4.826.83.914 2.168.914 4.842.914h5.085c2.666 0 3.244-.601 3.756-3.193.224-1.13.45-2.246.564-3.373.216-2.134-.973-2.814-2.866-2.814H5.836"/></svg>'
 ---

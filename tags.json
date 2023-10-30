@@ -32,6 +32,128 @@
       "screen"
     ]
   },
+  "alarm-check": {
+    "tags": [
+      "alarm",
+      "check",
+      "verify",
+      "confirm",
+      "notification",
+      "alert",
+      "reminder"
+    ]
+  },
+  "alarm-minus": {
+    "tags": [
+      "alarm",
+      "minus",
+      "remove",
+      "delete",
+      "notification",
+      "alert",
+      "reminder"
+    ]
+  },
+  "alarm-plus": {
+    "tags": [
+      "alarm",
+      "plus",
+      "add",
+      "include",
+      "notification",
+      "alert",
+      "reminder"
+    ]
+  },
+  "alarm-x": {
+    "tags": [
+      "alarm",
+      "x",
+      "remove",
+      "delete",
+      "cancel",
+      "notification",
+      "alert",
+      "reminder"
+    ]
+  },
+  "alarm": {
+    "tags": [
+      "alarm",
+      "notification",
+      "alert",
+      "reminder",
+      "clock",
+      "time",
+      "schedule"
+    ]
+  },
+  "align-bottom": {
+    "tags": [
+      "align",
+      "bottom",
+      "position",
+      "vertical",
+      "placement",
+      "layout",
+      "arrangement"
+    ]
+  },
+  "align-horizontal": {
+    "tags": [
+      "align",
+      "horizontal",
+      "position",
+      "layout",
+      "arrangement",
+      "alignment",
+      "direction"
+    ]
+  },
+  "align-left": {
+    "tags": [
+      "align",
+      "left",
+      "position",
+      "layout",
+      "arrangement",
+      "alignment",
+      "direction"
+    ]
+  },
+  "align-right": {
+    "tags": [
+      "align",
+      "right",
+      "position",
+      "layout",
+      "arrangement",
+      "alignment",
+      "direction"
+    ]
+  },
+  "align-top": {
+    "tags": [
+      "align",
+      "top",
+      "position",
+      "vertical",
+      "placement",
+      "layout",
+      "arrangement"
+    ]
+  },
+  "align-vertical": {
+    "tags": [
+      "align",
+      "vertical",
+      "position",
+      "layout",
+      "arrangement",
+      "alignment",
+      "direction"
+    ]
+  },
   "anchor": {
     "tags": [
       "anchor",
@@ -660,6 +782,17 @@
       "web"
     ]
   },
+  "bowl": {
+    "tags": [
+      "bowl",
+      "dish",
+      "food",
+      "container",
+      "cuisine",
+      "eating",
+      "meal"
+    ]
+  },
   "box": {
     "tags": [
       "box",
@@ -667,7 +800,96 @@
       "package",
       "parcel",
       "storage",
-      "carton"
+      "carton",
+      "shipping"
+    ]
+  },
+  "brand-chrome": {
+    "tags": [
+      "brand",
+      "chrome",
+      "web browser",
+      "internet",
+      "Google",
+      "browser",
+      "software"
+    ]
+  },
+  "brand-dribbble": {
+    "tags": [
+      "brand",
+      "dribbble",
+      "design",
+      "creative",
+      "portfolio",
+      "art",
+      "graphics"
+    ]
+  },
+  "brand-figma": {
+    "tags": [
+      "brand",
+      "figma",
+      "design",
+      "prototyping",
+      "collaboration",
+      "UI/UX",
+      "web"
+    ]
+  },
+  "brand-github": {
+    "tags": [
+      "brand",
+      "github",
+      "development",
+      "version control",
+      "code",
+      "repository",
+      "collaboration"
+    ]
+  },
+  "brand-gitlab": {
+    "tags": [
+      "brand",
+      "gitlab",
+      "development",
+      "version control",
+      "code",
+      "repository",
+      "collaboration"
+    ]
+  },
+  "brand-google": {
+    "tags": [
+      "brand",
+      "google",
+      "search",
+      "technology",
+      "internet",
+      "software",
+      "services"
+    ]
+  },
+  "brand-instagram": {
+    "tags": [
+      "brand",
+      "instagram",
+      "social media",
+      "photo sharing",
+      "network",
+      "app",
+      "platform"
+    ]
+  },
+  "brand-youtube": {
+    "tags": [
+      "brand",
+      "youtube",
+      "video",
+      "content",
+      "streaming",
+      "platform",
+      "channel"
     ]
   },
   "brightness-high": {
@@ -1336,6 +1558,17 @@
       "navigate"
     ]
   },
+  "chip": {
+    "tags": [
+      "chip",
+      "integrated circuit",
+      "electronic",
+      "semiconductor",
+      "technology",
+      "microchip",
+      "circuitry"
+    ]
+  },
   "circle-dashed": {
     "tags": [
       "circle",
@@ -1716,6 +1949,28 @@
       "pointer"
     ]
   },
+  "crop": {
+    "tags": [
+      "crop",
+      "editing",
+      "image",
+      "resize",
+      "adjust",
+      "cut",
+      "modify"
+    ]
+  },
+  "crosshair": {
+    "tags": [
+      "crosshair",
+      "target",
+      "aim",
+      "sight",
+      "alignment",
+      "focus",
+      "precision"
+    ]
+  },
   "danger-circle": {
     "tags": [
       "danger",
@@ -2007,6 +2262,138 @@
       "see",
       "perceive",
       "view"
+    ]
+  },
+  "fat-arrow-down": {
+    "tags": [
+      "fat",
+      "arrow",
+      "down",
+      "direction",
+      "pointing",
+      "movement",
+      "scroll"
+    ]
+  },
+  "fat-arrow-left": {
+    "tags": [
+      "fat",
+      "arrow",
+      "left",
+      "direction",
+      "pointing",
+      "movement",
+      "navigate"
+    ]
+  },
+  "fat-arrow-right": {
+    "tags": [
+      "fat",
+      "arrow",
+      "right",
+      "direction",
+      "pointing",
+      "movement",
+      "navigate"
+    ]
+  },
+  "fat-arrow-up": {
+    "tags": [
+      "fat",
+      "arrow",
+      "up",
+      "direction",
+      "pointing",
+      "movement",
+      "scroll"
+    ]
+  },
+  "fat-corner-down-left": {
+    "tags": [
+      "fat",
+      "corner",
+      "down",
+      "left",
+      "direction",
+      "pointing",
+      "movement"
+    ]
+  },
+  "fat-corner-down-right": {
+    "tags": [
+      "fat",
+      "corner",
+      "down",
+      "right",
+      "direction",
+      "pointing",
+      "movement"
+    ]
+  },
+  "fat-corner-left-down": {
+    "tags": [
+      "fat",
+      "corner",
+      "left",
+      "down",
+      "direction",
+      "pointing",
+      "movement"
+    ]
+  },
+  "fat-corner-left-up": {
+    "tags": [
+      "fat",
+      "corner",
+      "left",
+      "up",
+      "direction",
+      "pointing",
+      "movement"
+    ]
+  },
+  "fat-corner-right-down": {
+    "tags": [
+      "fat",
+      "corner",
+      "right",
+      "down",
+      "direction",
+      "pointing",
+      "movement"
+    ]
+  },
+  "fat-corner-right-up": {
+    "tags": [
+      "fat",
+      "corner",
+      "right",
+      "up",
+      "direction",
+      "pointing",
+      "movement"
+    ]
+  },
+  "fat-corner-up-left": {
+    "tags": [
+      "fat",
+      "corner",
+      "up",
+      "left",
+      "direction",
+      "pointing",
+      "movement"
+    ]
+  },
+  "fat-corner-up-right": {
+    "tags": [
+      "fat",
+      "corner",
+      "up",
+      "right",
+      "direction",
+      "pointing",
+      "movement"
     ]
   },
   "file-minus": {
@@ -2487,6 +2874,51 @@
       "sides"
     ]
   },
+  "home-check": {
+    "tags": [
+      "home",
+      "check",
+      "verify",
+      "confirm",
+      "house",
+      "residence",
+      "place"
+    ]
+  },
+  "home-minus": {
+    "tags": [
+      "home",
+      "minus",
+      "remove",
+      "delete",
+      "house",
+      "residence",
+      "place"
+    ]
+  },
+  "home-plus": {
+    "tags": [
+      "home",
+      "plus",
+      "add",
+      "include",
+      "house",
+      "residence",
+      "place"
+    ]
+  },
+  "home-x": {
+    "tags": [
+      "home",
+      "x",
+      "remove",
+      "delete",
+      "cancel",
+      "house",
+      "residence",
+      "place"
+    ]
+  },
   "home": {
     "tags": [
       "home",
@@ -2715,6 +3147,17 @@
       "structure",
       "organization",
       "composition"
+    ]
+  },
+  "lightning-slash": {
+    "tags": [
+      "lightning",
+      "slash",
+      "disable",
+      "turn off",
+      "electricity",
+      "power",
+      "storm"
     ]
   },
   "lightning": {

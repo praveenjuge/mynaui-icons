@@ -2,5 +2,5 @@
 title: Chat x
 tags: ["chat", "x", "close", "cancel", "delete"]
 icon: chat-x
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M21 12a9 9 0 0 1-9 9H3v-9a9 9 0 0 1 18 0Zm-11-2 4 4m0-4-4 4"/></svg>'
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="m10 10 4 4m0-4-4 4m2 7a9 9 0 1 0-9-9c0 1.44.338 2.8.94 4.007.453.911-.177 2.14-.417 3.037a1.17 1.17 0 0 0 1.433 1.433c.897-.24 2.126-.87 3.037-.416A8.964 8.964 0 0 0 12 21Z"/></svg>'
 ---

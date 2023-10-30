@@ -2,5 +2,5 @@
 title: Heart
 tags: ["heart", "love", "like", "romance", "affection"]
 icon: heart
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M7.75 4A4.75 4.75 0 0 0 3 8.75C3 14 12 20 12 20s9-6 9-11.25C21 5.5 18.873 4 16.25 4A4.75 4.75 0 0 0 12 6.626 4.75 4.75 0 0 0 7.75 4Z"/></svg>'
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M7.75 3.5C5.127 3.5 3 5.76 3 8.547 3 14.125 12 20.5 12 20.5s9-6.375 9-11.953C21 5.094 18.873 3.5 16.25 3.5c-1.86 0-3.47 1.136-4.25 2.79-.78-1.654-2.39-2.79-4.25-2.79Z"/></svg>'
 ---
