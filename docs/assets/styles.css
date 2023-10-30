@@ -7,3 +7,9 @@
     transform: translateX(-69%);
   }
 }
+
+@keyframes slidecta {
+  to {
+    transform: translateY(-69%);
+  }
+}
