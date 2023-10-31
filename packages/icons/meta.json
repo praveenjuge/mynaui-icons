@@ -13,7 +13,14 @@
   },
   "accessibility": {
     "tags": [
-      "accessibility"
+      "accessibility",
+      "disability",
+      "inclusivity",
+      "equality",
+      "handicap",
+      "accessible",
+      "diversity",
+      "equal access"
     ],
     "svg": "<circle cx='12' cy='12' r='9'/><path d='m8 9.5 4 .778m0 0 4-.778m-4 .778v2.333m0 0L10.4 16.5m1.6-3.889 1.6 3.889M12 7.25v.5'/>"
   },
@@ -977,14 +984,24 @@
   "brand-threads": {
     "tags": [
       "brand",
-      "threads"
+      "threads",
+      "instagram",
+      "social media",
+      "app",
+      "text"
     ],
     "svg": "<path d='M9.77 8.515c2.23-1.812 5.444-.845 5.823 2.135.403 3.163-.4 5.67-3.52 5.67-2.895 0-2.806-2.52-2.806-2.52 0-2.7 4.589-3.06 7.262-1.71 4.9 3.15 1.336 8.91-4.01 8.91C8.09 21 4.5 18.75 4.5 12s3.59-9 8.02-9c3.125 0 5.944 1.626 6.98 4.879'/>"
   },
   "brand-twitch": {
     "tags": [
       "brand",
-      "twitch"
+      "twitch",
+      "streaming",
+      "gaming",
+      "live",
+      "platform",
+      "content",
+      "video"
     ],
     "svg": "<path d='M15.556 11.1V7.5M20 3H4v14.4h4.444V21L12 17.4h4.444L20 13.8V3Zm-8.889 8.1V7.5v3.6Z'/>"
   },
@@ -3224,7 +3241,11 @@
   "home-smile": {
     "tags": [
       "home",
-      "smile"
+      "smile",
+      "happy",
+      "joy",
+      "residence",
+      "place"
     ],
     "svg": "<path d='M6.133 21C4.955 21 4 20.02 4 18.81v-8.802c0-.665.295-1.295.8-1.71l5.867-4.818a2.09 2.09 0 0 1 2.666 0l5.866 4.818c.506.415.801 1.045.801 1.71v8.802c0 1.21-.955 2.19-2.133 2.19H6.133Z'/><path d='M9 16c.85.63 1.885 1 3 1s2.15-.37 3-1m-5.5-4.5V11m5 .5V11'/>"
   },
@@ -4105,7 +4126,12 @@
   },
   "parking": {
     "tags": [
-      "parking"
+      "parking",
+      "car",
+      "vehicle",
+      "lot",
+      "space",
+      "transportation"
     ],
     "svg": "<path d='M10.5 15v-2.4m0 0h2.276c2.299 0 2.299-3.6 0-3.6H10.5v3.6Z'/><circle cx='12' cy='12' r='9'/>"
   },
@@ -4447,7 +4473,12 @@
   "refresh-alt": {
     "tags": [
       "refresh",
-      "alt"
+      "alt",
+      "reload",
+      "update",
+      "sync",
+      "circular",
+      "repeat"
     ],
     "svg": "<path d='M3.5 8c1.392-3.179 4.823-5 8.522-5 4.679 0 8.525 3.552 8.978 8.1'/><path d='M7.511 8.4h-3.97a.54.54 0 0 1-.54-.54V3.9M20.5 16c-1.392 3.179-4.822 5-8.522 5C7.299 21 3.453 17.448 3 12.9'/><path d='M16.489 15.6h3.97a.54.54 0 0 1 .541.54v3.96'/>"
   },
@@ -5636,7 +5667,13 @@
   },
   "winds": {
     "tags": [
-      "winds"
+      "winds",
+      "wind",
+      "weather",
+      "atmosphere",
+      "breeze",
+      "climate",
+      "meteorology"
     ],
     "svg": "<path d='M18.325 7c3.485 0 3.485 5 0 5H3m15.411 9c3.452 0 3.452-5 0-5H3m7.872-13c3.506 0 3.506 5 0 5H3'/>"
   },
