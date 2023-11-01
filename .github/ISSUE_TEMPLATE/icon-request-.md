@@ -1,7 +1,7 @@
 ---
-name: 'Icon Request:'
+name: 'Icon Request'
 about: Suggest an new icon for this project
-title: ''
+title: 'Icon Request:'
 labels: enhancement
 assignees: praveenjuge
 
