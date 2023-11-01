@@ -2,5 +2,5 @@
 title: Signal
 tags: ["signal", "communication", "connectivity", "network", "reception", "transmission", "strength"]
 icon: signal
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M20.5 10v4m-4-7v10M12 4v16M7.5 7v10m-4-7v4"/></svg>'
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M20.5 10v4m-4-8v12M12 3v18M7.5 6v12m-4-8v4"/></svg>'
 ---

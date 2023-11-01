@@ -77,6 +77,12 @@
       "reminder"
     ]
   },
+  "alarm-snooze": {
+    "tags": [
+      "alarm",
+      "snooze"
+    ]
+  },
   "alarm-x": {
     "tags": [
       "alarm",
@@ -186,6 +192,11 @@
       "software",
       "interface",
       "web"
+    ]
+  },
+  "archive": {
+    "tags": [
+      "archive"
     ]
   },
   "arrow-diagonal-one": {
@@ -708,6 +719,12 @@
       "quiet"
     ]
   },
+  "bell-snooze": {
+    "tags": [
+      "bell",
+      "snooze"
+    ]
+  },
   "bell-x": {
     "tags": [
       "bell",
@@ -739,6 +756,11 @@
       "connectivity",
       "technology",
       "device"
+    ]
+  },
+  "boat": {
+    "tags": [
+      "boat"
     ]
   },
   "bookmark-check": {
@@ -893,6 +915,12 @@
       "platform"
     ]
   },
+  "brand-pocket": {
+    "tags": [
+      "brand",
+      "pocket"
+    ]
+  },
   "brand-threads": {
     "tags": [
       "brand",
@@ -901,6 +929,12 @@
       "social media",
       "app",
       "text"
+    ]
+  },
+  "brand-trello": {
+    "tags": [
+      "brand",
+      "trello"
     ]
   },
   "brand-twitch": {
@@ -1020,6 +1054,17 @@
       "time",
       "schedule",
       "event"
+    ]
+  },
+  "camera-slash": {
+    "tags": [
+      "camera",
+      "slash"
+    ]
+  },
+  "camera": {
+    "tags": [
+      "camera"
     ]
   },
   "campfire": {
@@ -2513,6 +2558,11 @@
       "country"
     ]
   },
+  "flask": {
+    "tags": [
+      "flask"
+    ]
+  },
   "folder-check": {
     "tags": [
       "folder",
@@ -2685,6 +2735,11 @@
       "pleased",
       "delighted",
       "grinning"
+    ]
+  },
+  "gift": {
+    "tags": [
+      "gift"
     ]
   },
   "git-branch": {
@@ -3226,6 +3281,12 @@
       "accept"
     ]
   },
+  "link-alt": {
+    "tags": [
+      "link",
+      "alt"
+    ]
+  },
   "link": {
     "tags": [
       "link",
@@ -3619,6 +3680,12 @@
       "astronomy"
     ]
   },
+  "mouse-pointer": {
+    "tags": [
+      "mouse",
+      "pointer"
+    ]
+  },
   "move": {
     "tags": [
       "move",
@@ -3738,6 +3805,11 @@
       "sides",
       "polygon",
       "stop sign"
+    ]
+  },
+  "package": {
+    "tags": [
+      "package"
     ]
   },
   "paperclip": {
@@ -3959,6 +4031,16 @@
       "monster"
     ]
   },
+  "power": {
+    "tags": [
+      "power"
+    ]
+  },
+  "printer": {
+    "tags": [
+      "printer"
+    ]
+  },
   "puzzle": {
     "tags": [
       "puzzle",
@@ -4087,6 +4169,11 @@
       "update",
       "sync",
       "circular",
+      "repeat"
+    ]
+  },
+  "repeat": {
+    "tags": [
       "repeat"
     ]
   },
@@ -4320,6 +4407,12 @@
       "defense",
       "guard",
       "armour"
+    ]
+  },
+  "shuffle-alt": {
+    "tags": [
+      "shuffle",
+      "alt"
     ]
   },
   "shuffle-one": {
@@ -4566,6 +4659,16 @@
       "light"
     ]
   },
+  "sunrise": {
+    "tags": [
+      "sunrise"
+    ]
+  },
+  "sunset": {
+    "tags": [
+      "sunset"
+    ]
+  },
   "support": {
     "tags": [
       "support",
@@ -4764,6 +4867,11 @@
       "dispose"
     ]
   },
+  "tree": {
+    "tags": [
+      "tree"
+    ]
+  },
   "trending-down": {
     "tags": [
       "trending",
@@ -4887,6 +4995,11 @@
       "history",
       "command",
       "function"
+    ]
+  },
+  "unlink": {
+    "tags": [
+      "unlink"
     ]
   },
   "upload": {

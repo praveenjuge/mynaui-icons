@@ -2,5 +2,5 @@
 title: Activity
 tags: ["activity", "pulse", "movement", "exercise", "fitness", "health", "sports"]
 icon: activity
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M21 12h-3.526a.1.1 0 0 0-.095.073l-2.583 8.854a.1.1 0 0 1-.192 0L9.396 3.073a.1.1 0 0 0-.192 0l-2.583 8.854a.1.1 0 0 1-.095.073H3"/></svg>'
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M21 12h-2.962c-.21 0-.316 0-.405.042a.51.51 0 0 0-.201.173c-.061.088-.092.205-.155.44l-1.817 6.846c-.233.875-.349 1.313-.524 1.426a.435.435 0 0 1-.485-.002c-.175-.115-.288-.554-.514-1.43l-3.873-14.99c-.227-.876-.34-1.315-.515-1.43a.435.435 0 0 0-.485-.002c-.175.113-.291.55-.524 1.426l-1.817 6.845c-.063.236-.094.353-.154.44a.51.51 0 0 1-.202.174C6.278 12 6.173 12 5.962 12H3"/></svg>'
 ---
