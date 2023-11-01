@@ -1,11 +1,11 @@
 @font-face {
   font-family: "mynaui";
-  src: url('mynaui.eot?t=1698832189885'); /* IE9*/
-  src: url('mynaui.eot?t=1698832189885#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url("mynaui.woff2?t=1698832189885") format("woff2"),
-  url("mynaui.woff?t=1698832189885") format("woff"),
-  url('mynaui.ttf?t=1698832189885') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('mynaui.svg?t=1698832189885#mynaui') format('svg'); /* iOS 4.1- */
+  src: url('mynaui.eot?t=1698832949093'); /* IE9*/
+  src: url('mynaui.eot?t=1698832949093#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("mynaui.woff2?t=1698832949093") format("woff2"),
+  url("mynaui.woff?t=1698832949093") format("woff"),
+  url('mynaui.ttf?t=1698832949093') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('mynaui.svg?t=1698832949093#mynaui') format('svg'); /* iOS 4.1- */
 }
 
 [class^="mynaui-"], [class*=" mynaui-"] {

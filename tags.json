@@ -80,7 +80,11 @@
   "alarm-snooze": {
     "tags": [
       "alarm",
-      "snooze"
+      "snooze",
+      "delay",
+      "temporarily silence",
+      "wake-up",
+      "reminder"
     ]
   },
   "alarm-x": {
@@ -196,7 +200,12 @@
   },
   "archive": {
     "tags": [
-      "archive"
+      "archive",
+      "storage",
+      "save",
+      "record",
+      "collection",
+      "repository"
     ]
   },
   "arrow-diagonal-one": {
@@ -722,7 +731,11 @@
   "bell-snooze": {
     "tags": [
       "bell",
-      "snooze"
+      "snooze",
+      "delay",
+      "temporarily silence",
+      "mute",
+      "notification"
     ]
   },
   "bell-x": {
@@ -760,7 +773,12 @@
   },
   "boat": {
     "tags": [
-      "boat"
+      "boat",
+      "watercraft",
+      "vessel",
+      "ship",
+      "marine",
+      "sailing"
     ]
   },
   "bookmark-check": {
@@ -918,7 +936,12 @@
   "brand-pocket": {
     "tags": [
       "brand",
-      "pocket"
+      "pocket",
+      "app",
+      "save for later",
+      "bookmark",
+      "read it later",
+      "content"
     ]
   },
   "brand-threads": {
@@ -934,7 +957,12 @@
   "brand-trello": {
     "tags": [
       "brand",
-      "trello"
+      "trello",
+      "project management",
+      "collaboration",
+      "organization",
+      "boards",
+      "tasks"
     ]
   },
   "brand-twitch": {
@@ -1059,12 +1087,21 @@
   "camera-slash": {
     "tags": [
       "camera",
-      "slash"
+      "slash",
+      "disabled",
+      "off",
+      "no photography",
+      "privacy"
     ]
   },
   "camera": {
     "tags": [
-      "camera"
+      "camera",
+      "photography",
+      "photo",
+      "image",
+      "picture",
+      "capture"
     ]
   },
   "campfire": {
@@ -2560,7 +2597,12 @@
   },
   "flask": {
     "tags": [
-      "flask"
+      "flask",
+      "chemistry",
+      "laboratory",
+      "science",
+      "experiment",
+      "liquid"
     ]
   },
   "folder-check": {
@@ -2739,7 +2781,12 @@
   },
   "gift": {
     "tags": [
-      "gift"
+      "gift",
+      "present",
+      "surprise",
+      "celebration",
+      "holiday",
+      "giving"
     ]
   },
   "git-branch": {
@@ -3284,7 +3331,16 @@
   "link-alt": {
     "tags": [
       "link",
-      "alt"
+      "connect",
+      "chain",
+      "URL",
+      "hyperlink",
+      "web",
+      "internet",
+      "alternate",
+      "alternative",
+      "related",
+      "associated"
     ]
   },
   "link": {
@@ -3683,7 +3739,12 @@
   "mouse-pointer": {
     "tags": [
       "mouse",
-      "pointer"
+      "pointer",
+      "cursor",
+      "click",
+      "interaction",
+      "navigation",
+      "control"
     ]
   },
   "move": {
@@ -3809,7 +3870,13 @@
   },
   "package": {
     "tags": [
-      "package"
+      "package",
+      "box",
+      "parcel",
+      "delivery",
+      "shipping",
+      "container",
+      "mail"
     ]
   },
   "paperclip": {
@@ -4033,12 +4100,22 @@
   },
   "power": {
     "tags": [
-      "power"
+      "power",
+      "energy",
+      "electricity",
+      "on/off",
+      "control",
+      "switch"
     ]
   },
   "printer": {
     "tags": [
-      "printer"
+      "printer",
+      "printing",
+      "output",
+      "document",
+      "paper",
+      "hard copy"
     ]
   },
   "puzzle": {
@@ -4174,7 +4251,12 @@
   },
   "repeat": {
     "tags": [
-      "repeat"
+      "repeat",
+      "loop",
+      "cycle",
+      "redo",
+      "replay",
+      "recurrence"
     ]
   },
   "rewind-circle": {
@@ -4661,12 +4743,22 @@
   },
   "sunrise": {
     "tags": [
-      "sunrise"
+      "sunrise",
+      "morning",
+      "dawn",
+      "daybreak",
+      "sun",
+      "horizon"
     ]
   },
   "sunset": {
     "tags": [
-      "sunset"
+      "sunset",
+      "evening",
+      "dusk",
+      "twilight",
+      "sun",
+      "horizon"
     ]
   },
   "support": {
@@ -4869,7 +4961,12 @@
   },
   "tree": {
     "tags": [
-      "tree"
+      "tree",
+      "nature",
+      "forest",
+      "woods",
+      "greenery",
+      "environment"
     ]
   },
   "trending-down": {
@@ -4999,7 +5096,12 @@
   },
   "unlink": {
     "tags": [
-      "unlink"
+      "unlink",
+      "disconnect",
+      "detach",
+      "remove",
+      "separate",
+      "break"
     ]
   },
   "upload": {
