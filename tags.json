@@ -33,6 +33,17 @@
       "sports"
     ]
   },
+  "aeroplane": {
+    "tags": [
+      "aeroplane",
+      "airplane",
+      "flight",
+      "travel",
+      "aviation",
+      "aircraft",
+      "journey"
+    ]
+  },
   "airplay": {
     "tags": [
       "airplay",
@@ -42,6 +53,17 @@
       "mirroring",
       "media",
       "screen"
+    ]
+  },
+  "airpods": {
+    "tags": [
+      "airpods",
+      "earphones",
+      "wireless",
+      "audio",
+      "music",
+      "headphones",
+      "sound"
     ]
   },
   "alarm-check": {
@@ -176,6 +198,17 @@
       "direction"
     ]
   },
+  "alt": {
+    "tags": [
+      "alt",
+      "alternative",
+      "keyboard",
+      "option",
+      "variant",
+      "choice",
+      "secondary"
+    ]
+  },
   "anchor": {
     "tags": [
       "anchor",
@@ -185,6 +218,17 @@
       "boat",
       "dock",
       "ocean"
+    ]
+  },
+  "aperture": {
+    "tags": [
+      "aperture",
+      "camera",
+      "photography",
+      "lens",
+      "shutter",
+      "focus",
+      "exposure"
     ]
   },
   "api": {
@@ -781,6 +825,28 @@
       "sailing"
     ]
   },
+  "book-open": {
+    "tags": [
+      "book",
+      "open",
+      "read",
+      "knowledge",
+      "literature",
+      "education",
+      "pages"
+    ]
+  },
+  "book": {
+    "tags": [
+      "book",
+      "reading",
+      "literature",
+      "education",
+      "knowledge",
+      "library",
+      "pages"
+    ]
+  },
   "bookmark-check": {
     "tags": [
       "bookmark",
@@ -878,6 +944,17 @@
       "graphics"
     ]
   },
+  "brand-facebook": {
+    "tags": [
+      "brand",
+      "facebook",
+      "social media",
+      "network",
+      "connect",
+      "friends",
+      "platform"
+    ]
+  },
   "brand-figma": {
     "tags": [
       "brand",
@@ -887,6 +964,17 @@
       "collaboration",
       "UI/UX",
       "web"
+    ]
+  },
+  "brand-framer": {
+    "tags": [
+      "brand",
+      "framer",
+      "design",
+      "prototyping",
+      "UI/UX",
+      "web",
+      "graphics"
     ]
   },
   "brand-github": {
@@ -933,6 +1021,28 @@
       "platform"
     ]
   },
+  "brand-linkedin": {
+    "tags": [
+      "brand",
+      "linkedin",
+      "professional",
+      "networking",
+      "career",
+      "connections",
+      "employment"
+    ]
+  },
+  "brand-pinterest": {
+    "tags": [
+      "brand",
+      "pinterest",
+      "pins",
+      "inspiration",
+      "creativity",
+      "visual",
+      "discover"
+    ]
+  },
   "brand-pocket": {
     "tags": [
       "brand",
@@ -942,6 +1052,28 @@
       "bookmark",
       "read it later",
       "content"
+    ]
+  },
+  "brand-slack": {
+    "tags": [
+      "brand",
+      "slack",
+      "communication",
+      "messaging",
+      "collaboration",
+      "team",
+      "chat"
+    ]
+  },
+  "brand-spotify": {
+    "tags": [
+      "brand",
+      "spotify",
+      "music",
+      "streaming",
+      "audio",
+      "playlists",
+      "songs"
     ]
   },
   "brand-threads": {
@@ -977,6 +1109,17 @@
       "video"
     ]
   },
+  "brand-twitter": {
+    "tags": [
+      "brand",
+      "twitter",
+      "social media",
+      "tweets",
+      "microblogging",
+      "follow",
+      "posts"
+    ]
+  },
   "brand-youtube": {
     "tags": [
       "brand",
@@ -986,6 +1129,17 @@
       "streaming",
       "platform",
       "channel"
+    ]
+  },
+  "briefcase": {
+    "tags": [
+      "briefcase",
+      "business",
+      "work",
+      "professional",
+      "documents",
+      "portfolio",
+      "office"
     ]
   },
   "brightness-high": {
@@ -1178,6 +1332,18 @@
       "broadcast"
     ]
   },
+  "chart-bar-one": {
+    "tags": [
+      "chart",
+      "bar",
+      "one",
+      "statistics",
+      "data",
+      "analytics",
+      "graph",
+      "visualize"
+    ]
+  },
   "chart-bar": {
     "tags": [
       "chart",
@@ -1187,6 +1353,41 @@
       "analytics",
       "statistics",
       "visualization"
+    ]
+  },
+  "chart-graph": {
+    "tags": [
+      "chart",
+      "graph",
+      "statistics",
+      "data",
+      "analytics",
+      "visualization",
+      "trends"
+    ]
+  },
+  "chart-pie-one": {
+    "tags": [
+      "chart",
+      "pie",
+      "one",
+      "statistics",
+      "data",
+      "analytics",
+      "visualization",
+      "segments"
+    ]
+  },
+  "chart-pie-two": {
+    "tags": [
+      "chart",
+      "pie",
+      "two",
+      "statistics",
+      "data",
+      "analytics",
+      "visualization",
+      "segments"
     ]
   },
   "chart-pie": {
@@ -1216,6 +1417,17 @@
       "more",
       "menu",
       "options"
+    ]
+  },
+  "chat-messages": {
+    "tags": [
+      "chat",
+      "messages",
+      "communication",
+      "conversation",
+      "dialogue",
+      "talk",
+      "text"
     ]
   },
   "chat-minus": {
@@ -1738,6 +1950,28 @@
       "circular"
     ]
   },
+  "click": {
+    "tags": [
+      "click",
+      "interaction",
+      "mouse",
+      "select",
+      "activate",
+      "engage",
+      "button"
+    ]
+  },
+  "clipboard": {
+    "tags": [
+      "clipboard",
+      "copy",
+      "paste",
+      "document",
+      "notes",
+      "text",
+      "information"
+    ]
+  },
   "clock-circle": {
     "tags": [
       "clock",
@@ -1847,6 +2081,17 @@
       "data"
     ]
   },
+  "cocktail": {
+    "tags": [
+      "cocktail",
+      "drink",
+      "beverage",
+      "alcohol",
+      "mixology",
+      "bar",
+      "refreshment"
+    ]
+  },
   "code-circle": {
     "tags": [
       "code",
@@ -1881,6 +2126,17 @@
       "script",
       "development",
       "coding"
+    ]
+  },
+  "coffee": {
+    "tags": [
+      "coffee",
+      "beverage",
+      "drink",
+      "caffeine",
+      "morning",
+      "brew",
+      "mug"
     ]
   },
   "cog": {
@@ -1965,6 +2221,27 @@
       "arrangement"
     ]
   },
+  "contactless-circle": {
+    "tags": [
+      "contactless",
+      "circle",
+      "payment",
+      "secure",
+      "technology",
+      "NFC",
+      "wireless"
+    ]
+  },
+  "contactless": {
+    "tags": [
+      "contactless",
+      "payment",
+      "secure",
+      "technology",
+      "NFC",
+      "wireless"
+    ]
+  },
   "controller": {
     "tags": [
       "controller",
@@ -1991,6 +2268,26 @@
       "duplicate",
       "paste",
       "text"
+    ]
+  },
+  "copyright-slash": {
+    "tags": [
+      "copyright",
+      "slash",
+      "no copyright",
+      "public domain",
+      "rights",
+      "license"
+    ]
+  },
+  "copyright": {
+    "tags": [
+      "copyright",
+      "rights",
+      "intellectual property",
+      "license",
+      "legal",
+      "protection"
     ]
   },
   "corner-down-left": {
@@ -2065,6 +2362,17 @@
       "pointer"
     ]
   },
+  "credit-card": {
+    "tags": [
+      "credit",
+      "card",
+      "payment",
+      "finance",
+      "money",
+      "transaction",
+      "debit"
+    ]
+  },
   "crop": {
     "tags": [
       "crop",
@@ -2085,6 +2393,17 @@
       "alignment",
       "focus",
       "precision"
+    ]
+  },
+  "cupcake": {
+    "tags": [
+      "cupcake",
+      "dessert",
+      "sweet",
+      "baking",
+      "treat",
+      "confectionery",
+      "pastry"
     ]
   },
   "danger-circle": {
@@ -2141,6 +2460,17 @@
       "discard"
     ]
   },
+  "desktop": {
+    "tags": [
+      "desktop",
+      "computer",
+      "PC",
+      "workstation",
+      "technology",
+      "office",
+      "monitor"
+    ]
+  },
   "diamond": {
     "tags": [
       "diamond",
@@ -2163,6 +2493,17 @@
       "not good",
       "negative",
       "reject"
+    ]
+  },
+  "divide": {
+    "tags": [
+      "divide",
+      "split",
+      "separate",
+      "portion",
+      "segment",
+      "math",
+      "arithmetic"
     ]
   },
   "dollar": {
@@ -2268,6 +2609,29 @@
       "tear",
       "condensation",
       "moisture"
+    ]
+  },
+  "earth": {
+    "tags": [
+      "earth",
+      "planet",
+      "globe",
+      "world",
+      "geography",
+      "environment",
+      "nature"
+    ]
+  },
+  "edit-one": {
+    "tags": [
+      "edit",
+      "one",
+      "pen",
+      "pencil",
+      "writing",
+      "revision",
+      "modify",
+      "change"
     ]
   },
   "edit": {
@@ -2546,6 +2910,17 @@
       "paper",
       "note",
       "data"
+    ]
+  },
+  "film": {
+    "tags": [
+      "film",
+      "movie",
+      "cinema",
+      "video",
+      "entertainment",
+      "motion picture",
+      "reel"
     ]
   },
   "filter-one": {
@@ -2965,6 +3340,17 @@
       "entertainment"
     ]
   },
+  "heart-broken": {
+    "tags": [
+      "heart",
+      "broken",
+      "love",
+      "emotions",
+      "relationship",
+      "heartbreak",
+      "sadness"
+    ]
+  },
   "heart-circle": {
     "tags": [
       "heart",
@@ -3284,6 +3670,50 @@
       "description"
     ]
   },
+  "lamp": {
+    "tags": [
+      "lamp",
+      "light",
+      "illumination",
+      "lighting",
+      "interior",
+      "decoration",
+      "brightness"
+    ]
+  },
+  "layers-one": {
+    "tags": [
+      "layers",
+      "one",
+      "stack",
+      "arrangement",
+      "overlap",
+      "composition",
+      "levels"
+    ]
+  },
+  "layers-three": {
+    "tags": [
+      "layers",
+      "three",
+      "stack",
+      "arrangement",
+      "overlap",
+      "composition",
+      "levels"
+    ]
+  },
+  "layers-two": {
+    "tags": [
+      "layers",
+      "two",
+      "stack",
+      "arrangement",
+      "overlap",
+      "composition",
+      "levels"
+    ]
+  },
   "layout": {
     "tags": [
       "layout",
@@ -3328,19 +3758,28 @@
       "accept"
     ]
   },
-  "link-alt": {
+  "link-one": {
     "tags": [
       "link",
+      "one",
       "connect",
-      "chain",
-      "URL",
       "hyperlink",
+      "URL",
       "web",
-      "internet",
-      "alternate",
-      "alternative",
-      "related",
-      "associated"
+      "access",
+      "navigate"
+    ]
+  },
+  "link-two": {
+    "tags": [
+      "link",
+      "two",
+      "connect",
+      "hyperlink",
+      "URL",
+      "web",
+      "access",
+      "navigate"
     ]
   },
   "link": {
@@ -3758,6 +4197,17 @@
       "transfer"
     ]
   },
+  "music": {
+    "tags": [
+      "music",
+      "audio",
+      "song",
+      "melody",
+      "sound",
+      "tunes",
+      "entertainment"
+    ]
+  },
   "myna": {
     "tags": [
       "myna",
@@ -3767,6 +4217,27 @@
       "wildlife",
       "feathered",
       "songbird"
+    ]
+  },
+  "navigation-one": {
+    "tags": [
+      "navigation",
+      "one",
+      "direction",
+      "guidance",
+      "wayfinding",
+      "map",
+      "route"
+    ]
+  },
+  "navigation": {
+    "tags": [
+      "navigation",
+      "direction",
+      "guidance",
+      "wayfinding",
+      "map",
+      "route"
     ]
   },
   "notification": {
@@ -3944,6 +4415,17 @@
       "break"
     ]
   },
+  "pen": {
+    "tags": [
+      "pen",
+      "writing",
+      "ink",
+      "drawing",
+      "art",
+      "scribble",
+      "stationery"
+    ]
+  },
   "pencil": {
     "tags": [
       "pencil",
@@ -3997,6 +4479,18 @@
       "portion",
       "fraction",
       "percent"
+    ]
+  },
+  "pin": {
+    "tags": [
+      "pin",
+      "booard",
+      "location",
+      "marker",
+      "map",
+      "pointer",
+      "destination",
+      "GPS"
     ]
   },
   "play-circle": {
@@ -4184,6 +4678,17 @@
       "pick"
     ]
   },
+  "rainbow": {
+    "tags": [
+      "rainbow",
+      "colorful",
+      "spectrum",
+      "weather",
+      "nature",
+      "rain",
+      "sunlight"
+    ]
+  },
   "record": {
     "tags": [
       "record",
@@ -4314,6 +4819,28 @@
       "angle"
     ]
   },
+  "ribbon": {
+    "tags": [
+      "ribbon",
+      "decorative",
+      "bow",
+      "gift",
+      "celebration",
+      "decoration",
+      "ornament"
+    ]
+  },
+  "room-service": {
+    "tags": [
+      "room",
+      "service",
+      "hospitality",
+      "hotel",
+      "accommodation",
+      "assistance",
+      "amenities"
+    ]
+  },
   "rows": {
     "tags": [
       "rows",
@@ -4334,6 +4861,28 @@
       "updates",
       "syndicate",
       "content"
+    ]
+  },
+  "save": {
+    "tags": [
+      "save",
+      "disk",
+      "download",
+      "preserve",
+      "store",
+      "backup",
+      "keep"
+    ]
+  },
+  "scissors": {
+    "tags": [
+      "scissors",
+      "cut",
+      "snip",
+      "tool",
+      "craft",
+      "office",
+      "sharp"
     ]
   },
   "search-minus": {
@@ -4378,6 +4927,17 @@
       "lookup",
       "query",
       "hunt"
+    ]
+  },
+  "send": {
+    "tags": [
+      "send",
+      "email",
+      "message",
+      "transmit",
+      "communicate",
+      "share",
+      "deliver"
     ]
   },
   "servers": {
@@ -4491,22 +5051,37 @@
       "armour"
     ]
   },
+  "shooting-star": {
+    "tags": [
+      "shooting",
+      "star",
+      "meteor",
+      "celestial",
+      "astronomy",
+      "wish",
+      "night sky"
+    ]
+  },
+  "shopping-bag": {
+    "tags": [
+      "shopping",
+      "bag",
+      "retail",
+      "purchase",
+      "store",
+      "consumer",
+      "merchandise"
+    ]
+  },
   "shuffle-alt": {
     "tags": [
       "shuffle",
-      "alt"
-    ]
-  },
-  "shuffle-one": {
-    "tags": [
-      "shuffle",
-      "one",
+      "alt",
       "random",
       "mix",
-      "single",
-      "playback",
+      "order",
       "music",
-      "selection"
+      "playlist"
     ]
   },
   "shuffle": {
@@ -4586,6 +5161,27 @@
       "strength"
     ]
   },
+  "skip-back": {
+    "tags": [
+      "skip",
+      "back",
+      "previous",
+      "rewind",
+      "backward",
+      "music",
+      "navigate"
+    ]
+  },
+  "skip-forward": {
+    "tags": [
+      "skip",
+      "forward",
+      "next",
+      "fast forward",
+      "music",
+      "navigate"
+    ]
+  },
   "slash": {
     "tags": [
       "slash",
@@ -4609,6 +5205,17 @@
       "frosty"
     ]
   },
+  "sofa": {
+    "tags": [
+      "sofa",
+      "couch",
+      "furniture",
+      "comfort",
+      "living room",
+      "seating",
+      "lounge"
+    ]
+  },
   "sort": {
     "tags": [
       "sort",
@@ -4629,6 +5236,17 @@
       "shimmer",
       "glisten",
       "glimmer"
+    ]
+  },
+  "speaker": {
+    "tags": [
+      "speaker",
+      "audio",
+      "sound",
+      "music",
+      "volume",
+      "amplify",
+      "play"
     ]
   },
   "spinner": {
@@ -4728,6 +5346,17 @@
       "end",
       "pause",
       "terminate"
+    ]
+  },
+  "store": {
+    "tags": [
+      "store",
+      "shop",
+      "retail",
+      "retailer",
+      "merchandise",
+      "boutique",
+      "buy"
     ]
   },
   "sun": {
@@ -4904,6 +5533,17 @@
       "dial"
     ]
   },
+  "terminal": {
+    "tags": [
+      "terminal",
+      "command line",
+      "code",
+      "computer",
+      "programming",
+      "shell",
+      "console"
+    ]
+  },
   "text-align-center": {
     "tags": [
       "text",
@@ -4946,6 +5586,72 @@
       "align",
       "rationalize",
       "arrange"
+    ]
+  },
+  "thermometer": {
+    "tags": [
+      "thermometer",
+      "temperature",
+      "health",
+      "measure",
+      "medical",
+      "fever",
+      "weather"
+    ]
+  },
+  "ticket-slash": {
+    "tags": [
+      "ticket",
+      "slash",
+      "cancel",
+      "no entry",
+      "blocked",
+      "admission",
+      "access denied"
+    ]
+  },
+  "ticket": {
+    "tags": [
+      "ticket",
+      "admission",
+      "entry",
+      "access",
+      "pass",
+      "event",
+      "concert"
+    ]
+  },
+  "toggle-left": {
+    "tags": [
+      "toggle",
+      "left",
+      "switch",
+      "control",
+      "activate",
+      "on-off",
+      "settings"
+    ]
+  },
+  "toggle-right": {
+    "tags": [
+      "toggle",
+      "right",
+      "switch",
+      "control",
+      "activate",
+      "on-off",
+      "settings"
+    ]
+  },
+  "tool": {
+    "tags": [
+      "tool",
+      "equipment",
+      "instrument",
+      "implement",
+      "utensil",
+      "device",
+      "hardware"
     ]
   },
   "trash": {
@@ -5022,6 +5728,28 @@
       "sides",
       "polygon",
       "trigon"
+    ]
+  },
+  "truck": {
+    "tags": [
+      "truck",
+      "vehicle",
+      "transportation",
+      "delivery",
+      "cargo",
+      "freight",
+      "logistics"
+    ]
+  },
+  "tv": {
+    "tags": [
+      "tv",
+      "television",
+      "screen",
+      "entertainment",
+      "broadcast",
+      "channel",
+      "program"
     ]
   },
   "type-bold": {
@@ -5192,6 +5920,50 @@
       "individual"
     ]
   },
+  "users-group": {
+    "tags": [
+      "users",
+      "group",
+      "community",
+      "members",
+      "team",
+      "people",
+      "organization"
+    ]
+  },
+  "users": {
+    "tags": [
+      "users",
+      "community",
+      "members",
+      "people",
+      "team",
+      "population",
+      "organization"
+    ]
+  },
+  "video-slash": {
+    "tags": [
+      "video",
+      "slash",
+      "no video",
+      "mute",
+      "stop",
+      "block",
+      "disable"
+    ]
+  },
+  "video": {
+    "tags": [
+      "video",
+      "media",
+      "movie",
+      "film",
+      "play",
+      "stream",
+      "watch"
+    ]
+  },
   "volume-check": {
     "tags": [
       "volume",
@@ -5286,6 +6058,17 @@
       "meter",
       "measurement",
       "mute"
+    ]
+  },
+  "watch": {
+    "tags": [
+      "watch",
+      "timepiece",
+      "wristwatch",
+      "clock",
+      "time",
+      "accessory",
+      "wearing"
     ]
   },
   "waves": {
@@ -5387,6 +6170,17 @@
       "breeze",
       "climate",
       "meteorology"
+    ]
+  },
+  "wine": {
+    "tags": [
+      "wine",
+      "beverage",
+      "drink",
+      "alcohol",
+      "grape",
+      "vintage",
+      "celebration"
     ]
   },
   "x-circle": {

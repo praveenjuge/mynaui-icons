@@ -2,5 +2,5 @@
 title: Flag
 tags: ["flag", "mark", "symbol", "nation", "country"]
 icon: flag
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M5 3v1.412m0 0v8.823m0-8.823c2.46-.662 4.534-1.259 6.95.04 2.455 1.32 4.527.618 7.046-.02-.17 1.691-.752 3.11-.746 4.535.006 1.344.588 2.695.75 4.288-2.52.637-4.594 1.341-7.05.02-2.416-1.298-4.49-.702-6.95-.04M5 21v-7.765"/></svg>'
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M4 21v-5.313m0 0c5.818-4.55 10.182 4.55 16 0V4.313c-5.818 4.55-10.182-4.55-16 0v11.374Z"/></svg>'
 ---

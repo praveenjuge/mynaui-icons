@@ -1,0 +1,6 @@
+---
+title: Scissors
+tags: ["scissors", "cut", "snip", "tool", "craft", "office", "sharp"]
+icon: scissors
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M11.79 12 7 8.855m14-2.903L7 15.145M8 6.92c0 1.337-1.12 2.42-2.5 2.42S3 8.256 3 6.919C3 5.583 4.12 4.5 5.5 4.5S8 5.583 8 6.92Zm0 10.162c0-1.336-1.12-2.42-2.5-2.42S3 15.745 3 17.081 4.12 19.5 5.5 19.5 8 18.417 8 17.08Zm13 .966-6.066-3.983"/></svg>'
+---

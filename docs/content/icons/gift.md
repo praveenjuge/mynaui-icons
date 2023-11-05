@@ -2,5 +2,5 @@
 title: Gift
 tags: ["gift", "present", "surprise", "celebration", "holiday", "giving"]
 icon: gift
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M12 21v-9m0-4.5H7.95c-2.77 0-2.94-4.5 0-4.5C11.1 3 12 7.5 12 7.5Zm0 0h4.05c2.896 0 2.896-4.5 0-4.5C12.9 3 12 7.5 12 7.5Zm7.4 0H4.6c-.56 0-.84 0-1.054.087a.926.926 0 0 0-.437.35C3 8.107 3 8.332 3 8.78v1.44c0 .448 0 .672.109.843.096.15.249.273.437.35.214.087.494.087 1.054.087h14.8c.56 0 .84 0 1.054-.087a.926.926 0 0 0 .437-.35c.109-.17.109-.395.109-.843V8.78c0-.448 0-.672-.109-.843a.926.926 0 0 0-.437-.35C20.24 7.5 19.96 7.5 19.4 7.5Zm.1 4.5v7.892c0 .388 0 .582-.109.73a.912.912 0 0 1-.437.302C18.74 21 18.46 21 17.9 21H6.1c-.56 0-.84 0-1.054-.076a.913.913 0 0 1-.437-.302c-.109-.148-.109-.342-.109-.73V12"/></svg>'
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M12 21v-9m0-5H7.95c-2.77 0-2.94-4 0-4C11.1 3 12 7 12 7Zm0 0h4.05c2.896 0 2.896-4 0-4C12.9 3 12 7 12 7Z"/><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-7m17 0V9a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v3h18Z"/></svg>'
 ---
