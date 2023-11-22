@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html
   lang="{{ .Site.LanguageCode }}"
   prefix="og: http://ogp.me/ns#"
@@ -83,6 +83,10 @@
     <meta name="color-scheme" content="dark" />
   </head>
   <body>
+    <div
+      class="select-none h-1 pointer-events-none w-full bg-gradient-to-r from-purple-600 via-blue-600 to-emerald-600 saturate-[125%]"
+      aria-hidden="true"
+    ></div>
     {{ block "main" . }} {{ end }}
   </body>
 </html>

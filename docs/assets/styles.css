@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@keyframes slide {
-  to {
-    transform: translateX(-69%);
-  }
-}
-
 @keyframes slidecta {
   to {
     transform: translateY(-69%);
