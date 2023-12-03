@@ -82,7 +82,7 @@
     </h1>
 
     <div
-      class="text-gray-300 flex flex-wrap [&_a]:rounded-full [&_a]:px-2.5 [&_a]:py-0.5 [&_a]:bg-slate-900 [&_a]:border [&_a]:border-slate-800 [&_a]:mr-1 [&_a]:mb-1 text-xs"
+      class="text-gray-300 flex flex-wrap [&_a]:rounded-full [&_a]:px-2.5 [&_a]:py-0.5 [&_a]:bg-gray-900 [&_a]:border [&_a]:border-gray-800 [&_a]:mr-1 [&_a]:mb-1 text-xs"
     >
       <span class="sr-only">Tags</span> {{ range .Params.tags }}
       <a href="/tags/{{ . | urlize }}">{{ . }}</a>
@@ -135,17 +135,17 @@ const App = () => {
 
       <!-- prettier-ignore -->
       {{ $spriteCode := `<svg
-  width="24"
-  height="24"
-  fill="none"
-  viewBox="0 0 24 24"
-  stroke-width="1.5"
-  stroke-linecap="round"
-  stroke-linejoin="round"
-  stroke="currentColor"
->
-  <use xlink:href="/path/to/mynaui.symbol.svg#mynaui-_name_"></use>
-</svg>` }}
+        width="24"
+        height="24"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke="currentColor"
+      >
+        <use xlink:href="/path/to/mynaui.symbol.svg#mynaui-_name_"></use></svg
+      >` }}
 
       <!-- prettier-ignore -->
       {{ $spriteCode := replace $spriteCode "_name_" .Params.icon }}

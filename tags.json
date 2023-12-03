@@ -900,6 +900,17 @@
       "web"
     ]
   },
+  "bounding-box": {
+    "tags": [
+      "bounding",
+      "box",
+      "rectangle",
+      "frame",
+      "outline",
+      "container",
+      "shape"
+    ]
+  },
   "bowl": {
     "tags": [
       "bowl",
@@ -1344,6 +1355,17 @@
       "visualize"
     ]
   },
+  "chart-bar-two": {
+    "tags": [
+      "chart",
+      "bar",
+      "two",
+      "comparison",
+      "data",
+      "analytics",
+      "dual-bars"
+    ]
+  },
   "chart-bar": {
     "tags": [
       "chart",
@@ -1355,6 +1377,17 @@
       "visualization"
     ]
   },
+  "chart-bubble": {
+    "tags": [
+      "chart",
+      "bubble",
+      "scatter",
+      "data",
+      "analytics",
+      "visualization",
+      "points"
+    ]
+  },
   "chart-graph": {
     "tags": [
       "chart",
@@ -1364,6 +1397,17 @@
       "analytics",
       "visualization",
       "trends"
+    ]
+  },
+  "chart-line": {
+    "tags": [
+      "chart",
+      "line",
+      "trend",
+      "data",
+      "progress",
+      "analytics",
+      "growth"
     ]
   },
   "chart-pie-one": {
@@ -2643,6 +2687,17 @@
       "update"
     ]
   },
+  "elevator": {
+    "tags": [
+      "elevator",
+      "lift",
+      "building",
+      "transport",
+      "vertical",
+      "accessibility",
+      "up-down"
+    ]
+  },
   "emoji-daze": {
     "tags": [
       "emoji",
@@ -2709,6 +2764,17 @@
       "message"
     ]
   },
+  "exclude": {
+    "tags": [
+      "exclude",
+      "subtract",
+      "difference",
+      "mask",
+      "overlap",
+      "cutout",
+      "negative-space"
+    ]
+  },
   "external-link": {
     "tags": [
       "external",
@@ -2742,6 +2808,17 @@
       "see",
       "perceive",
       "view"
+    ]
+  },
+  "face-id": {
+    "tags": [
+      "face",
+      "id",
+      "recognition",
+      "security",
+      "biometric",
+      "authentication",
+      "facial-recognition"
     ]
   },
   "fat-arrow-down": {
@@ -3232,6 +3309,17 @@
       "location"
     ]
   },
+  "grid-one": {
+    "tags": [
+      "grid",
+      "one",
+      "layout",
+      "single-cell",
+      "structure",
+      "design",
+      "framework"
+    ]
+  },
   "grid": {
     "tags": [
       "grid",
@@ -3614,6 +3702,17 @@
       "help"
     ]
   },
+  "intersect": {
+    "tags": [
+      "intersect",
+      "overlap",
+      "converge",
+      "cross",
+      "junction",
+      "merge",
+      "graphic-overlay"
+    ]
+  },
   "key": {
     "tags": [
       "key",
@@ -3791,6 +3890,28 @@
       "hyperlink",
       "web",
       "internet"
+    ]
+  },
+  "list-check": {
+    "tags": [
+      "list",
+      "check",
+      "completed",
+      "tasks",
+      "verification",
+      "checklist",
+      "to-do"
+    ]
+  },
+  "list-number": {
+    "tags": [
+      "list",
+      "number",
+      "ordered",
+      "sequence",
+      "enumeration",
+      "priority",
+      "steps"
     ]
   },
   "list": {
@@ -4175,6 +4296,17 @@
       "astronomy"
     ]
   },
+  "mountain": {
+    "tags": [
+      "mountain",
+      "peak",
+      "nature",
+      "outdoor",
+      "terrain",
+      "hiking",
+      "landscape"
+    ]
+  },
   "mouse-pointer": {
     "tags": [
       "mouse",
@@ -4350,6 +4482,17 @@
       "mail"
     ]
   },
+  "paint": {
+    "tags": [
+      "paint",
+      "art",
+      "brush",
+      "color",
+      "create",
+      "palette",
+      "artist"
+    ]
+  },
   "paperclip": {
     "tags": [
       "paperclip",
@@ -4369,6 +4512,28 @@
       "lot",
       "space",
       "transportation"
+    ]
+  },
+  "password": {
+    "tags": [
+      "password",
+      "security",
+      "login",
+      "encryption",
+      "access",
+      "protection",
+      "authentication"
+    ]
+  },
+  "path": {
+    "tags": [
+      "path",
+      "line",
+      "track",
+      "route",
+      "graphic",
+      "design",
+      "trajectory"
     ]
   },
   "pause-circle": {
@@ -4491,6 +4656,17 @@
       "pointer",
       "destination",
       "GPS"
+    ]
+  },
+  "planet": {
+    "tags": [
+      "planet",
+      "space",
+      "orbit",
+      "world",
+      "astronomy",
+      "solar system",
+      "celestial"
     ]
   },
   "play-circle": {
@@ -4872,6 +5048,17 @@
       "store",
       "backup",
       "keep"
+    ]
+  },
+  "scan": {
+    "tags": [
+      "scan",
+      "scanner",
+      "barcode",
+      "QR code",
+      "document",
+      "digital",
+      "image capture"
     ]
   },
   "scissors": {
@@ -5359,6 +5546,16 @@
       "buy"
     ]
   },
+  "subtract": {
+    "tags": [
+      "subtract",
+      "minus",
+      "remove",
+      "decrease",
+      "lessen",
+      "negative"
+    ]
+  },
   "sun": {
     "tags": [
       "sun",
@@ -5399,6 +5596,17 @@
       "customer",
       "service",
       "assist"
+    ]
+  },
+  "swatches": {
+    "tags": [
+      "swatches",
+      "color",
+      "palette",
+      "samples",
+      "design",
+      "hue",
+      "color-scheme"
     ]
   },
   "table": {
@@ -5820,6 +6028,17 @@
       "history",
       "command",
       "function"
+    ]
+  },
+  "union": {
+    "tags": [
+      "union",
+      "combine",
+      "merge",
+      "join",
+      "integration",
+      "overlap",
+      "unification"
     ]
   },
   "unlink": {
