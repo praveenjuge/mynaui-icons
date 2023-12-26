@@ -31,8 +31,8 @@ async function main(file) {
   const iconTitle = capitalizeFirstLetter(iconBasename);
 
   let tags = [];
-  tags = tagsObject[iconBasename]?.tags
-    ? tagsObject[iconBasename].tags
+  tags = tagsObject[iconBasename]
+    ? tagsObject[iconBasename]
     : iconTitle.split(" ");
   tags = tags.map((tag) => `${tag}`).join(", ");
 

@@ -2,5 +2,5 @@
 title: Link one
 tags: ["link", "one", "connect", "hyperlink", "URL", "web", "access", "navigate"]
 icon: link-one
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="m10.935 8.324 4.381-4.385c1.276-1.276 3.372-1.248 4.683.063 1.31 1.312 1.338 3.41.062 4.686l-3.803 3.807m-8.516-.99L3.94 15.31c-1.277 1.278-1.25 3.377.06 4.688s3.407 1.34 4.683.063l4.38-4.385m-2.065-2.666c-1.311-1.311-1.34-3.41-.063-4.686m2.128 2.603c1.312 1.311 1.34 3.41.063 4.686"/></svg>'
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="m10.936 8.324 4.38-4.385c1.276-1.276 3.372-1.248 4.683.063 1.31 1.312 1.338 3.41.062 4.686l-3.803 3.807m-8.516-.99L3.94 15.312c-1.277 1.276-1.25 3.374.06 4.686 1.31 1.311 3.407 1.34 4.683.063l4.38-4.385m-2.065-2.666c-1.311-1.311-1.34-3.41-.063-4.686m2.128 2.603c1.312 1.311 1.34 3.41.063 4.686"/></svg>'
 ---

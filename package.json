@@ -39,21 +39,21 @@
   },
   "devDependencies": {
     "@atomico/rollup-plugin-sizes": "^1.1.4",
-    "@babel/preset-env": "^7.22.20",
-    "@babel/preset-react": "^7.22.15",
-    "esbuild": "^0.19.4",
+    "@babel/preset-env": "^7.23.6",
+    "@babel/preset-react": "^7.23.3",
+    "esbuild": "^0.19.10",
     "html-minifier": "^4.0.0",
-    "lerna": "^7.3.0",
+    "lerna": "^8.0.1",
     "picocolors": "^1.0.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "rollup": "^3.29.4",
-    "rollup-plugin-esbuild": "^6.0.2",
-    "rollup-plugin-license": "^3.1.0",
-    "svgo": "^3.0.2",
+    "rollup": "^4.9.1",
+    "rollup-plugin-esbuild": "^6.1.0",
+    "rollup-plugin-license": "^3.2.0",
+    "svgo": "^3.1.0",
     "svgson": "^5.3.1",
-    "svgtofont": "^4.0.0"
+    "svgtofont": "^4.1.0"
   },
   "svgtofont": {
     "css": {

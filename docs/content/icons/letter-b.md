@@ -1,0 +1,6 @@
+---
+title: Letter b
+tags: ["letter", "b", "alphabet", "second", "consonant", "character", "text"]
+icon: letter-b
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M9 12V7h4.589c2.74 0 3.124 4.072.57 5M9 12v5h4.589c2.74 0 3.124-4.072.57-5M9 12h5.158"/></svg>'
+---

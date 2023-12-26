@@ -2,5 +2,5 @@
 title: List check
 tags: ["list", "check", "completed", "tasks", "verification", "checklist", "to-do"]
 icon: list-check
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M7.5 16.038 4.687 19.5 3 18.346m4.5-8.077-2.813 3.462L3 12.577M7.5 4.5 4.687 7.962 3 6.808M11 17.5h10M11 12h10M11 6.5h10"/></svg>'
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M7.5 16.039 4.688 19.5 3 18.346m4.5-8.077-2.812 3.462L3 12.577M7.5 4.5 4.688 7.962 3 6.808M11 17.5h10M11 12h10M11 6.5h10"/></svg>'
 ---

@@ -34,8 +34,8 @@ const tagsObjectKeysLength = tagsObjectKeys.length;
         const iconTitle = iconBasename.replace(/-/g, " ");
         let tags = [];
 
-        if (tagsObject[iconBasename]?.tags) {
-          tags = tagsObject[iconBasename].tags;
+        if (tagsObject[iconBasename]) {
+          tags = tagsObject[iconBasename];
         } else {
           // lowercase and split by space
           tags = iconTitle
@@ -45,7 +45,7 @@ const tagsObjectKeysLength = tagsObjectKeys.length;
             .filter((tag, index, self) => self.indexOf(tag) === index);
         }
 
-        return { [iconBasename]: { tags: tags } };
+        return { [iconBasename]: tags };
       })
     );
 

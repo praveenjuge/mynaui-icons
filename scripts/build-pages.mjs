@@ -27,12 +27,12 @@ async function main(file) {
   const iconContent = await fs.readFile(path.join(iconsDir, file), "utf8");
   const pageName = path.join(pagesDir, `${iconBasename}.md`);
 
-  console.log(tagsObject[iconBasename]?.tags);
+  console.log(tagsObject[iconBasename]);
 
   // tags as array and assign to tags variable
   let tags = [];
-  tags = tagsObject[iconBasename]?.tags
-    ? tagsObject[iconBasename].tags
+  tags = tagsObject[iconBasename]
+    ? tagsObject[iconBasename]
     : iconTitle.split(" ");
   tags = tags.map((tag) => `"${tag}"`).join(", ");
 

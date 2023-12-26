@@ -36,7 +36,7 @@ function capitalizeFirstLetter(string) {
     const icons = await Promise.all(
       files.map(async (file) => {
         const iconBasename = path.basename(file, path.extname(file));
-        const tags = tagsObject[iconBasename]?.tags || [];
+        const tags = tagsObject[iconBasename] || [];
         const svg = await fs.readFile(path.join(iconsDir, file), "utf-8");
 
         return {

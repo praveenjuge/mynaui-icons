@@ -2,5 +2,5 @@
 title: Cart
 tags: ["cart", "shopping", "trolley", "basket", "purchase", "buy"]
 icon: cart
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M3 3c.83.305 1.968.542 2.48 1.323.356.545.356 1.268.356 2.715V9.76c0 2.942.061 3.912.892 4.826.83.914 2.168.914 4.842.914h5.085c2.666 0 3.244-.601 3.756-3.193.224-1.13.45-2.246.564-3.373.216-2.134-.973-2.814-2.866-2.814H5.836M16.5 21a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm-8 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/></svg>'
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M16.5 21a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m-8 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M3.71 5.4h15.214c1.378 0 2.373 1.27 1.995 2.548l-1.654 5.6C19.01 14.408 18.196 15 17.27 15H8.112c-.927 0-1.742-.593-1.996-1.452zm0 0L3 3"/></svg>'
 ---

@@ -1,0 +1,6 @@
+---
+title: Atom
+tags: ["atom", "molecule", "science", "chemistry", "physics", "nucleus", "energy", "react", "reactjs", "javascript"]
+icon: atom
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M15.407 8.593c4.6 4.6 6.802 9.853 4.92 11.735-1.88 1.881-7.135-.322-11.734-4.921-4.6-4.6-6.802-9.853-4.92-11.735 1.88-1.881 7.134.322 11.734 4.921"/><path d="M8.594 8.593c-4.6 4.6-6.803 9.853-4.921 11.735 1.881 1.881 7.135-.322 11.734-4.921 4.6-4.6 6.803-9.853 4.921-11.735-1.881-1.881-7.135.322-11.734 4.921M11.75 12h.5"/></svg>'
+---
