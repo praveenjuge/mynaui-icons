@@ -2,5 +2,5 @@
 title: Fat corner right down
 tags: ["fat", "corner", "right", "down", "direction", "pointing", "movement"]
 icon: fat-corner-right-down
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M4.077 3q4.216 3.303 4.785 5.866.569 2.564.172 4.88H4L12.214 21 20 13.747h-4.784Q15.18 9.46 12 6.46T4.077 3"/></svg>'
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M4.077 3c2.81 2.202 4.406 4.157 4.785 5.866.38 1.709.436 3.336.172 4.88H4L12.214 21 20 13.747h-4.784C15.192 10.89 14.12 8.46 12 6.46S7.239 3.307 4.077 3"/></svg>'
 ---

@@ -2,5 +2,5 @@
 title: Image rectangle
 tags: ["image", "rectangle", "rectangular", "shape", "picture", "photo", "frame"]
 icon: image-rectangle
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M6 9a2 2 0 1 0 4 0 2 2 0 0 0-4 0m15.927-.01c-6.61-.908-12.31 4-11.927 10.51"/><path d="M2 13.066c2.78-.385 6.851 1.293 8.2 3.434"/><path d="M2 12c0-3.771 0-5.657 1.464-6.828C4.93 4 7.286 4 12 4s7.071 0 8.535 1.172S22 8.229 22 12s0 5.657-1.465 6.828C19.072 20 16.714 20 12 20s-7.071 0-8.536-1.172S2 15.771 2 12"/></svg>'
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M6 9a2 2 0 1 0 4 0 2 2 0 0 0-4 0m14.927-.01c-6.61-.908-11.31 4-10.927 10.51"/><path d="M3 13.066c2.78-.385 5.851 1.293 7.2 3.434"/><path d="M2.357 9.3c0-1.68 0-2.52.327-3.162a3 3 0 0 1 1.311-1.311C4.637 4.5 5.477 4.5 7.157 4.5h9.686c1.68 0 2.52 0 3.162.327a3 3 0 0 1 1.31 1.311c.328.642.328 1.482.328 3.162v5.4c0 1.68 0 2.52-.327 3.162a3 3 0 0 1-1.311 1.311c-.642.327-1.482.327-3.162.327H7.157c-1.68 0-2.52 0-3.162-.327a3 3 0 0 1-1.31-1.311c-.328-.642-.328-1.482-.328-3.162z"/></svg>'
 ---

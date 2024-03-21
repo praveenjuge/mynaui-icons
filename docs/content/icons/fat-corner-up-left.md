@@ -2,5 +2,5 @@
 title: Fat corner up left
 tags: ["fat", "corner", "up", "left", "direction", "pointing", "movement"]
 icon: fat-corner-up-left
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M21 19.923q-3.303-4.216-5.866-4.785-2.564-.569-4.88-.172V20L3 11.786 10.253 4v4.784Q14.54 8.82 17.54 12T21 19.923"/></svg>'
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M21 19.923c-2.202-2.81-4.157-4.406-5.866-4.785-1.709-.38-3.336-.436-4.88-.172V20L3 11.786 10.253 4v4.784C13.11 8.808 15.54 9.88 17.54 12s3.154 4.761 3.461 7.923"/></svg>'
 ---

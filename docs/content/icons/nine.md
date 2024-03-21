@@ -2,5 +2,5 @@
 title: Nine
 tags: ["nine", "number", "count", "quantity", "math", "numerical", "value"]
 icon: nine
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M10 17h1.25A3.75 3.75 0 0 0 15 13.25v-3.125m0 0a3.125 3.125 0 1 0-6.25 0c0 1.726 1.4 2.5 3.125 2.5S15 11.851 15 10.125"/></svg>'
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M10 17h1.25A3.75 3.75 0 0 0 15 13.25v-3.125m0 0a3.125 3.125 0 1 0-6.25 0c0 1.726 1.4 2.5 3.125 2.5 1.726 0 3.125-.774 3.125-2.5"/></svg>'
 ---
