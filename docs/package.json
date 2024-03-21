@@ -2,7 +2,7 @@
   "dependencies": {
     "postcss": "latest",
     "postcss-cli": "latest",
-    "tailwindcss": "insiders"
+    "tailwindcss": "latest"
   },
   "postcss": {
     "plugins": {
