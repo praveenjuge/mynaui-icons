@@ -2,5 +2,5 @@
 title: Maximize
 tags: ["maximize", "expand", "enlarge", "fullscreen", "view", "optimize", "enlarge"]
 icon: maximize
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M3.01 9.75c.04-2.79.247-4.371 1.308-5.432C5.379 3.258 6.96 3.05 9.75 3.01M3.01 14.26c.04 2.79.247 4.37 1.308 5.432C5.379 20.752 6.96 20.96 9.75 21M21 9.75c-.04-2.79-.247-4.371-1.308-5.432-1.061-1.06-2.643-1.268-5.432-1.308M21 14.26c-.04 2.79-.247 4.37-1.308 5.432-1.061 1.06-2.643 1.268-5.432 1.308"/></svg>'
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M9.4 21c-2.24 0-3.36 0-4.216-.436a4 4 0 0 1-1.748-1.748C3 17.96 3 16.84 3 14.6m18 0c0 2.24 0 3.36-.436 4.216a4 4 0 0 1-1.748 1.748C17.96 21 16.84 21 14.6 21m0-18c2.24 0 3.36 0 4.216.436a4 4 0 0 1 1.748 1.748C21 6.04 21 7.16 21 9.4M9.4 3c-2.24 0-3.36 0-4.216.436a4 4 0 0 0-1.748 1.748C3 6.04 3 7.16 3 9.4"/></svg>'
 ---

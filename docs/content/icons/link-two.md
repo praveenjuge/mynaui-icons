@@ -2,5 +2,5 @@
 title: Link two
 tags: ["link", "two", "connect", "hyperlink", "URL", "web", "access", "navigate"]
 icon: link-two
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M14 15.5h3.4c1.988 0 3.6-1.567 3.6-3.5s-1.612-3.5-3.6-3.5H14m-4 7-3.397-.007c-1.987-.003-3.647-1.426-3.602-3.502.045-2.075 1.606-3.494 3.593-3.491l3.397.007M7.757 12h8.486"/></svg>'
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M14 15.5h3.4c1.988 0 3.6-1.567 3.6-3.5s-1.612-3.5-3.6-3.5H14m-4 7-3.397-.007c-1.987-.003-3.647-1.426-3.602-3.502S4.607 8.497 6.594 8.5l3.397.007M7.757 12h8.486"/></svg>'
 ---

@@ -2979,9 +2979,21 @@
     "accessibility",
     "up-down"
   ],
+  "envelope-open": [
+    "envelope",
+    "open",
+    "mail",
+    "email",
+    "letter",
+    "correspondence",
+    "communication",
+    "post",
+    "message"
+  ],
   "envelope": [
     "envelope",
     "mail",
+    "email",
     "letter",
     "correspondence",
     "communication",
@@ -8934,6 +8946,26 @@
     "cargo",
     "railroad",
     "engine"
+  ],
+  "trash-one": [
+    "trash",
+    "one",
+    "bin",
+    "garbage",
+    "delete",
+    "discard",
+    "waste",
+    "dispose"
+  ],
+  "trash-two": [
+    "trash",
+    "two",
+    "bin",
+    "garbage",
+    "delete",
+    "discard",
+    "waste",
+    "dispose"
   ],
   "trash": [
     "trash",

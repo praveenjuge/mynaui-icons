@@ -2,5 +2,5 @@
 title: Confetti
 tags: ["confetti", "celebration", "party", "festive", "paper", "decoration", "scattered"]
 icon: confetti
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M3.675 20.971a.508.508 0 0 1-.65-.637L5.615 9.21c.12-.374.6-.475.862-.183l7.756 7.544a.509.509 0 0 1-.212.82zm7.219-11.695L13.3 6.66c1.283-1.395 1.444-2.615.481-3.661M8 5.25v-.5m12-.25V4m0 9.5V13m-2 5.5V18m-4.219-5.586 2.406-2.615c1.605-1.744 3.209-1.744 4.813 0"/></svg>'
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M3.675 20.971a.508.508 0 0 1-.65-.637L5.615 9.21c.12-.374.6-.475.862-.183l7.756 7.544a.51.51 0 0 1-.212.82zm7.219-11.695L13.3 6.66q1.925-2.092.481-3.661M8 5.25v-.5m12-.25V4m0 9.5V13m-2 5.5V18m-4.219-5.586 2.406-2.615q2.407-2.616 4.813 0"/></svg>'
 ---

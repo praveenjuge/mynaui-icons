@@ -2,5 +2,5 @@
 title: Bell check
 tags: ["bell", "check", "notification", "verify", "confirm", "alert"]
 icon: bell-check
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M18.831 10.256c0-3.701-2.46-7.256-6.813-7.256s-6.813 3.555-6.813 7.256c0 1.502-.988 2.654-1.818 3.859-3.73 5.971 20.807 5.703 17.262 0-.83-1.205-1.818-2.357-1.818-3.859"/><path d="M8.643 18.368C9.272 19.92 10.07 21 12 21c1.929 0 2.728-1.08 3.357-2.632M9.6 10.323l1.379 1.575a.299.299 0 0 0 .466-.022L14.245 8"/></svg>'
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="m9.6 10.323 1.379 1.575a.3.3 0 0 0 .466-.022L14.245 8"/><path d="M15.019 17h-6.04m6.04 0h3.614c1.876 0 1.559-1.86.61-2.804C15.825 10.801 20.68 3 11.999 3s-3.825 7.8-7.243 11.196c-.913.908-1.302 2.804.61 2.804H8.98m6.039 0c0 1.925-.648 4-3.02 4s-3.02-2.075-3.02-4"/></svg>'
 ---
