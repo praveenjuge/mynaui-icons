@@ -63,6 +63,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "85ed9dab571c2caf0d688dcc3d9251713f8f9b69",
+  "gitHead": "f41cb607f521b83d1ae0cd47dcfff89418b9e61a",
   "sass": "mynaui.scss"
 }
