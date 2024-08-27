@@ -1,4 +1,20 @@
 {
+  "a-arrow-down": [
+    "a",
+    "arrow",
+    "down",
+    "direction",
+    "pointer",
+    "navigate"
+  ],
+  "a-arrow-up": [
+    "a",
+    "arrow",
+    "up",
+    "direction",
+    "pointer",
+    "navigate"
+  ],
   "academic-hat": [
     "academic",
     "hat",
@@ -56,6 +72,13 @@
     "aviation",
     "aircraft",
     "journey"
+  ],
+  "air-conditioner": [
+    "air",
+    "conditioner",
+    "cooler",
+    "machine",
+    "cool"
   ],
   "airplay": [
     "airplay",
@@ -128,6 +151,14 @@
     "clock",
     "time",
     "schedule"
+  ],
+  "album": [
+    "album",
+    "collection",
+    "photos",
+    "pictures",
+    "images",
+    "gallery"
   ],
   "align-bottom": [
     "align",
@@ -6406,6 +6437,15 @@
     "expand",
     "create"
   ],
+  "message-reply": [
+    "message",
+    "reply",
+    "respond",
+    "answer",
+    "comment",
+    "replying",
+    "response"
+  ],
   "message-x": [
     "message",
     "x",
@@ -7706,6 +7746,13 @@
     "decoration",
     "ornament"
   ],
+  "rocket": [
+    "rocket",
+    "space",
+    "launch",
+    "travel",
+    "explore"
+  ],
   "room-service": [
     "room",
     "service",
@@ -8386,6 +8433,15 @@
     "emoticon",
     "face",
     "grinning"
+  ],
+  "smoke-detector": [
+    "smoke",
+    "detector",
+    "alarm",
+    "alert",
+    "warning",
+    "danger",
+    "caution"
   ],
   "snow": [
     "snow",
@@ -9426,6 +9482,12 @@
     "rotation",
     "steering",
     "spinning"
+  ],
+  "wheelchair": [
+    "wheelchair",
+    "accessibility",
+    "disabled",
+    "handicap"
   ],
   "wifi-check": [
     "wifi",
