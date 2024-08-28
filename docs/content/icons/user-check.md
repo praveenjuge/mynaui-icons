@@ -2,5 +2,5 @@
 title: User check
 tags: ["user", "check", "verified", "approve", "confirm", "validate", "authenticated"]
 icon: user-check
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><circle cx="12" cy="7.5" r="3"/><path d="M19.5 20.5c-.475-9.333-14.525-9.333-15 0"/><path d="m10.258 18.992 1.034 1.181c.095.109.266.1.35-.016l2.1-2.907"/></svg>'
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M15 7.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0m4.5 13c-.475-9.333-14.525-9.333-15 0"/><path d="m10.258 18.992 1.034 1.181c.095.109.266.1.35-.016l2.1-2.907"/></svg>'
 ---

@@ -2,5 +2,5 @@
 title: Music circle
 tags: ["music", "circle", "notes", "sound", "melody", "rhythm", "tune"]
 icon: music-circle
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><circle cx="12" cy="12" r="9"/><path d="M12.5 14.5V8.6a.6.6 0 0 1 .6-.6h1.4m-2 6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>'
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0"/><path d="M12.5 14.5V8.6a.6.6 0 0 1 .6-.6h1.4m-2 6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>'
 ---

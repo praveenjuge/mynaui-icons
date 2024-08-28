@@ -2,5 +2,5 @@
 title: Alarm x
 tags: ["alarm", "x", "remove", "delete", "cancel", "notification", "alert", "reminder"]
 icon: alarm-x
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M3 5.231 6.15 3M21 5.231 17.85 3"/><circle cx="12" cy="13" r="8"/><path d="m10 11 4 4m0-4-4 4"/></svg>'
+svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M3 5.231 6.15 3M21 5.231 17.85 3M20 13a8 8 0 1 1-16 0 8 8 0 0 1 16 0m-10-2 4 4m0-4-4 4"/></svg>'
 ---
