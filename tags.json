@@ -223,6 +223,30 @@
     "choice",
     "secondary"
   ],
+  "ambulance": [
+    "ambulance",
+    "emergency",
+    "medical",
+    "health",
+    "rescue",
+    "vehicle"
+  ],
+  "ampersand-square": [
+    "ampersand",
+    "square",
+    "symbol",
+    "character"
+  ],
+  "ampersand": [
+    "ampersand",
+    "symbol",
+    "character"
+  ],
+  "ampersands": [
+    "ampersands",
+    "symbol",
+    "character"
+  ],
   "anchor": [
     "anchor",
     "nautical",
@@ -231,6 +255,66 @@
     "boat",
     "dock",
     "ocean"
+  ],
+  "angry-circle": [
+    "angry",
+    "circle",
+    "emotion",
+    "feeling",
+    "anger",
+    "frustration",
+    "irritation",
+    "frown"
+  ],
+  "angry-ghost": [
+    "angry",
+    "ghost",
+    "emotion",
+    "feeling",
+    "anger",
+    "frustration",
+    "irritation",
+    "frown"
+  ],
+  "angry-square": [
+    "angry",
+    "square",
+    "emotion",
+    "feeling",
+    "anger",
+    "frustration",
+    "irritation",
+    "frown"
+  ],
+  "annoyed-circle": [
+    "annoyed",
+    "circle",
+    "emotion",
+    "feeling",
+    "annoyance",
+    "frustration",
+    "irritation",
+    "frown"
+  ],
+  "annoyed-ghost": [
+    "annoyed",
+    "ghost",
+    "emotion",
+    "feeling",
+    "annoyance",
+    "frustration",
+    "irritation",
+    "frown"
+  ],
+  "annoyed-square": [
+    "annoyed",
+    "square",
+    "emotion",
+    "feeling",
+    "annoyance",
+    "frustration",
+    "irritation",
+    "frown"
   ],
   "aperture": [
     "aperture",

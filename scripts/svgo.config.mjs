@@ -30,6 +30,8 @@ export default {
           "fill",
           "path:stroke",
           "circle:stroke",
+          "stroke-miterlimit",
+          "transform"
         ],
       },
     },
