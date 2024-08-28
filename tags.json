@@ -3965,9 +3965,30 @@
     "encryption",
     "geometry"
   ],
+  "heading-five": [
+    "heading",
+    "five",
+    "title",
+    "header",
+    "text"
+  ],
+  "heading-four": [
+    "heading",
+    "four",
+    "title",
+    "header",
+    "text"
+  ],
   "heading-one": [
     "heading",
     "one",
+    "title",
+    "header",
+    "text"
+  ],
+  "heading-six": [
+    "heading",
+    "six",
     "title",
     "header",
     "text"
