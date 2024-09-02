@@ -19,6 +19,11 @@
       "source": "/tags/:slug",
       "destination": "https://mynaui.com/icons/tags/:slug",
       "permanent": true
+    },
+    {
+      "source": "/sitemap.xml",
+      "destination": "https://mynaui.com/sitemap.xml",
+      "permanent": true
     }
   ]
 }
