@@ -1,0 +1,24 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://mynaui.com/icons",
+      "permanent": true
+    },
+    {
+      "source": "/icons/:slug",
+      "destination": "https://mynaui.com/icons/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/tags",
+      "destination": "https://mynaui.com/icons/tags",
+      "permanent": true
+    },
+    {
+      "source": "/tags/:slug",
+      "destination": "https://mynaui.com/icons/tags/:slug",
+      "permanent": true
+    }
+  ]
+}
