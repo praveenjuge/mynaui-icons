@@ -32,7 +32,7 @@
     "handicap",
     "accessible",
     "diversity",
-    "equal access"
+    "equal-access"
   ],
   "activity-square": [
     "activity",
@@ -129,7 +129,7 @@
     "alarm",
     "snooze",
     "delay",
-    "temporarily silence",
+    "temporarily-silence",
     "wake-up",
     "reminder"
   ],
@@ -339,8 +339,8 @@
     "artificial",
     "modal",
     "intelligence",
-    "machine learning",
-    "virtual assistant",
+    "machine-learning",
+    "virtual-assistant",
     "automation"
   ],
   "archive": [
@@ -747,6 +747,12 @@
     "reactjs",
     "javascript"
   ],
+  "baby": [
+    "baby",
+    "infant",
+    "child",
+    "newborn"
+  ],
   "bank": [
     "bank",
     "finance",
@@ -910,7 +916,7 @@
     "bell",
     "snooze",
     "delay",
-    "temporarily silence",
+    "temporarily-silence",
     "mute",
     "notification"
   ],
@@ -937,7 +943,7 @@
     "bitcoin",
     "circle",
     "cryptocurrency",
-    "digital currency",
+    "digital-currency",
     "finance",
     "investment",
     "technology"
@@ -954,17 +960,17 @@
   "bitcoin-octagon": [
     "bitcoin",
     "octagon",
-    "digital asset",
+    "digital-asset",
     "economy",
     "future",
     "payment",
-    "virtual currency"
+    "virtual-currency"
   ],
   "bitcoin-square": [
     "bitcoin",
     "square",
-    "crypto exchange",
-    "digital money",
+    "crypto-exchange",
+    "digital-money",
     "innovation",
     "market",
     "transaction"
@@ -980,9 +986,9 @@
   ],
   "bitcoin": [
     "bitcoin",
-    "blockchain technology",
-    "cryptocurrency market",
-    "digital economy",
+    "blockchain",
+    "cryptocurrency",
+    "digital",
     "innovative",
     "secure"
   ],
@@ -1093,9 +1099,9 @@
   "brand-chrome": [
     "brand",
     "chrome",
-    "web browser",
+    "web",
     "internet",
-    "Google",
+    "google",
     "browser",
     "software"
   ],
@@ -1111,7 +1117,7 @@
   "brand-facebook": [
     "brand",
     "facebook",
-    "social media",
+    "social-media",
     "network",
     "connect",
     "friends",
@@ -1123,7 +1129,7 @@
     "design",
     "prototyping",
     "collaboration",
-    "UI/UX",
+    "uiux",
     "web"
   ],
   "brand-framer": [
@@ -1131,7 +1137,7 @@
     "framer",
     "design",
     "prototyping",
-    "UI/UX",
+    "uiux",
     "web",
     "graphics"
   ],
@@ -1139,7 +1145,7 @@
     "brand",
     "github",
     "development",
-    "version control",
+    "version-control",
     "code",
     "repository",
     "collaboration"
@@ -1148,7 +1154,7 @@
     "brand",
     "gitlab",
     "development",
-    "version control",
+    "version-control",
     "code",
     "repository",
     "collaboration"
@@ -1165,8 +1171,8 @@
   "brand-instagram": [
     "brand",
     "instagram",
-    "social media",
-    "photo sharing",
+    "social-media",
+    "photo-sharing",
     "network",
     "app",
     "platform"
@@ -1193,9 +1199,9 @@
     "brand",
     "pocket",
     "app",
-    "save for later",
+    "save-for-later",
     "bookmark",
-    "read it later",
+    "read-it-later",
     "content"
   ],
   "brand-slack": [
@@ -1220,14 +1226,14 @@
     "brand",
     "threads",
     "instagram",
-    "social media",
+    "social-media",
     "app",
     "text"
   ],
   "brand-trello": [
     "brand",
     "trello",
-    "project management",
+    "project-management",
     "collaboration",
     "organization",
     "boards",
@@ -1246,7 +1252,7 @@
   "brand-twitter": [
     "brand",
     "twitter",
-    "social media",
+    "social-media",
     "tweets",
     "microblogging",
     "follow",
@@ -1256,7 +1262,7 @@
     "brand",
     "x",
     "twitter",
-    "social media",
+    "social-media",
     "tweets",
     "microblogging",
     "follow",
@@ -1361,7 +1367,7 @@
     "slash",
     "disabled",
     "off",
-    "no photography",
+    "no-photography",
     "privacy"
   ],
   "camera": [
@@ -1386,7 +1392,7 @@
     "confirm",
     "shopping",
     "purchase",
-    "add to cart"
+    "add-to-cart"
   ],
   "cart-minus": [
     "cart",
@@ -1439,7 +1445,7 @@
     "concentrate",
     "bullseye",
     "precision",
-    "focus point",
+    "focus-point",
     "target"
   ],
   "chart-bar-one": [
@@ -1943,7 +1949,7 @@
   ],
   "chip": [
     "chip",
-    "integrated circuit",
+    "integrated-circuit",
     "electronic",
     "semiconductor",
     "technology",
@@ -2233,7 +2239,7 @@
     "snow",
     "snowfall",
     "snowflakes",
-    "snowy day",
+    "snowy",
     "snowstorm"
   ],
   "cloud-upload": [
@@ -2283,10 +2289,10 @@
     "octagon",
     "digital",
     "technology",
-    "code editor",
+    "code-editor",
     "debugging",
     "syntax",
-    "code review"
+    "code-review"
   ],
   "code-square": [
     "code",
@@ -2383,7 +2389,7 @@
     "parts",
     "elements",
     "modules",
-    "building blocks",
+    "building",
     "pieces",
     "constituents"
   ],
@@ -2420,7 +2426,7 @@
     "payment",
     "secure",
     "technology",
-    "NFC",
+    "nfc",
     "wireless"
   ],
   "contactless": [
@@ -2428,7 +2434,7 @@
     "payment",
     "secure",
     "technology",
-    "NFC",
+    "nfc",
     "wireless"
   ],
   "controller": [
@@ -2455,26 +2461,26 @@
   ],
   "copyleft": [
     "copyleft",
-    "open source",
+    "open-source",
     "copyright",
-    "creative commons",
-    "intellectual property",
+    "creative-commons",
+    "intellectual-property",
     "licensing",
-    "free software",
-    "digital rights"
+    "free-software",
+    "digital-rights"
   ],
   "copyright-slash": [
     "copyright",
     "slash",
-    "no copyright",
-    "public domain",
+    "no-copyright",
+    "public-domain",
     "rights",
     "license"
   ],
   "copyright": [
     "copyright",
     "rights",
-    "intellectual property",
+    "intellectual-property",
     "license",
     "legal",
     "protection"
@@ -2551,7 +2557,7 @@
     "payment",
     "deduction",
     "balance",
-    "credit score"
+    "credit-score"
   ],
   "credit-card-plus": [
     "credit",
@@ -2559,7 +2565,7 @@
     "plus",
     "payment",
     "addition",
-    "credit limit",
+    "credit-limit",
     "rewards"
   ],
   "credit-card-x": [
@@ -2584,7 +2590,7 @@
     "croissant",
     "pastry",
     "breakfast",
-    "French",
+    "french",
     "buttery",
     "delicious",
     "flaky"
@@ -2726,7 +2732,7 @@
   "desktop": [
     "desktop",
     "computer",
-    "PC",
+    "pc",
     "workstation",
     "technology",
     "office",
@@ -2759,7 +2765,7 @@
     "strategy",
     "math",
     "probability",
-    "board game"
+    "board-game"
   ],
   "dice-one": [
     "dice",
@@ -2767,7 +2773,7 @@
     "game",
     "chance",
     "roll",
-    "dice game",
+    "dice-game",
     "random"
   ],
   "dice-six": [
@@ -2775,7 +2781,7 @@
     "six",
     "game",
     "winning",
-    "dice roll",
+    "dice-roll",
     "craps",
     "lucky"
   ],
@@ -2795,14 +2801,14 @@
     "chance",
     "double",
     "roll",
-    "dice game"
+    "dice-game"
   ],
   "dislike": [
     "dislike",
-    "thumbs down",
+    "thumbs-down",
     "disapproval",
     "unfavorable",
-    "not good",
+    "not-good",
     "negative",
     "reject"
   ],
@@ -2830,7 +2836,7 @@
     "currency",
     "finance",
     "money",
-    "six sides",
+    "six-sides",
     "geometric"
   ],
   "dollar-octagon": [
@@ -2839,7 +2845,7 @@
     "currency",
     "finance",
     "money",
-    "eight sides",
+    "eight-sides",
     "geometric"
   ],
   "dollar-square": [
@@ -2848,7 +2854,7 @@
     "currency",
     "finance",
     "money",
-    "four sides",
+    "four-sides",
     "geometric"
   ],
   "dollar-waves": [
@@ -2876,26 +2882,26 @@
     "menu",
     "options",
     "navigation",
-    "dots menu",
-    "dots options"
+    "dots-menu",
+    "dots-options"
   ],
   "dots-hexagon": [
     "dots",
     "hexagon",
     "shape",
     "pattern",
-    "dots pattern",
-    "dots shape",
-    "dots hexagon"
+    "dots-pattern",
+    "dots-shape",
+    "dots-hexagon"
   ],
   "dots-octagon": [
     "dots",
     "octagon",
     "shape",
     "pattern",
-    "dots pattern",
-    "dots shape",
-    "dots octagon"
+    "dots-pattern",
+    "dots-shape",
+    "dots-octagon"
   ],
   "dots-square": [
     "dots",
@@ -2903,8 +2909,8 @@
     "more",
     "menu",
     "options",
-    "dots menu",
-    "dots options"
+    "dots-menu",
+    "dots-options"
   ],
   "dots-vertical-circle": [
     "dots",
@@ -2913,8 +2919,8 @@
     "more",
     "menu",
     "navigation",
-    "dots navigation",
-    "vertical dots"
+    "dots-navigation",
+    "vertical-dots"
   ],
   "dots-vertical-hexagon": [
     "dots",
@@ -2922,8 +2928,8 @@
     "hexagon",
     "shape",
     "pattern",
-    "dots pattern",
-    "dots shape"
+    "dots-pattern",
+    "dots-shape"
   ],
   "dots-vertical-octagon": [
     "dots",
@@ -2931,8 +2937,8 @@
     "octagon",
     "shape",
     "pattern",
-    "dots pattern",
-    "dots shape"
+    "dots-pattern",
+    "dots-shape"
   ],
   "dots-vertical-square": [
     "dots",
@@ -2987,6 +2993,26 @@
     "condensation",
     "moisture"
   ],
+  "ear-slash": [
+    "ear",
+    "slash",
+    "deaf",
+    "mute",
+    "hearing",
+    "sound",
+    "noise",
+    "silence"
+  ],
+  "ear": [
+    "ear",
+    "hearing",
+    "sound",
+    "noise",
+    "silence",
+    "listen",
+    "hear",
+    "auditory"
+  ],
   "earth": [
     "earth",
     "planet",
@@ -2995,6 +3021,12 @@
     "geography",
     "environment",
     "nature"
+  ],
+  "eclipse": [
+    "eclipse",
+    "sun",
+    "moon",
+    "sky"
   ],
   "edit-one": [
     "edit",
@@ -3052,7 +3084,7 @@
   "eight-octagon": [
     "eight",
     "octagon",
-    "stop sign",
+    "stop-sign",
     "traffic",
     "warning",
     "protection",
@@ -3166,7 +3198,7 @@
     "finance",
     "money",
     "europe",
-    "euro sign",
+    "euro-sign",
     "european"
   ],
   "exclude": [
@@ -3182,7 +3214,7 @@
     "external",
     "link",
     "open",
-    "new tab",
+    "new-tab",
     "navigate",
     "website",
     "redirect"
@@ -3433,7 +3465,7 @@
     "cinema",
     "video",
     "entertainment",
-    "motion picture",
+    "motion-picture",
     "reel"
   ],
   "filter-one": [
@@ -3499,7 +3531,7 @@
     "shapes",
     "eight",
     "sides",
-    "stop sign",
+    "stop-sign",
     "polygon"
   ],
   "five-square": [
@@ -3695,8 +3727,8 @@
     "four",
     "octagon",
     "shape",
-    "stop sign",
-    "eight sides",
+    "stop-sign",
+    "eight-sides",
     "symmetrical",
     "polygon"
   ],
@@ -3706,8 +3738,8 @@
     "shape",
     "solid",
     "symmetrical",
-    "equal sides",
-    "building block"
+    "equal-sides",
+    "building-block"
   ],
   "four-waves": [
     "four",
@@ -3774,8 +3806,8 @@
   "git-branch": [
     "git",
     "branch",
-    "version control",
-    "source code",
+    "version-control",
+    "source-code",
     "repository",
     "codebase",
     "development"
@@ -3783,7 +3815,7 @@
   "git-circle": [
     "git",
     "circle",
-    "version control",
+    "version-control",
     "collaboration",
     "development",
     "code",
@@ -3793,8 +3825,8 @@
   "git-commit": [
     "git",
     "commit",
-    "version control",
-    "source code",
+    "version-control",
+    "source-code",
     "repository",
     "codebase",
     "development"
@@ -3802,8 +3834,8 @@
   "git-diff": [
     "git",
     "diff",
-    "version control",
-    "source code",
+    "version-control",
+    "source-code",
     "repository",
     "codebase",
     "development"
@@ -3811,8 +3843,8 @@
   "git-hexagon": [
     "git",
     "hexagon",
-    "version control",
-    "source code",
+    "version-control",
+    "source-code",
     "repository",
     "codebase",
     "development"
@@ -3820,8 +3852,8 @@
   "git-merge": [
     "git",
     "merge",
-    "version control",
-    "source code",
+    "version-control",
+    "source-code",
     "repository",
     "codebase",
     "development"
@@ -3829,8 +3861,8 @@
   "git-octagon": [
     "git",
     "octagon",
-    "version control",
-    "source code",
+    "version-control",
+    "source-code",
     "repository",
     "codebase",
     "development"
@@ -3839,8 +3871,8 @@
     "git",
     "pull",
     "request",
-    "version control",
-    "source code",
+    "version-control",
+    "source-code",
     "repository",
     "codebase",
     "development"
@@ -3848,8 +3880,8 @@
   "git-square": [
     "git",
     "square",
-    "version control",
-    "source code",
+    "version-control",
+    "source-code",
     "repository",
     "codebase",
     "development"
@@ -3857,11 +3889,20 @@
   "git-waves": [
     "git",
     "waves",
-    "version control",
-    "source code",
+    "version-control",
+    "source-code",
     "repository",
     "codebase",
     "development"
+  ],
+  "glasses": [
+    "glasses",
+    "eye",
+    "vision",
+    "sight",
+    "eye-glasses",
+    "spectacles",
+    "eyewear"
   ],
   "globe": [
     "globe",
@@ -3890,6 +3931,17 @@
     "pattern",
     "design",
     "arrangement"
+  ],
+  "hand": [
+    "hand",
+    "finger",
+    "touch",
+    "gesture",
+    "clap",
+    "wave",
+    "handshake",
+    "fist",
+    "palm"
   ],
   "hard-drive": [
     "hard",
@@ -5405,7 +5457,7 @@
     "o",
     "octagon",
     "eight-sided",
-    "stop sign",
+    "stop-sign",
     "shape",
     "symmetry"
   ],
@@ -5468,7 +5520,7 @@
     "p",
     "octagon",
     "eight-sided",
-    "stop sign",
+    "stop-sign",
     "shape",
     "symmetry"
   ],
@@ -5531,7 +5583,7 @@
     "q",
     "octagon",
     "eight-sided",
-    "stop sign",
+    "stop-sign",
     "shape",
     "symmetry"
   ],
@@ -5594,7 +5646,7 @@
     "r",
     "octagon",
     "eight-sided",
-    "stop sign",
+    "stop-sign",
     "shape",
     "symmetry"
   ],
@@ -5657,7 +5709,7 @@
     "s",
     "octagon",
     "eight-sided",
-    "stop sign",
+    "stop-sign",
     "shape",
     "symmetry"
   ],
@@ -5720,7 +5772,7 @@
     "t",
     "octagon",
     "eight-sided",
-    "stop sign",
+    "stop-sign",
     "shape",
     "symmetry"
   ],
@@ -5783,7 +5835,7 @@
     "u",
     "octagon",
     "eight-sided",
-    "stop sign",
+    "stop-sign",
     "shape",
     "symmetry"
   ],
@@ -5846,7 +5898,7 @@
     "v",
     "octagon",
     "eight-sided",
-    "stop sign",
+    "stop-sign",
     "shape",
     "symmetry"
   ],
@@ -5909,7 +5961,7 @@
     "w",
     "octagon",
     "eight-sided",
-    "stop sign",
+    "stop-sign",
     "shape",
     "symmetry"
   ],
@@ -5972,7 +6024,7 @@
     "x",
     "octagon",
     "eight-sided",
-    "stop sign",
+    "stop-sign",
     "shape",
     "symmetry"
   ],
@@ -6035,7 +6087,7 @@
     "y",
     "octagon",
     "eight-sided",
-    "stop sign",
+    "stop-sign",
     "shape",
     "symmetry"
   ],
@@ -6098,7 +6150,7 @@
     "z",
     "octagon",
     "eight-sided",
-    "stop sign",
+    "stop-sign",
     "shape",
     "symmetry"
   ],
@@ -6133,7 +6185,7 @@
     "lightning",
     "slash",
     "disable",
-    "turn off",
+    "turn-off",
     "electricity",
     "power",
     "storm"
@@ -6149,7 +6201,7 @@
   ],
   "like": [
     "like",
-    "thumbs up",
+    "thumbs-up",
     "approval",
     "favorable",
     "good",
@@ -6211,7 +6263,7 @@
     "one",
     "connect",
     "hyperlink",
-    "URL",
+    "url",
     "web",
     "access",
     "navigate"
@@ -6221,7 +6273,7 @@
     "two",
     "connect",
     "hyperlink",
-    "URL",
+    "url",
     "web",
     "access",
     "navigate"
@@ -6230,7 +6282,7 @@
     "link",
     "connect",
     "chain",
-    "URL",
+    "url",
     "hyperlink",
     "web",
     "internet"
@@ -6409,7 +6461,7 @@
   ],
   "login": [
     "login",
-    "sign in",
+    "sign-in",
     "access",
     "authenticate",
     "enter",
@@ -6419,27 +6471,27 @@
   "logout": [
     "logout",
     "exit",
-    "sign out",
+    "sign-out",
     "leave",
-    "log off",
+    "log-off",
     "quit",
     "disconnect"
   ],
   "magnet": [
     "attract",
     "metal",
-    "magnetic field",
+    "magnetic-field",
     "polarity",
     "repel",
     "physics",
-    "magnetic force"
+    "magnetic-force"
   ],
   "male": [
     "gender",
     "man",
     "masculine",
     "symbol",
-    "male reproductive system",
+    "male-reproductive-system",
     "mars",
     "yang"
   ],
@@ -6574,7 +6626,7 @@
     "mute",
     "disable",
     "quiet",
-    "sound off",
+    "sound-off",
     "audio"
   ],
   "microphone": [
@@ -6611,14 +6663,14 @@
     "subtract",
     "delete",
     "deduct",
-    "take away"
+    "take-away"
   ],
   "minus-hexagon": [
     "minus",
     "hexagon",
     "subtract",
     "negative",
-    "minus sign",
+    "minus-sign",
     "polygon",
     "geometric"
   ],
@@ -6627,7 +6679,7 @@
     "octagon",
     "subtract",
     "negative",
-    "minus sign",
+    "minus-sign",
     "polygon",
     "geometric"
   ],
@@ -6638,7 +6690,7 @@
     "subtract",
     "delete",
     "deduct",
-    "take away"
+    "take-away"
   ],
   "minus-waves": [
     "minus",
@@ -6647,7 +6699,7 @@
     "subtract",
     "delete",
     "deduct",
-    "take away"
+    "take-away"
   ],
   "minus": [
     "minus",
@@ -6712,6 +6764,18 @@
     "communication",
     "portable"
   ],
+  "moon-star": [
+    "moon",
+    "star",
+    "sky",
+    "night",
+    "lunar",
+    "celestial",
+    "astronomy",
+    "eclipse",
+    "moonlight",
+    "moonlit"
+  ],
   "moon": [
     "moon",
     "night",
@@ -6745,35 +6809,35 @@
     "one",
     "direction",
     "movement",
-    "diagonal movement",
-    "single step"
+    "diagonal-movement",
+    "single-step"
   ],
   "move-diagonal": [
     "move",
     "diagonal",
     "direction",
     "movement",
-    "angled movement",
-    "diagonal path",
-    "diagonal direction"
+    "angled-movement",
+    "diagonal-path",
+    "diagonal-direction"
   ],
   "move-horizontal": [
     "move",
     "horizontal",
     "direction",
     "movement",
-    "side to side",
-    "lateral movement",
-    "horizontal path"
+    "side-to-side",
+    "lateral-movement",
+    "horizontal-path"
   ],
   "move-vertical": [
     "move",
     "vertical",
     "direction",
     "movement",
-    "up and down",
-    "vertical path",
-    "elevation change"
+    "up-and-down",
+    "vertical-path",
+    "elevation-change"
   ],
   "move": [
     "move",
@@ -6825,7 +6889,7 @@
     "waves",
     "vibrations",
     "pulse",
-    "sound waves",
+    "sound-waves",
     "audio",
     "frequency"
   ],
@@ -6943,7 +7007,7 @@
     "eight",
     "sides",
     "polygon",
-    "stop sign"
+    "stop-sign"
   ],
   "one-circle": [
     "one",
@@ -6977,7 +7041,7 @@
     "octagon",
     "eight",
     "sides",
-    "stop sign",
+    "stop-sign",
     "shape",
     "stop"
   ],
@@ -7452,7 +7516,7 @@
     "map",
     "pointer",
     "destination",
-    "GPS"
+    "gps"
   ],
   "pizza": [
     "pizza",
@@ -7469,7 +7533,7 @@
     "orbit",
     "world",
     "astronomy",
-    "solar system",
+    "solar-system",
     "celestial"
   ],
   "play-circle": [
@@ -7600,7 +7664,7 @@
     "power",
     "energy",
     "electricity",
-    "on/off",
+    "onoff",
     "control",
     "switch",
     "electric"
@@ -7620,7 +7684,7 @@
     "output",
     "document",
     "paper",
-    "hard copy"
+    "hard-copy"
   ],
   "puzzle": [
     "puzzle",
@@ -7715,7 +7779,7 @@
     "welcome",
     "greeting",
     "hospitality",
-    "front desk",
+    "front-desk",
     "ringing"
   ],
   "record": [
@@ -7786,25 +7850,25 @@
     "reverse",
     "music",
     "audio",
-    "go back"
+    "go-back"
   ],
   "rewind-hexagon": [
     "rewind",
     "hexagon",
     "backtrack",
     "reverse",
-    "time travel",
-    "rewind button",
+    "time-travel",
+    "rewind-button",
     "previous"
   ],
   "rewind-octagon": [
     "rewind",
     "octagon",
-    "go back",
+    "go-back",
     "retrace",
-    "rewind icon",
-    "rewind symbol",
-    "reverse direction"
+    "rewind-icon",
+    "rewind-symbol",
+    "reverse-direction"
   ],
   "rewind-square": [
     "rewind",
@@ -7813,7 +7877,7 @@
     "reverse",
     "music",
     "audio",
-    "go back"
+    "go-back"
   ],
   "rewind-waves": [
     "rewind",
@@ -7822,7 +7886,7 @@
     "reverse",
     "music",
     "audio",
-    "go back"
+    "go-back"
   ],
   "rewind": [
     "rewind",
@@ -7830,7 +7894,7 @@
     "reverse",
     "music",
     "audio",
-    "go back",
+    "go-back",
     "rewind"
   ],
   "rhombus": [
@@ -7987,10 +8051,10 @@
     "scan",
     "scanner",
     "barcode",
-    "QR code",
+    "qr-code",
     "document",
     "digital",
-    "image capture"
+    "image-capture"
   ],
   "scissors": [
     "scissors",
@@ -8013,7 +8077,7 @@
   "search-check": [
     "search",
     "check",
-    "magnifying glass",
+    "magnifying-glass",
     "find",
     "lookup",
     "research",
@@ -8022,7 +8086,7 @@
   "search-circle": [
     "search",
     "circle",
-    "magnifying glass",
+    "magnifying-glass",
     "lookup",
     "find",
     "target",
@@ -8031,7 +8095,7 @@
   "search-hexagon": [
     "search",
     "hexagon",
-    "magnifying glass",
+    "magnifying-glass",
     "lookup",
     "research",
     "find",
@@ -8075,7 +8139,7 @@
   "search-square": [
     "search",
     "square",
-    "magnifying glass",
+    "magnifying-glass",
     "find",
     "explore",
     "query",
@@ -8139,7 +8203,7 @@
   "seven-circle": [
     "seven",
     "circle",
-    "lucky number",
+    "lucky-number",
     "round",
     "infinity",
     "heaven",
@@ -8148,7 +8212,7 @@
   "seven-diamond": [
     "seven",
     "diamond",
-    "lucky number",
+    "lucky-number",
     "precious",
     "wealth",
     "sparkle",
@@ -8157,7 +8221,7 @@
   "seven-hexagon": [
     "seven",
     "hexagon",
-    "lucky number",
+    "lucky-number",
     "beehive",
     "balance",
     "harmony",
@@ -8166,25 +8230,25 @@
   "seven-octagon": [
     "seven",
     "octagon",
-    "lucky number",
-    "stop sign",
-    "eight sides",
+    "lucky-number",
+    "stop-sign",
+    "eight-sides",
     "strength",
     "power"
   ],
   "seven-square": [
     "seven",
     "square",
-    "lucky number",
+    "lucky-number",
     "stability",
     "foundation",
-    "equal sides",
+    "equal-sides",
     "perfection"
   ],
   "seven-waves": [
     "seven",
     "waves",
-    "lucky number",
+    "lucky-number",
     "ocean",
     "movement",
     "flowing",
@@ -8192,7 +8256,7 @@
   ],
   "seven": [
     "seven",
-    "lucky number",
+    "lucky-number",
     "lucky",
     "lottery",
     "superstition",
@@ -8286,7 +8350,7 @@
     "celestial",
     "astronomy",
     "wish",
-    "night sky"
+    "night-sky"
   ],
   "shopping-bag": [
     "shopping",
@@ -8313,13 +8377,13 @@
     "rearrange",
     "cards",
     "reshuffle",
-    "shuffle deck"
+    "shuffle-deck"
   ],
   "sidebar-alt": [
     "sidebar",
     "alt",
     "alternative",
-    "side menu",
+    "side-menu",
     "secondary",
     "complementary",
     "supplemental"
@@ -8328,7 +8392,7 @@
     "sidebar",
     "menu",
     "navigation",
-    "side panel",
+    "side-panel",
     "options",
     "list",
     "settings"
@@ -8418,7 +8482,7 @@
     "six",
     "octagon",
     "eight-sided",
-    "stop sign",
+    "stop-sign",
     "corner",
     "angle",
     "intersection"
@@ -8429,7 +8493,7 @@
     "box",
     "cube",
     "grid",
-    "equal sides",
+    "equal-sides",
     "perfection"
   ],
   "six-waves": [
@@ -8463,7 +8527,7 @@
     "skip",
     "forward",
     "next",
-    "fast forward",
+    "fast-forward",
     "music",
     "navigate"
   ],
@@ -8563,7 +8627,7 @@
     "couch",
     "furniture",
     "comfort",
-    "living room",
+    "living-room",
     "seating",
     "lounge"
   ],
@@ -8938,7 +9002,7 @@
   ],
   "terminal": [
     "terminal",
-    "command line",
+    "command-line",
     "code",
     "computer",
     "programming",
@@ -9022,7 +9086,7 @@
     "octagon",
     "eight",
     "angles",
-    "stop sign",
+    "stop-sign",
     "shape",
     "polygon"
   ],
@@ -9057,10 +9121,10 @@
     "ticket",
     "slash",
     "cancel",
-    "no entry",
+    "no-entry",
     "blocked",
     "admission",
-    "access denied"
+    "access-denied"
   ],
   "ticket": [
     "ticket",
@@ -9388,7 +9452,7 @@
     "add",
     "create",
     "profile",
-    "new user",
+    "new",
     "increase"
   ],
   "user-settings": [
@@ -9414,7 +9478,7 @@
     "waves",
     "communication",
     "network",
-    "social media",
+    "social-media",
     "chat",
     "message"
   ],
@@ -9457,7 +9521,7 @@
   "video-slash": [
     "video",
     "slash",
-    "no video",
+    "no",
     "mute",
     "stop",
     "block",
@@ -9573,11 +9637,11 @@
   "webcam": [
     "webcam",
     "camera",
-    "video chat",
-    "live streaming",
-    "video recording",
-    "online meetings",
-    "virtual events"
+    "video-chat",
+    "live-streaming",
+    "video-recording",
+    "online-meetings",
+    "virtual-events"
   ],
   "wheel": [
     "wheel",
@@ -9647,7 +9711,7 @@
     "x",
     "cross",
     "offline",
-    "no signal",
+    "no-signal",
     "disconnected"
   ],
   "wifi": [
@@ -9682,7 +9746,7 @@
     "blink",
     "gesture",
     "eye",
-    "facial expression"
+    "facial-expression"
   ],
   "wink-ghost": [
     "wink",
@@ -9700,7 +9764,7 @@
     "blink",
     "gesture",
     "eye",
-    "facial expression"
+    "facial-expression"
   ],
   "wrench": [
     "wrench",
@@ -9826,7 +9890,7 @@
     "finance",
     "economy",
     "wealth",
-    "Japanese"
+    "japanese"
   ],
   "zero-circle": [
     "zero",

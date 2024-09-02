@@ -1,6 +1,6 @@
 ---
 title: Yen
-tags: ["yen", "currency", "money", "finance", "economy", "wealth", "Japanese"]
+tags: ["yen", "currency", "money", "finance", "economy", "wealth", "japanese"]
 icon: yen
 svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M17.455 12H12m0 0H6.545M12 12 6 3.5m6 8.5 6-8.5M12 12v4.25m5.454 0H12m0 0H6.545m5.455 0v4.25"/></svg>'
 ---
