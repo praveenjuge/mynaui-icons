@@ -1,6 +1,0 @@
----
-title: Circle dashed
-tags: ["circle", "dashed", "shape", "geometry", "design", "pattern", "outline"]
-icon: circle-dashed
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M21 12a8.971 8.971 0 0 1-.706 3.5M12 21a8.971 8.971 0 0 1-3.5-.706M3 12c0-1.241.251-2.424.706-3.5M12 3c1.241 0 2.424.251 3.5.706m-9.864 1.93A9.014 9.014 0 0 1 8.5 3.706m9.864 14.658a9.017 9.017 0 0 1-2.864 1.93m2.864-14.658a9.016 9.016 0 0 1 1.93 2.864M5.636 18.364a9.015 9.015 0 0 1-1.93-2.864"/></svg>'
----

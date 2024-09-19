@@ -1,6 +1,0 @@
----
-title: Snow
-tags: ["snow", "winter", "snowfall", "cold", "frozen", "snowflakes", "chill", "frosty"]
-icon: snow
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M12 19V5M9.953 3 12 5l2.047-2M9.953 21 12 19l2.047 2m-8.251-5.5 12.408-7m.749-2.732L18.204 8.5 21 9.232M3 14.768l2.796.732-.75 2.732m.75-9.732 12.408 7M21 14.768l-2.796.732.75 2.732M5.047 5.768 5.796 8.5 3 9.232"/></svg>'
----

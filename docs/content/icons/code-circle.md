@@ -1,6 +1,0 @@
----
-title: Code circle
-tags: ["code", "circle", "programming", "script", "development", "algorithm", "data", "coding"]
-icon: code-circle
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="m14.908 9.7.132.131c1.022 1.023 1.534 1.534 1.534 2.169s-.512 1.147-1.534 2.17l-.132.13M13.072 8l-2.143 8M9.092 9.7l-.132.131C7.938 10.854 7.427 11.365 7.427 12s.51 1.147 1.533 2.17l.132.13"/><path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0"/></svg>'
----

@@ -1,6 +1,0 @@
----
-title: Keyboard brightness low
-tags: ["keyboard", "brightness", "low", "backlit", "illumination", "dim", "gloomy"]
-icon: keyboard-brightness-low
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M8 17h8M3 17h1m8-8v1m6 2.207.707-.707m-13 .707L5 11.5M20 17h1"/></svg>'
----

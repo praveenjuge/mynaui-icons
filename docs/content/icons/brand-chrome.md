@@ -1,6 +1,0 @@
----
-title: Brand chrome
-tags: ["brand", "chrome", "web", "internet", "google", "browser", "software"]
-icon: brand-chrome
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18"/><path d="M12 15.6a3.6 3.6 0 1 0 0-7.2 3.6 3.6 0 0 0 0 7.2m8.253-7.2H12M4.755 6.654 8.886 13.8m2.106 7.146 4.122-7.146"/></svg>'
----

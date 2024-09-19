@@ -1,6 +1,0 @@
----
-title: Bell x
-tags: ["bell", "x", "notification", "cancel", "delete", "remove", "alert"]
-icon: bell-x
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="m10 8 4 4m0-4-4 4m5.019 5h-6.04m6.04 0h3.614c1.876 0 1.559-1.86.61-2.804C15.825 10.801 20.68 3 11.999 3c-8.68 0-3.825 7.8-7.243 11.196-.913.908-1.302 2.804.61 2.804H8.98m6.039 0c0 1.925-.648 4-3.02 4-2.371 0-3.02-2.075-3.02-4"/></svg>'
----

@@ -1,6 +1,0 @@
----
-title: Brand twitch
-tags: ["brand", "twitch", "streaming", "gaming", "live", "platform", "content", "video"]
-icon: brand-twitch
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M15.556 11.1V7.5M20 3H4v14.4h4.444V21L12 17.4h4.444L20 13.8zm-8.889 8.1V7.5z"/></svg>'
----

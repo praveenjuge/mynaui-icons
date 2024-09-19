@@ -1,6 +1,0 @@
----
-title: Bookmark check
-tags: ["bookmark", "check", "save", "favorite", "mark", "confirm", "verify"]
-icon: bookmark-check
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M7.527 20.841C6.861 21.274 6 20.772 6 19.952V3.942c0-.52.336-.942.75-.942h10.5c.414 0 .75.422.75.942v16.01c0 .82-.861 1.322-1.527.89l-3.946-2.562a.962.962 0 0 0-1.054 0z"/><path d="m9.7 9.822 1.379 1.576a.299.299 0 0 0 .466-.022l2.8-3.876"/></svg>'
----

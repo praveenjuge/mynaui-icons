@@ -1,6 +1,0 @@
----
-title: Math
-tags: ["math", "calculation", "numbers", "equations", "formulas", "algebra", "geometry"]
-icon: math
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M3.429 18.366h6M15 8.707h6m-6-4.39h6M3 6.512h3.429m0 0h3.428m-3.428 0V3m0 3.512v3.512M15.6 21l2.425-2.484m0 0 2.424-2.483m-2.424 2.483L15.6 16.033m2.425 2.483L20.449 21"/></svg>'
----

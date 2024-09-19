@@ -685,6 +685,16 @@
     "shape",
     "geometric"
   ],
+  "asterisk-diamond": [
+    "asterisk",
+    "diamond",
+    "star",
+    "point",
+    "symbol",
+    "sign",
+    "shape",
+    "geometric"
+  ],
   "asterisk-hexagon": [
     "asterisk",
     "hexagon",
@@ -752,6 +762,20 @@
     "infant",
     "child",
     "newborn"
+  ],
+  "ban": [
+    "ban",
+    "block",
+    "restrict",
+    "prevent",
+    "prohibit",
+    "forbid",
+    "ban",
+    "block",
+    "restrict",
+    "prevent",
+    "prohibit",
+    "forbid"
   ],
   "bank": [
     "bank",
@@ -880,6 +904,16 @@
     "confirm",
     "alert"
   ],
+  "bell-home": [
+    "bell",
+    "home",
+    "notification",
+    "alert",
+    "reminder",
+    "sound",
+    "ring",
+    "chime"
+  ],
   "bell-minus": [
     "bell",
     "minus",
@@ -920,6 +954,16 @@
     "mute",
     "notification"
   ],
+  "bell-user": [
+    "bell",
+    "user",
+    "notification",
+    "alert",
+    "reminder",
+    "sound",
+    "ring",
+    "chime"
+  ],
   "bell-x": [
     "bell",
     "x",
@@ -942,6 +986,15 @@
   "bitcoin-circle": [
     "bitcoin",
     "circle",
+    "cryptocurrency",
+    "digital-currency",
+    "finance",
+    "investment",
+    "technology"
+  ],
+  "bitcoin-diamond": [
+    "bitcoin",
+    "diamond",
     "cryptocurrency",
     "digital-currency",
     "finance",
@@ -1008,9 +1061,89 @@
     "marine",
     "sailing"
   ],
+  "book-check": [
+    "book",
+    "check",
+    "verify",
+    "confirm",
+    "verify"
+  ],
+  "book-dot": [
+    "book",
+    "dot",
+    "notification",
+    "alert",
+    "reminder",
+    "sound",
+    "ring",
+    "chime"
+  ],
+  "book-home": [
+    "book",
+    "home",
+    "read",
+    "knowledge",
+    "literature",
+    "education",
+    "pages"
+  ],
+  "book-minus": [
+    "book",
+    "minus",
+    "read",
+    "knowledge",
+    "literature",
+    "education",
+    "pages"
+  ],
   "book-open": [
     "book",
     "open",
+    "read",
+    "knowledge",
+    "literature",
+    "education",
+    "pages"
+  ],
+  "book-plus": [
+    "book",
+    "plus",
+    "read",
+    "knowledge",
+    "literature",
+    "education",
+    "pages"
+  ],
+  "book-slash": [
+    "book",
+    "slash",
+    "read",
+    "knowledge",
+    "literature",
+    "education",
+    "pages"
+  ],
+  "book-snooze": [
+    "book",
+    "snooze",
+    "read",
+    "knowledge",
+    "literature",
+    "education",
+    "pages"
+  ],
+  "book-user": [
+    "book",
+    "user",
+    "read",
+    "knowledge",
+    "literature",
+    "education",
+    "pages"
+  ],
+  "book-x": [
+    "book",
+    "x",
     "read",
     "knowledge",
     "literature",
@@ -1035,6 +1168,25 @@
     "confirm",
     "verify"
   ],
+  "bookmark-dot": [
+    "bookmark",
+    "dot",
+    "notification",
+    "alert",
+    "reminder",
+    "sound",
+    "ring",
+    "chime"
+  ],
+  "bookmark-home": [
+    "bookmark",
+    "home",
+    "save",
+    "favorite",
+    "mark",
+    "confirm",
+    "verify"
+  ],
   "bookmark-minus": [
     "bookmark",
     "minus",
@@ -1052,6 +1204,32 @@
     "mark",
     "save",
     "favorite"
+  ],
+  "bookmark-slash": [
+    "bookmark",
+    "slash",
+    "remove",
+    "delete",
+    "unmark",
+    "erase",
+    "cancel"
+  ],
+  "bookmark-snooze": [
+    "bookmark",
+    "snooze",
+    "sleep",
+    "delay",
+    "mute",
+    "notification"
+  ],
+  "bookmark-user": [
+    "bookmark",
+    "user",
+    "save",
+    "favorite",
+    "mark",
+    "confirm",
+    "verify"
   ],
   "bookmark-x": [
     "bookmark",
@@ -1303,6 +1481,34 @@
     "dusk",
     "dim",
     "gloomy"
+  ],
+  "building-one": [
+    "building",
+    "one",
+    "floor",
+    "level",
+    "storey"
+  ],
+  "building": [
+    "building",
+    "house",
+    "home",
+    "apartment",
+    "condo",
+    "house",
+    "structure",
+    "construction",
+    "building",
+    "house"
+  ],
+  "cake": [
+    "cake",
+    "birthday",
+    "dessert",
+    "sweet",
+    "food",
+    "baking",
+    "pastry"
   ],
   "calendar-check": [
     "calendar",
@@ -1602,6 +1808,15 @@
     "selection",
     "success",
     "completed"
+  ],
+  "check-diamond": [
+    "check",
+    "diamond",
+    "gem",
+    "jewelry",
+    "precious",
+    "rare",
+    "valuable"
   ],
   "check-hexagon": [
     "check",
@@ -2027,6 +2242,16 @@
     "circular",
     "alarm"
   ],
+  "clock-diamond": [
+    "clock",
+    "diamond",
+    "time",
+    "watch",
+    "hour",
+    "round",
+    "circular",
+    "alarm"
+  ],
   "clock-eight": [
     "clock",
     "eight",
@@ -2275,6 +2500,10 @@
     "data",
     "coding"
   ],
+  "code-diamond": [
+    "code",
+    "diamond"
+  ],
   "code-hexagon": [
     "code",
     "hexagon",
@@ -2323,6 +2552,16 @@
     "morning",
     "brew",
     "mug"
+  ],
+  "cog-four": [
+    "cog",
+    "four",
+    "gear",
+    "settings",
+    "options",
+    "configuration",
+    "mechanism",
+    "machine"
   ],
   "cog-one": [
     "cog",
@@ -2632,6 +2871,16 @@
     "attention",
     "exclamation"
   ],
+  "danger-diamond": [
+    "danger",
+    "diamond",
+    "warning",
+    "caution",
+    "hazard",
+    "alert",
+    "attention",
+    "exclamation"
+  ],
   "danger-hexagon": [
     "danger",
     "hexagon",
@@ -2830,6 +3079,15 @@
     "round",
     "coin"
   ],
+  "dollar-diamond": [
+    "dollar",
+    "diamond",
+    "jewel",
+    "treasure",
+    "wealth",
+    "fortune",
+    "luxury"
+  ],
   "dollar-hexagon": [
     "dollar",
     "hexagon",
@@ -2885,6 +3143,15 @@
     "dots-menu",
     "dots-options"
   ],
+  "dots-diamond": [
+    "dots",
+    "diamond",
+    "jewel",
+    "treasure",
+    "wealth",
+    "fortune",
+    "luxury"
+  ],
   "dots-hexagon": [
     "dots",
     "hexagon",
@@ -2921,6 +3188,16 @@
     "navigation",
     "dots-navigation",
     "vertical-dots"
+  ],
+  "dots-vertical-diamond": [
+    "dots",
+    "vertical",
+    "diamond",
+    "jewel",
+    "treasure",
+    "wealth",
+    "fortune",
+    "luxury"
   ],
   "dots-vertical-hexagon": [
     "dots",
@@ -3155,6 +3432,15 @@
     "money",
     "europe",
     "round"
+  ],
+  "euro-diamond": [
+    "euro",
+    "diamond",
+    "jewel",
+    "treasure",
+    "wealth",
+    "fortune",
+    "luxury"
   ],
   "euro-hexagon": [
     "euro",
@@ -3657,6 +3943,13 @@
     "direction",
     "pointer"
   ],
+  "forward-diamond": [
+    "forward",
+    "diamond",
+    "movement",
+    "direction",
+    "pointer"
+  ],
   "forward-hexagon": [
     "forward",
     "hexagon",
@@ -3831,6 +4124,15 @@
     "codebase",
     "development"
   ],
+  "git-diamond": [
+    "git",
+    "diamond",
+    "version-control",
+    "source-code",
+    "repository",
+    "codebase",
+    "development"
+  ],
   "git-diff": [
     "git",
     "diff",
@@ -3957,6 +4259,17 @@
   "hash-circle": [
     "hash",
     "circle",
+    "tag",
+    "label",
+    "symbol",
+    "identifier",
+    "marker",
+    "notation",
+    "sign"
+  ],
+  "hash-diamond": [
+    "hash",
+    "diamond",
     "tag",
     "label",
     "symbol",
@@ -4097,6 +4410,15 @@
   "heart-circle": [
     "heart",
     "circle",
+    "love",
+    "like",
+    "romance",
+    "valentine",
+    "affection"
+  ],
+  "heart-diamond": [
+    "heart",
+    "diamond",
     "love",
     "like",
     "romance",
@@ -4370,6 +4692,17 @@
     "details",
     "explanation",
     "knowledge"
+  ],
+  "info-diamond": [
+    "info",
+    "diamond",
+    "information",
+    "i",
+    "details",
+    "knowledge",
+    "data",
+    "facts",
+    "informational"
   ],
   "info-hexagon": [
     "info",
@@ -6218,6 +6551,17 @@
     "analysis",
     "statistics"
   ],
+  "line-chart-diamond": [
+    "line",
+    "chart",
+    "diamond",
+    "gem",
+    "jewel",
+    "luxury",
+    "precious",
+    "valuable",
+    "rare"
+  ],
   "line-chart-hexagon": [
     "line",
     "chart",
@@ -6322,6 +6666,20 @@
     "geolocation",
     "position"
   ],
+  "location-home": [
+    "location",
+    "home",
+    "house",
+    "address",
+    "residence",
+    "property",
+    "location",
+    "geolocation",
+    "position",
+    "gps",
+    "map",
+    "place"
+  ],
   "location-minus": [
     "location",
     "minus",
@@ -6338,6 +6696,42 @@
     "include",
     "geolocation",
     "position"
+  ],
+  "location-selected": [
+    "location",
+    "selected",
+    "highlighted",
+    "selected",
+    "chosen",
+    "picked"
+  ],
+  "location-slash": [
+    "location",
+    "slash",
+    "disable",
+    "turn-off",
+    "electricity",
+    "power",
+    "storm"
+  ],
+  "location-snooze": [
+    "location",
+    "snooze",
+    "sleep",
+    "delay",
+    "pause",
+    "hold",
+    "postpone"
+  ],
+  "location-user": [
+    "location",
+    "user",
+    "profile",
+    "account",
+    "settings",
+    "preferences",
+    "options",
+    "settings"
   ],
   "location-x": [
     "location",
@@ -6367,6 +6761,16 @@
     "privacy",
     "encryption",
     "access"
+  ],
+  "lock-diamond": [
+    "lock",
+    "diamond",
+    "gem",
+    "jewel",
+    "luxury",
+    "precious",
+    "valuable",
+    "rare"
   ],
   "lock-hexagon": [
     "lock",
@@ -6665,6 +7069,16 @@
     "deduct",
     "take-away"
   ],
+  "minus-diamond": [
+    "minus",
+    "diamond",
+    "gem",
+    "jewel",
+    "luxury",
+    "precious",
+    "valuable",
+    "rare"
+  ],
   "minus-hexagon": [
     "minus",
     "hexagon",
@@ -6856,6 +7270,16 @@
     "melody",
     "rhythm",
     "tune"
+  ],
+  "music-diamond": [
+    "music",
+    "diamond",
+    "gem",
+    "jewel",
+    "luxury",
+    "precious",
+    "valuable",
+    "rare"
   ],
   "music-hexagon": [
     "music",
@@ -7365,6 +7789,22 @@
     "pause-music",
     "pause-action"
   ],
+  "pause-diamond": [
+    "pause",
+    "diamond",
+    "audio",
+    "music",
+    "stop",
+    "halt",
+    "silence",
+    "break",
+    "rest",
+    "hold",
+    "break-time",
+    "pause-button",
+    "pause-music",
+    "pause-action"
+  ],
   "pause-hexagon": [
     "pause",
     "hexagon",
@@ -7443,6 +7883,15 @@
   "percentage-circle": [
     "percentage",
     "circle",
+    "ratio",
+    "proportion",
+    "part",
+    "portion",
+    "fraction"
+  ],
+  "percentage-diamond": [
+    "percentage",
+    "diamond",
     "ratio",
     "proportion",
     "part",
@@ -7545,6 +7994,15 @@
     "begin",
     "playback"
   ],
+  "play-diamond": [
+    "play",
+    "diamond",
+    "audio",
+    "music",
+    "start",
+    "begin",
+    "playback"
+  ],
   "play-hexagon": [
     "play",
     "hexagon",
@@ -7593,6 +8051,15 @@
   "plus-circle": [
     "plus",
     "circle",
+    "add",
+    "create",
+    "expand",
+    "increase",
+    "sum"
+  ],
+  "plus-diamond": [
+    "plus",
+    "diamond",
     "add",
     "create",
     "expand",
@@ -7698,6 +8165,15 @@
   "question-circle": [
     "question",
     "circle",
+    "help",
+    "support",
+    "unknown",
+    "inquiry",
+    "doubt"
+  ],
+  "question-diamond": [
+    "question",
+    "diamond",
     "help",
     "support",
     "unknown",
@@ -7852,6 +8328,15 @@
     "audio",
     "go-back"
   ],
+  "rewind-diamond": [
+    "rewind",
+    "diamond",
+    "backward",
+    "reverse",
+    "music",
+    "audio",
+    "go-back"
+  ],
   "rewind-hexagon": [
     "rewind",
     "hexagon",
@@ -7961,6 +8446,15 @@
   "rupee-circle": [
     "rupee",
     "circle",
+    "currency",
+    "finance",
+    "money",
+    "wealth",
+    "fortune"
+  ],
+  "rupee-diamond": [
+    "rupee",
+    "diamond",
     "currency",
     "finance",
     "money",
@@ -8092,6 +8586,24 @@
     "target",
     "focus"
   ],
+  "search-diamond": [
+    "search",
+    "diamond",
+    "magnifying-glass",
+    "lookup",
+    "find",
+    "target",
+    "focus"
+  ],
+  "search-dot": [
+    "search",
+    "dot",
+    "magnifying-glass",
+    "lookup",
+    "find",
+    "target",
+    "focus"
+  ],
   "search-hexagon": [
     "search",
     "hexagon",
@@ -8100,6 +8612,15 @@
     "research",
     "find",
     "analyze"
+  ],
+  "search-home": [
+    "search",
+    "home",
+    "magnifying-glass",
+    "lookup",
+    "find",
+    "target",
+    "focus"
   ],
   "search-minus": [
     "search",
@@ -8136,6 +8657,15 @@
     "prohibit",
     "forbid"
   ],
+  "search-snooze": [
+    "search",
+    "snooze",
+    "magnifying-glass",
+    "lookup",
+    "find",
+    "target",
+    "focus"
+  ],
   "search-square": [
     "search",
     "square",
@@ -8144,6 +8674,15 @@
     "explore",
     "query",
     "locate"
+  ],
+  "search-user": [
+    "search",
+    "user",
+    "magnifying-glass",
+    "lookup",
+    "find",
+    "target",
+    "focus"
   ],
   "search-waves": [
     "search",
@@ -8406,6 +8945,15 @@
     "reception",
     "transmission"
   ],
+  "signal-diamond": [
+    "signal",
+    "diamond",
+    "communication",
+    "connectivity",
+    "network",
+    "reception",
+    "transmission"
+  ],
   "signal-hexagon": [
     "signal",
     "hexagon",
@@ -8534,6 +9082,15 @@
   "slash-circle": [
     "slash",
     "circle",
+    "strike",
+    "cut",
+    "sever",
+    "divide",
+    "split"
+  ],
+  "slash-diamond": [
+    "slash",
+    "diamond",
     "strike",
     "cut",
     "sever",
@@ -8717,6 +9274,19 @@
   "stop-circle": [
     "stop",
     "circle",
+    "audio",
+    "music",
+    "halt",
+    "end",
+    "pause",
+    "sound",
+    "mute",
+    "silence",
+    "block"
+  ],
+  "stop-diamond": [
+    "stop",
+    "diamond",
     "audio",
     "music",
     "halt",
@@ -9419,6 +9989,15 @@
     "account",
     "identity"
   ],
+  "user-diamond": [
+    "user",
+    "diamond",
+    "profile",
+    "avatar",
+    "person",
+    "account",
+    "identity"
+  ],
   "user-hexagon": [
     "user",
     "hexagon",
@@ -9784,6 +10363,15 @@
     "delete",
     "terminate"
   ],
+  "x-diamond": [
+    "x",
+    "diamond",
+    "close",
+    "cancel",
+    "remove",
+    "delete",
+    "terminate"
+  ],
   "x-hexagon": [
     "x",
     "hexagon",
@@ -9841,6 +10429,15 @@
   "yen-circle": [
     "yen",
     "circle",
+    "currency",
+    "money",
+    "finance",
+    "economy",
+    "wealth"
+  ],
+  "yen-diamond": [
+    "yen",
+    "diamond",
     "currency",
     "money",
     "finance",

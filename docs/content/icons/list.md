@@ -1,6 +1,0 @@
----
-title: List
-tags: ["list", "checklist", "to-do", "tasks", "items", "inventory", "agenda"]
-icon: list
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M8 6.5h12M8 12h12M8 17.5h12M4 6.5h1M4 12h1m-1 5.5h1"/></svg>'
----

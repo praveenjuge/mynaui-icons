@@ -1,6 +1,0 @@
----
-title: Rss
-tags: ["rss", "feed", "news", "subscribe", "updates", "syndicate", "content"]
-icon: rss
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M6 11.25A6.75 6.75 0 0 1 12.75 18M6 6a12 12 0 0 1 12 12m-11.5-.146.354-.354"/></svg>'
----

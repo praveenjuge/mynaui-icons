@@ -1,6 +1,0 @@
----
-title: Fat corner left up
-tags: ["fat", "corner", "left", "up", "direction", "pointing", "movement"]
-icon: fat-corner-left-up
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M19.923 21c-2.81-2.202-4.406-4.157-4.785-5.866-.38-1.709-.436-3.336-.172-4.88H20L11.786 3 4 10.253h4.784C8.808 13.11 9.88 15.54 12 17.54s4.761 3.154 7.923 3.461"/></svg>'
----

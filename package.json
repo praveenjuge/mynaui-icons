@@ -7,7 +7,7 @@
     "svg",
     "react-icons"
   ],
-  "homepage": "https://icons.mynaui.com",
+  "homepage": "https://mynaui.com/icons",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/praveenjuge/myna-icons.git"
@@ -25,7 +25,7 @@
     "packages/*"
   ],
   "scripts": {
-    "build:docs-pages": "bun ./scripts/build-pages.mjs",
+    "upload-algolia": "bun ./scripts/upload-algolia.mjs",
     "build:icons-meta": "bun ./scripts/build-meta.mjs",
     "build:react-bundle": "rollup -c ./scripts/rollup.config.mjs",
     "build:react-icons": "bun ./scripts/build-react.mjs",
@@ -34,13 +34,14 @@
     "build:tags-file": "bun ./scripts/build-tags.mjs",
     "cleanup": "rm -rf ./packages/icons/react ./packages/icons-react/dist ./packages/icons-react/src/icons.js ./packages/icons-react/src/icons/*.js",
     "copy:icons": "rm -rf ./packages/icons/icons && mkdir ./packages/icons/icons && cp -r ./icons/*.svg ./packages/icons/icons",
-    "everything-everywhere-all-at-once": "bun run build:svg-icons && bun run build:tags-file && bun run build:docs-pages && bun run build:svg-fonts && bun run copy:icons && bun run cleanup && bun run build:icons-meta && bun run build:react-icons && bun run build:react-bundle",
+    "everything-everywhere-all-at-once": "bun run build:svg-icons && bun run build:tags-file && bun run build:svg-fonts && bun run copy:icons && bun run cleanup && bun run build:icons-meta && bun run build:react-icons && bun run build:react-bundle && bun run upload-algolia",
     "publish": "bunx lerna publish --no-private --create-release=github --conventional-commits"
   },
   "devDependencies": {
     "@atomico/rollup-plugin-sizes": "^1.1.4",
     "@babel/preset-env": "^7.23.6",
     "@babel/preset-react": "^7.23.3",
+    "algoliasearch": "v5",
     "esbuild": "^0.19.10",
     "html-minifier": "^4.0.0",
     "lerna": "^8.0.1",

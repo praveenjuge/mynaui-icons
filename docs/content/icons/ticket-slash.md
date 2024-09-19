@@ -1,6 +1,0 @@
----
-title: Ticket slash
-tags: ["ticket", "slash", "cancel", "no-entry", "blocked", "admission", "access-denied"]
-icon: ticket-slash
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M12 8v.5m0 7v.5m-9 1v-3a2 2 0 1 0 0-4V7a2 2 0 0 1 2-2h10M5 19h14a2 2 0 0 0 2-2v-3a2 2 0 1 1 0-4V7a2 2 0 0 0-2-2M3 21 21 3"/></svg>'
----

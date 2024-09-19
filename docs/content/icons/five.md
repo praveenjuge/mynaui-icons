@@ -1,6 +1,0 @@
----
-title: Five
-tags: ["five", "numbers", "counting", "hand", "fingers", "quantity", "symbol"]
-icon: five
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M14.375 7c-2.5.625-5.625 0-5.625 0v3.566h3.473c1.534 0 2.777 1.064 2.777 2.377v1.399c0 3.522-6.25 3.566-6.25 0"/></svg>'
----

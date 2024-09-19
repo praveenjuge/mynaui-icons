@@ -1,6 +1,0 @@
----
-title: Rupee
-tags: ["rupee", "currency", "finance", "money", "wealth", "fortune"]
-icon: rupee
-svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M6.5 3.5h11m-11 4.722h11M14.292 20.5 6.5 12.944h2.75c6.111 0 6.111-9.444 0-9.444"/></svg>'
----
