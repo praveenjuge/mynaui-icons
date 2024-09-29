@@ -3,11 +3,13 @@ bun.lockb
 .DS_Store
 .env
 lerna-debug.log
+icons-playground.html
 
 # Packages
 packages/icons/icons
 packages/icons*/icons/*
 packages/icons*/src/icons/*
+packages/icons*/src/icons-solid/*
 packages/icons*/stats/*
 packages/icons*/icons/*
 packages/icons*/dist

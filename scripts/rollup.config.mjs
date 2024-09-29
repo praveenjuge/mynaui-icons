@@ -1,5 +1,13 @@
 import fs from "fs";
-import { getRollupPlugins } from "./build-icons.mjs";
+import esbuild from "rollup-plugin-esbuild";
+import license from "rollup-plugin-license";
+import bundleSize from "@atomico/rollup-plugin-sizes";
+
+const getRollupPlugins = (pkg, minify) => [
+  esbuild({ minify }),
+  license({ banner: `${pkg.name} v${pkg.version} - ${pkg.license}` }),
+  bundleSize(),
+];
 
 const pkg = JSON.parse(
   fs.readFileSync("./packages/icons-react/package.json", "utf-8")

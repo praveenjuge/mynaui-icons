@@ -5,58 +5,51 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import picocolors from "picocolors";
 
-const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-const iconsDir = path.join(__dirname, "../icons/");
+const regularIconsDir = path.join(__dirname, "../icons/");
+const solidIconsDir = path.join(__dirname, "../icons-solid/");
 const metaFile = path.join(__dirname, "../packages/icons/meta.json");
-
-const tagsFile = path.join(__dirname, "../tags.json");
-const tagsJSON = await fs.readFile(tagsFile, "utf-8");
-const tagsObject = JSON.parse(tagsJSON);
-
-function capitalizeFirstLetter(string) {
-  return (string.charAt(0).toUpperCase() + string.slice(1))
-    .split("-")
-    .join(" ");
-}
+const tagsObject = JSON.parse(await fs.readFile(path.join(__dirname, "../tags.json"), "utf-8"));
 
 (async () => {
   try {
-    const basename = path.basename(__filename);
+    const basename = path.basename(fileURLToPath(import.meta.url));
     const timeLabel = picocolors.cyan(`[${basename}] finished`);
 
     console.log(picocolors.cyan(`[${basename}] started`));
     console.time(timeLabel);
 
-    const files = (await fs.readdir(iconsDir))
+    const files = (await fs.readdir(regularIconsDir))
       .filter((file) => file.endsWith(".svg"))
-      .sort((a, b) => a.localeCompare(b));
+      .sort();
 
-    const icons = await Promise.all(
-      files.map(async (file) => {
-        const iconBasename = path.basename(file, path.extname(file));
-        const tags = tagsObject[iconBasename] || [];
-        const svg = await fs.readFile(path.join(iconsDir, file), "utf-8");
+    const icons = Object.fromEntries(
+      await Promise.all(
+        files.map(async (file) => {
+          const iconName = path.basename(file, ".svg");
+          const tags = tagsObject[iconName] || [];
+          const regularSvgContent = await fs.readFile(path.join(regularIconsDir, file), "utf-8");
+          const solidSvgContent = await fs.readFile(path.join(solidIconsDir, file), "utf-8");
 
-        return {
-          [iconBasename]: {
-            tags,
-            svg: svg
-              .replace(/<svg.*?>/, "")
-              .replace(/<\/svg>/, "")
-              .replace(/\n/g, "")
-              .replace(/\"/g, "'")
-              .trim(),
-          },
-        };
-      })
+          const regular = regularSvgContent
+            .replace(/<svg.*?>|<\/svg>/g, "")
+            .replace(/\n/g, "")
+            .replace(/"/g, "'")
+            .trim();
+
+          const solid = solidSvgContent
+            .replace(/<svg.*?>|<\/svg>/g, "")
+            .replace(/\n/g, "")
+            .replace(/"/g, "'")
+            .trim();
+
+          return [iconName, { tags, regular, solid }];
+        })
+      )
     );
 
-    await fs.writeFile(
-      metaFile,
-      JSON.stringify(Object.assign({}, ...icons), null, 2)
-    );
+    await fs.writeFile(metaFile, JSON.stringify(icons, null, 2));
 
     console.log(picocolors.green("\nSuccess Meta Page Done!"));
     console.timeEnd(timeLabel);

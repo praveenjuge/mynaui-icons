@@ -25,16 +25,17 @@
     "packages/*"
   ],
   "scripts": {
-    "upload-algolia": "bun ./scripts/upload-algolia.mjs",
-    "build:icons-meta": "bun ./scripts/build-meta.mjs",
-    "build:react-bundle": "rollup -c ./scripts/rollup.config.mjs",
-    "build:react-icons": "bun ./scripts/build-react.mjs",
-    "build:svg-fonts": "svgtofont --sources ./icons --output ./packages/icons --fontName mynaui",
-    "build:svg-icons": "bun ./scripts/build-svgs.mjs",
-    "build:tags-file": "bun ./scripts/build-tags.mjs",
-    "cleanup": "rm -rf ./packages/icons/react ./packages/icons-react/dist ./packages/icons-react/src/icons.js ./packages/icons-react/src/icons/*.js",
+    "build:svgs": "bun ./scripts/build-svgs.mjs",
+    "build:tags": "bun ./scripts/build-tags.mjs",
+    "build:svgtofont-regular": "svgtofont --sources ./icons --output ./packages/icons --fontName mynaui",
+    "build:svgtofont-solid": "svgtofont --sources ./icons-solid --output ./packages/icons --fontName mynaui-solid",
     "copy:icons": "rm -rf ./packages/icons/icons && mkdir ./packages/icons/icons && cp -r ./icons/*.svg ./packages/icons/icons",
-    "everything-everywhere-all-at-once": "bun run build:svg-icons && bun run build:tags-file && bun run build:svg-fonts && bun run copy:icons && bun run cleanup && bun run build:icons-meta && bun run build:react-icons && bun run build:react-bundle && bun run upload-algolia",
+    "cleanup": "rm -rf ./packages/icons/react ./packages/icons-react/dist ./packages/icons-react/src/icons.js ./packages/icons-react/src/icons/*.js ./packages/icons-react/src/icons-solid/*.js",
+    "build:meta": "bun ./scripts/build-meta.mjs",
+    "build:react": "bun ./scripts/build-react.mjs && rollup -c ./scripts/rollup.config.mjs",
+    "build:playground": "bun ./scripts/build-playground.mjs",
+    "upload-algolia": "bun ./scripts/upload-algolia.mjs",
+    "everything-everywhere-all-at-once": "bun run build:svgs && bun run build:tags && bun run build:svgtofont-regular && bun run build:svgtofont-solid && bun run copy:icons && bun run cleanup && bun run build:meta && bun run build:react && bun run build:playground && bun run upload-algolia",
     "publish": "bunx lerna publish --no-private --create-release=github --conventional-commits"
   },
   "devDependencies": {
