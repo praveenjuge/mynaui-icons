@@ -42,6 +42,7 @@
   "style": "mynaui.css",
   "files": [
     "icons/*.svg",
+    "icons-solid/*.svg",
     "meta.json",
     "mynaui.css",
     "mynaui.eot",

@@ -447,6 +447,7 @@ export { default as MessageCheckSolid } from './icons-solid/MessageCheckSolid';
 export { default as LocationPlusSolid } from './icons-solid/LocationPlusSolid';
 export { default as CreditCardPlusSolid } from './icons-solid/CreditCardPlusSolid';
 export { default as UserPlusSolid } from './icons-solid/UserPlusSolid';
+export { default as BrandTelegramSolid } from './icons-solid/BrandTelegramSolid';
 export { default as CocktailSolid } from './icons-solid/CocktailSolid';
 export { default as RupeeOctagonSolid } from './icons-solid/RupeeOctagonSolid';
 export { default as ChevronDownSquareSolid } from './icons-solid/ChevronDownSquareSolid';

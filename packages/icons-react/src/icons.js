@@ -447,6 +447,7 @@ export { default as MessageCheck } from './icons/MessageCheck';
 export { default as LocationPlus } from './icons/LocationPlus';
 export { default as CreditCardPlus } from './icons/CreditCardPlus';
 export { default as UserPlus } from './icons/UserPlus';
+export { default as BrandTelegram } from './icons/BrandTelegram';
 export { default as Cocktail } from './icons/Cocktail';
 export { default as RupeeOctagon } from './icons/RupeeOctagon';
 export { default as ChevronDownSquare } from './icons/ChevronDownSquare';

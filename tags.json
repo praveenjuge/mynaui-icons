@@ -3698,7 +3698,8 @@
     "approve",
     "confirm",
     "document",
-    "audit"
+    "audit",
+    "report"
   ],
   "file-minus": [
     "file",
@@ -3707,7 +3708,8 @@
     "delete",
     "document",
     "subtract",
-    "eliminate"
+    "eliminate",
+    "report"
   ],
   "file-plus": [
     "file",
@@ -3716,7 +3718,8 @@
     "create",
     "document",
     "increase",
-    "expand"
+    "expand",
+    "report"
   ],
   "file-text": [
     "file",
@@ -3725,7 +3728,8 @@
     "paper",
     "note",
     "writing",
-    "record"
+    "record",
+    "report"
   ],
   "file-x": [
     "file",
@@ -3734,7 +3738,8 @@
     "delete",
     "document",
     "cancel",
-    "discard"
+    "discard",
+    "report"
   ],
   "file": [
     "file",
@@ -3743,7 +3748,8 @@
     "note",
     "data",
     "record",
-    "information"
+    "information",
+    "report"
   ],
   "film": [
     "film",
@@ -4232,7 +4238,8 @@
     "table",
     "pattern",
     "design",
-    "arrangement"
+    "arrangement",
+    "dashboard"
   ],
   "hand": [
     "hand",
@@ -4509,7 +4516,8 @@
     "confirm",
     "house",
     "residence",
-    "place"
+    "place",
+    "dashboard"
   ],
   "home-minus": [
     "home",
@@ -4535,7 +4543,8 @@
     "happy",
     "joy",
     "residence",
-    "place"
+    "place",
+    "dashboard"
   ],
   "home-x": [
     "home",
@@ -4552,7 +4561,8 @@
     "house",
     "residence",
     "dwelling",
-    "property"
+    "property",
+    "dashboard"
   ],
   "image-circle": [
     "image",
@@ -7188,7 +7198,10 @@
     "astronomy",
     "eclipse",
     "moonlight",
-    "moonlit"
+    "moonlit",
+    "theme",
+    "dark",
+    "light"
   ],
   "moon": [
     "moon",
@@ -7197,7 +7210,10 @@
     "space",
     "celestial",
     "sky",
-    "astronomy"
+    "astronomy",
+    "theme",
+    "dark",
+    "light"
   ],
   "mountain": [
     "mountain",
@@ -9381,6 +9397,8 @@
     "sky",
     "celestial",
     "star",
+    "theme",
+    "dark",
     "light"
   ],
   "sunrise": [
@@ -9389,7 +9407,10 @@
     "dawn",
     "daybreak",
     "sun",
-    "horizon"
+    "horizon",
+    "theme",
+    "dark",
+    "light"
   ],
   "sunset": [
     "sunset",
@@ -9397,7 +9418,10 @@
     "dusk",
     "twilight",
     "sun",
-    "horizon"
+    "horizon",
+    "theme",
+    "dark",
+    "light"
   ],
   "support": [
     "support",
@@ -10551,5 +10575,14 @@
     "null",
     "nil",
     "nothing"
+  ],
+  "brand-telegram": [
+    "brand",
+    "telegram",
+    "communication",
+    "message",
+    "messaging",
+    "messages",
+    "app"
   ]
 }
