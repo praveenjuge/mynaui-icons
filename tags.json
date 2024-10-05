@@ -10584,5 +10584,25 @@
     "messaging",
     "messages",
     "app"
+  ],
+  "heart-dot": [
+    "heart",
+    "dot"
+  ],
+  "heart-home": [
+    "heart",
+    "home"
+  ],
+  "heart-slash": [
+    "heart",
+    "slash"
+  ],
+  "heart-snooze": [
+    "heart",
+    "snooze"
+  ],
+  "heart-user": [
+    "heart",
+    "user"
   ]
 }

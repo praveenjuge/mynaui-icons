@@ -64,8 +64,8 @@ try {
     };
 
     // Check files in both directories for 'evenodd'
-    // checkForEvenOdd(regularIconsDir, names1);
-    // checkForEvenOdd(solidIconsDir, names2);
+    checkForEvenOdd(regularIconsDir, names1);
+    checkForEvenOdd(solidIconsDir, names2);
 
     // If all checks pass
     console.log(picocolors.green('✅ All checks passed successfully.'));
