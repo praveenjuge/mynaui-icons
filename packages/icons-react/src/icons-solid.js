@@ -98,6 +98,7 @@ export { default as LetterUOctagonSolid } from './icons-solid/LetterUOctagonSoli
 export { default as YenCircleSolid } from './icons-solid/YenCircleSolid';
 export { default as CalendarDownSolid } from './icons-solid/CalendarDownSolid';
 export { default as LetterRSolid } from './icons-solid/LetterRSolid';
+export { default as BrandCodesandboxSolid } from './icons-solid/BrandCodesandboxSolid';
 export { default as LetterWCircleSolid } from './icons-solid/LetterWCircleSolid';
 export { default as LetterESolid } from './icons-solid/LetterESolid';
 export { default as WifiSlashSolid } from './icons-solid/WifiSlashSolid';
@@ -317,6 +318,7 @@ export { default as DazeCircleSolid } from './icons-solid/DazeCircleSolid';
 export { default as SignalHexagonSolid } from './icons-solid/SignalHexagonSolid';
 export { default as LetterKHexagonSolid } from './icons-solid/LetterKHexagonSolid';
 export { default as QuestionCircleSolid } from './icons-solid/QuestionCircleSolid';
+export { default as BrandCodepenSolid } from './icons-solid/BrandCodepenSolid';
 export { default as AmpersandsSolid } from './icons-solid/AmpersandsSolid';
 export { default as BellMinusSolid } from './icons-solid/BellMinusSolid';
 export { default as LetterKWavesSolid } from './icons-solid/LetterKWavesSolid';

@@ -10604,5 +10604,13 @@
   "heart-user": [
     "heart",
     "user"
+  ],
+  "brand-codepen": [
+    "brand",
+    "codepen"
+  ],
+  "brand-codesandbox": [
+    "brand",
+    "codesandbox"
   ]
 }

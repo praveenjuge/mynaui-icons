@@ -25,19 +25,20 @@
     "packages/*"
   ],
   "scripts": {
-    "check:icons": "bun ./scripts/check-icons.mjs",
-    "build:svgs": "bun ./scripts/build-svgs.mjs",
-    "build:tags": "bun ./scripts/build-tags.mjs",
-    "build:svgtofont-regular": "svgtofont --sources ./icons --output ./packages/icons --fontName mynaui",
-    "build:svgtofont-solid": "svgtofont --sources ./icons-solid --output ./packages/icons --fontName mynaui-solid",
-    "copy:icons": "rm -rf ./packages/icons/icons && mkdir ./packages/icons/icons && cp -r ./icons/*.svg ./packages/icons/icons && rm -rf ./packages/icons/icons-solid && mkdir ./packages/icons/icons-solid && cp -r ./icons-solid/*.svg ./packages/icons/icons-solid",
-    "cleanup": "rm -rf ./packages/icons/react ./packages/icons-react/dist ./packages/icons-react/src/icons.js ./packages/icons-react/src/icons/*.js ./packages/icons-react/src/icons-solid/*.js",
     "build:meta": "bun ./scripts/build-meta.mjs",
-    "build:react": "bun ./scripts/build-react.mjs && rollup -c ./scripts/rollup.config.mjs",
     "build:playground": "bun ./scripts/build-playground.mjs",
-    "upload-algolia": "bun ./scripts/upload-algolia.mjs",
-    "everything-everywhere-all-at-once": "bun run check:icons && bun run build:svgs && bun run build:tags && bun run build:svgtofont-regular && bun run build:svgtofont-solid && bun run copy:icons && bun run cleanup && bun run build:meta && bun run build:react && bun run build:playground && bun run upload-algolia",
-    "publish": "bunx lerna publish --no-private --create-release=github --conventional-commits"
+    "build:react": "bun ./scripts/build-react.mjs && rollup -c ./scripts/rollup.config.mjs",
+    "build:svgs": "bun ./scripts/build-svgs.mjs",
+    "build:svgtofont-regular": "svgtofont --sources ./regular-icon-temp --output ./packages/icons --fontName mynaui",
+    "build:svgtofont-solid": "svgtofont --sources ./icons-solid --output ./packages/icons --fontName mynaui-solid",
+    "build:tags": "bun ./scripts/build-tags.mjs",
+    "check:icons": "bun ./scripts/check-icons.mjs",
+    "cleanup": "rm -rf ./packages/icons/react ./packages/icons-react/dist ./packages/icons-react/src/icons.js ./packages/icons-react/src/icons/*.js ./packages/icons-react/src/icons-solid/*.js ./regular-icon-temp",
+    "copy:icons": "rm -rf ./packages/icons/icons && mkdir ./packages/icons/icons && cp -r ./icons/*.svg ./packages/icons/icons && rm -rf ./packages/icons/icons-solid && mkdir ./packages/icons/icons-solid && cp -r ./icons-solid/*.svg ./packages/icons/icons-solid",
+    "everything-everywhere-all-at-once": "bun run check:icons && bun run build:svgs && bun run build:tags && bun run oslllo-svg-fixer && bun run build:svgtofont-regular && bun run build:svgtofont-solid && bun run copy:icons && bun run cleanup && bun run build:meta && bun run build:react && bun run build:playground && bun run upload-algolia",
+    "oslllo-svg-fixer": "mkdir -p ./regular-icon-temp && oslllo-svg-fixer -s ./icons -d ./regular-icon-temp --sp",
+    "publish": "bunx lerna publish --no-private --create-release=github --conventional-commits",
+    "upload-algolia": "bun ./scripts/upload-algolia.mjs"
   },
   "devDependencies": {
     "@atomico/rollup-plugin-sizes": "^1.1.4",
@@ -47,6 +48,7 @@
     "esbuild": "^0.19.10",
     "html-minifier": "^4.0.0",
     "lerna": "^8.0.1",
+    "oslllo-svg-fixer": "^5.0.0",
     "picocolors": "^1.0.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
@@ -56,7 +58,7 @@
     "rollup-plugin-license": "^3.2.0",
     "svgo": "^3.1.0",
     "svgson": "^5.3.1",
-    "svgtofont": "^4.1.0"
+    "svgtofont": "^6.1.1"
   },
   "svgtofont": {
     "css": {
