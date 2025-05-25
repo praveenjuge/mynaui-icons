@@ -37,13 +37,18 @@ async function main(file) {
   const pageTemplate = `Title: ${iconTitle}
 Tags: ${tags}`;
 
-  // write to inputObject's corresponding key's value: documentation
-  inputObject[iconBasename].description = pageTemplate;
-
-  // write to file
-  await fs.writeFile(inputFile, JSON.stringify(inputObject, null, 2));
-
-  console.log(picocolors.yellow(`${iconBasename}: Updating meta...`));
+  // Check if the icon exists in the input object before updating
+  if (inputObject[iconBasename]) {
+    // write to inputObject's corresponding key's value: documentation
+    inputObject[iconBasename].description = pageTemplate;
+    console.log(picocolors.yellow(`${iconBasename}: Updating meta...`));
+  } else {
+    console.log(
+      picocolors.red(
+        `${iconBasename}: Icon not found in input JSON, skipping...`,
+      ),
+    );
+  }
 }
 
 (async () => {
@@ -60,12 +65,15 @@ Tags: ${tags}`;
 
     await Promise.all(files.map((file) => main(file)));
 
+    // write to file after all icons have been processed
+    await fs.writeFile(inputFile, JSON.stringify(inputObject, null, 2));
+
     const filesLength = files.length;
 
     console.log(
       picocolors.green("\nSuccess, %s page%s prepared!"),
       filesLength,
-      filesLength === 1 ? "" : "s"
+      filesLength === 1 ? "" : "s",
     );
     console.timeEnd(timeLabel);
   } catch (error) {
