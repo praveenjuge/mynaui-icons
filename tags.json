@@ -10587,30 +10587,293 @@
   ],
   "heart-dot": [
     "heart",
-    "dot"
+    "dot",
+    "love",
+    "affection",
+    "emotion",
+    "care"
   ],
   "heart-home": [
     "heart",
-    "home"
+    "home",
+    "love",
+    "affection",
+    "emotion",
+    "care",
+    "house"
   ],
   "heart-slash": [
     "heart",
-    "slash"
+    "slash",
+    "love",
+    "break"
   ],
   "heart-snooze": [
     "heart",
-    "snooze"
+    "snooze",
+    "love",
+    "pause"
   ],
   "heart-user": [
     "heart",
-    "user"
+    "user",
+    "love",
+    "profile"
   ],
   "brand-codepen": [
     "brand",
-    "codepen"
+    "codepen",
+    "coding",
+    "development",
+    "programming",
+    "web"
   ],
   "brand-codesandbox": [
     "brand",
-    "codesandbox"
+    "codesandbox",
+    "coding",
+    "development",
+    "programming",
+    "web"
+  ],
+  "chart-area": [
+    "chart",
+    "area",
+    "graph",
+    "statistics",
+    "data",
+    "visualization",
+    "analytics"
+  ],
+  "chart-bar-big": [
+    "chart",
+    "bar",
+    "big",
+    "graph",
+    "statistics",
+    "data",
+    "visualization",
+    "analytics"
+  ],
+  "chart-bar-decreasing": [
+    "chart",
+    "bar",
+    "decreasing",
+    "graph",
+    "analytics",
+    "decline"
+  ],
+  "chart-bar-increasing": [
+    "chart",
+    "bar",
+    "increasing",
+    "graph",
+    "analytics",
+    "growth"
+  ],
+  "chart-bar-stacked": [
+    "chart",
+    "bar",
+    "stacked",
+    "graph",
+    "statistics",
+    "data"
+  ],
+  "chart-candlestick": [
+    "chart",
+    "candlestick",
+    "financial",
+    "stock",
+    "market",
+    "trading",
+    "analysis"
+  ],
+  "chart-column-big": [
+    "chart",
+    "column",
+    "big",
+    "graph",
+    "statistics",
+    "data",
+    "analytics"
+  ],
+  "chart-column-decreasing": [
+    "chart",
+    "column",
+    "decreasing",
+    "graph",
+    "statistics",
+    "data",
+    "analytics",
+    "decline"
+  ],
+  "chart-column-increasing": [
+    "chart",
+    "column",
+    "increasing",
+    "graph",
+    "statistics",
+    "data",
+    "analytics",
+    "growth"
+  ],
+  "chart-column-stacked": [
+    "chart",
+    "column",
+    "stacked",
+    "graph",
+    "statistics",
+    "data",
+    "analytics",
+    "growth"
+  ],
+  "chart-column": [
+    "chart",
+    "column",
+    "graph",
+    "statistics",
+    "data",
+    "analytics"
+  ],
+  "chart-gantt": [
+    "chart",
+    "gantt",
+    "graph",
+    "statistics",
+    "data",
+    "analytics"
+  ],
+  "chart-network": [
+    "chart",
+    "network",
+    "graph",
+    "statistics",
+    "data",
+    "analytics"
+  ],
+  "chart-no-axes-column-decreasing": [
+    "chart",
+    "no",
+    "axes",
+    "column",
+    "decreasing",
+    "graph",
+    "statistics",
+    "data",
+    "analytics",
+    "decline"
+  ],
+  "chart-no-axes-column-increasing": [
+    "chart",
+    "no",
+    "axes",
+    "column",
+    "increasing",
+    "graph",
+    "statistics",
+    "data",
+    "analytics",
+    "growth"
+  ],
+  "chart-no-axes-column": [
+    "chart",
+    "no",
+    "axes",
+    "column",
+    "graph",
+    "statistics",
+    "data",
+    "analytics"
+  ],
+  "chart-no-axes-combined": [
+    "chart",
+    "no",
+    "axes",
+    "combined",
+    "graph",
+    "statistics",
+    "data",
+    "analytics"
+  ],
+  "chart-no-axes-gantt": [
+    "chart",
+    "no",
+    "axes",
+    "gantt",
+    "graph",
+    "statistics",
+    "data",
+    "analytics"
+  ],
+  "chart-scatter": [
+    "chart",
+    "scatter",
+    "graph",
+    "statistics",
+    "data",
+    "analytics"
+  ],
+  "chart-spline": [
+    "chart",
+    "spline",
+    "graph",
+    "statistics",
+    "data",
+    "analytics"
+  ],
+  "folder-kanban": [
+    "folder",
+    "kanban",
+    "organization",
+    "management",
+    "workflow",
+    "task",
+    "project"
+  ],
+  "kanban": [
+    "kanban",
+    "organization",
+    "management",
+    "workflow",
+    "task",
+    "project",
+    "board"
+  ],
+  "square-chart-gantt": [
+    "square",
+    "chart",
+    "gantt",
+    "project",
+    "management",
+    "planning",
+    "timeline"
+  ],
+  "square-dashed-kanban": [
+    "square",
+    "dashed",
+    "kanban",
+    "organization",
+    "management",
+    "workflow",
+    "task",
+    "project"
+  ],
+  "square-kanban": [
+    "square",
+    "kanban",
+    "organization",
+    "management",
+    "workflow",
+    "task",
+    "project"
+  ],
+  "trending-up-down": [
+    "trending",
+    "up",
+    "down",
+    "fluctuation",
+    "trends",
+    "analytics",
+    "statistics"
   ]
 }
