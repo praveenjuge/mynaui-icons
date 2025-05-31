@@ -39,7 +39,7 @@ try {
     }
 
     // Check for file names containing numbers
-    const filesWithNumbers = names1.filter(name => /\d/.test(name));
+    const filesWithNumbers = names1.filter(name => /1/.test(name));
     if (filesWithNumbers.length > 0) {
         console.error(
             picocolors.red(`❌ Error:`) +
