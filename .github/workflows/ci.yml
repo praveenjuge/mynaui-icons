@@ -15,5 +15,6 @@ jobs:
           node-version: 20
       - uses: oven-sh/setup-bun@v1
       - run: bun install
+      - run: bun run lint
       - run: bun run check:icons
       - run: bun run build:svgs
