@@ -39,7 +39,9 @@
     "oslllo-svg-fixer": "mkdir -p ./regular-icon-temp && oslllo-svg-fixer -s ./icons -d ./regular-icon-temp --sp",
     "publish": "bunx lerna publish --no-private --create-release=github --conventional-commits",
     "upload-algolia": "bun ./scripts/upload-algolia.mjs",
-    "manage-tags": "bun ./scripts/build-tags-playground.mjs && bun ./scripts/serve-tags-playground.mjs"
+    "manage-tags": "bun ./scripts/build-tags-playground.mjs && bun ./scripts/serve-tags-playground.mjs",
+    "lint": "eslint .",
+    "format": "prettier --write ."
   },
   "devDependencies": {
     "@atomico/rollup-plugin-sizes": "^1.1.4",
@@ -60,7 +62,9 @@
     "svgo": "^3.1.0",
     "svgson": "^5.3.1",
     "svgtofont": "^6.1.1",
-    "dotenv": "^16.5.0"
+    "dotenv": "^16.5.0",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.5"
   },
   "svgtofont": {
     "css": {
