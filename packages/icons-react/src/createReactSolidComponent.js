@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 export default (iconName, iconNamePascal, iconNode) => {
   const Component = forwardRef(
     (
-      { color = "currentColor", size = 24, stroke = "1.5", children, ...rest },
+      { color = "currentColor", size = 24, children, ...rest },
       ref
     ) =>
       createElement(
@@ -13,7 +13,7 @@ export default (iconName, iconNamePascal, iconNode) => {
           ref,
           width: size,
           height: size,
-          fill: "currentColor",
+          fill: color,
           viewBox: "0 0 24 24",
           xmlns: "http://www.w3.org/2000/svg",
           ...rest,
