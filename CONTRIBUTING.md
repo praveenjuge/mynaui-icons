@@ -24,6 +24,13 @@ bun run check:icons  # validate SVG icon files
 
 Additional build scripts can be found in `package.json` if you need them.
 
+## Icon Guidelines
+
+- Each icon must exist in both the `icons/` and `icons-solid/` directories with
+  identical filenames.
+- Filenames should be written in kebab-case and avoid numbers. The
+  `check-icons` script enforces these rules.
+
 ## Issues and Pull Requests
 
 - For bug reports or icon requests, please use the templates available in the [issue tracker](https://github.com/praveenjuge/myna-icons/issues/new/choose).
