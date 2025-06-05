@@ -70,5 +70,8 @@
     "css": {
       "fontSize": "12px"
     }
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
