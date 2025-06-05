@@ -20,6 +20,8 @@ bun run format       # format code with Prettier
 bun run check:icons  # validate SVG icon files
 ```
 
+`bun run check:icons` verifies that the SVG files in `icons` and `icons-solid` match exactly. It also fails if any filenames include numbers or if the SVGs use the `evenodd` fill rule.
+
 Additional build scripts can be found in `package.json` if you need them.
 
 ## Issues and Pull Requests
