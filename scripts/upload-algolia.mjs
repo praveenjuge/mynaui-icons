@@ -5,13 +5,24 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import picocolors from "picocolors";
 import { algoliasearch } from "algoliasearch";
+import "dotenv/config";
 
 console.log(picocolors.blue("Starting Algolia upload process..."));
 
+const { ALGOLIA_APPLICATION_ID, ALGOLIA_ADMIN_API_KEY } = process.env;
+if (!ALGOLIA_APPLICATION_ID || !ALGOLIA_ADMIN_API_KEY) {
+  console.error(
+    picocolors.red(
+      "ALGOLIA_APPLICATION_ID and ALGOLIA_ADMIN_API_KEY must be set in the environment",
+    ),
+  );
+  process.exit(1);
+}
+
 // Connect and authenticate with your Algolia app
 const client = algoliasearch(
-  process.env.ALGOLIA_APPLICATION_ID,
-  process.env.ALGOLIA_ADMIN_API_KEY
+  ALGOLIA_APPLICATION_ID,
+  ALGOLIA_ADMIN_API_KEY,
 );
 console.log(picocolors.green("Connected to Algolia"));
 

@@ -15,6 +15,15 @@ const PLAYGROUND_FILE = path.join(__dirname, "../tags-playground.html");
 const PORT = 3001;
 const GEMINI_KEY = process.env.GEMINI_KEY;
 
+if (!GEMINI_KEY) {
+  console.error(
+    picocolors.red(
+      "GEMINI_KEY environment variable is required to run the playground server",
+    ),
+  );
+  process.exit(1);
+}
+
 const server = http.createServer(async (req, res) => {
   const parsedUrl = url.parse(req.url, true);
 
