@@ -153,7 +153,7 @@ export type Icon = DefineComponent<MynaIconsProps>;
 // Generated icons`;
 
 const indexTypeTemplate = ({ namePascal }) =>
-  `export declare const ${namePascal}: (props: MynaIconsProps) => JSX.Element;`;
+  `export declare const ${namePascal}: DefineComponent<MynaIconsProps>;`;
 
 // Define templates for solid icons
 const solidComponentTemplate = ({ name, namePascal, children }) => `\
