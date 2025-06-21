@@ -1,0 +1,60 @@
+{
+  "name": "@mynaui/icons-vue",
+  "version": "0.3.8",
+  "description": "1180+ beautifully crafted open source icons for your next project.",
+  "keywords": [
+    "icons",
+    "svg",
+    "vue",
+    "mynaui",
+    "icon-library",
+    "icon-pack",
+    "icon-set",
+    "icons-vue"
+  ],
+  "homepage": "https://mynaui.com/icons",
+  "bugs": {
+    "url": "https://github.com/praveenjuge/mynaui-icons/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praveenjuge/mynaui-icons.git"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/praveenjuge"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Praveen Juge",
+    "url": "https://praveenjuge.com/"
+  },
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/myna-icons-vue.d.ts",
+      "import": "./dist/esm/myna-icons-vue.js",
+      "require": "./dist/cjs/myna-icons-vue.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "dist/cjs/myna-icons-vue.js",
+  "unpkg": "dist/umd/myna-icons-vue.min.js",
+  "module": "dist/esm/myna-icons-vue.js",
+  "types": "dist/myna-icons-vue.d.ts",
+  "typings": "dist/myna-icons-vue.d.ts",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "package.json",
+    "!.DS_Store"
+  ],
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": ""
+}
