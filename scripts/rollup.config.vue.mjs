@@ -13,7 +13,7 @@ const pkg = JSON.parse(
   fs.readFileSync("./packages/icons-vue/package.json", "utf-8")
 );
 
-const packageName = "@myna/icons-vue";
+const packageName = "@mynaui/icons-vue";
 const outputFileName = "myna-icons-vue";
 const outputDir = "./packages/icons-vue/dist";
 const inputs = ["./packages/icons-vue/src/myna-icons-vue.js"];
