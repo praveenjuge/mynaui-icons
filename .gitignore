@@ -15,3 +15,5 @@ packages/icons*/stats/*
 packages/icons*/dist
 tags-playground.html
 tags_latest.json
+rename-preview.html
+bun.lock

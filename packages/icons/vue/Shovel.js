@@ -1,0 +1,25 @@
+import { defineComponent, h } from 'vue';
+
+export const Shovel = defineComponent({
+  name: 'Shovel',
+  props: {
+    class: {
+      type: String,
+      default: ''
+    }
+  },
+  setup(props, { attrs }) {
+    return () => h(
+      'svg',
+      {
+        viewBox: '0 0 20 20',
+        width: '12px', height: '12px',
+        class: `mynaui-solid ${props.class}`,
+        ...attrs
+      },
+      [
+        h('path', {"d": "M7.984 2.968A.75.75 0 0 1 9.04 4.032L7.07 5.99l6.971 6.902 1.701-1.684.13-.116a1.74 1.74 0 0 1 2.299.116l.304.309c1.472 1.545 2.329 3.13 2.64 4.583.332 1.546.047 2.985-.841 3.97-.9.998-2.292 1.388-3.863 1.076-1.557-.31-3.315-1.304-5.126-3.098v-.001a1.717 1.717 0 0 1 0-2.424v-.002l1.69-1.674-6.969-6.9-1.978 1.968-.056.051a.75.75 0 0 1-1-1.115z", "fillRule": "evenodd"})
+      ]
+    );
+  }
+});

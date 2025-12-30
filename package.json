@@ -27,6 +27,8 @@
   "scripts": {
     "build:meta": "bun ./scripts/build-meta.mjs",
     "build:playground": "bun ./scripts/build-playground.mjs",
+    "generate:ai-tags": "bun ./scripts/generate-tags.mjs",
+    "generate:rename-preview": "node ./scripts/generate-rename-preview.mjs",
     "build:react": "bun ./scripts/build-react.mjs && rollup -c ./scripts/rollup.config.mjs",
     "build:svgs": "bun ./scripts/build-svgs.mjs",
     "build:svgtofont-regular": "svgtofont --sources ./regular-icon-temp --output ./packages/icons --fontName mynaui",
@@ -38,7 +40,6 @@
     "everything-everywhere-all-at-once": "bun run build-all",
     "oslllo-svg-fixer": "mkdir -p ./regular-icon-temp && oslllo-svg-fixer -s ./icons -d ./regular-icon-temp --sp",
     "publish": "bunx lerna publish --no-private --create-release=github --conventional-commits",
-    "upload-algolia": "bun ./scripts/upload-algolia.mjs",
     "manage-tags": "bun ./scripts/build-tags-playground.mjs && bun ./scripts/serve-tags-playground.mjs",
     "lint": "eslint .",
     "format": "prettier --write .",
@@ -48,7 +49,6 @@
     "@atomico/rollup-plugin-sizes": "^1.1.4",
     "@babel/preset-env": "^7.23.6",
     "@babel/preset-react": "^7.23.3",
-    "algoliasearch": "v5",
     "esbuild": "^0.19.10",
     "html-minifier": "^4.0.0",
     "lerna": "^8.0.1",
@@ -63,7 +63,7 @@
     "svgo": "^3.1.0",
     "svgson": "^5.3.1",
     "svgtofont": "^6.1.1",
-    "dotenv": "^16.5.0",
+    "dotenv": "^17.2.3",
     "eslint": "^8.56.0",
     "prettier": "^3.2.5"
   },
@@ -74,5 +74,10 @@
   },
   "engines": {
     "node": ">=20"
+  },
+  "dependencies": {
+    "@ai-sdk/groq": "^3.0.1",
+    "ai": "^6.0.3",
+    "fs-extra": "^11.3.3"
   }
 }

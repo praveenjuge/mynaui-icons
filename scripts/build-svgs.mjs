@@ -20,7 +20,35 @@ const iconConfigs = [
   },
 ];
 
-async function processFile(dir, file, config) {
+// Simple progress bar
+class ProgressBar {
+  constructor(total) {
+    this.total = total;
+    this.current = 0;
+    this.width = 40;
+  }
+
+  update() {
+    this.current++;
+    const progress = this.current / this.total;
+    const filled = Math.round(this.width * progress);
+    const empty = this.width - filled;
+    const percentage = Math.round(progress * 100);
+
+    // Clear line and show progress
+    process.stdout.write('\r' + picocolors.cyan('[') +
+      picocolors.green('█'.repeat(filled)) +
+      ' '.repeat(empty) +
+      picocolors.cyan(']') +
+      ` ${percentage}% (${this.current}/${this.total})`);
+
+    if (this.current === this.total) {
+      process.stdout.write('\n');
+    }
+  }
+}
+
+async function processFile(dir, file, config, progressBar) {
   const filepath = path.join(dir, file);
   const basename = path.basename(file, ".svg");
 
@@ -39,7 +67,7 @@ async function processFile(dir, file, config) {
   await fs.unlink(filepath);
   await fs.writeFile(newFilepath, resultSvg, "utf8");
 
-  console.log(picocolors.green(`Optimized: ${newBasename}.svg`));
+  progressBar.update();
 }
 
 (async () => {
@@ -51,13 +79,25 @@ async function processFile(dir, file, config) {
     console.time(timeLabel);
 
     let totalFiles = 0;
+    const allFiles = [];
 
+    // First pass: count total files and collect work
     for (const { dir, configFile } of iconConfigs) {
       const config = await loadConfig(path.join(__dirname, configFile));
       const files = (await fs.readdir(dir)).filter((file) => file.endsWith(".svg"));
       totalFiles += files.length;
 
-      await Promise.all(files.map((file) => processFile(dir, file, config)));
+      for (const file of files) {
+        allFiles.push({ dir, file, configFile });
+      }
+    }
+
+    const progressBar = new ProgressBar(totalFiles);
+
+    // Second pass: process files
+    for (const { dir, file, configFile } of allFiles) {
+      const config = await loadConfig(path.join(__dirname, configFile));
+      await processFile(dir, file, config, progressBar);
     }
 
     console.log(

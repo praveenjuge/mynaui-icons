@@ -1,0 +1,25 @@
+import { defineComponent, h } from 'vue';
+
+export const FireExtinguisher = defineComponent({
+  name: 'FireExtinguisher',
+  props: {
+    class: {
+      type: String,
+      default: ''
+    }
+  },
+  setup(props, { attrs }) {
+    return () => h(
+      'svg',
+      {
+        viewBox: '0 0 20 20',
+        width: '12px', height: '12px',
+        class: `mynaui-solid ${props.class}`,
+        ...attrs
+      },
+      [
+        h('path', {"d": "M11.5 1.25h2a1.75 1.75 0 0 1 1.466.803l.797-.265 1.5-.5a.75.75 0 0 1 .474 1.424l-2.364.788 2.364.788.072.028a.75.75 0 0 1-.472 1.416l-.074-.02-2.013-.671v1.137q.252.156.482.35c.929.78 1.518 1.955 1.518 3.472v10a2.77 2.77 0 0 1-2.75 2.75h-4A2.77 2.77 0 0 1 7.75 20V10c0-1.753.843-3.002 2-3.744v-2.47c-1.352.13-2.14.62-2.627 1.298-.612.85-.873 2.15-.873 3.916a.75.75 0 0 1-1.5 0c0-1.844.258-3.545 1.155-4.792.85-1.18 2.175-1.828 4.01-1.94A1.76 1.76 0 0 1 11.5 1.25", "fillRule": "evenodd"})
+      ]
+    );
+  }
+});

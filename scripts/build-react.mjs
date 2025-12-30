@@ -6,6 +6,28 @@ import { fileURLToPath } from "url";
 import { parseSync } from "svgson";
 import picocolors from "picocolors";
 
+const createProgressBar = (total, label = "Building") => {
+  let current = 0;
+  const width = 30;
+  const updateInterval = Math.max(1, Math.floor(total / 50)); // Update ~50 times max
+  let lastUpdate = 0;
+
+  return {
+    tick: () => {
+      current++;
+      if (current === total || current - lastUpdate >= updateInterval) {
+        lastUpdate = current;
+        const progress = Math.round((current / total) * 100);
+        const filled = Math.round((current / total) * width);
+        const empty = width - filled;
+        const bar = picocolors.green("█".repeat(filled)) + "░".repeat(empty);
+        process.stdout.write(`\r${label}... [${bar}] ${progress}% (${current}/${total})`);
+        if (current === total) process.stdout.write("\n");
+      }
+    },
+  };
+};
+
 const getCurrentDirPath = () => path.dirname(fileURLToPath(import.meta.url));
 const HOME_DIR = path.resolve(getCurrentDirPath(), "..");
 const ICONS_DIR = path.resolve(HOME_DIR, "icons");
@@ -57,6 +79,7 @@ const buildIcons = ({
   inputDir,
   outputSubDir,
   nameSuffix = '',
+  progressBar,
 }) => {
   const DIST_DIR = path.resolve(PACKAGES_DIR, name);
   const svgFiles = readSvgs(inputDir);
@@ -64,7 +87,7 @@ const buildIcons = ({
   let index = [];
   let typings = [];
 
-  svgFiles.forEach((svgFile, i) => {
+  svgFiles.forEach((svgFile) => {
     const children = svgFile.obj.children
       .filter(
         ({ attributes }) =>
@@ -97,11 +120,7 @@ const buildIcons = ({
       "utf-8"
     );
 
-    console.log(
-      picocolors.green(
-        `Building ${componentName} (${i + 1}/${svgFiles.length})\r`
-      )
-    );
+    progressBar?.tick();
 
     index.push(
       indexItemTemplate({
@@ -165,6 +184,10 @@ export default createReactSolidComponent('${name}', '${namePascal}', ${JSON.stri
   children
 )});`;
 
+// Get icon counts for progress bars
+const normalIconCount = readSvgDirectory(ICONS_DIR).length;
+const solidIconCount = readSvgDirectory(ICONS_SOLID_DIR).length;
+
 // Build normal icons
 const normalIconsResult = buildIcons({
   name: "icons-react",
@@ -174,6 +197,7 @@ const normalIconsResult = buildIcons({
   pascalCase: true,
   inputDir: ICONS_DIR,
   outputSubDir: "icons",
+  progressBar: createProgressBar(normalIconCount, "Building regular icons"),
 });
 
 // Build solid icons
@@ -186,6 +210,7 @@ const solidIconsResult = buildIcons({
   inputDir: ICONS_SOLID_DIR,
   outputSubDir: "icons-solid",
   nameSuffix: "Solid",
+  progressBar: createProgressBar(solidIconCount, "Building solid icons"),
 });
 
 // Combine typings from both builds

@@ -38,8 +38,9 @@ try {
         }
     }
 
-    // Check for file names containing numbers
-    const filesWithNumbers = names1.filter(name => /1/.test(name));
+    // Check for file names containing numbers (excluding dice-1 through dice-6, tally-1 through tally-5, clock-1 through clock-12, flower-2, etc.)
+    const allowedNumberedNames = /^(dice|tally|clock|heading|flower)-\d+$/;
+    const filesWithNumbers = names1.filter(name => /\d/.test(name) && !allowedNumberedNames.test(name));
     if (filesWithNumbers.length > 0) {
         console.error(
             picocolors.red(`❌ Error:`) +
@@ -48,24 +49,46 @@ try {
         process.exit(1);
     }
 
-    // Function to check file contents for 'evenodd'
-    const checkForEvenOdd = (directory, fileList) => {
+    // Function to check file contents for 'evenodd' and return list of problematic files
+    const checkForEvenOdd = (directory, fileList, dirLabel) => {
+        const problems = [];
         for (let file of fileList) {
             const filePath = path.join(directory, `${file}.svg`);
             const content = fs.readFileSync(filePath, 'utf8');
             if (content.includes('evenodd')) {
-                console.error(
-                    picocolors.red(`❌ Error:`) +
-                    ` File '${picocolors.yellow(filePath)}' contains '${picocolors.magenta('evenodd')}' in its content.`
-                );
-                process.exit(1);
+                problems.push(file);
             }
         }
+        return { dirLabel, problems };
     };
 
     // Check files in both directories for 'evenodd'
-    checkForEvenOdd(regularIconsDir, names1);
-    checkForEvenOdd(solidIconsDir, names2);
+    const regularProblems = checkForEvenOdd(regularIconsDir, names1, 'icons');
+    const solidProblems = checkForEvenOdd(solidIconsDir, names2, 'icons-solid');
+
+    // Display all problems if any were found
+    if (regularProblems.problems.length > 0 || solidProblems.problems.length > 0) {
+        console.error(
+            picocolors.red(`❌ Error:`) +
+            ` Found files containing '${picocolors.magenta('evenodd')}' in their content:`
+        );
+
+        if (regularProblems.problems.length > 0) {
+            console.error(`\n${picocolors.yellow('icons/')}`);
+            regularProblems.problems.forEach(file => {
+                console.error(`  - ${picocolors.cyan(file)}`);
+            });
+        }
+
+        if (solidProblems.problems.length > 0) {
+            console.error(`\n${picocolors.yellow('icons-solid/')}`);
+            solidProblems.problems.forEach(file => {
+                console.error(`  - ${picocolors.cyan(file)}`);
+            });
+        }
+
+        process.exit(1);
+    }
 
     // If all checks pass
     console.log(picocolors.green('✅ All checks passed successfully.'));
