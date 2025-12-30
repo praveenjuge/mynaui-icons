@@ -27,7 +27,6 @@
   "scripts": {
     "build:meta": "bun ./scripts/build-meta.mjs",
     "generate:ai-tags": "bun ./scripts/generate-tags.mjs",
-    "generate:rename-preview": "node ./scripts/generate-rename-preview.mjs",
     "build:react": "bun ./scripts/build-react.mjs && rollup -c ./scripts/rollup.config.mjs",
     "build:svgs": "bun ./scripts/build-svgs.mjs",
     "build:svgtofont-regular": "svgtofont --sources ./regular-icon-temp --output ./packages/icons --fontName mynaui",

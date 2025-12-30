@@ -24,7 +24,6 @@ const tasks = [
   'build:react',
   'build:playground',
   'generate:ai-tags',
-  'generate:rename-preview',
 ];
 
 const scriptName = path.basename(fileURLToPath(import.meta.url));
