@@ -60,6 +60,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "99b2511886a19adf0be608816150549d1afa2636",
+  "gitHead": "49f42bb55cf307080fa22c28d345038ae43eea36",
   "main:umd": "dist/umd/myna-icons-react.js"
 }
