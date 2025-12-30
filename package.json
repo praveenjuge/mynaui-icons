@@ -26,7 +26,6 @@
   ],
   "scripts": {
     "build:meta": "bun ./scripts/build-meta.mjs",
-    "build:playground": "bun ./scripts/build-playground.mjs",
     "generate:ai-tags": "bun ./scripts/generate-tags.mjs",
     "generate:rename-preview": "node ./scripts/generate-rename-preview.mjs",
     "build:react": "bun ./scripts/build-react.mjs && rollup -c ./scripts/rollup.config.mjs",
@@ -40,7 +39,6 @@
     "everything-everywhere-all-at-once": "bun run build-all",
     "oslllo-svg-fixer": "mkdir -p ./regular-icon-temp && oslllo-svg-fixer -s ./icons -d ./regular-icon-temp --sp",
     "publish": "bunx lerna publish --no-private --create-release=github --conventional-commits",
-    "manage-tags": "bun ./scripts/build-tags-playground.mjs && bun ./scripts/serve-tags-playground.mjs",
     "lint": "eslint .",
     "format": "prettier --write .",
     "build-all": "bun ./scripts/build-all.mjs"
