@@ -22,6 +22,7 @@ const tasks = [
   'cleanup',
   'build:meta',
   'build:react',
+  'build:vue',
   'build:playground',
   'generate:ai-tags',
 ];

@@ -13,6 +13,8 @@ packages/icons*/src/icons/*
 packages/icons*/src/icons-solid/*
 packages/icons*/stats/*
 packages/icons*/dist
+packages/icons-vue/src/icons.js
+packages/icons-vue/src/icons-solid.js
 tags-playground.html
 tags_latest.json
 bun.lock

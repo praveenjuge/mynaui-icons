@@ -28,6 +28,7 @@
     "build:meta": "bun ./scripts/build-meta.mjs",
     "generate:ai-tags": "bun ./scripts/generate-tags.mjs",
     "build:react": "bun ./scripts/build-react.mjs && rollup -c ./scripts/rollup.config.mjs",
+    "build:vue": "bun ./scripts/build-vue.mjs && rollup -c ./scripts/rollup.config.vue.mjs",
     "build:svgs": "bun ./scripts/build-svgs.mjs",
     "build:svgtofont-regular": "svgtofont --sources ./regular-icon-temp --output ./packages/icons --fontName mynaui",
     "build:svgtofont-solid": "svgtofont --sources ./icons-solid --output ./packages/icons --fontName mynaui-solid",
