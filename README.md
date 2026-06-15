@@ -42,6 +42,26 @@ const App = () => {
 };
 ```
 
+For Avalonia Projects:
+
+```xml
+<!-- App.axaml -->
+
+<Application.Resources>
+  <ResourceDictionary.MergedDictionaries>
+    <MergeResourceInclude Source="path/to/mynaui.axaml" />
+    <MergeResourceInclude Source="path/to/mynaui-solid.axaml" />
+  </ResourceDictionary.MergedDictionaries>
+</Application.Resources>
+
+```
+
+``` xml
+<!-- Your Design -->
+
+<PathIcon Data="{StaticResource ArrowDown}" Foreground="Green" />
+```
+
 ### React Props
 
 | name     | type   | default      |

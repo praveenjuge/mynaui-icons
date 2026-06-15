@@ -32,6 +32,7 @@
     "build:svgtofont-regular": "svgtofont --sources ./regular-icon-temp --output ./packages/icons --fontName mynaui",
     "build:svgtofont-solid": "svgtofont --sources ./icons-solid --output ./packages/icons --fontName mynaui-solid",
     "build:tags": "bun ./scripts/build-tags.mjs",
+    "build:avalonia": "bun ./scripts/build-avalonia.mjs",
     "check:icons": "bun ./scripts/check-icons.mjs",
     "cleanup": "rm -rf ./packages/icons/react ./packages/icons-react/dist ./packages/icons-react/src/icons.js ./packages/icons-react/src/icons/*.js ./packages/icons-react/src/icons-solid/*.js ./regular-icon-temp",
     "copy:icons": "rm -rf ./packages/icons/icons && mkdir ./packages/icons/icons && cp -r ./icons/*.svg ./packages/icons/icons && rm -rf ./packages/icons/icons-solid && mkdir ./packages/icons/icons-solid && cp -r ./icons-solid/*.svg ./packages/icons/icons-solid",

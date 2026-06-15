@@ -23,6 +23,7 @@ const tasks = [
   'build:meta',
   'build:react',
   'build:playground',
+  'build:avalonia',
   'generate:ai-tags',
 ];
 
