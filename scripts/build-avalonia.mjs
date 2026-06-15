@@ -2,6 +2,10 @@
 
 import fs from 'fs/promises';
 import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
 /**
  * @param {String} input
  * @returns {String}
@@ -26,22 +30,31 @@ async function makeAvaloniaDictionary(icons_path, suffix = '') {
 
 (async () => {
   try {
-    const outlined = await makeAvaloniaDictionary('../packages/icons/mynaui.json');
-    const outlinedOut = path.resolve(__dirname, '../packages/icons/mynaui.axaml')
-    await fs.writeFile(
-      outlinedOut,
-      outlined,
+    const outlined = await makeAvaloniaDictionary(
+      '../packages/icons/mynaui.json',
     );
-    console.log("[OK] Wrote to " + outlinedOut)
-    const solid = await makeAvaloniaDictionary('../packages/icons/mynaui-solid.json', "Solid");
-    const solidOut = path.resolve(__dirname, '../packages/icons/mynaui-solid.axaml')
-    await fs.writeFile(
-      solidOut,
-      solid,
+    const outlinedOut = path.resolve(
+      __dirname,
+      '../packages/icons/mynaui.axaml',
     );
-    console.log("[OK] Wrote to " + solidOut)
-    console.log("Successfully generated Avalonia resource dictionaries.")
-  } catch {
-    console.error("Failed to generate Avalonia resource dictionaries. Did you run build:svgtofont-outlined and build:svgtofont-solid before this?");
+    await fs.writeFile(outlinedOut, outlined);
+    console.log('[OK] Wrote to ' + outlinedOut);
+    const solid = await makeAvaloniaDictionary(
+      '../packages/icons/mynaui-solid.json',
+      'Solid',
+    );
+    const solidOut = path.resolve(
+      __dirname,
+      '../packages/icons/mynaui-solid.axaml',
+    );
+    await fs.writeFile(solidOut, solid);
+    console.log('[OK] Wrote to ' + solidOut);
+    console.log('Successfully generated Avalonia resource dictionaries.');
+  } catch (error) {
+    console.error(
+      'Failed to generate Avalonia resource dictionaries. Did you run build:svgtofont-regular and build:svgtofont-solid before this?',
+    );
+    console.error(error);
+    process.exit(1);
   }
 })();

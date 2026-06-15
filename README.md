@@ -35,7 +35,7 @@ For HTML Projects:
 For React Projects:
 
 ```jsx
-import { ArrowDown } from "@mynaui/icons-react";
+import { ArrowDown } from '@mynaui/icons-react';
 
 const App = () => {
   return <ArrowDown color="green" />;
@@ -48,18 +48,21 @@ For Avalonia Projects:
 <!-- App.axaml -->
 
 <Application.Resources>
-  <ResourceDictionary.MergedDictionaries>
-    <MergeResourceInclude Source="path/to/mynaui.axaml" />
-    <MergeResourceInclude Source="path/to/mynaui-solid.axaml" />
-  </ResourceDictionary.MergedDictionaries>
+  <ResourceDictionary>
+    <ResourceDictionary.MergedDictionaries>
+      <MergeResourceInclude Source="/Assets/mynaui.axaml" />
+      <MergeResourceInclude Source="/Assets/mynaui-solid.axaml" />
+    </ResourceDictionary.MergedDictionaries>
+  </ResourceDictionary>
 </Application.Resources>
 
 ```
 
-``` xml
+```xml
 <!-- Your Design -->
 
 <PathIcon Data="{StaticResource ArrowDown}" Foreground="Green" />
+<PathIcon Data="{StaticResource ArrowDownSolid}" Foreground="Green" />
 ```
 
 ### React Props

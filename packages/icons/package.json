@@ -35,6 +35,8 @@
   },
   "sideEffects": false,
   "exports": {
+    "./mynaui.axaml": "./mynaui.axaml",
+    "./mynaui-solid.axaml": "./mynaui-solid.axaml",
     "./*": [
       "./icons/*"
     ]
@@ -44,6 +46,7 @@
     "icons/*.svg",
     "icons-solid/*.svg",
     "meta.json",
+    "mynaui.axaml",
     "mynaui.css",
     "mynaui.eot",
     "mynaui.json",
@@ -56,6 +59,7 @@
     "mynaui.ttf",
     "mynaui.woff",
     "mynaui.woff2",
+    "mynaui-solid.axaml",
     "mynaui-solid.css",
     "mynaui-solid.eot",
     "mynaui-solid.json",

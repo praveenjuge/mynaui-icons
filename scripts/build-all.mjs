@@ -18,12 +18,11 @@ const tasks = [
   'oslllo-svg-fixer',
   'build:svgtofont-regular',
   'build:svgtofont-solid',
+  'build:avalonia',
   'copy:icons',
   'cleanup',
   'build:meta',
   'build:react',
-  'build:playground',
-  'build:avalonia',
   'generate:ai-tags',
 ];
 
@@ -36,7 +35,7 @@ async function askQuestion(query) {
     output: process.stdout,
   });
 
-  return new Promise(resolve => {
+  return new Promise((resolve) => {
     rl.question(query, (answer) => {
       rl.close();
       resolve(answer.toLowerCase().trim());
@@ -50,25 +49,32 @@ async function waitForContinue() {
     output: process.stdout,
   });
 
-  return new Promise(resolve => {
-    rl.question('Press Enter when you have filled both folders with new icons...', () => {
-      rl.close();
-      resolve();
-    });
+  return new Promise((resolve) => {
+    rl.question(
+      'Press Enter when you have filled both folders with new icons...',
+      () => {
+        rl.close();
+        resolve();
+      },
+    );
   });
 }
 
 async function checkAndAskForNewIcons() {
   // Count SVG files in both directories
-  const iconCount = fs.readdirSync(ICONS_DIR).filter(f => f.endsWith('.svg')).length;
-  const solidIconCount = fs.readdirSync(ICONS_SOLID_DIR).filter(f => f.endsWith('.svg')).length;
+  const iconCount = fs
+    .readdirSync(ICONS_DIR)
+    .filter((f) => f.endsWith('.svg')).length;
+  const solidIconCount = fs
+    .readdirSync(ICONS_SOLID_DIR)
+    .filter((f) => f.endsWith('.svg')).length;
 
   console.log(picocolors.cyan('\n📁 Current icon counts:'));
   console.log(`  icons/: ${picocolors.yellow(iconCount)} SVG files`);
   console.log(`  icons-solid/: ${picocolors.yellow(solidIconCount)} SVG files`);
 
   const answer = await askQuestion(
-    '\nDo you want to clear icons/ and icons-solid/ to export new icons from Figma? (y/N): '
+    '\nDo you want to clear icons/ and icons-solid/ to export new icons from Figma? (y/N): ',
   );
 
   if (answer === 'y' || answer === 'yes') {
@@ -86,22 +92,36 @@ async function checkAndAskForNewIcons() {
       fs.unlinkSync(path.join(ICONS_SOLID_DIR, file));
     }
 
-    console.log(picocolors.green('✅ Folders cleared! Please export icons from Figma now.'));
+    console.log(
+      picocolors.green(
+        '✅ Folders cleared! Please export icons from Figma now.',
+      ),
+    );
     console.log(picocolors.cyan(`   Export to: ${ICONS_DIR}`));
     console.log(picocolors.cyan(`   Export to: ${ICONS_SOLID_DIR}\n`));
 
     await waitForContinue();
 
     // Verify icons exist now
-    const newIconCount = fs.readdirSync(ICONS_DIR).filter(f => f.endsWith('.svg')).length;
-    const newSolidIconCount = fs.readdirSync(ICONS_SOLID_DIR).filter(f => f.endsWith('.svg')).length;
+    const newIconCount = fs
+      .readdirSync(ICONS_DIR)
+      .filter((f) => f.endsWith('.svg')).length;
+    const newSolidIconCount = fs
+      .readdirSync(ICONS_SOLID_DIR)
+      .filter((f) => f.endsWith('.svg')).length;
 
     if (newIconCount === 0 || newSolidIconCount === 0) {
-      console.log(picocolors.red('❌ Error: One or both folders are still empty!'));
+      console.log(
+        picocolors.red('❌ Error: One or both folders are still empty!'),
+      );
       process.exit(1);
     }
 
-    console.log(picocolors.green(`✅ Found ${newIconCount} icons/ and ${newSolidIconCount} icons-solid/`));
+    console.log(
+      picocolors.green(
+        `✅ Found ${newIconCount} icons/ and ${newSolidIconCount} icons-solid/`,
+      ),
+    );
   } else {
     console.log(picocolors.blue('ℹ️  Continuing with existing icons...\n'));
   }
