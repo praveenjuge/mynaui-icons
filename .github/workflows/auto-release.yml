@@ -79,7 +79,7 @@ jobs:
         env:
           VERSION: ${{ steps.bump.outputs.version }}
         run: |
-          git add package.json bun.lock tags.json packages
+          git add package.json tags.json packages
           git commit -m "chore(release): v${VERSION}"
           git tag -a "v${VERSION}" -m "v${VERSION}"
 
