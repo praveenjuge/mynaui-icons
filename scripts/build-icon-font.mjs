@@ -27,6 +27,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 const DIST = path.join(ROOT, 'packages/icons');
 const FONT_TIMESTAMP = '0';
+const STYLE_EXTENSIONS = ['css', 'less', 'module.less', 'scss', 'styl'];
 
 const fonts = {
   regular: {
@@ -68,3 +69,11 @@ await svgtofont({
     normalize: true,
   },
 });
+
+await Promise.all(
+  STYLE_EXTENSIONS.map(async (extension) => {
+    const file = path.join(DIST, `${font.fontName}.${extension}`);
+    const content = await fs.readFile(file, 'utf8');
+    await fs.writeFile(file, content.replaceAll(/}\n{3,}(?=\.|:global)/g, '}\n\n\n'));
+  }),
+);
