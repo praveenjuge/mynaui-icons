@@ -2,16 +2,23 @@
 
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import fs from 'fs-extra';
+import nodeFs from 'node:fs';
 
-const readdirSync = fs.readdirSync.bind(fs);
-fs.readdirSync = (...args) => {
-  const entries = readdirSync(...args);
-  return [...entries].sort((a, b) => {
+const sortDirEntries = (entries) =>
+  [...entries].sort((a, b) => {
     const nameA = typeof a === 'string' ? a : a.name;
     const nameB = typeof b === 'string' ? b : b.name;
     return nameA.localeCompare(nameB);
   });
+
+const nativeReaddirSync = nodeFs.readdirSync.bind(nodeFs);
+nodeFs.readdirSync = (...args) => sortDirEntries(nativeReaddirSync(...args));
+
+const { default: fs } = await import('fs-extra');
+const extraReaddirSync = fs.readdirSync.bind(fs);
+fs.readdirSync = (...args) => {
+  const entries = extraReaddirSync(...args);
+  return sortDirEntries(entries);
 };
 
 const { default: svgtofont } = await import('svgtofont');
