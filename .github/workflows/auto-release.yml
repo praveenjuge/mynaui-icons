@@ -4,6 +4,14 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "icons/**"
+      - "icons-solid/**"
+      - "packages/**"
+      - "scripts/**"
+      - "package.json"
+      - "bun.lock"
+      - "tags.json"
 
 permissions:
   contents: write
@@ -15,7 +23,7 @@ concurrency:
 jobs:
   release:
     runs-on: ubuntu-latest
-    if: ${{ !startsWith(github.event.head_commit.message, 'chore(release):') }}
+    if: ${{ !contains(github.event.head_commit.message, '(release):') }}
     steps:
       - name: Require release token
         env:
