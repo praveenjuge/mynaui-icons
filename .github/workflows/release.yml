@@ -79,7 +79,7 @@ jobs:
             if npm view "${package_name}@${package_version}" version >/dev/null 2>&1; then
               echo "${package_name}@${package_version} is already published; skipping."
             else
-              npm publish "${package_dir}" --access public
+              npm publish --workspace "./${package_dir}" --access public
             fi
           }
 
