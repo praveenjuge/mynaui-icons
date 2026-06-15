@@ -2,7 +2,19 @@
 
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import svgtofont from 'svgtofont';
+import fs from 'fs-extra';
+
+const readdirSync = fs.readdirSync.bind(fs);
+fs.readdirSync = (...args) => {
+  const entries = readdirSync(...args);
+  return [...entries].sort((a, b) => {
+    const nameA = typeof a === 'string' ? a : a.name;
+    const nameB = typeof b === 'string' ? b : b.name;
+    return nameA.localeCompare(nameB);
+  });
+};
+
+const { default: svgtofont } = await import('svgtofont');
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');

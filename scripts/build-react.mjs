@@ -35,7 +35,10 @@ const ICONS_SOLID_DIR = path.resolve(HOME_DIR, "icons-solid");
 const PACKAGES_DIR = path.resolve(HOME_DIR, "packages");
 
 const readSvgDirectory = (directory) =>
-  fs.readdirSync(directory).filter((file) => path.extname(file) === ".svg");
+  fs
+    .readdirSync(directory)
+    .filter((file) => path.extname(file) === ".svg")
+    .sort((a, b) => a.localeCompare(b));
 
 const readSvg = (fileName, directory) =>
   fs.readFileSync(path.join(directory, fileName), "utf-8");

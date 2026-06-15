@@ -84,7 +84,9 @@ async function processFile(dir, file, config, progressBar) {
     // First pass: count total files and collect work
     for (const { dir, configFile } of iconConfigs) {
       const config = await loadConfig(path.join(__dirname, configFile));
-      const files = (await fs.readdir(dir)).filter((file) => file.endsWith(".svg"));
+      const files = (await fs.readdir(dir))
+        .filter((file) => file.endsWith(".svg"))
+        .sort((a, b) => a.localeCompare(b));
       totalFiles += files.length;
 
       for (const file of files) {
