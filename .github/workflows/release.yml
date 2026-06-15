@@ -1,0 +1,98 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+permissions:
+  contents: write
+  id-token: write
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 1.3.14
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          registry-url: https://registry.npmjs.org
+          package-manager-cache: false
+
+      - name: Install latest npm
+        run: npm install -g npm@latest
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Validate release version
+        env:
+          TAG_NAME: ${{ github.ref_name }}
+        run: |
+          node - <<'NODE'
+          const fs = require("node:fs");
+          const tag = process.env.TAG_NAME.replace(/^v/, "");
+          const files = [
+            "packages/icons/package.json",
+            "packages/icons-react/package.json"
+          ];
+
+          for (const file of files) {
+            const pkg = JSON.parse(fs.readFileSync(file, "utf8"));
+            if (pkg.version !== tag) {
+              throw new Error(`${file} version ${pkg.version} does not match ${process.env.TAG_NAME}`);
+            }
+          }
+          NODE
+
+      - name: Lint
+        run: bun run lint
+
+      - name: Build release artifacts
+        run: bun run release:build
+
+      - name: Verify committed artifacts
+        run: git diff --exit-code -- packages tags.json
+
+      - name: Publish packages
+        run: |
+          publish_package() {
+            package_dir="$1"
+            package_name=$(node -p "require('./${package_dir}/package.json').name")
+            package_version=$(node -p "require('./${package_dir}/package.json').version")
+
+            if npm view "${package_name}@${package_version}" version >/dev/null 2>&1; then
+              echo "${package_name}@${package_version} is already published; skipping."
+            else
+              npm publish "${package_dir}" --access public
+            fi
+          }
+
+          publish_package packages/icons
+          publish_package packages/icons-react
+
+      - name: Create GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG_NAME: ${{ github.ref_name }}
+        run: |
+          if gh release view "$TAG_NAME" >/dev/null 2>&1; then
+            echo "GitHub release $TAG_NAME already exists; skipping."
+          else
+            gh release create "$TAG_NAME" --title "$TAG_NAME" --generate-notes --verify-tag
+          fi

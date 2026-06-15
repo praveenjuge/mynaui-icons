@@ -80,6 +80,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "67c683b0cb215839be3fba408e0fbef143e1f67c",
   "sass": "mynaui.scss"
 }

@@ -23,11 +23,11 @@ const tasks = [
   'cleanup',
   'build:meta',
   'build:react',
-  'generate:ai-tags',
 ];
 
 const scriptName = path.basename(fileURLToPath(import.meta.url));
 const timeLabel = picocolors.cyan(`[${scriptName}] finished`);
+const isCI = process.argv.includes('--ci') || process.env.CI === 'true';
 
 async function askQuestion(query) {
   const rl = readline.createInterface({
@@ -147,8 +147,12 @@ async function runTask(name) {
   console.time(timeLabel);
 
   try {
-    // Ask about new icons before starting tasks
-    await checkAndAskForNewIcons();
+    if (isCI) {
+      console.log(picocolors.blue('CI mode: using existing icon folders.'));
+    } else {
+      // Ask about new icons before starting tasks
+      await checkAndAskForNewIcons();
+    }
 
     // Run all tasks
     for (const task of tasks) {

@@ -38,7 +38,9 @@
     "copy:icons": "rm -rf ./packages/icons/icons && mkdir ./packages/icons/icons && cp -r ./icons/*.svg ./packages/icons/icons && rm -rf ./packages/icons/icons-solid && mkdir ./packages/icons/icons-solid && cp -r ./icons-solid/*.svg ./packages/icons/icons-solid",
     "everything-everywhere-all-at-once": "bun run build-all",
     "oslllo-svg-fixer": "mkdir -p ./regular-icon-temp && oslllo-svg-fixer -s ./icons -d ./regular-icon-temp --sp",
-    "publish": "bunx lerna publish --no-private --create-release=github --conventional-commits",
+    "release:build": "CI=true bun ./scripts/build-all.mjs --ci",
+    "release:bump": "bun ./scripts/bump-release-version.mjs",
+    "release:diff": "bun ./scripts/package-release-diff.mjs",
     "lint": "eslint .",
     "format": "prettier --write .",
     "build-all": "bun ./scripts/build-all.mjs"
@@ -49,7 +51,6 @@
     "@babel/preset-react": "^7.23.3",
     "esbuild": "^0.19.10",
     "html-minifier": "^4.0.0",
-    "lerna": "^8.0.1",
     "oslllo-svg-fixer": "^5.0.0",
     "picocolors": "^1.0.0",
     "prop-types": "^15.8.1",
