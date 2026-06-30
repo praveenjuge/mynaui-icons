@@ -1,0 +1,36 @@
+name: Setup build environment
+description: Install Bun/Node and dependencies for release workflows (run after checkout)
+
+inputs:
+  registry-url:
+    description: npm registry URL to configure for publishing
+    default: ""
+  bun-version:
+    description: Bun version to install
+    default: "1.3.14"
+  node-version:
+    description: Node version to install
+    default: "24"
+
+runs:
+  using: composite
+  steps:
+    - name: Setup Bun
+      uses: oven-sh/setup-bun@v2
+      with:
+        bun-version: ${{ inputs.bun-version }}
+
+    - name: Setup Node
+      uses: actions/setup-node@v6
+      with:
+        node-version: ${{ inputs.node-version }}
+        registry-url: ${{ inputs.registry-url }}
+        package-manager-cache: false
+
+    - name: Install latest npm
+      shell: bash
+      run: npm install -g npm@latest
+
+    - name: Install dependencies
+      shell: bash
+      run: bun install --frozen-lockfile
