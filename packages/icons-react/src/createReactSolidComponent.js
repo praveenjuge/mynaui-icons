@@ -1,37 +1,6 @@
-import { forwardRef, createElement } from "react";
-import PropTypes from "prop-types";
+import createReactComponent from './createReactComponent';
 
-export default (iconName, iconNamePascal, iconNode) => {
-  const Component = forwardRef(
-    (
-      { color = "currentColor", size = 24, children, ...rest },
-      ref
-    ) =>
-      createElement(
-        "svg",
-        {
-          ref,
-          width: size,
-          height: size,
-          fill: color,
-          viewBox: "0 0 24 24",
-          xmlns: "http://www.w3.org/2000/svg",
-          ...rest,
-        },
-        [
-          ...iconNode.map(([tag, attrs]) => createElement(tag, attrs)),
-          ...(children || []),
-        ]
-      )
-  );
-
-  Component.propTypes = {
-    color: PropTypes.string,
-    size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-    stroke: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-  };
-
-  Component.displayName = `${iconNamePascal}`;
-
-  return Component;
-};
+// Back-compat re-export: delegates to the unified factory with the solid
+// variant so existing generated components and public exports keep working.
+export default (iconName, iconNamePascal, iconNode) =>
+  createReactComponent(iconName, iconNamePascal, iconNode, 'solid');

@@ -3,20 +3,9 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { toPascalCase } from './lib/naming.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-
-/**
- * @param {String} input
- * @returns {String}
- */
-function toPascalCase(input) {
-  let arr = input.split('-');
-  let up = arr.map((word) => {
-    return word.charAt(0).toUpperCase() + word.slice(1);
-  });
-  return up.join('');
-}
 
 async function makeAvaloniaDictionary(icons_path, suffix = '') {
   let contents = `<ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">\n`;

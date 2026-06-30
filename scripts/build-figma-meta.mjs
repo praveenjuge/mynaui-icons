@@ -1,28 +1,23 @@
 #!/usr/bin/env node
 
-import fs from "node:fs/promises";
-import path from "node:path";
-import { fileURLToPath } from "node:url";
-import picocolors from "picocolors";
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { cyan, green, red, yellow } from './lib/colors.mjs';
+import { capitalizeFirstLetter } from './lib/naming.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-const iconsDir = path.join(__dirname, "../icons/");
-const tagsFile = path.join(__dirname, "../tags.json");
-const tagsJSON = await fs.readFile(tagsFile, "utf-8");
+const iconsDir = path.join(__dirname, '../icons/');
+const tagsFile = path.join(__dirname, '../tags.json');
+const tagsJSON = await fs.readFile(tagsFile, 'utf-8');
 const tagsObject = JSON.parse(tagsJSON);
 
 // get cli arguments
 const inputFile = process.argv[2];
-const inputJSON = await fs.readFile(inputFile, "utf-8");
+const inputJSON = await fs.readFile(inputFile, 'utf-8');
 const inputObject = JSON.parse(inputJSON);
-
-function capitalizeFirstLetter(string) {
-  return (string.charAt(0).toUpperCase() + string.slice(1))
-    .split("-")
-    .join(" ");
-}
 
 async function main(file) {
   const iconBasename = path.basename(file, path.extname(file));
@@ -31,8 +26,8 @@ async function main(file) {
   let tags = [];
   tags = tagsObject[iconBasename]
     ? tagsObject[iconBasename]
-    : iconTitle.split(" ");
-  tags = tags.map((tag) => `${tag}`).join(", ");
+    : iconTitle.split(' ');
+  tags = tags.map((tag) => `${tag}`).join(', ');
 
   const pageTemplate = `Title: ${iconTitle}
 Tags: ${tags}`;
@@ -41,12 +36,10 @@ Tags: ${tags}`;
   if (inputObject[iconBasename]) {
     // write to inputObject's corresponding key's value: documentation
     inputObject[iconBasename].description = pageTemplate;
-    console.log(picocolors.yellow(`${iconBasename}: Updating meta...`));
+    console.log(yellow(`${iconBasename}: Updating meta...`));
   } else {
     console.log(
-      picocolors.red(
-        `${iconBasename}: Icon not found in input JSON, skipping...`,
-      ),
+      red(`${iconBasename}: Icon not found in input JSON, skipping...`),
     );
   }
 }
@@ -54,13 +47,13 @@ Tags: ${tags}`;
 (async () => {
   try {
     const basename = path.basename(__filename);
-    const timeLabel = picocolors.cyan(`[${basename}] finished`);
+    const timeLabel = cyan(`[${basename}] finished`);
 
-    console.log(picocolors.cyan(`[${basename}] started`));
+    console.log(cyan(`[${basename}] started`));
     console.time(timeLabel);
 
     const files = (await fs.readdir(iconsDir)).filter((file) =>
-      file.endsWith(".svg")
+      file.endsWith('.svg'),
     );
 
     await Promise.all(files.map((file) => main(file)));
@@ -71,9 +64,9 @@ Tags: ${tags}`;
     const filesLength = files.length;
 
     console.log(
-      picocolors.green("\nSuccess, %s page%s prepared!"),
+      green('\nSuccess, %s page%s prepared!'),
       filesLength,
-      filesLength === 1 ? "" : "s",
+      filesLength === 1 ? '' : 's',
     );
     console.timeEnd(timeLabel);
   } catch (error) {

@@ -59,7 +59,7 @@ await svgtofont({
   },
   outSVGReact: true,
   outSVGReactNative: false,
-  outSVGVue: true,
+  outSVGVue: false,
   outSVGPath: true,
   svg2ttf: {
     ts: FONT_TIMESTAMP,
@@ -74,6 +74,9 @@ await Promise.all(
   STYLE_EXTENSIONS.map(async (extension) => {
     const file = path.join(DIST, `${font.fontName}.${extension}`);
     const content = await fs.readFile(file, 'utf8');
-    await fs.writeFile(file, content.replaceAll(/}\n{3,}(?=\.|:global)/g, '}\n\n\n'));
+    await fs.writeFile(
+      file,
+      content.replaceAll(/}\n{3,}(?=\.|:global)/g, '}\n\n\n'),
+    );
   }),
 );
