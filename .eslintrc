@@ -2,20 +2,19 @@
   "env": {
     "browser": true,
     "node": true,
-    "es2020": true
+    "es2020": true,
   },
   "extends": "eslint:recommended",
   "parserOptions": {
     "ecmaVersion": 2020,
-    "sourceType": "module"
+    "sourceType": "module",
   },
   "ignorePatterns": [
-    "packages/icons/vue/**",
     "packages/icons-react/dist/**",
     "packages/icons-react/src/icons.js",
     "packages/icons-react/src/icons-solid.js",
     "packages/icons-react/src/icons/**",
-    "packages/icons-react/src/icons-solid/**"
+    "packages/icons-react/src/icons-solid/**",
   ],
-  "rules": {}
+  "rules": {},
 }

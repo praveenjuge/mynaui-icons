@@ -3,7 +3,8 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import picocolors from 'picocolors';
+import { cyan, green } from './lib/colors.mjs';
+import { readSvgFiles } from './lib/svg.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -13,9 +14,9 @@ const tagsFile = path.join(__dirname, '../tags.json');
 
 try {
   const basename = path.basename(__filename);
-  const timeLabel = picocolors.cyan(`[${basename}] finished`);
+  const timeLabel = cyan(`[${basename}] finished`);
 
-  console.log(picocolors.cyan(`[${basename}] started`));
+  console.log(cyan(`[${basename}] started`));
   console.time(timeLabel);
 
   // Read existing tags
@@ -23,11 +24,9 @@ try {
   let tagsObject = JSON.parse(tagsJSON);
 
   // Get all SVG files
-  const files = (await fs.readdir(iconsDir))
-    .filter(file => file.endsWith('.svg'))
-    .sort((a, b) => a.localeCompare(b));
+  const files = await readSvgFiles(iconsDir);
 
-  const iconsSet = new Set(files.map(file => path.basename(file, '.svg')));
+  const iconsSet = new Set(files.map((file) => path.basename(file, '.svg')));
 
   // Remove deleted icons from tagsObject
   for (const key of Object.keys(tagsObject)) {
@@ -41,7 +40,7 @@ try {
     if (!tagsObject[iconBasename]) {
       const iconTitle = iconBasename.replace(/-/g, ' ');
       const tags = Array.from(
-        new Set(iconTitle.toLowerCase().split(' ').filter(Boolean))
+        new Set(iconTitle.toLowerCase().split(' ').filter(Boolean)),
       );
       tagsObject[iconBasename] = tags;
     }
@@ -50,10 +49,7 @@ try {
   // Write updated tagsObject to tags.json
   await fs.writeFile(tagsFile, JSON.stringify(tagsObject, null, 2));
 
-  console.log(
-    picocolors.green('\nSuccess, %s tags prepared!'),
-    files.length
-  );
+  console.log(green('\nSuccess, %s tags prepared!'), files.length);
   console.timeEnd(timeLabel);
 } catch (error) {
   console.error(error);

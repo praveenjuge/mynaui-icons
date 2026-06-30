@@ -5,7 +5,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import readline from 'node:readline';
-import picocolors from 'picocolors';
+import c from './lib/colors.mjs';
+import { readSvgFilesSync } from './lib/svg.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ICONS_DIR = path.join(__dirname, '../icons');
@@ -26,7 +27,7 @@ const tasks = [
 ];
 
 const scriptName = path.basename(fileURLToPath(import.meta.url));
-const timeLabel = picocolors.cyan(`[${scriptName}] finished`);
+const timeLabel = c.cyan(`[${scriptName}] finished`);
 const isCI = process.argv.includes('--ci') || process.env.CI === 'true';
 
 async function askQuestion(query) {
@@ -62,23 +63,19 @@ async function waitForContinue() {
 
 async function checkAndAskForNewIcons() {
   // Count SVG files in both directories
-  const iconCount = fs
-    .readdirSync(ICONS_DIR)
-    .filter((f) => f.endsWith('.svg')).length;
-  const solidIconCount = fs
-    .readdirSync(ICONS_SOLID_DIR)
-    .filter((f) => f.endsWith('.svg')).length;
+  const iconCount = readSvgFilesSync(ICONS_DIR).length;
+  const solidIconCount = readSvgFilesSync(ICONS_SOLID_DIR).length;
 
-  console.log(picocolors.cyan('\n📁 Current icon counts:'));
-  console.log(`  icons/: ${picocolors.yellow(iconCount)} SVG files`);
-  console.log(`  icons-solid/: ${picocolors.yellow(solidIconCount)} SVG files`);
+  console.log(c.cyan('\n📁 Current icon counts:'));
+  console.log(`  icons/: ${c.yellow(iconCount)} SVG files`);
+  console.log(`  icons-solid/: ${c.yellow(solidIconCount)} SVG files`);
 
   const answer = await askQuestion(
     '\nDo you want to clear icons/ and icons-solid/ to export new icons from Figma? (y/N): ',
   );
 
   if (answer === 'y' || answer === 'yes') {
-    console.log(picocolors.yellow('\n🗑️  Clearing icon directories...'));
+    console.log(c.yellow('\n🗑️  Clearing icon directories...'));
 
     // Clear icons directory
     const iconFiles = fs.readdirSync(ICONS_DIR);
@@ -93,42 +90,38 @@ async function checkAndAskForNewIcons() {
     }
 
     console.log(
-      picocolors.green(
+      c.green(
         '✅ Folders cleared! Please export icons from Figma now.',
       ),
     );
-    console.log(picocolors.cyan(`   Export to: ${ICONS_DIR}`));
-    console.log(picocolors.cyan(`   Export to: ${ICONS_SOLID_DIR}\n`));
+    console.log(c.cyan(`   Export to: ${ICONS_DIR}`));
+    console.log(c.cyan(`   Export to: ${ICONS_SOLID_DIR}\n`));
 
     await waitForContinue();
 
     // Verify icons exist now
-    const newIconCount = fs
-      .readdirSync(ICONS_DIR)
-      .filter((f) => f.endsWith('.svg')).length;
-    const newSolidIconCount = fs
-      .readdirSync(ICONS_SOLID_DIR)
-      .filter((f) => f.endsWith('.svg')).length;
+    const newIconCount = readSvgFilesSync(ICONS_DIR).length;
+    const newSolidIconCount = readSvgFilesSync(ICONS_SOLID_DIR).length;
 
     if (newIconCount === 0 || newSolidIconCount === 0) {
       console.log(
-        picocolors.red('❌ Error: One or both folders are still empty!'),
+        c.red('❌ Error: One or both folders are still empty!'),
       );
       process.exit(1);
     }
 
     console.log(
-      picocolors.green(
+      c.green(
         `✅ Found ${newIconCount} icons/ and ${newSolidIconCount} icons-solid/`,
       ),
     );
   } else {
-    console.log(picocolors.blue('ℹ️  Continuing with existing icons...\n'));
+    console.log(c.blue('ℹ️  Continuing with existing icons...\n'));
   }
 }
 
 async function runTask(name) {
-  console.log(picocolors.blue(`\n> ${name}`));
+  console.log(c.blue(`\n> ${name}`));
 
   return new Promise((resolve, reject) => {
     const child = spawn('bun', ['run', name], { stdio: 'inherit' });
@@ -143,12 +136,12 @@ async function runTask(name) {
 }
 
 (async () => {
-  console.log(picocolors.cyan(`[${scriptName}] started`));
+  console.log(c.cyan(`[${scriptName}] started`));
   console.time(timeLabel);
 
   try {
     if (isCI) {
-      console.log(picocolors.blue('CI mode: using existing icon folders.'));
+      console.log(c.blue('CI mode: using existing icon folders.'));
     } else {
       // Ask about new icons before starting tasks
       await checkAndAskForNewIcons();
@@ -159,10 +152,10 @@ async function runTask(name) {
       await runTask(task);
     }
     console.timeEnd(timeLabel);
-    console.log(picocolors.green('All tasks completed successfully.'));
+    console.log(c.green('All tasks completed successfully.'));
   } catch (error) {
     console.timeEnd(timeLabel);
-    console.error(picocolors.red(error.message));
+    console.error(c.red(error.message));
     process.exit(1);
   }
 })();
