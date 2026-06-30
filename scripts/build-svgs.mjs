@@ -52,9 +52,17 @@ async function processFile(dir, file, config, progressBar) {
     console.log(cyan(`[${scriptName}] started`));
     console.time(timeLabel);
 
-    // Collect every file to process across both icon sets.
+    // Collect every file to process across both icon sets, loading each
+    // unique SVGO config a single time rather than once per icon.
     const allFiles = [];
+    const configCache = new Map();
     for (const { dir, configFile } of iconConfigs) {
+      if (!configCache.has(configFile)) {
+        configCache.set(
+          configFile,
+          await loadConfig(path.join(__dirname, configFile)),
+        );
+      }
       const files = await readSvgFiles(dir);
       for (const file of files) {
         allFiles.push({ dir, file, configFile });
@@ -65,8 +73,7 @@ async function processFile(dir, file, config, progressBar) {
     const progressBar = createProgressBar(totalFiles);
 
     for (const { dir, file, configFile } of allFiles) {
-      const config = await loadConfig(path.join(__dirname, configFile));
-      await processFile(dir, file, config, progressBar);
+      await processFile(dir, file, configCache.get(configFile), progressBar);
     }
 
     console.log(

@@ -67,7 +67,7 @@
     }
   },
   "engines": {
-    "node": ">=20.12"
+    "node": ">=20"
   },
   "dependencies": {
     "@ai-sdk/groq": "^3.0.1",
