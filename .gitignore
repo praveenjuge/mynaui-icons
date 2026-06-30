@@ -17,3 +17,24 @@ packages/icons*/dist
 tags-playground.html
 tags_latest.json
 bun.lock
+
+# Built font/stylesheet/component output. Regenerated fresh in CI right
+# before publish; not committed to avoid bloating git history on every
+# release. packages/icons/meta.json and root tags.json are the exception
+# (fetched directly from GitHub by external consumers) and stay tracked.
+packages/icons/mynaui*.css
+packages/icons/mynaui*.less
+packages/icons/mynaui*.module.less
+packages/icons/mynaui*.scss
+packages/icons/mynaui*.styl
+packages/icons/mynaui*.eot
+packages/icons/mynaui*.json
+packages/icons/mynaui*.svg
+packages/icons/mynaui*.symbol.svg
+packages/icons/mynaui*.ttf
+packages/icons/mynaui*.woff
+packages/icons/mynaui*.woff2
+packages/icons/mynaui*.axaml
+packages/icons-react/src/icons.js
+packages/icons-react/src/icons-solid.js
+regular-icon-temp

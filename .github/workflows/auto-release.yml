@@ -49,7 +49,7 @@ jobs:
       - name: Build release artifacts
         run: bun run release:build
 
-      - name: Detect package output changes
+      - name: Detect release-relevant changes
         id: changes
         run: bun run release:diff
 
@@ -73,7 +73,7 @@ jobs:
         env:
           VERSION: ${{ steps.bump.outputs.version }}
         run: |
-          git add package.json tags.json packages
+          git add package.json packages/icons/package.json packages/icons-react/package.json tags.json packages/icons/meta.json
           git commit -m "chore(release): v${VERSION}"
           git tag -a "v${VERSION}" -m "v${VERSION}"
 
