@@ -121,7 +121,7 @@ export default createReactComponent('${name}', '${namePascal}', ${JSON.stringify
   children,
 )});`;
 
-const indexItemTemplate = ({ name, namePascal, outputSubDir }) =>
+const indexItemTemplate = ({ namePascal, outputSubDir }) =>
   `export { default as ${namePascal} } from './${outputSubDir}/${namePascal}';`;
 
 const typeDefinitionsTemplate = () => `/// <reference types="react" />

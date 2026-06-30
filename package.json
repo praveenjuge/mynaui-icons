@@ -47,8 +47,13 @@
   },
   "devDependencies": {
     "@atomico/rollup-plugin-sizes": "^1.1.4",
+    "@eslint/js": "^9.39.4",
+    "dotenv": "^17.2.3",
     "esbuild": "^0.19.10",
+    "eslint": "^9.39.4",
+    "globals": "^15.15.0",
     "oslllo-svg-fixer": "^5.0.0",
+    "prettier": "^3.2.5",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "rollup": "^4.9.1",
@@ -56,10 +61,7 @@
     "rollup-plugin-license": "^3.2.0",
     "svgo": "^3.1.0",
     "svgson": "^5.3.1",
-    "svgtofont": "^6.1.1",
-    "dotenv": "^17.2.3",
-    "eslint": "^8.56.0",
-    "prettier": "^3.2.5"
+    "svgtofont": "^6.1.1"
   },
   "svgtofont": {
     "css": {
