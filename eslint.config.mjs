@@ -17,6 +17,7 @@ export default [
   {
     ignores: [
       'node_modules/**',
+      'packages/icons/vue/**',
       'packages/icons/icons/**',
       'packages/icons/icons-solid/**',
       'packages/icons-react/dist/**',
