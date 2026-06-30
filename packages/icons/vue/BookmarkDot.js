@@ -1,0 +1,26 @@
+import { defineComponent, h } from 'vue';
+
+export const BookmarkDot = defineComponent({
+  name: 'BookmarkDot',
+  props: {
+    class: {
+      type: String,
+      default: ''
+    }
+  },
+  setup(props, { attrs }) {
+    return () => h(
+      'svg',
+      {
+        viewBox: '0 0 20 20',
+        width: '12px', height: '12px',
+        class: `mynaui-solid ${props.class}`,
+        ...attrs
+      },
+      [
+        h('path', {"d": "M10.75 10a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0", "fillRule": "evenodd"}),
+        h('path', {"d": "M5.25 3.942c0-.766.521-1.692 1.5-1.692h10.5c.979 0 1.5.926 1.5 1.692v16.01c0 1.352-1.469 2.308-2.686 1.518l-3.944-2.56a.21.21 0 0 0-.238 0l-3.946 2.56c-1.217.79-2.686-.165-2.686-1.518zM12 7.25a2.75 2.75 0 1 0 0 5.5 2.75 2.75 0 0 0 0-5.5", "fillRule": "evenodd"})
+      ]
+    );
+  }
+});

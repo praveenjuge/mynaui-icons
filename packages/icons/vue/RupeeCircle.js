@@ -1,0 +1,25 @@
+import { defineComponent, h } from 'vue';
+
+export const RupeeCircle = defineComponent({
+  name: 'RupeeCircle',
+  props: {
+    class: {
+      type: String,
+      default: ''
+    }
+  },
+  setup(props, { attrs }) {
+    return () => h(
+      'svg',
+      {
+        viewBox: '0 0 20 20',
+        width: '12px', height: '12px',
+        class: `mynaui-solid ${props.class}`,
+        ...attrs
+      },
+      [
+        h('path', {"d": "M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12m6-4.5c0 .414.336.75.75.75h1.5c.6 0 1.012.24 1.29.587.154.193.274.43.352.69H9a.75.75 0 1 0 0 1.5h3.142a2 2 0 0 1-.352.692c-.278.347-.69.587-1.29.587H9a.75.75 0 0 0-.542 1.268l4.25 4.444a.75.75 0 0 0 1.084-1.036l-3.045-3.185a3.03 3.03 0 0 0 2.214-1.141 3.65 3.65 0 0 0 .721-1.628H15a.75.75 0 0 0 0-1.5h-1.318a3.8 3.8 0 0 0-.476-1.278H15a.75.75 0 0 0 0-1.5H9a.75.75 0 0 0-.75.75", "fillRule": "evenodd"})
+      ]
+    );
+  }
+});

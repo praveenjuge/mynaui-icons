@@ -1,0 +1,25 @@
+import { defineComponent, h } from 'vue';
+
+export const CloudFog = defineComponent({
+  name: 'CloudFog',
+  props: {
+    class: {
+      type: String,
+      default: ''
+    }
+  },
+  setup(props, { attrs }) {
+    return () => h(
+      'svg',
+      {
+        viewBox: '0 0 20 20',
+        width: '12px', height: '12px',
+        class: `mynaui-solid ${props.class}`,
+        ...attrs
+      },
+      [
+        h('path', {"d": "M15.75 20.5a.75.75 0 0 0-.75-.75H6a.75.75 0 0 0 0 1.5h9a.75.75 0 0 0 .75-.75m.846-11.112c-.832-2.66-2.494-4.222-4.493-4.836-2.087-.641-4.42-.215-6.354.832s-3.576 2.77-4.216 4.859c-.651 2.13-.228 4.533 1.773 6.796a6.14 6.14 0 0 0 4.72 2.211h8.846c1.218 0 2.778-.227 3.894-1.184 1.036-.888 1.6-1.91 1.713-2.974.112-1.057-.23-2.06-.82-2.9-1.065-1.52-3.012-2.627-5.063-2.804M16 15.75a.75.75 0 0 1 0 1.5H8a.75.75 0 0 1 0-1.5z", "fillRule": "evenodd"})
+      ]
+    );
+  }
+});
