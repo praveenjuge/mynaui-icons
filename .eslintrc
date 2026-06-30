@@ -10,7 +10,6 @@
     "sourceType": "module"
   },
   "ignorePatterns": [
-    "packages/icons/vue/**",
     "packages/icons-react/dist/**",
     "packages/icons-react/src/icons.js",
     "packages/icons-react/src/icons-solid.js",
