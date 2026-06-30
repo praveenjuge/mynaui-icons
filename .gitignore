@@ -6,6 +6,7 @@ lerna-debug.log
 icons-playground.html
 
 # Packages
+packages/icons/vue
 packages/icons/icons
 packages/icons*/icons/*
 packages/icons*/icons-solid/*
