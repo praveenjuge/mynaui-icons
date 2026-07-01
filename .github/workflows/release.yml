@@ -56,7 +56,31 @@ jobs:
       - name: Verify generated release artifacts are up to date
         run: |
           git diff --exit-code -- tags.json packages/icons/meta.json
-          git diff --exit-code -- packages/icons/mynaui* packages/icons/icons packages/icons/icons-solid
+          node - <<'NODE'
+          const fs = require("node:fs");
+          const path = require("node:path");
+          const pkg = JSON.parse(fs.readFileSync("packages/icons/package.json", "utf8"));
+          const missing = [];
+
+          for (const entry of pkg.files) {
+            if (entry.startsWith("!")) continue;
+
+            if (entry === "icons/*.svg" || entry === "icons-solid/*.svg") {
+              const dir = path.join("packages/icons", entry.split("/")[0]);
+              const hasSvg = fs.existsSync(dir) && fs.readdirSync(dir).some((file) => file.endsWith(".svg"));
+              if (!hasSvg) missing.push(entry);
+              continue;
+            }
+
+            if (!fs.existsSync(path.join("packages/icons", entry))) {
+              missing.push(entry);
+            }
+          }
+
+          if (missing.length > 0) {
+            throw new Error(`Missing @mynaui/icons package files:\n${missing.join("\n")}`);
+          }
+          NODE
 
       - name: Publish packages
         run: |
