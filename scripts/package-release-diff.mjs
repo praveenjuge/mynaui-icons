@@ -12,6 +12,11 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 // differ too. Build output itself is no longer committed, so this checks
 // build *inputs* instead of diffing built artifacts. Keep this list in
 // sync if a new build script or source directory is added later.
+//
+// scripts/generate-tags.mjs is intentionally NOT listed: it's a manual,
+// offline AI-tagging step (bun run generate:ai-tags), not part of
+// release:build. It only matters once someone reruns it and commits the
+// resulting tags.json, which is already covered by the 'tags.json' entry.
 const RELEVANT_PATH_PREFIXES = [
   'icons/',
   'icons-solid/',
