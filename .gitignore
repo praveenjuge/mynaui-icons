@@ -10,6 +10,10 @@ packages/icons/vue
 packages/icons/icons
 packages/icons*/icons/*
 packages/icons*/icons-solid/*
+!packages/icons/icons/
+!packages/icons/icons/*.svg
+!packages/icons/icons-solid/
+!packages/icons/icons-solid/*.svg
 packages/icons*/src/icons/*
 packages/icons*/src/icons-solid/*
 packages/icons*/stats/*
@@ -18,10 +22,10 @@ tags-playground.html
 tags_latest.json
 bun.lock
 
-# Built font/stylesheet/component output. Regenerated fresh in CI right
-# before publish; not committed to avoid bloating git history on every
-# release. packages/icons/meta.json and root tags.json are the exception
-# (fetched directly from GitHub by external consumers) and stay tracked.
+# Built React component output is regenerated fresh in CI right before
+# publish; it is not committed to avoid bloating git history on every
+# release. The @mynaui/icons package artifacts stay tracked because
+# Homebrew and other source-archive consumers install from GitHub tags.
 packages/icons/mynaui*.css
 packages/icons/mynaui*.less
 packages/icons/mynaui*.module.less
@@ -35,6 +39,7 @@ packages/icons/mynaui*.ttf
 packages/icons/mynaui*.woff
 packages/icons/mynaui*.woff2
 packages/icons/mynaui*.axaml
+!packages/icons/mynaui*
 packages/icons-react/src/icons.js
 packages/icons-react/src/icons-solid.js
 regular-icon-temp

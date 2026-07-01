@@ -9,9 +9,9 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
 // Paths that, if changed since the last release tag, mean the published
 // package output (fonts, stylesheets, react components, metadata) could
-// differ too. Build output itself is no longer committed, so this checks
-// build *inputs* instead of diffing built artifacts. Keep this list in
-// sync if a new build script or source directory is added later.
+// differ too. Most build output is not committed, so this checks build
+// inputs instead of diffing every built artifact. Keep this list in sync
+// if a new build script or source directory is added later.
 //
 // scripts/generate-tags.mjs is intentionally NOT listed: it's a manual,
 // offline AI-tagging step (bun run generate:ai-tags), not part of

@@ -53,8 +53,10 @@ jobs:
       - name: Build release artifacts
         run: bun run release:build
 
-      - name: Verify tags.json and meta.json are up to date
-        run: git diff --exit-code -- tags.json packages/icons/meta.json
+      - name: Verify generated release artifacts are up to date
+        run: |
+          git diff --exit-code -- tags.json packages/icons/meta.json
+          git diff --exit-code -- packages/icons/mynaui* packages/icons/icons packages/icons/icons-solid
 
       - name: Publish packages
         run: |

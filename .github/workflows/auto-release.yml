@@ -74,6 +74,7 @@ jobs:
           VERSION: ${{ steps.bump.outputs.version }}
         run: |
           git add package.json packages/icons/package.json packages/icons-react/package.json tags.json packages/icons/meta.json
+          git add packages/icons/mynaui* packages/icons/icons packages/icons/icons-solid
           git commit -m "chore(release): v${VERSION}"
           git tag -a "v${VERSION}" -m "v${VERSION}"
 
