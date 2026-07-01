@@ -40,22 +40,8 @@ jobs:
           token: ${{ secrets.RELEASE_TOKEN }}
           fetch-depth: 0
 
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v2
-        with:
-          bun-version: 1.3.14
-
-      - name: Setup Node
-        uses: actions/setup-node@v6
-        with:
-          node-version: 24
-          package-manager-cache: false
-
-      - name: Install latest npm
-        run: npm install -g npm@latest
-
-      - name: Install dependencies
-        run: bun install --frozen-lockfile
+      - name: Setup build environment
+        uses: ./.github/actions/setup-build-env
 
       - name: Lint
         run: bun run lint
@@ -63,7 +49,7 @@ jobs:
       - name: Build release artifacts
         run: bun run release:build
 
-      - name: Detect package output changes
+      - name: Detect release-relevant changes
         id: changes
         run: bun run release:diff
 
@@ -87,7 +73,7 @@ jobs:
         env:
           VERSION: ${{ steps.bump.outputs.version }}
         run: |
-          git add package.json tags.json packages
+          git add package.json packages/icons/package.json packages/icons-react/package.json tags.json packages/icons/meta.json
           git commit -m "chore(release): v${VERSION}"
           git tag -a "v${VERSION}" -m "v${VERSION}"
 

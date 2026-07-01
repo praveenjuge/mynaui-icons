@@ -1,105 +1,78 @@
 #!/usr/bin/env node
 
-import { createHash } from 'node:crypto';
 import fs from 'node:fs/promises';
-import os from 'node:os';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const packageDirs = ['packages/icons', 'packages/icons-react'];
 
-function run(command, args, options = {}) {
+// Paths that, if changed since the last release tag, mean the published
+// package output (fonts, stylesheets, react components, metadata) could
+// differ too. Build output itself is no longer committed, so this checks
+// build *inputs* instead of diffing built artifacts. Keep this list in
+// sync if a new build script or source directory is added later.
+//
+// scripts/generate-tags.mjs is intentionally NOT listed: it's a manual,
+// offline AI-tagging step (bun run generate:ai-tags), not part of
+// release:build. It only matters once someone reruns it and commits the
+// resulting tags.json, which is already covered by the 'tags.json' entry.
+const RELEVANT_PATH_PREFIXES = [
+  'icons/',
+  'icons-solid/',
+  'tags.json',
+  'package.json',
+  'packages/icons/package.json',
+  'packages/icons-react/package.json',
+  'packages/icons-react/src/createReactComponent.js',
+  'packages/icons-react/src/createReactSolidComponent.js',
+  'packages/icons-react/src/myna-icons-react.js',
+  'scripts/build-',
+  'scripts/svgo',
+  'scripts/lib/',
+  'scripts/rollup.config.mjs',
+];
+
+function run(command, args) {
   const result = spawnSync(command, args, {
     cwd: root,
     encoding: 'utf8',
-    stdio: options.capture ? ['ignore', 'pipe', 'pipe'] : 'inherit',
-    ...options,
+    stdio: ['ignore', 'pipe', 'pipe'],
   });
 
   if (result.status !== 0) {
     throw new Error(`${command} ${args.join(' ')} failed${result.stderr ? `\n${result.stderr}` : ''}`);
   }
 
-  return result.stdout?.trim() ?? '';
+  return result.stdout.trim();
 }
 
 function latestTag() {
-  return run('git', ['describe', '--tags', '--abbrev=0', '--match', 'v*.*.*'], {
-    capture: true,
-  });
+  return run('git', ['describe', '--tags', '--abbrev=0', '--match', 'v*.*.*']);
 }
 
-function packFiles(baseDir, packageDir) {
-  const result = spawnSync('npm', ['pack', '--dry-run', '--json'], {
-    cwd: path.join(baseDir, packageDir),
-    encoding: 'utf8',
-    stdio: ['ignore', 'pipe', 'pipe'],
-  });
-
-  if (result.status !== 0) {
-    throw new Error(`npm pack failed in ${packageDir}\n${result.stderr}`);
-  }
-
-  const [pack] = JSON.parse(result.stdout);
-  return pack.files.map((file) => file.path).sort();
-}
-
-async function hashFile(file) {
-  const buffer = await fs.readFile(file);
-  return createHash('sha256').update(buffer).digest('hex');
-}
-
-async function snapshot(baseDir) {
-  const result = {};
-
-  for (const packageDir of packageDirs) {
-    const files = packFiles(baseDir, packageDir);
-    result[packageDir] = {};
-
-    for (const file of files) {
-      result[packageDir][file] = await hashFile(path.join(baseDir, packageDir, file));
-    }
-  }
-
-  return result;
-}
-
-function changedPackages(before, after) {
-  return packageDirs.filter((packageDir) => {
-    return JSON.stringify(before[packageDir]) !== JSON.stringify(after[packageDir]);
-  });
+function changedFilesSince(tag) {
+  const output = run('git', ['diff', '--name-only', `${tag}..HEAD`]);
+  return output ? output.split('\n') : [];
 }
 
 const tag = process.argv[2] || latestTag();
 const failOnChange = process.argv.includes('--fail-on-change');
-const tmp = await fs.mkdtemp(path.join(os.tmpdir(), 'mynaui-release-'));
-let worktreeAdded = false;
 
-try {
-  run('git', ['worktree', 'add', '--detach', '--quiet', tmp, tag]);
-  worktreeAdded = true;
+const changedFiles = changedFilesSince(tag);
+const relevantChanges = changedFiles.filter((file) =>
+  RELEVANT_PATH_PREFIXES.some((prefix) => file.startsWith(prefix)),
+);
+const hasChanges = relevantChanges.length > 0;
 
-  const before = await snapshot(tmp);
-  const after = await snapshot(root);
-  const changed = changedPackages(before, after);
-  const hasChanges = changed.length > 0;
+console.log(
+  hasChanges
+    ? `Release-relevant changes since ${tag}:\n${relevantChanges.join('\n')}`
+    : `No release-relevant changes since ${tag}.`,
+);
 
-  console.log(
-    hasChanges
-      ? `Package output changed since ${tag}: ${changed.join(', ')}`
-      : `No package output changes since ${tag}.`,
-  );
-
-  if (process.env.GITHUB_OUTPUT) {
-    await fs.appendFile(process.env.GITHUB_OUTPUT, `changed=${hasChanges}\n`);
-    await fs.appendFile(process.env.GITHUB_OUTPUT, `packages=${changed.join(',')}\n`);
-  }
-
-  process.exit(hasChanges && failOnChange ? 1 : 0);
-} finally {
-  if (worktreeAdded) {
-    run('git', ['worktree', 'remove', '--force', tmp]);
-  }
+if (process.env.GITHUB_OUTPUT) {
+  await fs.appendFile(process.env.GITHUB_OUTPUT, `changed=${hasChanges}\n`);
 }
+
+process.exit(hasChanges && failOnChange ? 1 : 0);
