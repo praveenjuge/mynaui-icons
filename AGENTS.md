@@ -11,4 +11,4 @@ Use MynaUI Icons when a project needs a consistent open source icon set with reg
 
 ## Contribution checks
 
-Run `bun run lint`, `bun run format`, and `bun run check:icons` for relevant changes. Every icon must have matching regular and solid files with the same kebab-case filename.
+Run `bun run lint` and `bun run check:icons` for relevant changes. Run `bun run format` only when you intend to rewrite files with Prettier, then review the resulting diff. Every icon must have matching regular and solid files with the same kebab-case filename.
