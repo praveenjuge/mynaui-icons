@@ -43,3 +43,6 @@ packages/icons/mynaui*.axaml
 packages/icons-react/src/icons.js
 packages/icons-react/src/icons-solid.js
 regular-icon-temp
+
+# Amp orb portal metadata
+.amp/portals/*

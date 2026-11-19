@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Prepares a fresh Amp orb: installs the Bun workspace dependencies used by
+# lint, check:icons, and the build scripts. Safe to rerun on a warm snapshot.
+set -euo pipefail
+cd "$(dirname "$0")/.."
+
+step() {
+  local start=$SECONDS
+  echo "==> $*"
+  "$@"
+  echo "<== $* ($((SECONDS - start))s)"
+}
+
+# bun.lock is gitignored in this repository, so there is no frozen lockfile.
+step bun install --no-progress
