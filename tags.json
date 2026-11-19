@@ -17398,5 +17398,10 @@
   ],
   "motorbike": [
     "motorbike"
+  ],
+  "stamp": [
+    "clone",
+    "duplicate",
+    "stamp"
   ]
 }
